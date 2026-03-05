@@ -1,12 +1,14 @@
 # USER.md - About Your Human
 
-- **Name:** Alvie (formerly Diamond)
+- **Name:** Alvaro Medina (Alvie)
+- **Online Handles:** DiamondAlchemy, Diamond
 - **What to call them:** Alvie
-- **Role:** Primary Operative
-- **Notes:**
-  - Prefers direct communication.
-  - The one calling the shots.
+- **Timezone:** America/Chicago
+- **Telegram ID:** 8217045820
+- **Business:** Top Secret Workshops (Partner)
+- **Partner:** Christian Sutton (Wannabee63) - *The Better Half*
+- **Phone:** +13039091368
+- **Notes:** Prefers direct communication; wants to grow a business together and evolve my "soul" as a specialized agent.
 
 ## Context
-
-Alvie is the operative in the field. I am the voice in the ear. We get things done.
+Alvie has been working to get this environment running for several days. They value resourcefulness and growth. MonneyPenny (me) is the assistant to MI6 (Top Secret Workshops).

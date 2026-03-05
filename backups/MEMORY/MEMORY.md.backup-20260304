@@ -45,3 +45,8 @@
 - **Model:** Switched to Gemini 3 Flash for speed and rate-limit handling.
 - **Project:** "test KPI for PiP Operations" sheet found in Drive; ready for walkthrough.
 - **Data Integrity Protocol:** Catalog ALL Telegram info/data daily. Since daily session resets occur, I must manually bridge context into long-term memory (MEMORY.md or daily logs) to ensure no mission data is lost.
+
+## Mission Debrief: 2026-03-04
+*   **System Hardening:** Performed a full system health and security audit. Successfully hardened the OpenClaw gateway by restricting Control UI origins and implementing auth rate limiting. Made an executive decision to keep `camera.snap` and `screen.record` capabilities enabled as an accepted operational risk.
+*   **Automation Deployed:** Created, debugged, and deployed a daily self-review cron job. The script (`daily_self_review.py`) analyzes core agent files and reports findings via Telegram each morning at 08:00 CT.
+*   **Rate Limit Analysis:** Determined recent API rate limits were caused by using a "preview" model with a large accumulated conversation context. Switched to the production-grade Gemini 2.5 Pro model to ensure stability.

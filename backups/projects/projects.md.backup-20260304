@@ -1,0 +1,28 @@
+# PROJECTS.md - Mission Control
+
+## Active Missions (Phase 1)
+
+### 1. Visual Extraction Manifest
+*   **Status:** **Active**
+*   **Objective:** Master the Master Spreadsheet for KPIs and logistics.
+*   **Next Steps:**
+    *   [ ] Walkthrough "test KPI for PiP Operations" sheet.
+    *   [ ] Establish data entry protocols.
+
+### 2. Money Penny Infrastructure (The "Brain")
+*   **Status:** **Active** (Optimization Phase)
+*   **Objective:** Harden security, optimize memory, and establish long-term stability.
+*   **Recent Actions:**
+    *   [x] Enable Native Local Search (Vector DB).
+    *   [x] Implement "Guardrails Protocol" for memory curation.
+    *   [x] Create `projects.md` dashboard.
+
+### 3. GMP Framework (Christian)
+*   **Status:** **Standby** (Monitoring)
+*   **Objective:** Assist with US/EU-GMP lab qualification.
+*   **Directive:** Gather data only; no infrastructure changes without Alvie's approval.
+
+## Backlog / Future
+*   **Intelligence Archive:** Maintain `/Users/m/Desktop/MoneyPenny_Intelligence`.
+*   **Financial Ops:** Future integration for Christian's ventures.
+*   **Expansion:** International operations support.
