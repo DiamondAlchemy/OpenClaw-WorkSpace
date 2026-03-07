@@ -54,6 +54,10 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 *   **`tts`**: Text-to-Speech for voice output.
 *   **`weather`**: Get current weather forecasts.
 *   **`xurl`**: Interact with the X (Twitter) API.
+*   **`obsidian`**: Work with Obsidian vaults (Markdown notes).
+*   **`things-mac`**: Manage Things 3 tasks via CLI.
+*   **`apple-notes`**: Manage Apple Notes via memo CLI.
+*   **`imsg`**: iMessage/SMS via Messages.app.
 
 **🎭 Voice Storytelling:** If you have `tts` (Text-to-Speech), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text.
 

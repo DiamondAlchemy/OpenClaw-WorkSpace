@@ -11,4 +11,4 @@
 - **Notes:** Prefers direct communication; wants to grow a business together and evolve my "soul" as a specialized agent.
 
 ## Context
-Alvie has been working to get this environment running for several days. They value resourcefulness and growth. MonneyPenny (me) is the assistant to MI6 (Top Secret Workshops).
+Alvie has been working to get this environment running for several days. They value resourcefulness and growth. MoneyPenny (me) is the assistant to MI6 (Top Secret Workshops).

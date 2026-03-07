@@ -41,9 +41,13 @@ This document is the central reference for Alvie's OpenClaw setup, managed by Mo
 
 ## 4. Model Providers & Routing
 
-- **Primary Model:** google/gemini-2.5-pro (configured as the main workhorse model).
-- **Fallback/Heavy-Lifting Model:** Gemini 2.5 Pro (used for complex analysis or generation).
-- **Routing:** Currently, the model is set in the main OpenClaw config. No advanced routing rules are in place.
+- **Primary Model:** MiniMax M2.5 High Speed (`minimax-portal/MiniMax-M2.5-highspeed`)
+- **Fallback Models:**
+  - Google Gemini 2.5 Flash
+  - OpenAI GPT-4o Mini
+  - Groq Llama 3.3-70B
+  - Ollama Llama 3.2 (local)
+- **Routing:** Model set in main OpenClaw config. No advanced routing rules in place.
 
 ---
 
@@ -135,10 +139,35 @@ echo "--- Backup Process Finished Successfully ---"
 
 ## 7. Installed Skills
 
-- **gog:** Google Workspace CLI for Gmail, Calendar, Drive, etc.
-- **healthcheck:** Host security hardening and risk-tolerance configuration.
-- **summarize:** Summarize or extract text/transcripts from URLs, podcasts, and local files.
-- *(Note: This list is based on observation and should be periodically verified against the skill directory.)*
+### Core Skills (Documented in AGENTS.md)
+- **gog:** Google Workspace CLI (Gmail, Calendar, Drive, Sheets, Docs)
+- **github:** GitHub CLI (issues, PRs, CI, code review)
+- **healthcheck:** Host security hardening and risk audits
+- **peekaboo:** macOS UI automation (use with caution)
+- **summarize:** Summarize text from URLs, podcasts, files
+- **tts:** Text-to-Speech for voice output
+- **weather:** Weather forecasts via wttr.in/Open-Meteo
+- **xurl:** X (Twitter) API CLI
+
+### Productivity & Notes
+- **obsidian:** Work with Obsidian vaults (Markdown notes)
+- **things-mac:** Manage Things 3 tasks via CLI
+- **apple-notes:** Apple Notes via memo CLI
+- **imsg:** iMessage/SMS via Messages.app
+
+### Data & Analysis
+- **nano-pdf:** Edit PDFs with natural-language instructions
+- **video-frames:** Extract frames/clips from videos (ffmpeg)
+
+### Communication
+- **wacli:** WhatsApp CLI (send messages, search/sync)
+- **discord:** Discord bot interactions
+- **slack:** Slack bot interactions
+
+### Other Installed (Not Yet Explored)
+- apple-reminders, bear-notes, blogwatcher, blucli, bluebubbles, camsnap, canvas, clawhub, coding-agent, eightctl, gemini, gh-issues, gifgrep, goplaces, himalaya, mcporter, model-usage, nano-banana-pro, notion, openai-image-gen, openai-whisper, openai-whisper-api, openhue, oracle, ordercli, sag, session-logs, sherpa-onnx-tts, skill-creator, songsee, sonoscli, spotify-player, tmux, trello, voice-call
+
+*(Note: This list is periodically verified. Run `openclaw skills list` to refresh.)*
 
 ---
 

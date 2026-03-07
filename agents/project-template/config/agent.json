@@ -1,0 +1,17 @@
+{
+  "id": "project-agent-template",
+  "name": "Project Agent Template",
+  "workspace": "/Users/m/.openclaw/workspace/agents/project-template",
+  "model": "minimax-portal/MiniMax-M2.5-highspeed",
+  "skills": ["gog", "summarize", "tts"],
+  "subagents": {
+    "allowAgents": []
+  },
+  "memorySearch": {
+    "enabled": true,
+    "sources": ["memory", "sessions"],
+    "extraPaths": [
+      "/Users/m/.openclaw/workspace/memory"
+    ]
+  }
+}

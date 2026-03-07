@@ -1,0 +1,14 @@
+{
+  "month": "February 2026",
+  "totalExtractionRuns": 19,
+  "runsByMaterial": {
+    "freshFrozen": 9,
+    "cured": 10
+  },
+  "totalBiomassLbs": 975,
+  "totalFinishedOutputGrams": 26368,
+  "averageYieldPercent": "5.96",
+  "postProcessingEfficiency": "79.64",
+  "activeProductionDays": 8,
+  "workInProgress": 0
+}
