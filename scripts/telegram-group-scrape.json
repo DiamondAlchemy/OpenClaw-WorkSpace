@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "name": "telegram-group-scrape",
+  "description": "Open Telegram, search for a group, screenshot it, and send to Octopussy",
+  "parameters": {
+    "required": ["groupName", "octopussyContact"],
+    "properties": {
+      "groupName": {
+        "type": "string",
+        "description": "Name of the Telegram group to search for"
+      },
+      "octopussyContact": {
+        "type": "string",
+        "description": "Contact name or phone for Octopussy"
+      }
+    }
+  },
+  "steps": [
+    {
+      "action": "app",
+      "target": "Telegram",
+      "operation": "launch"
+    },
+    {
+      "action": "sleep",
+      "duration": 2000,
+      "comment": "Wait for app to fully load"
+    },
+    {
+      "action": "see",
+      "comment": "Capture current state to identify search bar",
+      "annotate": true,
+      "path": "/tmp/telegram-start.png"
+    },
+    {
+      "action": "click",
+      "target": "search",
+      "comment": "Click on search bar or use Cmd+F",
+      "fallback": {
+        "hotkey": "cmd,f"
+      }
+    },
+    {
+      "action": "sleep",
+      "duration": 500
+    },
+    {
+      "action": "type",
+      "text": "${groupName}",
+      "comment": "Type the group name from parameters"
+    },
+    {
+      "action": "sleep",
+      "duration": 1000,
+      "comment": "Wait for search results"
+    },
+    {
+      "action": "press",
+      "key": "enter",
+      "count": 2,
+      "comment": "Hit Enter TWICE to open the group - first selects, second enters"
+    },
+    {
+      "action": "sleep",
+      "duration": 1500,
+      "comment": "Wait for group to load"
+    },
+    {
+      "action": "image",
+      "mode": "screen",
+      "path": "/tmp/telegram-group.png",
+      "comment": "Screenshot the group chat"
+    },
+    {
+      "action": "message",
+      "channel": "telegram",
+      "target": "${octopussyContact}",
+      "filePath": "/tmp/telegram-group.png",
+      "message": "Group snapshot: ${groupName}",
+      "comment": "Send screenshot to Octopussy"
+    }
+  ]
+}
