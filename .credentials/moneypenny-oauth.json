@@ -1,0 +1,13 @@
+{
+  "installed": {
+    "client_id": "427375316869-n0qgcquhjmajqlnl3tvamlpt39t0dria.apps.googleusercontent.com",
+    "project_id": "moneypenny-489014",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "redirect_uris": [
+      "http://localhost"
+    ]
+  }
+}

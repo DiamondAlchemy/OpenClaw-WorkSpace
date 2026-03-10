@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.7",
+    "lastTouchedAt": "2026-03-09T21:47:12.686Z"
+  },
+  "env": {
+    "ANTHROPIC_API_KEY": "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",
+    "GEMINI_API_KEY": "AIzaSyCyuzofIJGIIYlR1bfFkUKcx1Z9wI_llp0"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-09T21:47:12.656Z",
+    "lastRunVersion": "2026.3.7",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "minimax-portal/MiniMax-M2.5-highspeed",
+        "fallbacks": [
+          "minimax-portal/MiniMax-M2.5-highspeed",
+          "google/gemini-2.5-pro",
+          "google/gemini-2.5-flash",
+          "openai/gpt-4o-mini",
+          "anthropic/claude-sonnet-4-20250514"
+        ]
+      },
+      "workspace": "/Users/m/.openclaw/workspace"
+    },
+    "list": [
+      {
+        "id": "main",
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      },
+      {
+        "id": "octopussy",
+        "workspace": "/Users/m/.openclaw/workspace-octopussy",
+        "model": {
+          "primary": "minimax-portal/MiniMax-M2.5-highspeed",
+          "fallbacks": [
+            "google/gemini-3-flash-preview"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        },
+        "tools": {
+          "fs": {
+            "workspaceOnly": true
+          }
+        }
+      },
+      {
+        "id": "q",
+        "workspace": "/Users/m/.openclaw/workspace-q",
+        "model": {
+          "primary": "minimax-portal/MiniMax-M2.5-highspeed",
+          "fallbacks": [
+            "google/gemini-3-pro-preview"
+          ]
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        },
+        "tools": {
+          "fs": {
+            "workspaceOnly": true
+          }
+        }
+      },
+      {
+        "id": "The Messenger",
+        "workspace": "/Users/m/.openclaw/workspace-shared",
+        "model": {
+          "primary": "minimax-portal/MiniMax-M2.5-highspeed",
+          "fallbacks": [
+            "google/gemini-2.5-pro",
+            "google/gemini-2.5-flash"
+          ]
+        },
+        "tools": {
+          "fs": {
+            "workspaceOnly": true
+          }
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        }
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "telegram",
+        "accountId": "moneypenny"
+      }
+    },
+    {
+      "agentId": "octopussy",
+      "match": {
+        "channel": "telegram",
+        "accountId": "octopussy"
+      }
+    },
+    {
+      "agentId": "q",
+      "match": {
+        "channel": "telegram",
+        "accountId": "q"
+      }
+    },
+    {
+      "agentId": "The Messenger",
+      "match": {
+        "channel": "telegram",
+        "accountId": "The Messenger"
+      }
+    }
+  ],
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": false,
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "debounceMs": 0,
+      "mediaMaxMb": 50
+    },
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupAllowFrom": [
+        -5009535843,
+        -1003892536539,
+        -1003872220174
+      ],
+      "groupPolicy": "open",
+      "streaming": "partial",
+      "accounts": {
+        "moneypenny": {
+          "dmPolicy": "allowlist",
+          "botToken": "8641071709:AAFKfMvmmsV83aKZDMjHDkmD7Ik_fdQuKas",
+          "allowFrom": [
+            "8217045820",
+            "7437937082",
+            "8408646621",
+            "8718452824"
+          ],
+          "groupAllowFrom": [
+            -5009535843,
+            -1003892536539,
+            -1003872220174
+          ],
+          "groupPolicy": "open",
+          "streaming": "partial"
+        },
+        "octopussy": {
+          "dmPolicy": "allowlist",
+          "botToken": "8408646621:AAHYCVgFklp3R_EJudpj6YCoRg-prYcWs1c",
+          "allowFrom": [
+            "8217045820",
+            "7437937082",
+            "8641071709",
+            "8718452824"
+          ],
+          "groupAllowFrom": [
+            -5009535843,
+            -1003892536539,
+            -1003872220174
+          ],
+          "groupPolicy": "open",
+          "streaming": "partial"
+        },
+        "q": {
+          "dmPolicy": "allowlist",
+          "botToken": "8718452824:AAEnRDpa_hRPsmogV-fml2fnpnf3m-gj5m0",
+          "allowFrom": [
+            "8217045820",
+            "7437937082",
+            "8641071709",
+            "8408646621"
+          ],
+          "groupAllowFrom": [
+            -5009535843,
+            -1003892536539,
+            -1003872220174
+          ],
+          "groupPolicy": "open",
+          "streaming": "partial"
+        },
+        "default": {
+          "dmPolicy": "allowlist",
+          "allowFrom": [
+            "8217045820",
+            "7437937082"
+          ],
+          "groupAllowFrom": [
+            -5009535843,
+            -1003892536539,
+            -1003872220174
+          ],
+          "groupPolicy": "open",
+          "streaming": "partial"
+        },
+        "The Messenger": {
+          "dmPolicy": "allowlist",
+          "botToken": "8798679528:AAEA4nAPr44DzV0QjgdlylGaEhX9T6XMsng",
+          "allowFrom": [
+            "8217045820",
+            "7437937082"
+          ],
+          "groupAllowFrom": [
+            "-5009535843",
+            "-1003892536539",
+            "-1003872220174"
+          ],
+          "groupPolicy": "open",
+          "streaming": "partial"
+        }
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "auto",
+    "controlUi": {
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": "9030fa143b4493404bee0dce54cf3de5afe818003651db26",
+      "rateLimit": {
+        "maxAttempts": 100,
+        "windowMs": 900000,
+        "lockoutMs": 300000,
+        "exemptLoopback": true
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "minimax-portal-auth": {
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      },
+      "acpx": {
+        "enabled": true,
+        "config": {
+          "permissionMode": "approve-all"
+        }
+      }
+    }
+  }
+}
