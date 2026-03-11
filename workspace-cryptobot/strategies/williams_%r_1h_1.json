@@ -1,0 +1,8 @@
+{
+  "strategy": "Williams %R",
+  "timeframe": "1h",
+  "return_pct": 5.983311704898043,
+  "trades": 32,
+  "final_balance": 10598.331170489804,
+  "params": "default"
+}

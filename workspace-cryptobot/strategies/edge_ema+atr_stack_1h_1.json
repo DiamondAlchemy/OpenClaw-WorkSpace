@@ -1,0 +1,8 @@
+{
+  "name": "EMA+ATR Stack",
+  "timeframe": "1h",
+  "return_pct": 6.985352216461214,
+  "trades": 3,
+  "final_balance": 10698.535221646121,
+  "description": "Unusual parameter strategy - top 1 performer"
+}

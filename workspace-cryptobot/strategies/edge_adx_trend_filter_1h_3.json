@@ -1,0 +1,8 @@
+{
+  "name": "ADX Trend Filter",
+  "timeframe": "1h",
+  "return_pct": 5.100459408520019,
+  "trades": 4,
+  "final_balance": 10510.045940852002,
+  "description": "Edge case strategy - top 3 performer"
+}

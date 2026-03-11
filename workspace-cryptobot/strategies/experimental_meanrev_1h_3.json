@@ -1,0 +1,11 @@
+{
+  "name": "MeanRev",
+  "timeframe": "1h",
+  "return_pct": 3.5503006344551067,
+  "trades": 4,
+  "final_balance": 10355.03006344551,
+  "parameters": {
+    "bb_p": 20,
+    "std": 2.5
+  }
+}

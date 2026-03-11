@@ -1,0 +1,12 @@
+{
+  "name": "TripleEMA",
+  "timeframe": "1h",
+  "return_pct": 3.71322209964208,
+  "trades": 13,
+  "final_balance": 10371.322209964208,
+  "parameters": {
+    "ema1": 5,
+    "ema2": 13,
+    "ema3": 34
+  }
+}

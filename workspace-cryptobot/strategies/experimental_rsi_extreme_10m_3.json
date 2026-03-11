@@ -1,0 +1,13 @@
+{
+  "name": "RSI Extreme",
+  "timeframe": "10m",
+  "return_pct": 6.417514166837917,
+  "trades": 3,
+  "final_balance": 10641.751416683792,
+  "parameters": {
+    "oversold": 15,
+    "overbought": 85,
+    "confirm_ema": 100
+  },
+  "description": "Experimental strategy - top 3 performer"
+}

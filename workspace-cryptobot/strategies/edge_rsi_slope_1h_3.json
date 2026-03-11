@@ -1,0 +1,8 @@
+{
+  "name": "RSI Slope",
+  "timeframe": "1h",
+  "return_pct": 5.9635817554861745,
+  "trades": 29,
+  "final_balance": 10596.358175548618,
+  "description": "Unusual parameter strategy - top 3 performer"
+}

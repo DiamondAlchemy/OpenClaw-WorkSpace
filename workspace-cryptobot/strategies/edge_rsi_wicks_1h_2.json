@@ -1,0 +1,8 @@
+{
+  "name": "RSI Wicks",
+  "timeframe": "1h",
+  "return_pct": 6.481424368402604,
+  "trades": 10,
+  "final_balance": 10648.14243684026,
+  "description": "Unusual parameter strategy - top 2 performer"
+}

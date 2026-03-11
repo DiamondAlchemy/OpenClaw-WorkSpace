@@ -1,0 +1,8 @@
+{
+  "strategy": "Bollinger",
+  "timeframe": "1h",
+  "return_pct": 5.825784719878193,
+  "trades": 31,
+  "final_balance": 10582.57847198782,
+  "params": "period=10, std=1.5"
+}

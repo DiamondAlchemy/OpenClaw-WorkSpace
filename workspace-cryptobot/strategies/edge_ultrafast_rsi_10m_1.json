@@ -1,0 +1,12 @@
+{
+  "name": "UltraFast RSI",
+  "timeframe": "10m",
+  "return_pct": 7.421099756459608,
+  "trades": 355,
+  "final_balance": 10742.10997564596,
+  "parameters": {
+    "period": 3,
+    "oversold": 15,
+    "overbought": 85
+  }
+}

@@ -3,7 +3,7 @@
 # Zips Q and Octopussy workspaces, uploads to Drive, and saves to Desktop
 
 BACKUP_DIR="$HOME/Desktop/TopSecretBackups"
-DRIVE_FOLDER_ID="16GOrosIdQejDvdRiHstqL0sSgg-yc60t"
+DRIVE_FOLDER_ID="1G_ms1hedCxglsxCynqfPhIYlCccIgLvu"
 TIMESTAMP=$(date +%Y-%m-%d_%H%M)
 
 # Create backup dir if needed

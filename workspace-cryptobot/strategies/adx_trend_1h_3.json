@@ -1,0 +1,8 @@
+{
+  "strategy": "ADX Trend",
+  "timeframe": "1h",
+  "return_pct": 5.797242504059322,
+  "trades": 10,
+  "final_balance": 10579.724250405932,
+  "params": "default"
+}

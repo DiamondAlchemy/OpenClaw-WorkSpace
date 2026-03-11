@@ -1,0 +1,10 @@
+{
+  "name": "ADX Trend",
+  "timeframe": "1h",
+  "return_pct": 5.891869881032053,
+  "trades": 6,
+  "final_balance": 10589.186988103205,
+  "parameters": {
+    "adx_threshold": 25
+  }
+}
