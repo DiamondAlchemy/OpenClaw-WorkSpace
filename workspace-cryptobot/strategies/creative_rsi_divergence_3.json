@@ -1,8 +1,0 @@
-{
-  "strategy": "RSI_Divergence",
-  "timeframe": "1h",
-  "return_pct": 5.225504886939198,
-  "trades": 39,
-  "final_balance": 10522.55048869392,
-  "params": "creative_edge"
-}
