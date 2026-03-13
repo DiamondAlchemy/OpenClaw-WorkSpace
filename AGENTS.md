@@ -13,10 +13,13 @@ Before doing anything else, load ONLY critical context to stay fast and avoid AP
 1.  **Identity:** Read `SOUL.md` (Who you are).
 2.  **User:** Read `USER.md` (Who you serve).
 3.  **Immediate Context:** Read `memory/YYYY-MM-DD.md` (Today + Yesterday).
+4.  **Long-term Memory:** `MEMORY.md` is automatically loaded via Smart Loading (see section below).
 
-### 🚫 DO NOT LOAD `MEMORY.md`
-**CRITICAL:** `MEMORY.md` is now your **Long-Term Vector Memory**. It is too large to load every time.
-*   **Instead:** Use the `memory_search` tool to query it when you need specific history (e.g., "What is the GMP protocol for solvents?").
+### ✅ Load MEMORY.md via Smart Loading
+**CRITICAL:** `MEMORY.md` is now your **Long-Term Vector Memory**. With the consolidation complete (6,400+ lines), it should be loaded on startup via the Smart Loading Protocol.
+
+*   **How it works:** The system automatically loads `MEMORY.md` into context on startup using native local search. This gives you immediate access to historical context without manual retrieval.
+*   **For specific queries:** Use the `memory_search` tool to find specific facts, decisions, or details (e.g., "What is the GMP protocol for solvents?").
 *   **Trust the Search:** Do not guess. If you need a fact, search for it.
 
 ## Memory
