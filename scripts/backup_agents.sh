@@ -19,7 +19,7 @@ zip -r "$BACKUP_DIR/octopussy_workspace_$TIMESTAMP.zip" /Users/m/.openclaw/works
 
 # Backup shared folder
 echo "Backing up shared folder..."
-zip -r "$BACKUP_DIR/shared_$TIMESTAMP.zip" /Users/m/.openclaw/workspace/shared/ -x "*.DS_Store"
+zip -r "$BACKUP_DIR/shared_$TIMESTAMP.zip" /Users/m/.openclaw/workspace-shared/ -x "*.DS_Store"
 
 # Upload to Drive
 echo "Uploading to Drive..."

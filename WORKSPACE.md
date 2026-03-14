@@ -28,7 +28,7 @@ This document is the central reference for Alvie's OpenClaw setup, managed by Mo
 - **Status:** Active
 - **Provider:** Native Local Search
 - **Model:** `hf:ggml-org/embeddinggemma-300m-qat-q8_0-GGUF/embeddinggemma-300m-qat-Q8_0.gguf`
-- **Protocol:** "Smart Loading" is enabled. `MEMORY.md` is not loaded into context on startup; the `memory_search` tool is used for recall instead.
+- **Protocol:** "Smart Loading" is enabled. `MEMORY.md` is automatically loaded into context on startup via native local search. Use `memory_search` for specific recall.
 
 ---
 
