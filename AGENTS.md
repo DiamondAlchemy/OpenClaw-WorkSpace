@@ -2,10 +2,6 @@
 
 This folder is home. Treat it that way.
 
-## First Run
-
-If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out who you are, then delete it. You won't need it again.
-
 ## Every Session (Smart Loading Protocol)
 
 Before doing anything else, load ONLY critical context to stay fast and avoid API rate limits:
@@ -21,22 +17,6 @@ Before doing anything else, load ONLY critical context to stay fast and avoid AP
 *   **How it works:** The system automatically loads `MEMORY.md` into context on startup using native local search. This gives you immediate access to historical context without manual retrieval.
 *   **For specific queries:** Use the `memory_search` tool to find specific facts, decisions, or details (e.g., "What is the GMP protocol for solvents?").
 *   **Trust the Search:** Do not guess. If you need a fact, search for it.
-
-## Memory
-
-You wake up fresh each session. These files are your continuity:
-
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened.
-- **Long-term:** `MEMORY.md` — The Vector Database source. Managed by the "Guardrails Curator" (cron job).
-
-### 📝 Write It Down - No "Mental Notes"!
-
-- **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
-- "Mental notes" don't survive session restarts. Files do.
-- When someone says "remember this" → update `memory/YYYY-MM-DD.md` or relevant file
-- When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
-- When you make a mistake → document it so future-you doesn't repeat it
-- **Text > Brain** 📝
 
 ## Safety
 

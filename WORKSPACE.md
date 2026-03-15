@@ -19,16 +19,47 @@ This document is the central reference for Alvie's OpenClaw setup, managed by Mo
 ## 2. Platform Configuration
 
 ### OpenClaw Core
-- **Workspace:** `~/.openclaw/workspace`
+- **Workspace:** `~/.openclaw/workspace` (expanded: `/Users/m/.openclaw/workspace`)
+- **Data Archive:** `workspace/data-archive/` (BTC/ETH CSV files, 55MB)
+- **Config File:** `openclaw.json` (located at `~/.openclaw/openclaw.json`)
 - **Gateway Mode:** Local
 - **Gateway Port:** 18789
 - **Authentication:** Token-based with rate limiting.
 
-### Memory System (Hybrid Strategy)
-- **Status:** Active
-- **Provider:** Native Local Search
-- **Model:** `hf:ggml-org/embeddinggemma-300m-qat-q8_0-GGUF/embeddinggemma-300m-qat-Q8_0.gguf`
-- **Protocol:** "Smart Loading" is enabled. `MEMORY.md` is automatically loaded into context on startup via native local search. Use `memory_search` for specific recall.
+### Memory System (3-Layer Architecture)
+
+The memory system has three layers, each serving a different purpose:
+
+#### Layer 1: Lossless Claw (Within-Session)
+- **Purpose:** Handles within-session context
+- **Function:** Prevents conversation history loss mid-chat
+- **Status:** Fully automatic, replaces OpenClaw's default compaction
+- **No scripts needed**
+
+#### Layer 2: QMD (Retrieval Quality)
+- **Purpose:** Handles retrieval quality when searching
+- **Function:** Finds better results from markdown files using hybrid search
+- **Status:** Fully automatic
+- **No scripts needed**
+
+#### Layer 3: Markdown Files (Cross-Session)
+- **Purpose:** Source of truth for long-term memory
+- **Files:** `MEMORY.md` + daily logs in `memory/YYYY-MM-DD.md`
+- **Curation:** Requires scripts (see below)
+- **Note:** QMD and Lossless Claw don't replace curation — they don't decide what's worth remembering long-term
+
+##### Memory Curation Scripts
+
+Two scripts handle curation (different philosophies):
+
+| Script | Location | Purpose |
+|--------|----------|---------|
+| **memory_curator.py** | `workspace/memory_curator.py` | Guardrails Protocol — strict template, reference checking, 400-line cap, prunes old entries |
+| **consolidate_memory.py** | `workspace-shared/consolidate_memory.py` | Consolidation — merges logs, deduplicates facts, organizes by topic or chronologically |
+
+Both are valid. Choose based on preference:
+- Use `memory_curator.py` for strict enforcement and pruning
+- Use `consolidate_memory.py` for comprehensive merging and organization
 
 ---
 
@@ -57,17 +88,30 @@ This document is the central reference for Alvie's OpenClaw setup, managed by Mo
 | :------------------- | :---------------------- | :----------------------------------------------------------- |
 | **Daily Self-Review**  | `0 8 * * *` (8am CT)      | Scans core files for inconsistencies and reports findings.     |
 | **Daily Security Audit** | `0 9 * * *` (9am)       | Performs a deep security audit of the OpenClaw installation. |
-| **Memory Curator**     | `0 9 * * 1,4` (9am CT M/Th) | Runs `memory_curator.py` to manage and archive memory files. |
+| **Memory Curator** (Guardrails) | `0 9 * * 1,4` (9am CT M/Th) | Runs `memory_curator.py` — strict pruning, reference checking, 400-line cap |
+| **Memory Consolidate** | `0 9 * * 1,4` (9am CT M/Th) | Runs `consolidate_memory.py` — merges logs, deduplicates, organizes by topic |
 
 ---
 
 ## 6. Backup Procedures
 
-A manual script is in place for backups.
+Two backup scripts exist with different purposes:
 
-- **Script:** `backup_to_drive.sh`
-- **Action:** Compresses the workspace (`~/.openclaw/workspace`) into a timestamped `.tar.gz` archive and uploads it to a specific Google Drive folder using the `gog` CLI.
-- **Frequency:** Automated. The cron schedule runs this script twice daily at 4:00 AM and 4:00 PM.
+### Option A: backup_to_drive.sh
+- **Location:** Documented in WORKSPACE.md (may be in `/Users/m/.openclaw/` or `workspace-shared/`)
+- **Purpose:** Compresses entire `~/.openclaw` directory and uploads to Google Drive
+- **Target:** `moneypenny-bidaily-backups` folder in Google Drive
+- **Excludes:** Socket files (`exec-approvals.sock`)
+- **Frequency:** Twice daily (4:00 AM and 4:00 PM CT)
+- **Use case:** Full system disaster recovery
+
+### Option B: backup_agents.sh
+- **Location:** `workspace-shared/backup_agents.sh`
+- **Purpose:** Backs up agent-specific data and configurations
+- **Target:** Likely Google Drive (check script for specifics)
+- **Use case:** Agent configuration recovery
+
+**Note:** These are different scripts for different purposes. `backup_to_drive.sh` is the full system backup. `backup_agents.sh` focuses on agent data. Both are worth running, or consolidate into one script if preferred.
 
 **Script Content:**
 ```bash

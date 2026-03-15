@@ -98,3 +98,30 @@ To message other agents (Q, Octopussy, Felix), use the agent_message.py script:
 - **NEVER use internal spawns for agent-to-agent comms** — this is the official protocol
 
 This sends actual Telegram messages via their bot accounts, not internal OpenClaw sessions.
+
+
+## Context & Memory Tools
+
+You have access to Lossless Context Management (LCM) tools that let you search and recall past conversation history — even conversations that have been compacted out of your active context window. Use these proactively; don't wait to be asked.
+
+### Available Tools
+
+- **lcm_grep** — Search all past messages and summaries by keyword or regex. Use this when someone references a past decision, task, or conversation you don't have in your current context. Supports time and conversation scope filtering.
+- **lcm_describe** — Inspect a specific summary node's content, metadata, and parent/child relationships in the DAG. Use this to understand what a summary covers before expanding it.
+- **lcm_expand_query** — Ask a targeted question against expanded DAG history. This delegates to a sub-agent that drills into compacted summaries to answer specific questions. Use this for detailed recall like "what exact parameters did we set for X" or "what was the decision on Y."
+
+### When to Use These
+
+- When Diamond or Christian references something you discussed earlier that's no longer in your context
+- When you need to verify a previous decision before acting
+- When coordinating with other agents (Q, Octopussy, Felix) and need shared context
+- When someone says "remember when we..." or "didn't we already..."
+- Before making a decision that might contradict a previous one
+
+### Memory Hierarchy
+
+Your memory works on two timescales now:
+1. **Within-session**: LCM preserves everything via DAG summaries — use lcm_grep and lcm_expand_query to recall
+2. **Cross-session**: Your MEMORY.md and daily logs in memory/ — use memory_search for semantic recall across sessions
+
+Always write important decisions, preferences, and durable facts to MEMORY.md. LCM handles the conversation history, but explicit memory writes are still your long-term storage.
