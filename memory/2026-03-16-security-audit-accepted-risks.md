@@ -2,28 +2,33 @@
 
 All security audit items below are documented as accepted risks:
 
-## Current Audit (March 16, 2026)
+## Current Audit (March 18, 2026) - DISMISSED
 
-### Critical (7) - Accepted Risk
-- **groupPolicy="open" + elevated tools**: Intentional. Security boundary is `allowFrom` lists.
-- **groupPolicy="open" + runtime/filesystem**: Intentional. Security boundary is `allowFrom` lists.
-- **5× Telegram warnings**: Same as above — allowFrom controls access.
-- **Plugin tools exposure (lossless-claw)**: Trusted plugin, intentional.
-- **Code safety issue at src/engine.ts:2**: Reviewed, not a real risk.
-- **Gateway probe failed (missing scope)**: Non-blocking warning.
+### Dismissed Issues (Same as March 16 & March 15)
+- groupPolicy="open" + elevated tools — allowFrom lists are the security boundary
+- groupPolicy="open" + runtime/filesystem — intentional, allowFrom controls access
+- 5× Telegram warnings — same root cause, allowFrom configured
+- Plugin tools exposure (lossless-claw) — false positive, LCM compaction engine
+- Gateway probe failed (missing scope) — non-blocking warning
+- Multi-user setup — expected for Top Secret Workshops
+- Extension plugin tools under permissive policy — trusted plugins
 
-### Warnings (2) - Accepted Risk
-- **Multi-user setup detected**: Expected — Diamond & Christian both use the system
-- **Plugin tools under permissive policy**: lossless-claw is trusted
-
-### Info (1)
-- **Attack surface summary**: Known, managed
+### Action Taken
+- **DISMISSED** as recurring accepted risks
+- Next audit: Expect same issues to appear
 
 ---
 
-## Previous Acceptances (March 15, 2026)
+## Previous Acceptances
 
-Same items accepted as documented above.
+### March 16, 2026 - Accepted Risk
+Same issues as above, documented and accepted.
+
+### March 15, 2026 - Accepted Risk  
+First round of accepting these issues as documented risks.
+
+### March 4, 2024 - Addressed
+- Dangerous node commands (camera.snap, screen.record) — addressed
 
 ---
 
