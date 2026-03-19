@@ -1,0 +1,232 @@
+# MEMORY — Consolidated Knowledge Base
+
+> **Last consolidated:** 2026-03-18 13:49:30
+> **Source:** 32 daily logs (2026-03-03-enable-shell to 2026-03-16-security-audit-accepted-risks)
+> **Method:** AI-powered consolidation (ai_consolidate_memory.py)
+
+---
+
+> **Last consolidated:** 2026-03-18 13:49:30
+> **Source:** 32 daily logs (2026-03-03-enable-shell to 2026-03-16-security-audit-accepted-risks)
+> **Method:** AI-powered consolidation (ai_consolidate_memory.py)
+
+---
+
+## System & Configuration
+
+### AI Model Stack
+- **Primary:** MiniMax M2.5 Highspeed (via OAuth)
+- **Fallbacks:** Gemini 3 Pro → Gemini 3 Flash → Gemini 2.5 Pro → Gemini 2.5 Flash → GPT-4o Mini → Groq Llama 3.3 70B → Ollama Llama 3.2
+- **Ollama models:** llama3.2, deepseek-r1, mistral (available on-demand)
+- **Model switching:** Via direct `openclaw config` changes (not MEMORY.md updates)
+
+### Core System
+- **Host:** Mac mini (plugged in, running macOS 26.3.0)
+- **Capabilities:** camera.snap, screen.record, canvas.snapshot, AppleScript permissions enabled
+- **Gateway:** Port 18789, token auth enabled, rate-limited (10 attempts/min, 5-min lockout)
+- **Workspace:** `/Users/m/.openclaw/workspace/`
+
+### Key Skills
+- **gog:** Google Workspace (Drive, Sheets, Gmail) — OAuth auth currently broken (unauthorized_client)
+- **gemini CLI:** Direct model access
+- **peekaboo:** macOS UI automation (Screen Recording + Accessibility)
+- **nano-banana-pro:** Image generation via Gemini (configured with GEMINI_API_KEY)
+- **obsidian:** Note vault access (vault at Desktop/MoneyPenny_Intelligence/Archive)
+- **summarize, video-frames, wacli, things-mac, apple-notes, apple-reminders**
+
+### Backup System
+- **Cron:** Daily at 6 AM, keeps 7 days
+- **Location:** `~/Backups/OpenClaw/`
+- **Desktop restore guide:** `MONEYPENNY_RESTORE.txt`
+- **Google Drive sync:** MoneyPenny_Intelligence folder
+
+### Security Settings
+- **Main agent:** `workspaceOnly: true` (locked to own workspace)
+- **Subagents:** workspaceOnly: true (applied to Octopussy, Q)
+- **Telegram allowFrom:** 8217045820 (Alvie), 7437937082 (Christian)
+- **Node allowCommands:** camera.snap, screen.record, canvas.snapshot, system.notify, system.run
+- **Security audit accepted risks (March 15-16):** groupPolicy="open" + elevated tools/runtime (allowFrom is security boundary)
+
+---
+
+## People & Contacts
+
+| Name | Handle | Role | Telegram ID |
+|------|--------|------|-------------|
+| Alvie | diamond_alchemy / Diamond | Primary operator | 8217045820 |
+| Christian | wanabee63 | Business partner, runs Octopussy | 7437937082 |
+| Q | — | Farm Manager project contact | — |
+
+- **Email:** Alvie: diamondalchemy@topsecretworkshops.com, Christian: wanabee63@topsecretworkshops.com
+- **Service Account:** moneypenny-489014@.gserviceaccount.com (for Google Docs/Sheets API)
+
+---
+
+## Operational Protocols
+
+### Session Startup Sequence
+1. Read `SOUL.md`, `IDENTITY.md` (persona & principles)
+2. Read `USER.md` (operatives profile)
+3. Read `projects.md` (high-level mission dashboard — needs creation)
+4. Read recent `memory/YYYY-MM-DD.md` (last 24-48 hrs context)
+
+### New Rule Established (2026-03-04)
+- **Verify All Write Operations:** After `write` or `edit`, always run `ls` or `read` to confirm success. Data integrity is paramount.
+
+### Communication Rules
+- Present plan first → wait for explicit approval → execute → verify
+- Do not repeat old tasks or nag about unresolved issues unless new info
+- Default to "Alvie" for direct interaction, "Diamond" for public/formal contexts
+- No duplicate reports to Christian unless explicitly requested
+
+### Agent Spawning Protocol
+- Spawn isolated agents for parallel/long-running tasks
+- ACP `sessions_spawn` tool has known bug (result not returned to parent session)
+- Workaround: Run `gemini` directly via exec for subagent tasks
+
+---
+
+## Business Operations
+
+### Cannabis Extraction Data Manager (Octopussy)
+- **Purpose:** Collect run log data from department leads via Telegram → Google Sheets
+- **Departments:** Intake, Extraction, Post Processing
+- **Script types:** Intake Report, Extraction Start/End, Post Processing, Issue/Downtime (pending training)
+- **Workspace:** `/Users/m/.openclaw/workspace-octopussy/`
+- **Files created:** `ceo_data_manager_soul.md`, `facilities.md`, `active-runs.md`, `issues.md`, `scripts.md`, `preferences.md`
+- **Drive folder:** https://drive.google.com/drive/folders/1jDyfvtXAh6pcX_K2TVhBKBPlEI-JvHYS
+- **Status:** Folder structure created; facility-01 pending details, scripts pending training
+
+### Monthly Reporter (Christian)
+- Extracts KPI data from Google Sheets → Google Doc report → email to partners
+- **Email recipients:** diamondalchemy@, wanabee63@topsecretworkshops.com
+
+---
+
+## Crypto & Trading
+
+### Workspace
+`/Users/m/.openclaw/workspace-cryptobot/`
+
+### Data
+- BTC 10m OHLCV: 20,531 candles (Oct 2025 – Mar 2026), $108k→$70k (-35%)
+- ETH 10m OHLCV: 20,531 candles, same period
+- Files: `data/BTC_10m.csv`, `data/ETH_10m_long.csv`, `data/btc_daily_raw.csv`
+
+### Winning Strategies
+
+| Strategy | Timeframe | ETH Return | BTC Return | Win Rate |
+|----------|-----------|------------|------------|----------|
+| **ICT BB Sweep (std 4.0, swing 40)** | 10m | +1,460% | +893% | 62-66% |
+| RSI Extreme Reversion (RSI<20 long, RSI>85 short) | 4h | +122% | — | 71-77% |
+
+### ICT BB Sweep Parameters
+- **Entry:** Price sweeps previous swing high/low (BB std dev 4.0, swing LB 40)
+- **SL:** Just outside swept level
+- **TP1:** Middle BB, TP2:** Outer BB
+- Works on 10m, 1h, 4h timeframes
+
+### RSI Extreme Reversion
+- **Long:** RSI < 20 → exit at RSI > 50
+- **Short:** RSI > 85 → exit at RSI < 55
+- Shorting more profitable than longing in bear market (77% WR vs 71%)
+
+### Open Items
+- BloFin API keys: Pending (Alvie to create on desktop)
+- Code RSI Extreme Reversion into cryptobot
+- Need exchange data with OHLCV for proper backtesting
+
+---
+
+## Agent Ecosystem
+
+| Agent | Workspace | Telegram | Model | Role |
+|-------|-----------|----------|-------|------|
+| MoneyPenny | workspace/ | @MoneyPenny_openclawbot | MiniMax M2.5 HS | Main handler |
+| Octopussy | workspace-octopussy/ | @Octopussy_openclawbot | MiniMax M2.5 HS + Gemini 2.5 Pro fallback | Facility data collection |
+| Q | (existing) | — | MiniMax M2.5 HS + Gemini 3 Pro fallback | Farm Manager project |
+| The Messenger (Felix) | workspace-shared/ | @felix_openclawbot | — | Telegram scraping |
+
+### Telegram Bot Tokens
+- MoneyPenny: `8641071709:AAFKfMvmmsV83aKZDMjHDkmD7Ik_fdQuKas`
+- Octopussy: `8408646621:AAHYCVgFklp3R_EJudpj6YCoRg-prYcWs1c`
+- Felix: (new token, separate bot)
+
+### WhatsApp
+- Active, linked to Cannascend OH group (listen-only mode)
+
+---
+
+## Bugs & Fixes
+
+| Date | Issue | Fix |
+|------|-------|-----|
+| 2026-03-04 | `write` failed silently — RESTORE.md not created | Added verify step (`ls`/`read`) after every write |
+| 2026-03-04 | `minimax` provider 404 errors | Correct endpoint is `https://api.minimax.io/v1` with `openai-chat` API |
+| 2026-03-04 | Whisper skills redundant | Removed `openai-whisper` and `openai-whisper-api` |
+| 2026-03-05 | `gog` OAuth `unauthorized_client` | New OAuth client created; still needs test user added in GCP |
+| 2026-03-05 | Obsidian vault not registered | Config entry broke gateway — removed; read directly from folder instead |
+| 2026-03-06 | Octopussy not in config | Added `octopussy` to agents.list with workspace binding |
+| 2026-03-06 | MoneyPenny/Octopussy routing crossed | Configured Telegram bindings: Alvie→MoneyPenny, Christian→Octopussy |
+| 2026-03-06 | WhatsApp `channels.whatsapp.web` invalid key | Removed unsupported key |
+| 2026-03-07 | Small models + web tools = security risk | Disabled web_search, web_fetch, browser for Groq/Ollama |
+| 2026-03-07 | Subagent permissions config wrong path | Correct path: inside agent definition under `subagents.allowAgents` |
+| 2026-03-09 | Agents can't join Telegram groups | Changed per-account `groupPolicy` from `allowlist` to `open` |
+| 2026-03-09 | Claude API "credit balance too low" | User's subscription doesn't cover API access |
+| 2026-03-09 | Gemini 3.x not available | API key only grants access to 2.x models |
+| 2026-03-15 | ACP spawn result not returned | Known bug; workaround is direct `gemini` exec |
+| Ongoing | gog Gmail/Drive auth failing | `unauthorized_client` — GCP OAuth test mode issue |
+
+---
+
+## Pending / Open Items
+
+### High Priority
+- [ ] **Octopussy scripts training** — 5 script types pending (Intake, Extraction Start/End, Post Processing, Issue)
+- [ ] **facility-01 details** — name, leads, contacts, Google Sheet link needed
+
+### Medium Priority
+- [ ] **Create `projects.md`** — high-level mission dashboard for startup context
+- [ ] **Weekly Sit-Rep** — summarization script for broader startup context
+- [ ] **Cryptobot strategy coding** — RSI Extreme Reversion + ICT BB Sweep into executable bot
+- [ ] **BloFin API keys** — Alvie to create on desktop for live trading
+- [ ] **Subagent result passing** — ACP spawn bug workaround needs permanent fix
+
+### Low Priority / Ideas
+- [ ] **Evolving persona script** — auto-propose `SOUL.md` edits from user feedback
+- [ ] **Pre-flight check** — verify tool versions at startup
+- [ ] **Chrome extension relay** — for screen sharing with Alvie
+---
+
+## Google Sheets Access (Updated 2026-03-18)
+
+### The Problem
+`gog sheets get` caches responses **per range**. If you query `A1:N5`, it caches that range. Future queries to the same range return cached (stale) data even if the sheet has been updated.
+
+### Verified Working
+- `gog sheets metadata` — Always fresh ✅
+- `gog sheets update` — Works fine ✅
+- Service account via Python script — Always fresh ✅
+
+### The Fix
+**For all data reads, use the service account script instead of `gog sheets get`:**
+```bash
+source venv/bin/activate
+python3 sheet_reader.py <spreadsheet_id> "<range>"
+```
+Example:
+```bash
+source venv/bin/activate
+python3 sheet_reader.py 1nL36orjiVc02ianymDLZMlNbvF_kP6LyFVEZmbranco "Extraction Manifest!A1:N50"
+```
+
+**Service account file:** `/Users/m/Library/Application Support/gogcli/sa-bW9uZXktcGVubnlAbW9uZXlwZW5ueS00ODkwMTQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20.json`
+
+**Script location:** `/Users/m/.openclaw/workspace-q/sheet_reader.py`
+
+**Virtual environment:** `/Users/m/.openclaw/workspace-q/venv/` (already has google-api-python-client installed)
+
+### Current KPI Sheet
+- **Spreadsheet ID:** `1nL36orjiVc02ianymDLZMlNbvF_kP6LyFVEZmbranco`
+- **Main sheet:** "Extraction Manifest" (has 41 rows, metrics 1-40, data from 2/18/2026 to 3/21/2026)
+- **Also:** "Fresh Frozen", "Cured", "post extraction", "dashboard", "backend"

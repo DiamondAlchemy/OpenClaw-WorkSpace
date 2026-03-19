@@ -91,7 +91,7 @@ def analyze_against_best_practices(filepath, openclaw_guide, anthropic_guide):
     try:
         # Using gemini CLI tool. Ensure it is in the system's PATH.
         # shlex.quote is crucial for safely passing the prompt as a single argument.
-        command = f"gemini -m gemini-3-flash {shlex.quote(prompt)}"
+        command = f"gemini -m gemini-2.5-flash {shlex.quote(prompt)}"
         result = subprocess.run(command, shell=True, capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except FileNotFoundError:
@@ -142,6 +142,24 @@ def generate_review_summary():
     return "\n".join(summary_parts)
 
 
+TELEGRAM_MSG_LIMIT = 4000  # Telegram max is 4096, leave buffer
+
+
+def truncate_for_telegram(text, limit=TELEGRAM_MSG_LIMIT):
+    """Truncate output to fit Telegram's message limit."""
+    if len(text) <= limit:
+        return text
+    # Find a good cutoff point
+    truncated = text[:limit]
+    # Try to cut at last newline for clean output
+    last_newline = truncated.rfind("\n")
+    if last_newline > limit * 0.8:
+        truncated = truncated[:last_newline]
+    truncated += "\n\n... [truncated — full report exceeds Telegram limit]"
+    return truncated
+
+
 if __name__ == "__main__":
     # This check ensures we don't run the full script if just imported.
-    print(generate_review_summary())
+    report = generate_review_summary()
+    print(truncate_for_telegram(report))

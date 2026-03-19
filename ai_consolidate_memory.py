@@ -17,6 +17,7 @@ Supports: MiniMax M2.5 (default), Anthropic Claude, Google Gemini
 """
 
 import os
+import re
 import sys
 import json
 import shutil
@@ -79,6 +80,8 @@ RULES:
    - Step-by-step troubleshooting that led nowhere
    - Duplicate information (keep the most recent/complete version)
    - Temporary states that have since been resolved
+   - Bugs/errors that were reported AND later fixed — move to Bugs & Fixes with the resolution, do NOT also list as Pending
+   - "Pending" items where a later log shows the issue was resolved, working, or no longer mentioned after 7+ days
 
 3. FORMAT:
    - Use markdown with clear section headings by topic (not by date)
@@ -98,7 +101,13 @@ RULES:
    - ## Bugs & Fixes
    - ## Pending / Open Items
 
-5. At the top, include a metadata block:
+5. PENDING ITEMS require extra scrutiny:
+   - Only list items that are CLEARLY still unresolved based on the logs
+   - If an error/bug appears in an early log but a later log shows it working or fixed, it is NOT pending
+   - If an item hasn't been mentioned in 7+ days of logs, it's likely resolved or abandoned — omit it
+   - When in doubt, leave it OUT of Pending rather than including stale items
+
+6. At the top, include a metadata block:
    ```
    > **Last consolidated:** {timestamp}
    > **Source:** {num_logs} daily logs ({date_range})
@@ -373,26 +382,20 @@ def main():
     else:
         final = consolidated_chunks[0]
 
-    # 6. Add header if not present (avoid duplication if LLM already included it)
-    if not final.lstrip().startswith("# MEMORY"):
-        header = (
-            f"# MEMORY — Consolidated Knowledge Base\n\n"
-            f"> **Last consolidated:** {timestamp}\n"
-            f"> **Source:** {len(logs)} daily logs ({date_range})\n"
-            f"> **Method:** AI-powered consolidation (ai_consolidate_memory.py)\n\n"
-            f"---\n\n"
-        )
-        final = header + final
-    else:
-        # LLM included its own header — make sure metadata is accurate
-        final = (
-            f"# MEMORY — Consolidated Knowledge Base\n\n"
-            f"> **Last consolidated:** {timestamp}\n"
-            f"> **Source:** {len(logs)} daily logs ({date_range})\n"
-            f"> **Method:** AI-powered consolidation (ai_consolidate_memory.py)\n\n"
-            f"---\n\n"
-            + final.split("---", 1)[-1].lstrip("\n")
-        )
+    # 6. Always use our own header — strip any LLM-generated header/metadata
+    # Find the first real content section (## heading)
+    section_match = re.search(r'^## ', final, re.MULTILINE)
+    if section_match:
+        final = final[section_match.start():]
+
+    header = (
+        f"# MEMORY — Consolidated Knowledge Base\n\n"
+        f"> **Last consolidated:** {timestamp}\n"
+        f"> **Source:** {len(logs)} daily logs ({date_range})\n"
+        f"> **Method:** AI-powered consolidation (ai_consolidate_memory.py)\n\n"
+        f"---\n\n"
+    )
+    final = header + final
 
     line_count = len(final.splitlines())
     print(f"\n  Final output: {line_count} lines")

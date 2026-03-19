@@ -2,6 +2,23 @@
 
 All security audit items below are documented as accepted risks:
 
+## Current Audit (March 19, 2026) - DISMISSED
+
+### Dismissed Issues (Same recurring issues)
+- groupPolicy="open" + elevated tools — allowFrom lists are the security boundary
+- groupPolicy="open" + runtime/filesystem — intentional, allowFrom controls access
+- 5× Telegram warnings — same root cause, allowFrom configured
+- Plugin tools exposure (lossless-claw) — false positive, LCM compaction engine
+- Gateway probe failed (missing scope) — non-blocking warning
+- Multi-user setup — expected for Top Secret Workshops
+- Extension plugin tools under permissive policy — trusted plugins
+
+### Action Taken
+- **DISMISSED** as recurring accepted risks
+- Next audit: Expect same issues to appear
+
+---
+
 ## Current Audit (March 18, 2026) - DISMISSED
 
 ### Dismissed Issues (Same as March 16 & March 15)
