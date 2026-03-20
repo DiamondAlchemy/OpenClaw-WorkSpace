@@ -5,7 +5,6 @@ This document is the central reference for Alvie's OpenClaw setup, managed by Mo
 ## 1. Active Missions & Priorities
 
 ### Phase 1: Core Operations
-*   **Visual Extraction Manifest:** Mastering the master spreadsheet for KPIs and logistics. Includes walkthroughs and data entry protocol establishment. **(Status: Active)**
 *   **Money Penny Infrastructure:** Hardening security, optimizing memory, and ensuring long-term stability. **(Status: Active)**
 *   **GMP Framework (Christian):** Monitoring and data gathering for US/EU-GMP lab qualification. No direct infrastructure changes without Alvie's approval. **(Status: Standby)**
 
@@ -55,11 +54,11 @@ Two scripts handle curation (different philosophies):
 | Script | Location | Purpose |
 |--------|----------|---------|
 | **memory_curator.py** | `workspace/memory_curator.py` | Guardrails Protocol — strict template, reference checking, 400-line cap, prunes old entries |
-| **consolidate_memory.py** | `workspace-shared/consolidate_memory.py` | Consolidation — merges logs, deduplicates facts, organizes by topic or chronologically |
+| **ai_consolidate_memory.py** | `workspace/ai_consolidate_memory.py` | Consolidation — merges logs, deduplicates facts, organizes by topic or chronologically |
 
 Both are valid. Choose based on preference:
 - Use `memory_curator.py` for strict enforcement and pruning
-- Use `consolidate_memory.py` for comprehensive merging and organization
+- Use `ai_consolidate_memory.py` for comprehensive merging and organization
 
 ---
 
@@ -114,7 +113,7 @@ python3 /Users/m/.openclaw/tools/agent_message.py <agent> "message"
 | **Daily Self-Review**  | `0 8 * * *` (8am CT)      | Scans core files for inconsistencies and reports findings.     |
 | **Daily Security Audit** | `0 9 * * *` (9am CT)       | Performs a deep security audit of the OpenClaw installation. |
 | **Memory Curator** (Guardrails) | `0 0 * * *` (midnight CT) | Runs `memory_curator.py` — strict pruning, reference checking, 400-line cap |
-| **Nightly Memory Consolidation** | `30 2 * * *` (2:30am CT) | Runs `consolidate_memory.py` on workspace-shared — merges logs, deduplicates, organizes by topic |
+| **Nightly Memory Consolidation** | `30 2 * * *` (2:30am CT) | Runs `ai_consolidate_memory.py` on workspace — merges logs, deduplicates, organizes by topic |
 | **Daily GitHub Sync** | `0 15 * * *` (3pm CT) | Git add/commit/push to main |
 | **Daily Agent Backup** | `0 3 * * *` (3am CT) | Runs `backup_agents.sh` — agent configuration backup |
 
@@ -210,35 +209,9 @@ echo "--- Backup Process Finished Successfully ---"
 
 ## 7. Installed Skills
 
-### Core Skills (Documented in AGENTS.md)
-- **gog:** Google Workspace CLI (Gmail, Calendar, Drive, Sheets, Docs)
-- **github:** GitHub CLI (issues, PRs, CI, code review)
-- **healthcheck:** Host security hardening and risk audits
-- **peekaboo:** macOS UI automation (use with caution)
-- **summarize:** Summarize text from URLs, podcasts, files
-- **tts:** Text-to-Speech for voice output
-- **weather:** Weather forecasts via wttr.in/Open-Meteo
-- **xurl:** X (Twitter) API CLI
+**Skills are documented in AGENTS.md.** That file is the canonical reference for all available skills and their usage.
 
-### Productivity & Notes
-- **obsidian:** Work with Obsidian vaults (Markdown notes)
-- **things-mac:** Manage Things 3 tasks via CLI
-- **apple-notes:** Apple Notes via memo CLI
-- **imsg:** iMessage/SMS via Messages.app
-
-### Data & Analysis
-- **nano-pdf:** Edit PDFs with natural-language instructions
-- **video-frames:** Extract frames/clips from videos (ffmpeg)
-
-### Communication
-- **wacli:** WhatsApp CLI (send messages, search/sync)
-- **discord:** Discord bot interactions
-- **slack:** Slack bot interactions
-
-### Other Installed (Not Yet Explored)
-- apple-reminders, bear-notes, blogwatcher, blucli, bluebubbles, camsnap, canvas, clawhub, coding-agent, eightctl, gemini, gh-issues, gifgrep, goplaces, himalaya, mcporter, model-usage, nano-banana-pro, notion, openai-image-gen, openai-whisper, openai-whisper-api, openhue, oracle, ordercli, sag, session-logs, sherpa-onnx-tts, skill-creator, songsee, sonoscli, spotify-player, tmux, trello, voice-call
-
-*(Note: This list is periodically verified. Run `openclaw skills list` to refresh.)*
+*(Run `openclaw skills list` to see all installed skills.)*
 
 ---
 

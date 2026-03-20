@@ -17,14 +17,14 @@ echo "--- Starting OpenClaw Backup (v4): ${TIMESTAMP} ---"
 
 # 1. Find or Create Google Drive Folder
 echo "[1/4] Locating Google Drive folder: '${DRIVE_FOLDER_NAME}'..."
-FOLDER_ID=$(gog drive ls --plain --query "name = '${DRIVE_FOLDER_NAME}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false" | tail -n +2 | head -n 1 | awk '{print $1}')
+FOLDER_ID=$(gog drive ls --plain --query "name = '${DRIVE_FOLDER_NAME}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false" --account moneypenny@topsecretworkshops.com | tail -n +2 | head -n 1 | awk '{print $1}')
 
 if [ -z "$FOLDER_ID" ]; then
     echo "    Folder not found. Creating it now..."
-    gog drive mkdir "${DRIVE_FOLDER_NAME}" > /dev/null
+    gog drive mkdir "${DRIVE_FOLDER_NAME}" --account moneypenny@topsecretworkshops.com > /dev/null
     # Re-query for the ID after creation, allow a moment for propagation
     sleep 2 
-    FOLDER_ID=$(gog drive ls --plain --query "name = '${DRIVE_FOLDER_NAME}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false" | tail -n +2 | head -n 1 | awk '{print $1}')
+    FOLDER_ID=$(gog drive ls --plain --query "name = '${DRIVE_FOLDER_NAME}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false" --account moneypenny@topsecretworkshops.com | tail -n +2 | head -n 1 | awk '{print $1}')
     
     if [ -z "$FOLDER_ID" ]; then
         echo "    ERROR: Failed to create or find Google Drive folder after attempting creation. Aborting."
@@ -47,7 +47,7 @@ echo "    Archive created successfully at: ${TEMP_ARCHIVE_PATH}"
 
 # 3. Upload Archive to Google Drive
 echo "[3/4] Uploading archive to Google Drive..."
-UPLOAD_OUTPUT=$(gog drive upload --parent "${FOLDER_ID}" "${TEMP_ARCHIVE_PATH}")
+UPLOAD_OUTPUT=$(gog drive upload --parent "${FOLDER_ID}" "${TEMP_ARCHIVE_PATH}" --account moneypenny@topsecretworkshops.com)
 if [[ ! "$UPLOAD_OUTPUT" == *"id"* ]]; then
     echo "    ERROR: Failed to upload to Google Drive. Local archive is preserved at ${TEMP_ARCHIVE_PATH} for review."
     exit 1
