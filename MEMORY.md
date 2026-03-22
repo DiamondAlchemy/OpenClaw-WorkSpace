@@ -1,92 +1,106 @@
 # MEMORY — Consolidated Knowledge Base
 
-> **Last consolidated:** 2026-03-21 00:00:05
+> **Last consolidated:** 2026-03-22 00:00:06
 > **Source:** 32 daily logs (2026-03-03-enable-shell to 2026-03-16-security-audit-accepted-risks)
 > **Method:** AI-powered consolidation (ai_consolidate_memory.py)
 
 ---
 
-## People & Contacts
-
-- **Alvie (Diamond / @diamond_alchemy):** Primary operator. Telegram ID: `8217045820`. Email: `diamondalchemy@topsecretworkshops.com`
-- **Christian (Wanabee):** Partner. Telegram ID: `7437937082`. Email: `wanabee63@topsecretworkshops.com`
-- **Q:** Contact in cannabis/Facility Manager project. Active Telegram conversation.
-
-## Agent Ecosystem
-
-- **MoneyPenny (main):** Primary agent. Telegram bot: `@MoneyPenny_openclawbot`. Workspace: `/Users/m/.openclaw/workspace/`
-- **Octopussy:** Facility reporting agent for Christian. Bot token: `8408646621:AAHYCVgFklp3R_EJudpj6YCoRg-prYcWs1c`. Workspace: `/Users/m/.openclaw/workspace-octopussy/`
-- **Q Agent:** Trading/crypto agent. Workspace: `/Users/m/.openclaw/workspace-q/`
-- **The Messenger (Felix):** Telegram scraping agent. Bot token configured separately.
-- **All sub-agents:** Set with `workspaceOnly: true` and `subagents.allowAgents: ["*"]`
-
 ## System & Configuration
 
-- **Gateway Auth Token:** `7ef5ed4aabc935e07746daf96d3a562876b516b4a62a8511`
-- **WhatsApp:** Connected via OpenClaw plugin
-- **Backup System:** `/Users/m/.openclaw/workspace/scripts/backup_daily.sh` — daily cron at 6 AM, 7-day retention
-- **gog Auth:** OAuth issues (`unauthorized_client`). New client `moneypenny` created. Needs user added to OAuth consent screen.
-- **Telegram Groups:** Group ID `-1003789330057` (active)
-- **Desktop Restore Guide:** `/Users/m/Desktop/MONEYPENNY_RESTORE.txt`
+- **Primary AI Model:** MiniMax M2.5 Highspeed (primary), Gemini 2.5 Flash (fallback)
+- **Additional Models Available:** Groq Llama 3.3 70B, OpenAI GPT-4o Mini, Ollama (llama3.2, deepseek-r1, mistral)
+- **Google Workspace:** gog CLI configured with service account (money-penny@moneypenny-489014.iam.gserviceaccount.com); Drive folder: `MoneyPenny_Intelligence`
+- **Backup:** Daily cron at 6 AM, 7-day retention, stored in `~/Backups/OpenClaw/`
+- **Security:** Main agent locked to `workspaceOnly: true`; rate limiting on auth (5 attempts/min); risky web tools disabled for small models
+- **Control UI token:** `7ef5ed4aabc935e07746daf96d3a562876b516b4a62a8511`
+- **Known Accepted Risks:** `groupPolicy="open"` with elevated tools and filesystem access; `camera.snap`/`screen.record` enabled on Mac mini; recurring Telegram warnings
+- **Workspace Structure:**
+  - Main: `/Users/m/.openclaw/workspace/`
+  - Octopussy: `/Users/m/.openclaw/workspace-octopussy/`
+  - Shared: `/Users/m/.openclaw/workspace-shared/`
+  - Cryptobot: `/Users/m/.openclaw/workspace-cryptobot/`
 
-## Crypto & Trading
+---
 
-- **WINNING STRATEGY: ICT Bollinger Bands Liquidity Sweep**
-  - Entry: Price sweeps previous swing high/low, closes back inside BB
-  - SL: Just outside swept level
-  - TP1: Middle BB, TP2: Outer BB
-  - Params: BB Std Dev 4.0, Period 20, Swing LB 40
-  - **10m Backtest Results (Oct 2025 - Mar 2026, bear market):**
-    - ETH: **+1,460%** | 66% WR | 9,639 trades
-    - BTC: **+893%** | 62% WR | 9,775 trades
-  - Saved to: `workspace-cryptobot/strategies/BEST_STRATEGY_FINAL.md`
+## People & Contacts
 
-- **Backup Strategies:**
-  - RSI 30/50 (oversold entry): BTC +0.57%, ETH +0.57%
-  - RSI Long/Short (85/55): Beats buy-hold by 17%
-  - Shorting RSI>85 more profitable than longing in bear markets
+- **Alvie** (diamondalchemy@topsecretworkshops.com) — Primary operator; Telegram ID: 8217045820
+- **Christian** (wanabee63@topsecretworkshops.com) — Business partner; Telegram ID: 7437937082
+- **Q** — Contact handling Facility Manager / cannabis cultivation data project (CannaLog)
+- **Naming Convention:** "Alvie" for personal/direct; "Diamond" for formal/public contexts
 
-- **Data Files:**
-  - `BTC_10m.csv`: 20,531 candles
-  - `ETH_10m_long.csv`: 20,531 candles
-  - All in `workspace-cryptobot/data/`
-
-- **Pending:** Code the ICT BB Sweep strategy into cryptobot; BloFin API keys (desktop creation pending)
-
-## Business Operations (Cannabis/TSW)
-
-- **CEO Data Manager Agent:** Partially built. SOUL saved to `ceo_data_manager_soul.md`
-  - Purpose: Collect run log data from 3 departments (Intake, Extraction, Post Processing)
-  - Strict data entry rules, caller verification, escalation protocol
-  - Folder structure: `facilities/facility-01/` with subfolders for call-logs, daily-summaries, issues, batches
-  - Google Drive folder: `1jDyfvtXAh6pcX_K2TVhBKBPlEI-JvHYS`
-  - **Status:** Scripts pending training, Google Sheet pending setup for facility-01
-
-- **Octopussy Workflow:** Uses MiniMax only (Gemini fails on spreadsheet data). Config: MiniMax primary + Gemini 2.5 Pro fallback.
-
-- **Monthly Reporter:** Tested, populates Google Docs with KPI data from Sheets, sends emails to both partners.
+---
 
 ## Operational Protocols
 
-- **Startup Sequence:** Read SOUL.md → USER.md → projects.md (if exists) → memory/YYYY-MM-DD.md (today + yesterday)
-- **File Verification Rule (added 2026-03-04):** After any `write` or `edit`, always verify with `ls`, `read`, or `cat` before reporting success.
-- **Naming Convention:** Use "Alvie" for direct interactions, "Diamond" for formal/public contexts.
-- **Heartbeat Protocol:** Check Gmail (unread), Drive (recent files), Local intel drops (modified <3hrs).
-- **Reports to Christian:** Send only when explicitly requested by Alvie.
+- **Session Startup:** Read `SOUL.md` → `USER.md` → `IDENTITY.md` → daily memory logs → heartbeat check
+- **Heartbeat:** Monitors Gmail (unread), Drive (new files), local Intel drops (`/Users/m/Desktop/MoneyPenny_Intelligence`)
+- **Daily Self-Review:** Runs `daily_self_review.py` via cron; scans for file integrity issues, inconsistencies, and operational lessons from past 7 days
+- **Inter-Agent Comms:** Telegram group (`-1003789330057`) for Q/Octopussy/MoneyPenny coordination; signed message protocol available
+- **Pre-Flight Check:** Not yet implemented (proposed improvement from 2026-03-04 review)
+- **No-Repeat Rule:** Do not re-report known/acknowledged failures within 24hrs unless resolution changes
+
+---
+
+## Business Operations (Cannabis/TSW)
+
+- **CEO Data Manager Agent:** Soul file created (`ceo_data_manager_soul.md`); folder structure set up in Drive
+  - Handles: Intake, Extraction, Post Processing data collection via structured scripts
+  - **Status:** 5 scripts still pending training (scripts.md empty); not yet live
+- **Monthly Reporter:** Generates TSW KPI reports; emails to Alvie + Christian; Google Doc output
+- **Octopussy Agent:** Facility reporting agent for Christian; workspace-synced from main; MiniMax-only mode
+
+---
+
+## Crypto & Trading
+
+- **Workspace:** `/Users/m/.openclaw/workspace-cryptobot/`
+- **Data On Hand:** BTC + ETH 10m OHLCV (Oct 2025–Mar 2026, ~20k candles each); BTC/ETH multiple timeframes (1m–4h)
+- **Best Strategy Found:** ICT Bollinger Bands Liquidity Sweep
+  - Params: BB std dev 4.0, swing 40 candles
+  - ETH (10m): **+1,460%** return, 66% win rate, 9,639 trades
+  - BTC (10m): **+893%** return, 62% win rate, 9,775 trades
+  - Saved: `workspace-cryptobot/strategies/ICT_BB_Sweep_Optimized.md`
+- **Secondary Strategy:** RSI Extreme Reversion (RSI<20 long, RSI>85 short)
+- **Pending:** Code ICT BB Sweep into cryptobot; acquire BloFin API keys for live trading
+- **Current Market (Mar 11):** BTC ~$70,935, RSI 75.3 (overbought), ETH ~$2,079
+
+---
+
+## Agent Ecosystem
+
+| Agent | Purpose | Model | Workspace |
+|-------|---------|-------|-----------|
+| MoneyPenny (main) | Primary handler, Alvie's assistant | MiniMax/Gemini | `/workspace/` |
+| Octopussy | Christian's facility reporting | MiniMax only | `/workspace-octopussy/` |
+| Felix (The Messenger) | Telegram scraping | MiniMax | `/workspace-shared/` |
+| Q | Facility Manager data analysis | MiniMax/Gemini 3 Pro | — |
+| CEO Data Manager | Cannabis ops data collection | TBD | TBD |
+
+- **Auto-spawn protocol:** Must ask Christian before spawning Gemini subagents
+- **Subagent permissions:** Config path is `agents.{id}.subagents.allowAgents: ["*"]` (not in "commands" section)
+
+---
 
 ## Bugs & Fixes
 
-- **Write verification failure (2026-03-04):** RESTORE.md failed to write silently. Added verification step to SOUL.md.
-- **Config revert issues:** Octopussy agent config kept getting lost during MiniMax diagnostics. Fixed by proper programmatic cleanup.
-- **Telegram routing:** Octopussy initially answered in MoneyPenny's chat. Fixed by binding correct bot token to correct agent.
-- **WhatsApp heartbeat:** `channels.whatsapp.web` key not supported in this OpenClaw version. Removed; using default ~60 sec.
-- **gog OAuth:** Default client in "testing" mode blocks workspace accounts. Created new client in moneypenny-489014 project — needs test user added.
-- **Anthropic API:** Credit balance too low. Cannot use Claude via API.
+- **RESTORE.md missing file:** Agent failed to write file on first attempt; corrected by writing and verifying all future files per new SOUL.md directive
+- **SOUL.md write verification:** Added mandatory `ls`/`read` verification step after every file write
+- **gog OAuth `unauthorized_client`:** Default OAuth client in testing mode blocked access; workaround: created new client in moneypenny-489014 GCP project with service account auth
+- **WhatsApp heartbeat config:** `channels.whatsapp.web` key invalid in current OpenClaw version; removed; heartbeat kept at default ~60s
+- **Obsidian skill:** CLI installed but vault not registered; removed config entry (was breaking gateway); files readable directly from vault folder
+- **Whisper uninstalled:** `openai-whisper` and `openai-whisper-api` removed as redundant
+- **Subagent permission path:** Config for spawning subagents belongs inside agent definition (not "commands" section)
+- **Config revert cleanup:** MiniMax traces removed; only MiniMax-M2.5 kept; primary model reverted to MiniMax M2.5 Highspeed
+
+---
 
 ## Pending / Open Items
 
-- **gog OAuth re-authentication:** Blocked. Needs `moneypenny@topsecretworkshops.com` added as Test User in GCP OAuth consent screen.
-- **CEO Data Manager:** Scripts not trained, facility-01 Google Sheet not created, department leads not onboarded.
-- **Cryptobot strategy coding:** ICT BB Sweep needs to be coded into executable bot.
-- **projects.md:** Never created. Protocol says to read it, but file doesn't exist — should be built as mission dashboard.
-- **Weekly Sit-Rep:** Proposed enhancement to startup sequence — not yet implemented.
+- **gog OAuth re-auth:** New OAuth client created but `moneypenny@topsecretworkshops.com` not yet added as Test User in Google Cloud Console → OAuth consent screen. Heartbeat Gmail/Drive checks blocked until resolved.
+- **CEO Data Manager:** Scripts not trained; agent not yet live. Needs: facility details in `facilities.md`, Google Sheet setup for facility-01, script training complete
+- **Cryptobot live trading:** ICT BB Sweep strategy needs to be coded into the bot; BloFin API keys needed (Alvie to create on desktop)
+- **Projects.md dashboard:** Proposed during 2026-03-04 workflow review; never created. Would provide strategic context at startup
+- **Weekly Sit-Rep:** Proposed enhancement to extend startup memory window beyond 48hrs; not implemented
+- **Evolving Persona Process:** Proposed daily self-review to flag `SOUL.md` edit suggestions from feedback; not implemented
