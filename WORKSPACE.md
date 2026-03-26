@@ -71,12 +71,10 @@ Both are valid. Choose based on preference:
 
 ## 4. Model Providers & Routing
 
-- **Primary Model:** MiniMax M2.5 High Speed (`minimax-portal/MiniMax-M2.5-highspeed`)
+- **Primary Model:** MiniMax M2.7 High Speed (`minimax/MiniMax-M2.7-highspeed`)
 - **Fallback Models:**
-  - Google Gemini 2.5 Flash
-  - OpenAI GPT-4o Mini
-  - Groq Llama 3.3-70B
-  - Ollama Llama 3.2 (local)
+  - MiniMax 2.5 High Speed (`minimax/MiniMax-M2.5-highspeed`)
+  - Google Gemini 2.5 Flash (`google/gemini-2.5-flash`)
 - **Routing:** Model set in main OpenClaw config. No explicit routing rules.
 
 ### 4b. Model Capabilities & Implicit Routing
@@ -86,7 +84,31 @@ Both are valid. Choose based on preference:
 - **Gemini:** Can analyze images — use for photo/image tasks
 - **Implicit routing:** When a task requires vision, image analysis, or screenshot reading, prefer Gemini. MiniMax handles everything else.
 
-### 4c. Inter-Agent Messaging Protocol
+### 4c. Facility Agent System
+
+**Purpose:** Isolated per-facility agents that prevent data bleed between dispensaries. Each facility has its own workspace with no shared memory.
+
+**Template:** `~/.openclaw/facility-agent-template/`
+- Deploy with: `python3 deploy_facility_agent.py <config.json>`
+- Contains: golden-rules.md, intake.md, extraction.md (pending), post-extraction.md (pending)
+
+**Deployed Agents:**
+| Agent | Facility | Workspace | Bot |
+|-------|----------|-----------|-----|
+| Towelie | Cannascend | `workspace-cannascend/` | @CannascendBot |
+
+**Towelie Config:**
+- gog account: `therealdiamondalchemy@gmail.com`
+- Leads: Mark (Intake, 8222701247), Rob (Extraction, 8776456057), Evan (Post-Extraction, 5611416903)
+- Sheet: "KPI for Cannascend Extraction Operations" (ID: `1VES7AKgtlJ0KGBQEewlHR69F28ra4uXOvLjzxFgBAx4`)
+
+**Q's Role:** Architect — designs the templates and trains the scripts. Does NOT collect production data.
+
+**Shared Config:** `workspace-shared/facilities/` — universal source of truth for facility configuration.
+
+---
+
+### 4d. Inter-Agent Messaging Protocol
 
 To send messages between agents (Q, Octopussy, Felix), use the official messaging script:
 
@@ -112,8 +134,6 @@ python3 /Users/m/.openclaw/tools/agent_message.py <agent> "message"
 | :------------------- | :---------------------- | :----------------------------------------------------------- |
 | **Daily Self-Review**  | `0 8 * * *` (8am CT)      | Scans core files for inconsistencies and reports findings.     |
 | **Daily Security Audit** | `0 9 * * *` (9am CT)       | Performs a deep security audit of the OpenClaw installation. |
-| **Memory Curator** (Guardrails) | `0 0 * * *` (midnight CT) | Runs `memory_curator.py` — strict pruning, reference checking, 400-line cap |
-| **Nightly Memory Consolidation** | `30 2 * * *` (2:30am CT) | Runs `ai_consolidate_memory.py` on workspace — merges logs, deduplicates, organizes by topic |
 | **Daily GitHub Sync** | `0 15 * * *` (3pm CT) | Git add/commit/push to main |
 | **Daily Agent Backup** | `0 3 * * *` (3am CT) | Runs `backup_agents.sh` — agent configuration backup |
 
