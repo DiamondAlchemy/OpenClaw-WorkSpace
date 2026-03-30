@@ -21,11 +21,16 @@ zip -r "$BACKUP_DIR/octopussy_workspace_$TIMESTAMP.zip" /Users/m/.openclaw/works
 echo "Backing up shared folder..."
 zip -r "$BACKUP_DIR/shared_$TIMESTAMP.zip" /Users/m/.openclaw/workspace-shared/ -x "*.DS_Store"
 
+# Backup Cannascend workspace
+echo "Backing up Cannascend workspace..."
+zip -r "$BACKUP_DIR/cannascend_workspace_$TIMESTAMP.zip" /Users/m/.openclaw/workspace-cannascend/ -x "*.DS_Store"
+
 # Upload to Drive
 echo "Uploading to Drive..."
 gog drive upload "$BACKUP_DIR/q_workspace_$TIMESTAMP.zip" --parent "$DRIVE_FOLDER_ID" --account moneypenny@topsecretworkshops.com
 gog drive upload "$BACKUP_DIR/octopussy_workspace_$TIMESTAMP.zip" --parent "$DRIVE_FOLDER_ID" --account moneypenny@topsecretworkshops.com
 gog drive upload "$BACKUP_DIR/shared_$TIMESTAMP.zip" --parent "$DRIVE_FOLDER_ID" --account moneypenny@topsecretworkshops.com
+gog drive upload "$BACKUP_DIR/cannascend_workspace_$TIMESTAMP.zip" --parent "$DRIVE_FOLDER_ID" --account moneypenny@topsecretworkshops.com
 
 # Cleanup local backups older than 7 days
 find "$BACKUP_DIR" -name "*.zip" -mtime +7 -delete
