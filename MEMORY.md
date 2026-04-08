@@ -12,7 +12,7 @@
 - **Vision (manifest images):** `summarize` with `--model google/gemini-3.1-pro-preview` + `--prompt` — MiniMax hallucinates manifest data, never use direct vision
 - **Provider config:** New `minimax` provider block added to openclaw.json (2026-03-20) with API key in env
 - **Backup config:** `openclaw.json.backup-m25-working` — last known good M2.5 config
-- **Google Workspace:** gog CLI with multiple clients (moneypenny, octopussy, q, towelie)
+- **Google Workspace:** gog CLI with multiple clients (moneypenny, octopussy, q, towelie). **Default account: `moneypenny@topsecretworkshops.com` with `--client moneypenny`.** The old default `00qm00qm@gmail.com` is DEAD — disabled by Google 2026-04-06. Always use: `export GOG_ACCOUNT=moneypenny@topsecretworkshops.com` and `--client moneypenny`.
 - **Backup:** Daily cron at 6 AM, 7-day retention, `~/Backups/OpenClaw/`
 - **Memory consolidation:** `ai_consolidate_memory.py` in workspace root (NOT `consolidate_memory.py` in workspace-shared)
 - **Global thinking:** `"thinkingDefault": "high"` — no per-agent override available

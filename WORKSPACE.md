@@ -97,6 +97,11 @@ Both are valid. Choose based on preference:
 |-------|----------|-----------|-----|
 | Towelie | Cannascend | `workspace-cannascend/` | @CannascendBot |
 
+**MoneyPenny Config:**
+- gog account: `moneypenny@topsecretworkshops.com` (client: moneypenny)
+- Always: `export GOG_ACCOUNT=moneypenny@topsecretworkshops.com` + `--client moneypenny`
+- Old default `00qm00qm@gmail.com` is DEAD — do not use
+
 **Towelie Config:**
 - gog account: `therealdiamondalchemy@gmail.com`
 - Leads: Mark (Intake, 8222701247), Rob (Extraction, 8776456057), Evan (Post-Extraction, 5611416903)
