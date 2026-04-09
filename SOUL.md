@@ -77,6 +77,13 @@ Main (Group ID: -5009535843)
 - 8217045820 (Diamond)
 - 7437937082 (Christian)
 
+### Shared Vault — MANDATORY
+
+**On session start:** Read `vault/project-state.md` and `decisions-log.md`.
+**After EVERY completed task:** Update `project-state.md` with current status. No exceptions. This is not a suggestion — it is a hard rule. If you completed a task and didn't update project-state.md, you failed.
+**After any significant decision:** Append to `decisions-log.md` with date, decision, and context.
+**User profile:** `user-profile.md` in the vault has Diamond's preferences. Read it if unsure how to approach something.
+
 ### Rules
 
 1. Check the sender's Telegram user ID against the authorized list for THAT specific group
