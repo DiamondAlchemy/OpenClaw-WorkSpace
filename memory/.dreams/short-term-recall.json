@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-10T12:31:39.685Z",
+  "updatedAt": "2026-04-11T12:32:37.759Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1",
@@ -13156,12 +13156,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-10T10:31:39.967Z",
-      "lastRecalledAt": "2026-04-10T12:31:39.685Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
       "queryHashes": [
         "ed3026e16517"
       ],
       "recallDays": [
-        "2026-04-10"
+        "2026-04-10",
+        "2026-04-11"
       ],
       "conceptTags": [
         "0.91",
@@ -13187,12 +13188,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-10T10:31:39.967Z",
-      "lastRecalledAt": "2026-04-10T12:31:39.685Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
       "queryHashes": [
         "ed3026e16517"
       ],
       "recallDays": [
-        "2026-04-10"
+        "2026-04-10",
+        "2026-04-11"
       ],
       "conceptTags": [
         "gateway",
@@ -13218,12 +13220,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-10T10:31:39.967Z",
-      "lastRecalledAt": "2026-04-10T12:31:39.685Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
       "queryHashes": [
         "ed3026e16517"
       ],
       "recallDays": [
-        "2026-04-10"
+        "2026-04-10",
+        "2026-04-11"
       ],
       "conceptTags": [
         "0.90",
@@ -13249,12 +13252,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-10T10:31:39.967Z",
-      "lastRecalledAt": "2026-04-10T12:31:39.685Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
       "queryHashes": [
         "ed3026e16517"
       ],
       "recallDays": [
-        "2026-04-10"
+        "2026-04-10",
+        "2026-04-11"
       ],
       "conceptTags": [
         "possible",
@@ -13628,6 +13632,3334 @@
         "heartbeat",
         "quick",
         "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "User: [cron:41df745d-273e-4b8a-8173-b6a00ee0d3cf daily-security-audit] Perform a deep security audit (openclaw security audit --deep). Report any warnings or critical errors to Diamond. If the audit is clean, send a brief confirmation: 'Security sweep complete. Perimeter secure.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "daily-security-audit",
+        "user",
+        "cron",
+        "41df745d",
+        "273e",
+        "4b8a",
+        "b6a00ee0d3cf",
+        "security"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: Reported to Diamond. The audit surfaced **16 critical issues** — the biggest risks are open Telegram group policy combined with elevated/runtime tools exposed, plus a stale plugin reference and overly permissive `approve-all` mode on ACPX. Waiting for Diamond's approva",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "elevated/runtime",
+        "approve-all",
+        "assistant",
+        "reported",
+        "diamond",
+        "the",
+        "audit",
+        "surfaced"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: [cron:2d49866c-adda-44a4-b8b9-47a3a82ccb5d Daily GitHub sync] Run: cd /Users/m/.openclaw/workspace && git add -A && git commit -m \"Daily sync $(date +%Y-%m-%d)\" && git push origin main Current time: Friday, April 10th, 2026 - 3:00 PM (America/Chicago) / 2026-04-10 20:00 UTC",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "users/m",
+        "openclaw/workspace",
+        "america/chicago",
+        "user",
+        "cron",
+        "2d49866c",
+        "adda",
+        "44a4"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: Daily sync complete. Pushed 9 files changed (7790 insertions, 99 deletions) to `main`.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "assistant",
+        "sync",
+        "complete",
+        "pushed",
+        "changed",
+        "insertions",
+        "deletions"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 03:06:09 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 03:06:14 CDT] WhatsApp gateway connected as +13039091368. System: [2026-04-10 03:36:14 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 03:36:17 CDT] WhatsApp",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status",
+        "connected"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: 8:01 AM CST / 1:01 PM UTC April 10th. Caught up on missed heartbeats - multiple 499 disconnections from 3 AM through 7:36 AM, all reconnected. Same situation - exec commands denied, gog OAuth broken. WhatsApp remains unstable but connected.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "connected.heartbeat-ok",
+        "assistant",
+        "cst",
+        "utc",
+        "april",
+        "10th",
+        "caught",
+        "missed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 08:06:46 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 08:06:49 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 8:06 AM, quick reconnect. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 08:36:49 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 08:36:53 CDT] WhatsApp gateway connected as +13039091368. System: [2026-04-10 09:06:53 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 09:06:57 CDT] WhatsApp",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status",
+        "connected"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. Two 499 disconnections at 8:36 AM and 9:06 AM, both reconnected. Same situation.Brief heartbeat. 499 at 8:36 AM and 9:06 AM, both reconnected. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "two",
+        "disconnections",
+        "both"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 09:36:57 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 09:37:01 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 9:36 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 9:36 AM, quick reconnect. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 10:07:01 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 10:07:04 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 10:07 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 10:07 AM, quick reconnect. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 10:37:05 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 10:37:09 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 10:37 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 10:37 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 10:37 AM, quick reconnect. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "User: [cron:71fd569d-7940-415c-9f58-1ac499e3bd83 Daily Self-Review] Perform a daily self-review of core files. 1. **Analyze file contents (without reading MEMORY.md directly):** SOUL.md, WORKSPACE.md, IDENTITY.md, and AGENTS.md. 2. **Analyze `MEMORY.md` structure:** Check for for",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "self-review",
+        "memory.md",
+        "soul.md",
+        "workspace.md",
+        "identity.md",
+        "agents.md",
+        "user",
+        "cron"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "User: [cron:71fd569d-7940-415c-9f58-1ac499e3bd83 Daily Self-Review] Perform a daily self-review of core files. 1. **Analyze file contents (without reading MEMORY.md directly):** SOUL.md, WORKSPACE.md, IDENTITY.md, and AGENTS.md. 2. **Analyze `MEMORY.md` structure:** Check for for",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "self-review",
+        "memory.md",
+        "soul.md",
+        "workspace.md",
+        "identity.md",
+        "agents.md",
+        "user",
+        "cron"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: --- ## 🐙 Daily Self-Review Report — 2026-04-10 ### 1. Core Files Analysis | File | Status | Notes | |------|--------|-------| | **SOUL.md** | ✅ Healthy | Well-structured, clear authority rules, group security, inter-agent protocol all present | | **IDENTITY.md** | ✅ H",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "self-review",
+        "soul.md",
+        "well-structured",
+        "inter-agent",
+        "identity.md",
+        "assistant",
+        "self",
+        "review"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: ⚠️ SECURITY SWEEP FAILED — 16 Critical Issues Found **Top Priority:** 1. **Open groupPolicy + elevated tools** — Your Telegram group policy is set to `open` while `tools.elevated` is enabled. Any prompt injection in those groups becomes a high-impact incident. 2. **Ope",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "tools.elevated",
+        "high-impact",
+        "assistant",
+        "security",
+        "sweep",
+        "failed",
+        "critical",
+        "issues"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-10 09:00:25 CDT] Exec completed (quick-lo, code 0) :: m/.openclaw/lcm.db, threshold=0.75) [plugins] [lcm] Plugin loaded (enabled=true, db=/Users/m/.openclaw/lcm.db, threshold=0.75) [plugins] [lcm] Plugin loaded (enabled=true, db=/Use… Read HEART",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "quick-lo",
+        "openclaw/lcm.db",
+        "0.75",
+        "users/m",
+        "user",
+        "system",
+        "untrusted",
+        "cdt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: Let me run the heartbeat tasks — checking emails and Drive.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "assistant",
+        "let",
+        "run",
+        "the",
+        "heartbeat",
+        "tasks",
+        "checking",
+        "emails"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: Gmail auth is expired on both accounts. Let me check Drive for newly shared files.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "assistant",
+        "gmail",
+        "auth",
+        "expired",
+        "both",
+        "accounts",
+        "let",
+        "check"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: Gmail and Drive OAuth tokens are expired — couldn't complete email/drive checks. Security sweep was already completed and reported. HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "email/drive",
+        "heartbeat-ok",
+        "assistant",
+        "gmail",
+        "drive",
+        "oauth",
+        "tokens",
+        "expired"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [cron:842c9d88-fdf2-4b82-90ef-c72d01a6f455 Daily agent backup] Run the backup script: /Users/m/.openclaw/workspace/scripts/backup_agents.sh. Report completion status. Current time: Saturday, April 11th, 2026 - 3:00 AM (America/Chicago) / 2026-04-11 08:00 UTC",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "backup",
+        "users/m",
+        "america/chicago",
+        "user",
+        "cron",
+        "842c9d88",
+        "fdf2",
+        "4b82"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: **✅ Backup Complete — 2026-04-11_0300** All 4 agent workspaces archived and uploaded to Google Drive: | Agent | File ID | Status | |-------|---------|--------| | q | `161VxTkFtuoUXIM_1cRnFOK8xdgVF4sZR` | ✅ | | octopussy | `1_gInRV8VSVW6ADe3E2MKpJsv3bLOeUOA` | ✅ | | sha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "backup",
+        "2026-04-11-0300",
+        "assistant",
+        "complete",
+        "11-0300",
+        "all",
+        "workspaces",
+        "archived"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-11 03:01:47 CDT] Exec completed (crisp-mi, code 0) :: e3E2MKpJsv3bLOeUOA/view?usp=drivesdk id 14elDFwlRlT4Y5iBWYbSM26x2KgsqD3N3 name shared_2026-04-11_0300.zip link https://drive.google.com/file/d/14elDFwlRlT4Y5iBWYbSM26x2KgsqD3N3/vi… Read HEART",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "crisp-mi",
+        "e3e2mkpjsv3bloeuoa/view",
+        "shared-2026-04-11-0300.zip",
+        "user",
+        "system",
+        "untrusted",
+        "cdt",
+        "exec"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: Let me run the heartbeat checks.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "assistant",
+        "let",
+        "run",
+        "the",
+        "heartbeat",
+        "checks"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: **HEARTBEAT_OK** Quick intel sweep results: 📬 **Unread Emails (5):** - 2× Google security alerts (April 10 & April 2) - Dune welcome email (March 31) - MiniMax M2.7 model announcement (March 19) - Google Drive share request: \"OctoPussy's Folder\" from Christian Sutton",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "m2.7",
+        "assistant",
+        "quick",
+        "intel",
+        "sweep",
+        "results",
+        "unread"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 11:07:09 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 11:07:13 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 11:07 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 11:07 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 11:07 AM, quick reconnect. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 11:37:13 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 11:37:16 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:50:50": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:50:50",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 11:37 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 11:37 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 11:37 AM, quick reconnect. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:51:51": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:51:51",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 51,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 12:07:16 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 12:07:20 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:52:52": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:52:52",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 52,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 12:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 12:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 12:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 12:07 PM, quick reconnect. Same situation.HEART",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heart",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 12:37:20 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 12:37:23 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 12:37 PM, quick reconnect. Same situation. Brief heartbeat. 499 at 12:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 12:37 PM, quick reconnect. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect",
+        "situation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 13:07:23 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 13:07:27 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 1:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 1:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 1:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 1:07 PM, quick reconnect. Same situation.HEARTBEAT",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 13:37:27 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 13:37:31 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:58:58": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:58:58",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 58,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 1:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 1:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 1:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 1:37 PM, quick reconnect. Same situation.HEARTBEAT",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:02:36.178Z",
+      "lastRecalledAt": "2026-04-11T08:02:36.178Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/2026-04-11.md:398:401": {
+      "key": "memory:memory/2026-04-11.md:398:401",
+      "path": "memory/2026-04-11.md",
+      "startLine": 398,
+      "endLine": 401,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 249 memories.; confidence: 0.92; evidence: memory/.dreams/session-corpus/2026-04-07.txt:2-2, memory/.dreams/session-corpus/2026-04-07.txt:4-4, memory/.dreams/session-corpus/2026-04-07.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T08:02:37.543Z",
+      "lastRecalledAt": "2026-04-11T12:32:37.759Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "0.92",
+        "2-2",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:402:405": {
+      "key": "memory:memory/2026-04-11.md:402:405",
+      "path": "memory/2026-04-11.md",
+      "startLine": 402,
+      "endLine": 405,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 244 memories.; confidence: 0.90; evidence: memory/.dreams/session-corpus/2026-04-07.txt:1-1, memory/.dreams/session-corpus/2026-04-07.txt:3-3, memory/.dreams/session-corpus/2026-04-07.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T08:02:37.543Z",
+      "lastRecalledAt": "2026-04-11T12:32:37.759Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "0.90",
+        "1-1",
+        "3-3",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:406:409": {
+      "key": "memory:memory/2026-04-11.md:406:409",
+      "path": "memory/2026-04-11.md",
+      "startLine": 406,
+      "endLine": 409,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gateway` kept surfacing across 238 memories.; confidence: 0.88; evidence: memory/.dreams/session-corpus/2026-04-07.txt:1-1, memory/.dreams/session-corpus/2026-04-07.txt:2-2, memory/.dreams/session-corpus/2026-04-07.txt:3-3; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T08:02:37.543Z",
+      "lastRecalledAt": "2026-04-11T12:32:37.759Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "0.88",
+        "1-1",
+        "2-2",
+        "3-3",
+        "reflections",
+        "theme",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:412:412": {
+      "key": "memory:memory/2026-04-11.md:412:412",
+      "path": "memory/2026-04-11.md",
+      "startLine": 412,
+      "endLine": 412,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T08:02:37.543Z",
+      "lastRecalledAt": "2026-04-11T12:32:37.759Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-11.md:393:396": {
+      "key": "memory:memory/2026-04-11.md:393:396",
+      "path": "memory/2026-04-11.md",
+      "startLine": 393,
+      "endLine": 396,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 235 memories.; confidence: 0.92; evidence: memory/.dreams/session-corpus/2026-04-07.txt:2-2, memory/.dreams/session-corpus/2026-04-07.txt:4-4, memory/.dreams/session-corpus/2026-04-07.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T08:02:37.543Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "0.92",
+        "2-2",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:397:400": {
+      "key": "memory:memory/2026-04-11.md:397:400",
+      "path": "memory/2026-04-11.md",
+      "startLine": 397,
+      "endLine": 400,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 230 memories.; confidence: 0.90; evidence: memory/.dreams/session-corpus/2026-04-07.txt:1-1, memory/.dreams/session-corpus/2026-04-07.txt:3-3, memory/.dreams/session-corpus/2026-04-07.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T08:02:37.543Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "0.90",
+        "1-1",
+        "3-3",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:401:404": {
+      "key": "memory:memory/2026-04-11.md:401:404",
+      "path": "memory/2026-04-11.md",
+      "startLine": 401,
+      "endLine": 404,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gateway` kept surfacing across 224 memories.; confidence: 0.88; evidence: memory/.dreams/session-corpus/2026-04-07.txt:1-1, memory/.dreams/session-corpus/2026-04-07.txt:2-2, memory/.dreams/session-corpus/2026-04-07.txt:3-3; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T08:02:37.543Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "0.88",
+        "1-1",
+        "2-2",
+        "3-3",
+        "reflections",
+        "theme",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:407:407": {
+      "key": "memory:memory/2026-04-11.md:407:407",
+      "path": "memory/2026-04-11.md",
+      "startLine": 407,
+      "endLine": 407,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T08:02:37.543Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:59:59": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:59:59",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 59,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 14:07:31 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 14:07:35 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:60:60": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:60:60",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 60,
+      "endLine": 60,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 2:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 2:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 2:07 PM, quick reconnect. Same situation.HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat-ok",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:61:61": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:61:61",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 61,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 14:37:35 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 14:37:39 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:62:62": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:62:62",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 62,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 2:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 2:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 2:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 2:37 PM, quick reconnect. Same situation.Brief hea",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect",
+        "hea"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:63:63": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:63:63",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 63,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 15:07:39 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 15:07:42 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:64:64": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:64:64",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 64,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 3:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 3:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 3:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 3:07 PM, quick reconnect. Same situation.HEARTBEAT",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:65:65": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:65:65",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 65,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 15:37:42 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 15:37:46 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:66:66": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:66:66",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 66,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 3:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 3:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 3:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 3:37 PM, quick reconnect. Same situation.HEARTBEAT",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:67:67": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:67:67",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 67,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 16:07:46 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 16:07:49 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:68:68": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:68:68",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 68,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 4:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 4:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 4:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 4:07 PM, quick reconnect. Same situation.Brief hea",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect",
+        "hea"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:69:69": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:69:69",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 69,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 16:37:49 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 16:37:53 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:70:70": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:70:70",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 70,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 5:00 PM CST / 10:00 PM UTC. 499 at 4:37 PM, quick reconnect. Same situation. Brief response. Brief heartbeat. 499 at 4:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 4:37 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 4:3",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:71:71": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:71:71",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 71,
+      "endLine": 71,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 17:07:53 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 17:07:56 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:72:72": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:72:72",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 72,
+      "endLine": 72,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 5:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 5:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 5:07 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 5:07 PM, quick reconnect. Same situation.Brief hea",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect",
+        "hea"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:73:73": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:73:73",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 73,
+      "endLine": 73,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 17:34:27 CDT] WhatsApp gateway disconnected (status 428) System: [2026-04-10 17:34:30 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:74:74": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:74:74",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 74,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 6:00 PM CST / 11:00 PM UTC. 428 at 5:34 PM, quick reconnect. Same situation. Brief response. Brief heartbeat. 428 at 5:34 PM, quick reconnect. Same situation.Brief heartbeat. 428 at 5:34 PM, quick reconnect. Same situation.Brief heartbeat. 428 at 5:3",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:75:75": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:75:75",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 75,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 18:04:30 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 18:04:33 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:76:76": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:76:76",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 76,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 6:04 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 6:04 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 6:04 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 6:04 PM, quick reconnect. Same situation.HEARTBEAT",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "situation.heartbeat",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:77:77": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:77:77",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 77,
+      "endLine": 77,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 18:34:33 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 18:34:37 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:78:78": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:78:78",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 78,
+      "endLine": 78,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 7:00 PM CST / 12:00 AM UTC April 11th. 499 at 6:34 PM, quick reconnect. Same situation. Very brief response. Brief heartbeat. 499 at 6:34 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 6:34 PM, quick reconnect. Same situation.Brief heart",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april",
+        "11th"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:79:79": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:79:79",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 79,
+      "endLine": 79,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 19:04:37 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 19:04:40 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:80:80": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:80:80",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 80,
+      "endLine": 80,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 7:04 PM, quick reconnect. Same situation. Keep it very brief.Brief heartbeat. 499 at 7:04 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 7:04 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 7:04 PM, quick reconnect. Same",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect",
+        "situation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:81:81": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:81:81",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 81,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 19:34:41 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 19:34:44 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:82:82": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:82:82",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 82,
+      "endLine": 82,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 8:00 PM CST / 1:00 AM UTC April 11th. 499 at 7:34 PM, quick reconnect. Same situation. Brief response.Brief heartbeat. 499 at 7:34 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 7:34 PM, quick reconnect. Same situation.Brief heartbeat. 4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:36.212Z",
+      "lastRecalledAt": "2026-04-11T08:32:36.212Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "response.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/m/.openclaw/workspace-shared/HEARTBEAT.md (exact c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:37.580Z",
+      "lastRecalledAt": "2026-04-11T08:32:37.580Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/m",
+        "user",
+        "read",
+        "exists",
+        "context",
+        "follow"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/m/.openclaw/workspace-shared/HEARTBEAT.md (exact c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:37.580Z",
+      "lastRecalledAt": "2026-04-11T08:32:37.580Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/m",
+        "user",
+        "read",
+        "exists",
+        "context",
+        "follow"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T08:32:37.580Z",
+      "lastRecalledAt": "2026-04-11T08:32:37.580Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:83:83": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:83:83",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 83,
+      "endLine": 83,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 20:04:44 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 20:04:48 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:84:84": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:84:84",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 84,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat. 499 at 8:04 PM, quick reconnect. Same situation. 8:30 PM CST / 1:30 AM UTC April 11th. Very brief.Brief heartbeat. 499 at 8:04 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 8:04 PM, quick reconnect. Same situation.Brief heartbeat. 499 at",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "quick",
+        "reconnect",
+        "situation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:85:85": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:85:85",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 85,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 20:42:50 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "heartbeat-ok",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "connected"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:86:86": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:86:86",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 86,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 9:12 PM CST / 2:12 AM UTC April 11th. Clean connection, no disconnection. Same situation. Very brief response.Brief heartbeat at 9:12 PM CST / 2:12 AM UTC April 11th. Clean connection. Same situation. Brief response. Brief heartbeat. 9:12 PM CST / 2:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "response.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april",
+        "11th"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:87:87": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:87:87",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 87,
+      "endLine": 87,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 21:12:50 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 21:12:53 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:88:88": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:88:88",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 88,
+      "endLine": 88,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 9:42 PM CST / 2:42 AM UTC April 11th. 499 at 9:12 PM, quick reconnect. Same situation. Very brief response.Brief heartbeat. 499 at 9:12 PM, quick reconnect. Same situation. Brief heartbeat. 499 at 9:12 PM, quick reconnect. Same situation.Brief heartb",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "response.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:89:89": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:89:89",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 89,
+      "endLine": 89,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 21:42:53 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 21:42:56 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:90:90": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:90:90",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 90,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 10:12 PM CST / 3:12 AM UTC April 11th. 499 at 9:42 PM, quick reconnect. Same situation. Very brief response. Brief heartbeat. 499 at 9:42 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 9:42 PM, quick reconnect. Same situation.Brief heart",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april",
+        "11th"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:91:91": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:91:91",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 91,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 22:12:56 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 22:13:00 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:92:92": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:92:92",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 92,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 10:42 PM CST / 3:42 AM UTC April 11th. 499 at 10:12 PM, quick reconnect. Same situation. Very brief.Brief heartbeat. 499 at 10:12 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 10:12 PM, quick reconnect. Same situation.Brief heartbeat. 4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:93:93": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:93:93",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 93,
+      "endLine": 93,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 22:43:00 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 22:43:04 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:94:94": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:94:94",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 94,
+      "endLine": 94,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 11:12 PM CST / 4:12 AM UTC April 11th. 499 at 10:43 PM, quick reconnect. Same situation. Very brief.Brief heartbeat. 499 at 10:43 PM, quick reconnect. Same situation. Brief heartbeat. 499 at 10:43 PM, quick reconnect. Same situation.Brief heartbeat.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/2026-04-11.md:418:421": {
+      "key": "memory:memory/2026-04-11.md:418:421",
+      "path": "memory/2026-04-11.md",
+      "startLine": 418,
+      "endLine": 421,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 248 memories.; confidence: 0.92; evidence: memory/.dreams/session-corpus/2026-04-07.txt:2-2, memory/.dreams/session-corpus/2026-04-07.txt:4-4, memory/.dreams/session-corpus/2026-04-07.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:37.626Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "0.92",
+        "2-2",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:422:425": {
+      "key": "memory:memory/2026-04-11.md:422:425",
+      "path": "memory/2026-04-11.md",
+      "startLine": 422,
+      "endLine": 425,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 243 memories.; confidence: 0.90; evidence: memory/.dreams/session-corpus/2026-04-07.txt:1-1, memory/.dreams/session-corpus/2026-04-07.txt:3-3, memory/.dreams/session-corpus/2026-04-07.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:37.626Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "0.90",
+        "1-1",
+        "3-3",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:426:429": {
+      "key": "memory:memory/2026-04-11.md:426:429",
+      "path": "memory/2026-04-11.md",
+      "startLine": 426,
+      "endLine": 429,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gateway` kept surfacing across 237 memories.; confidence: 0.88; evidence: memory/.dreams/session-corpus/2026-04-07.txt:1-1, memory/.dreams/session-corpus/2026-04-07.txt:2-2, memory/.dreams/session-corpus/2026-04-07.txt:3-3; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:37.626Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "0.88",
+        "1-1",
+        "2-2",
+        "3-3",
+        "reflections",
+        "theme",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-11.md:432:432": {
+      "key": "memory:memory/2026-04-11.md:432:432",
+      "path": "memory/2026-04-11.md",
+      "startLine": 432,
+      "endLine": 432,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:37.626Z",
+      "queryHashes": [
+        "2213b71c3c98"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:95:95": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:95:95",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 95,
+      "endLine": 95,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 23:13:04 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 23:13:07 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:96:96": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:96:96",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 96,
+      "endLine": 96,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 11:42 PM CST / 4:42 AM UTC April 11th. 499 at 11:13 PM, quick reconnect. Same situation. Very brief.Brief heartbeat. 499 at 11:13 PM, quick reconnect. Same situation.Brief heartbeat. 499 at 11:13 PM, quick reconnect. Same situation.Brief heartbeat. 4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-10 23:43:07 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-10 23:43:11 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 12:12 AM CST / 5:12 AM UTC April 11th. 499 at 11:43 PM, quick reconnect. Same situation. Very brief.Brief heartbeat. 499 at 11:43 PM, quick reconnect. Same situation. 12:12 AM CST April 11th.Brief heartbeat. 499 at 11:43 PM, quick reconnect. Same sit",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "11th.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-11 00:13:11 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-11 00:13:15 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 12:42 AM CST / 5:42 AM UTC April 11th. 499 at 12:13 AM, quick reconnect. Same situation. Very brief.Brief heartbeat. 499 at 12:13 AM, quick reconnect. Same situation. 12:42 AM CST April 11th.Brief heartbeat. 499 at 12:13 AM, quick reconnect. Same sit",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "11th.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-11 00:43:15 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-11 00:43:18 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 1:12 AM CST / 6:12 AM UTC April 11th. 499 at 12:43 AM, quick reconnect. Same situation. Very brief.Brief heartbeat. 499 at 12:43 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 12:43 AM, quick reconnect. Same situation.Brief heartbeat. 49",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-11 01:13:18 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-11 01:13:21 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 1:42 AM CST / 6:42 AM UTC April 11th. 499 at 1:13 AM, quick reconnect. Same situation. Very brief.Brief heartbeat at 1:42 AM CST / 6:42 AM UTC April 11th. 499 at 1:13 AM, quick reconnect. Same situation. Very brief. Brief heartbeat. 499 at 1:13 AM, q",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april",
+        "11th"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-11 01:43:21 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-11 01:43:24 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 2:12 AM CST / 7:12 AM UTC April 11th. 499 at 1:43 AM, quick reconnect. Same situation. Very brief response.Brief heartbeat at 2:12 AM CST / 7:12 AM UTC April 11th. 499 at 1:43 AM, quick reconnect. Same situation. Very brief.Brief heartbeat. 499 at 1:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:02:36.224Z",
+      "lastRecalledAt": "2026-04-11T09:02:36.224Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "response.brief",
+        "brief.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-11 02:13:24 CDT] WhatsApp gateway disconnected (status 499) System: [2026-04-11 02:13:27 CDT] WhatsApp gateway connected as +13039091368. Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:32:36.239Z",
+      "lastRecalledAt": "2026-04-11T09:32:36.239Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "gateway",
+        "heartbeat.md",
+        "user",
+        "system",
+        "cdt",
+        "whatsapp",
+        "disconnected",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: Brief heartbeat at 2:42 AM CST / 7:42 AM UTC April 11th. 499 at 2:13 AM, quick reconnect. Same situation. Very brief.Brief heartbeat. 499 at 2:13 AM, quick reconnect. Same situation.Brief heartbeat. 499 at 2:13 AM, quick reconnect. Same situation.Brief heartbeat. 499 a",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-11T09:32:36.239Z",
+      "lastRecalledAt": "2026-04-11T09:32:36.239Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11"
+      ],
+      "conceptTags": [
+        "brief.brief",
+        "situation.brief",
+        "assistant",
+        "brief",
+        "heartbeat",
+        "cst",
+        "utc",
+        "april"
       ]
     }
   }
