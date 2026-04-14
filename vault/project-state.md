@@ -10,7 +10,7 @@
 | Project | Owner | Status | Last Update | Notes |
 |---------|-------|--------|-------------|-------|
 | Facility Agent System | Q / Diamond | Production | 2026-04-06 | Nomi + Towelie running HRBD + Cannascend |
-| cGMP Knowledge Base | Vesper | Ongoing | 2026-04-06 | 76 briefs, regulatory monitoring cron live |
+| cGMP Knowledge Base | Vesper | Ongoing | 2026-04-13 | 76 briefs, regulatory monitoring cron live, first lint pass complete |
 | EU-GMP Knowledge Base | Jaws | Complete | 2026-03-25 | 82 briefs, 38-doc library |
 | TSW GMP Toolkit | Vesper | In Progress | 2026-04-01 | Gap analysis, proposals, checklists |
 | Drax CAD System | Drax | Testing | 2026-04-03 | 63K lines, 48/48 tests, Diamond testing via TG |
