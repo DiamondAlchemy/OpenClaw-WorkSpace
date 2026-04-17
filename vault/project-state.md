@@ -1,7 +1,7 @@
 # Project State — Shared
 
-*Last updated: 2026-04-09*
-*Updated by: (agent name)*
+*Last updated: 2026-04-17*
+*Updated by: Vesper*
 
 ---
 
@@ -10,9 +10,9 @@
 | Project | Owner | Status | Last Update | Notes |
 |---------|-------|--------|-------------|-------|
 | Facility Agent System | Q / Diamond | Production | 2026-04-06 | Nomi + Towelie running HRBD + Cannascend |
-| cGMP Knowledge Base | Vesper | Ongoing | 2026-04-13 | 76 briefs, regulatory monitoring cron live, first lint pass complete |
+| cGMP Knowledge Base | Vesper | Ongoing | 2026-04-17 | 79 briefs, regulatory monitoring cron live, first lint pass complete |
 | EU-GMP Knowledge Base | Jaws | Complete | 2026-03-25 | 82 briefs, 38-doc library |
-| TSW GMP Toolkit | Vesper | In Progress | 2026-04-01 | Gap analysis, proposals, checklists |
+| TSW GMP Toolkit | Vesper | In Progress | 2026-04-17 | Gap analysis, proposals, checklists, onboarding packet |
 | Drax CAD System | Drax | Testing | 2026-04-03 | 63K lines, 48/48 tests, Diamond testing via TG |
 | Google Ads / Silva | Silva | Paused | 2026-03-28 | 6 campaigns, 170+ keywords, topsecretworkshops.com |
 | Scaramanga Lead Gen | Scaramanga | New | 2026-04-07 | Cannabis lead gen, SQLite DB, MT focus |
