@@ -1,6 +1,6 @@
 # Project State — Shared
 
-*Last updated: 2026-04-17*
+*Last updated: 2026-04-20*
 *Updated by: Vesper*
 
 ---
@@ -12,7 +12,7 @@
 | Facility Agent System | Q / Diamond | Production | 2026-04-06 | Nomi + Towelie running HRBD + Cannascend |
 | cGMP Knowledge Base | Vesper | Ongoing | 2026-04-17 | 79 briefs, regulatory monitoring cron live, first lint pass complete |
 | EU-GMP Knowledge Base | Jaws | Complete | 2026-03-25 | 82 briefs, 38-doc library |
-| TSW GMP Toolkit | Vesper | In Progress | 2026-04-17 | Gap analysis, proposals, checklists, onboarding packet, SOP audit program, training curriculum |
+| TSW GMP Toolkit | Vesper | In Progress | 2026-04-20 | GMP zone layout for HRBD Billings. v10: horizontal layout with zones spread across full 60' width of warehouse. Zones in horizontal rows: Biomass/Sock (bottom), C1D1/Offgassing/C1D2 (middle), QC/Finished Goods/Office (top). Workflow south-to-north. Files: raw/gmp-floor-plan-clean.png, raw/blueprint-gmp-zones-v10.png |
 | Drax CAD System | Drax | Testing | 2026-04-03 | 63K lines, 48/48 tests, Diamond testing via TG |
 | Google Ads / Silva | Silva | Paused | 2026-03-28 | 6 campaigns, 170+ keywords, topsecretworkshops.com |
 | Scaramanga Lead Gen | Scaramanga | New | 2026-04-07 | Cannabis lead gen, SQLite DB, MT focus |
