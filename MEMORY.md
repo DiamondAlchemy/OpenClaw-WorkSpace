@@ -105,7 +105,7 @@ All agent workspaces audited and cleaned:
 
 - **Memory consolidation overwrites manual updates (2026-03-22):** `ai_consolidate_memory.py` runs nightly and regenerates MEMORY.md from daily logs, overwriting manual updates with stale data. **Watch for:** Any manual MEMORY.md edit may be lost on next consolidation run. Consider excluding manually-updated sections or adding a `# DO NOT CONSOLIDATE BELOW THIS LINE` marker.
 
-- **Telegram groupPolicy="open" accepted risk (2026-03-23):** Security audit flags groupPolicy="open" as a risk. However, setting groupPolicy="allowlist" breaks group communications — Telegram bots receive messages at the group level, not user level, so we can't simply allowlist specific groups. Workaround: groupPolicy="open" + groupAllowFrom with authorized user IDs per account filters who can trigger the bot within any group. This is an accepted trade-off for functional group comms. **Watch for:** Periodic review as team/group structure evolves.
+- **Telegram groupPolicy="open" accepted risk (2026-03-23, re-reviewed 2026-04-23):** Security audit flags groupPolicy="open" as a risk. However, setting groupPolicy="allowlist" breaks group communications — Telegram bots receive messages at the group level, not user level, so we can't simply allowlist specific groups. Workaround: groupPolicy="open" + groupAllowFrom with authorized user IDs per account filters who can trigger the bot within any group. This is an accepted trade-off for functional group comms. **Watch for:** Periodic review as team/group structure evolves.
 
 ---
 
