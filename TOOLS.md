@@ -1,5 +1,18 @@
 # TOOLS.md - Local Notes
 
+## Web Search
+
+Local SearXNG instance (federates Google/Bing/DDG/Brave/Qwant/Startpage) — no rate limits, no CAPTCHAs.
+
+```bash
+python3 /Users/m/.openclaw/workspace/scripts/web_search.py "<query>" [--n 10] [--engines google,bing]
+```
+
+Returns JSON: `title`, `url`, `snippet`, `engine` per result.
+
+**Do NOT** use the built-in `web_search` tool — it's broken upstream. Always use the script above.
+
+
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
 ## What Goes Here

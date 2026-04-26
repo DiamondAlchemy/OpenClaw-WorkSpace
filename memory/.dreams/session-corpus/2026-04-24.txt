@@ -43,3 +43,4 @@
 [main/sessions/cbd0250a-c6b0-49d8-9a8e-70c33b5cd32e.jsonl#L83] Assistant: Let me try `gog drive ls` instead.
 [main/sessions/cbd0250a-c6b0-49d8-9a8e-70c33b5cd32e.jsonl#L85] Assistant: Let me query for files shared with the account.
 [main/sessions/cbd0250a-c6b0-49d8-9a8e-70c33b5cd32e.jsonl#L87] Assistant: **Heartbeat — 3:35 AM** 6 unread emails in moneypenny@topsecretworkshops.com: 1. 📧 **2026-04-10** — Google Security alert 2. 📧 **2026-04-02** — Google Security alert 3. 📧 **2026-03-31** — Dune "Welcome to Dune" 4. 📧 **2026-03-19** — MiniMax API Platform "Introducin
+[main/sessions/a6debb31-0c98-45b9-8769-2a14e1d1398e.jsonl#L819] Assistant: commands. --- *Suggested fixes:* - Set `groupPolicy="allowlist"` + `channels.telegram.groupAllowFrom` for your authorized groups - Set `tools.fs.workspaceOnly=true` for agents handling group input - Use `tools.profile="messaging"` for open-group agents or deny `group:r
