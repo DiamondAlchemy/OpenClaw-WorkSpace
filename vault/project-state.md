@@ -1,7 +1,7 @@
 # Project State — Shared
 
-*Last updated: 2026-04-20*
-*Updated by: Vesper*
+*Last updated: 2026-04-26*
+*Updated by: Octopussy*
 
 ---
 
@@ -16,7 +16,7 @@
 | Drax CAD System | Drax | Testing | 2026-04-03 | 63K lines, 48/48 tests, Diamond testing via TG |
 | Google Ads / Silva | Silva | Paused | 2026-03-28 | 6 campaigns, 170+ keywords, topsecretworkshops.com |
 | Scaramanga Lead Gen | Scaramanga | New | 2026-04-07 | Cannabis lead gen, SQLite DB, MT focus |
-| Monthly Reports | Octopussy | Ongoing | — | KPI reports for facilities |
+| Monthly Reports | Octopussy | Ongoing | 2026-04-26 | Generated GPT-5.5 comparison version of HRBD March report: reports/hrbd/monthly/HRBD-March-2026-GPT55.pdf |
 | Goldfinger Trading | Cryptobot | Active | — | Perp tracking, shadow monitor, shell monitor |
 
 ---
