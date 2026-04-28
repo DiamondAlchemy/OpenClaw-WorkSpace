@@ -20,3 +20,6 @@
 - **2026-04-06** — Z.ai provider added. GLM-5-Turbo on Nomi, Vesper, Octopussy. QMD installed, dreaming enabled. 00qm00qm killed.
 - **2026-04-07** — Scaramanga lead gen agent created. Octopussy on GLM-5.1.
 - **2026-04-09** — Shared vault created for knowledge agents. Goldfinger switched to GLM-5.1.
+- **2026-04-27** — Reporting COGS rule confirmed by Diamond: every client report must include all operating costs with available data. Biomass-only cost-per-gram is not acceptable unless explicitly labeled. Include available biomass/materials, solvents, gases, nitrogen, CO2, CRC/media, labor, packaging, toll/buyback terms, and any other tracked operating expenses; mark missing categories as Not Available/Not Tracked.
+- **2026-04-27** — CO2 cost handling confirmed: CO2 is a major operating cost and must always be included in operating COGS when usable CO2 usage/rate data exists. If unavailable, mark CO2 as Not Available rather than omitting it.
+- **2026-04-27** — Butane cost handling corrected: residual solvent/transfer loss is required for calculating actual butane cost and must remain in reports. Butane COGS should use recorded residual loss/lost solvent when available, rather than treating residual loss as an optional chart-only metric.
