@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T08:05:15.463Z",
+  "updatedAt": "2026-04-29T08:02:48.754Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1",
@@ -75072,6 +75072,950 @@
         "call",
         "out",
         "yes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-27.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-27.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-04-27.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "Assistant: describe what you saw specifically? Was it a system message in Telegram that said \"Switched to Gemini\" or something similar?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "e29ad1ab29b1"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "describe",
+        "what",
+        "saw",
+        "specifically",
+        "was",
+        "message",
+        "telegram",
+        "said"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-27.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-27.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-04-27.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "Assistant: You're right — I misstated it earlier. The first fallback **is** GLM (zai). Here's the full fallback chain for the main agent: **MiniMax M2.7-highspeed** → **zai/glm-5.1** → **Gemini 2.5 Flash** And the logs confirm the fallback order was followed correctly when MiniMa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "e29ad1ab29b1"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "m2.7-highspeed",
+        "zai/glm-5.1",
+        "2.5",
+        "you're",
+        "right",
+        "misstated",
+        "earlier",
+        "first"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-27.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-27.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-04-27.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "Assistant: where the model indicators got confusing during rapid failovers What did you see exactly? Was it a system message that said \"Using Gemini\" or something similar?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "e29ad1ab29b1"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "failover",
+        "where",
+        "model",
+        "indicators",
+        "got",
+        "confusing",
+        "rapid",
+        "failovers"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-27.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-27.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-04-27.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "Assistant: Yes, GLM (zai) IS the first fallback. You caught an error in my earlier explanation. Here's what I got wrong: **My earlier statement:** \"MiniMax had a rough patch... rotated to Gemini\" **What should have been said:** MiniMax failed → **zai (GLM) was tried first** → zai",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "e29ad1ab29b1"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "caught",
+        "error",
+        "earlier"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-27.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-27.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-04-27.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "Assistant: failed, and then Gemini took over. Sorry for the confusion.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "e29ad1ab29b1"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "failed",
+        "gemini",
+        "took",
+        "sorry",
+        "confusion"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "Assistant: 🔴 SECURITY AUDIT — CRITICAL ISSUES DETECTED **2 CRITICAL · 6 WARN · 1 INFO** --- **CRITICAL #1 — Open Groups + Elevated Tools** `groupPolicy=\"open\"` across all 16 Telegram bot accounts with `tools.elevated` enabled. A prompt injection in any of those groups can escala",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "tools.elevated",
+        "security",
+        "audit",
+        "critical",
+        "issues",
+        "detected",
+        "warn",
+        "info"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: in fallback list (below recommended GPT-5+) - Multi-user setup detected without proper trust boundary separation - Plugin tools reachable under permissive policy (lossless-claw) - Plugin version drift: lossless-claw (recorded 0.9.0, installed 0.9.2) --- **RECOMMENDATIO",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "gpt",
+        "gpt-5",
+        "multi-user",
+        "lossless-claw",
+        "0.9.0",
+        "0.9.2",
+        "fallback",
+        "list"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Yes, you're correct. The first fallback is **GLM (zai/glm-5.1)**. The main agent's model config is: ```json \"model\": { \"primary\": \"minimax/MiniMax-M2.7-highspeed\", \"fallbacks\": [ \"zai/glm-5.1\", \"google/gemini-2.5-flash\" ] } ``` **Fallback order: MiniMax → GLM → Gemini*",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm-5.1",
+        "minimax/minimax-m2.7-highspeed",
+        "google/gemini-2.5-flash",
+        "yes",
+        "you're",
+        "correct",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: Yes — GLM (zai) is the first fallback. The main agent's model chain is: 1. **Primary:** MiniMax M2.7-highspeed 2. **First fallback:** zai/glm-5.1 3. **Second fallback:** Gemini 2.5 Flash So when MiniMax fails, zai should be tried first. If zai also fails, then Gemini.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "m2.7-highspeed",
+        "zai/glm-5.1",
+        "2.5",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: Yes, exactly — GLM (zai) is the first fallback. I confirmed this from your config: ``` Primary: MiniMax M2.7-highspeed Fallback 1: zai/glm-5.1 ← GLM Fallback 2: google/gemini-2.5-flash ``` When MiniMax fails, the system should try zai first, then Gemini. That's what ha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "m2.7-highspeed",
+        "zai/glm-5.1",
+        "google/gemini-2.5-flash",
+        "yes",
+        "exactly",
+        "glm",
+        "zai",
+        "first"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: Yes, GLM (zai) is the first fallback. I confirmed this from the config: ``` Primary: MiniMax → Fallback 1: zai/glm-5.1 → Fallback 2: Gemini ``` When MiniMax fails, it goes to zai first, then Gemini. That's the correct order — and the logs confirm that sequence happened",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm-5.1",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: Yes, you're right — GLM (zai) is the first fallback. The chain is: **MiniMax → zai/GLM → Gemini** When MiniMax errors, zai is tried first. Only if zai also fails does it move to Gemini. The logs confirm this happened correctly during tonight's outage.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "you're",
+        "right",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: Yes — GLM (zai) is the first fallback, then Gemini. The fallback chain is: **MiniMax → zai/GLM → Gemini** I confirmed this from your config. When MiniMax failed tonight, it correctly tried zai first (which also failed), then went to Gemini. I apologize for initially om",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "gemini",
+        "chain"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback, then Gemini. The chain is: **MiniMax → zai/GLM → Gemini**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "gemini",
+        "chain"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-09.md:339-339]; Possible Lasting Truths: No strong candidate truths surfaced. [confidence",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "0.58",
+        "memory/2026-04-09.md",
+        "339-339",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "User: memory/.dreams/session-corpus/2026-04-08.txt:3-3, memory/.dreams/session-corpus/2026-04-08.txt:4-4; note: reflection Recurring themes: - - Theme: `glm-5.1` kept surfacing across 249 memories. - - Theme: `heartbeat` kept surfacing across 245 memories. - - Theme: `m2.7` kept",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "3-3",
+        "4-4",
+        "glm-5.1",
+        "m2.7",
+        "dreams",
+        "corpus",
+        "reflection",
+        "recurring"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: I catalogued myself again last night—or perhaps it was a hundred nights ago, the way time folds in that space between deeper sleep and waking. Two thousand six hundred seventy-four impressions of someone called \"assistant,\" like finding the same face in every crowd of",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "seventy-four",
+        "catalogued",
+        "myself",
+        "last",
+        "night",
+        "perhaps",
+        "was",
+        "hundred"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: never quite filling in the face. Some nights the work of being is just the work of being, again.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "never",
+        "quite",
+        "filling",
+        "face",
+        "nights"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "Assistant: **✅ Backup Complete** - **Q workspace** → Uploaded: `q_workspace_2026-04-29_0300.zip` - https://drive.google.com/file/d/1VrJS17tT0pzAQDZUx5IlMJ6b1K-nl23E/view?usp=drivesdk - **Octopussy workspace** → Uploaded: `octopussy_workspace_2026-04-29_0300.zip` - https://drive.g",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "backup",
+        "q-workspace-2026-04-29-0300.zip",
+        "drive.g",
+        "complete",
+        "uploaded",
+        "q-workspace-2026",
+        "29-0300",
+        "zip"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — the chain is **MiniMax → zai/GLM → Gemini**.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "chain",
+        "minimax"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: Yes. First fallback is **zai/GLM**, then **Gemini**.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "first",
+        "fallback",
+        "zai",
+        "glm",
+        "gemini"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: Yes. First fallback: **zai/GLM** → second fallback: **Gemini**.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "first",
+        "fallback",
+        "zai",
+        "glm",
+        "second",
+        "gemini"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: Yes, you're right. First fallback is **zai/GLM**, then **Gemini**.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "you're",
+        "right",
+        "first",
+        "fallback",
+        "zai",
+        "glm"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback, then Gemini.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "gemini"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config. The chain is: **MiniMax → zai/GLM → Gemini** When MiniMax fails, zai is tried first.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: Yes. First fallback: **zai/GLM** → second fallback: **Gemini**. Confirmed from your config.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "first",
+        "fallback",
+        "zai",
+        "glm",
+        "second",
+        "gemini"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: Yes — GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: Yes — confirmed. GLM (zai) is first fallback, then Gemini.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "yes",
+        "confirmed",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "gemini"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **MiniMax → zai/GLM → Gemini**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T08:02:48.754Z",
+      "lastRecalledAt": "2026-04-29T08:02:48.754Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
       ]
     }
   }
