@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-29T08:02:48.754Z",
+  "updatedAt": "2026-04-30T08:03:10.047Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1",
@@ -76016,6 +76016,1922 @@
         "fallback",
         "confirmed",
         "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback, then Gemini. Confirmed from your config.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "gemini",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: Yes — GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: Yes. First fallback is **zai/GLM**, then **Gemini**. Confirmed from your config.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "first",
+        "fallback",
+        "zai",
+        "glm",
+        "gemini",
+        "confirmed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax M2.7-highspeed **Fallback 1:** zai/glm-5.1 ← GLM **Fallback 2:** google/gemini-2.5-flash",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "m2.7-highspeed",
+        "zai/glm-5.1",
+        "google/gemini-2.5-flash",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback. Confirmed from your config: - Primary: MiniMax - Fallback 1: **zai/GLM** ← this one - Fallback 2: Gemini",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback. Confirmed.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: Yes — GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **MiniMax → zai/GLM → Gemini**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Already pushed successfully moments ago (commit `861b8ed`). Running again in case there are new changes:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "already",
+        "pushed",
+        "successfully",
+        "moments",
+        "ago",
+        "commit",
+        "861b8ed",
+        "running"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Nothing to commit — working tree clean. The first cron already pushed everything. Duplicate trigger, nothing new to sync. ✅",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "nothing",
+        "commit",
+        "working",
+        "tree",
+        "clean",
+        "first",
+        "cron",
+        "already"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: GPT for fallback? What are our list of fallbacks it should only be mini max 2.7 GN 5.1 and GPT 5.5 through. oauth. And then Gemini.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "2.7",
+        "5.1",
+        "5.5",
+        "fallback",
+        "what",
+        "list",
+        "fallbacks"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: The output got truncated. Let me search more specifically for the fallbacks section:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "output",
+        "got",
+        "truncated",
+        "let",
+        "specifically",
+        "fallbacks",
+        "section"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: Here's what I found. Your **current fallbacks** in openclaw.json: **Main fallbacks:** - `zai/glm-5.1` ✗ (not requested) - `codex/gpt-5.5` ✓ - `google/gemini-2.5-flash` ✓ - `google/gemini-2.5-pro` ✓ - `google/gemini-3.1-pro-preview` ✓ - `google/gemini-3.1-flash-image-pr",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "openclaw.json",
+        "zai/glm-5.1",
+        "codex/gpt-5.5",
+        "google/gemini-2.5-flash",
+        "google/gemini-2.5-pro",
+        "google/gemini-3.1-pro-preview",
+        "google/gemini-3.1-flash-image-pr"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: the fallback list (below the primary), or is it only the primary? And for Gemini via OAuth — do you mean the `google/gemini-*` models (which already use OAuth/GCP), or something specific with OpenRouter OAuth?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "router",
+        "google/gemini",
+        "oauth/gcp",
+        "fallback",
+        "list",
+        "below",
+        "primary",
+        "only"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: Max 2.7 should be the fallback for any agent that has GLM 5.1 as a primary vice versa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "2.7",
+        "5.1",
+        "max",
+        "fallback",
+        "any",
+        "has",
+        "glm",
+        "primary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: Got it — MiniMax-M2.7 and GLM-5.1 are a swap pair, then GPT-5.5 and Gemini fill the rest. Proposed fallback chain (applies to both): 1. **MiniMax-M2.7** ↔ **GLM-5.1** (mutual fallback pair) 2. **GPT-5.5** (codex/gpt-5.5) 3. **Gemini** (google/gemini-2.5-flash or -pro)",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "minimax-m2.7",
+        "glm-5.1",
+        "gpt-5.5",
+        "codex/gpt-5.5",
+        "google/gemini-2.5-flash",
+        "got",
+        "minimax"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: Let me get the full config first to make the right edits.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "let",
+        "get",
+        "full",
+        "config",
+        "first",
+        "right",
+        "edits"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: I can see the current setup. Let me verify the exact model IDs for GPT-5.5 and GLM-5.1, then apply the patch.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "gpt-5.5",
+        "glm-5.1",
+        "can",
+        "see",
+        "current",
+        "setup",
+        "let"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: I notice `minimax/MiniMax-M2.7-highspeed` isn't in the models list (only M2.5). Let me check the providers section too.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "minimax/minimax-m2.7-highspeed",
+        "m2.5",
+        "notice",
+        "minimax",
+        "m2.7",
+        "highspeed",
+        "isn't",
+        "models"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: Good - M2.7 is set as primary but not in the models list (it's from the provider config). The current fallbacks are mostly correct but have extra preview models and use `codex/gpt-5.5` instead of `openai-codex/gpt-5.5`. Let me apply the patch now:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "openai",
+        "m2.7",
+        "codex/gpt-5.5",
+        "openai-codex/gpt-5.5",
+        "good",
+        "set",
+        "primary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: Image model fallbacks are protected. Let me patch just the main model fallbacks:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "image",
+        "model",
+        "fallbacks",
+        "protected",
+        "let",
+        "patch"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: Done. `agents.defaults.model.fallbacks` is now: 1. `zai/glm-5.1` 2. `google/gemini-2.5-flash` 3. `google/gemini-2.5-pro` 4. `openai-codex/gpt-5.5` **Note:** Individual agents (main, q, octopussy, Felix, towelie, etc.) have their **own** fallback overrides in `agents.li",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "openai",
+        "agents.defaults.model.fallbacks",
+        "zai/glm-5.1",
+        "google/gemini-2.5-flash",
+        "google/gemini-2.5-pro",
+        "openai-codex/gpt-5.5",
+        "agents.li"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 2 critical issues found. Reporting to Diamond now.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "critical",
+        "issues",
+        "found",
+        "reporting",
+        "diamond",
+        "now"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: Reported to Diamond. The audit found: - **2 critical**: Open groups with elevated tools + open groups with runtime/filesystem access exposed - **6 warnings**: approve-all plugin mode, autoAllowSkills enabled, weak model tier, multi-user risk, permissive plugin policy,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "runtime/filesystem",
+        "approve-all",
+        "multi-user",
+        "reported",
+        "diamond",
+        "audit",
+        "found",
+        "critical"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: Running daily self-review. Let me gather the data.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "self-review",
+        "running",
+        "self",
+        "review",
+        "let",
+        "gather",
+        "data"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: Now let me check a few more things - the WORKSPACE.md (referenced in AGENTS.md but may not exist), the memory/ directory, and the vault structure.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "workspace.md",
+        "agents.md",
+        "now",
+        "let",
+        "check",
+        "few",
+        "things",
+        "referenced"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: Now let me check a few more things - the vault files, WORKSPACE.md, and the memory directory for recent daily logs.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "workspace.md",
+        "now",
+        "let",
+        "check",
+        "few",
+        "things",
+        "vault",
+        "directory"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: Now let me check one more thing — the memory directory gap and verify the nano-banana-pro discrepancy:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "nano-banana-pro",
+        "now",
+        "let",
+        "check",
+        "one",
+        "thing",
+        "directory",
+        "gap"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: --- # 🐙 Daily Self-Review — April 29, 2026 ## Core Files Status | File | Last Modified | Age | Status | |------|-------------|-----|--------| | SOUL.md | Apr 17 | 12 days | ✅ OK | | IDENTITY.md | Mar 5 | 55 days | ⚠️ Stale | | USER.md | Mar 5 | 55 days | ⚠️ Stale | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "self-review",
+        "soul.md",
+        "identity.md",
+        "user.md",
+        "self",
+        "review",
+        "april",
+        "core"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: `ai_consolidate_memory.py` still poses an overwrite risk ### 2. Memory Log Gap — April 18-29 - Last daily log: `2026-04-17.md` - **12 days of no daily logs** — no `memory/YYYY-MM-DD.md` entries for Apr 18-29 - Session continuity depends on these logs ### 3. Broken Refe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "ai-consolidate-memory.py",
+        "18-29",
+        "memory/yyyy-mm-dd.md",
+        "still",
+        "poses",
+        "overwrite",
+        "risk",
+        "log"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 2026-04-17 - **Jaws EU-GMP engine** — marked \"Complete\" from March 25 - **Drau CAD System** — marked \"Testing\" from April 3, last update Apr 17 - **Silva Google Ads** — marked \"Paused\" since March 28 - These should be updated or flagged as stale ### 5. SOUL.md — Mispla",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "eu-gmp",
+        "soul.md",
+        "jaws",
+        "gmp",
+        "engine",
+        "marked",
+        "complete",
+        "march"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: Analysis ### 7. Massive Skills Bloat — ~40 Unused Skills **53 skills installed** but only ~13 are documented/used: **Used (in AGENTS.md or regularly):** `1password, apple-notes, coding-agent, gh-issues, github, gog, healthcheck, imsg, nano-pdf, node-connect, obsidian,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "documented/used",
+        "agents.md",
+        "apple-notes",
+        "coding-agent",
+        "gh-issues",
+        "nano-pdf",
+        "node-connect",
+        "analysis"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: skills are actually active. Others are dead weight. --- ## 🔍 Conflicts Detected ### 8. Agent Roster Inconsistency - **MEMORY.md / decisions-log.md reference:** Vesper, Jaws, Drax, Silva, Scaramanga, Goldfinger, Nomi, Towelie - **SOUL.md only knows:** Q, Octopussy, Fel",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "decisions-log.md",
+        "soul.md",
+        "skills",
+        "actually",
+        "active",
+        "others",
+        "dead"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: confirmed to exist in current workspace structure --- ## 📝 Orphaned / Overlapping Files | File | Issue | |------|-------| | `HEARTBEAT.md` (1KB) | Likely overlaps with `OPERATIONAL_NOTES.md` | | `OPERATIONAL_NOTES.md` (414B) | Small, possibly redundant with HEARTBEAT.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "operational-notes.md",
+        "confirmed",
+        "exist",
+        "current",
+        "structure",
+        "orphaned",
+        "overlapping"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: 5. **gog configuration** well-documented with clear account override instructions --- ## 📋 Recommendations (No Changes Made — For Review) 1. **Fix or remove `nano-banana-pro` reference** in TOOLS.md — skill doesn't exist 2. **Add `# DO NOT CONSOLIDATE` marker** to MEM",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "well-documented",
+        "nano-banana-pro",
+        "tools.md",
+        "gog",
+        "configuration",
+        "well",
+        "documented",
+        "clear"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: distinct purposes 9. **Add DREAMS.md documentation** — 30KB active file with no explanation 10. **Sync agent awareness** — either update SOUL.md to acknowledge other active agents, or clarify they're managed separately",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "dreams.md",
+        "soul.md",
+        "distinct",
+        "purposes",
+        "add",
+        "documentation",
+        "30kb",
+        "active"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-30.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "Assistant: Previous backup run still active. Let me check its status.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "cf3cd2e1e340"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "backup",
+        "previous",
+        "run",
+        "still",
+        "active",
+        "let",
+        "check",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-30.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Still running — it's uploading to Google Drive now. Let me wait for it to finish.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "cf3cd2e1e340"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "still",
+        "running",
+        "it's",
+        "uploading",
+        "google",
+        "drive",
+        "now",
+        "let"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-30.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: The process was killed (SIGKILL). Let me check the full log to see what completed and what didn't.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "cf3cd2e1e340"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "process",
+        "was",
+        "killed",
+        "sigkill",
+        "let",
+        "check",
+        "full",
+        "log"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-30.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: Let me check the beginning of the log to see the full picture.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "cf3cd2e1e340"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "let",
+        "check",
+        "beginning",
+        "log",
+        "see",
+        "full",
+        "picture"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-30.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: The backup process was running but was killed (SIGKILL) — likely a system timeout. Based on the log: **Completed:** - Q workspace → ✅ uploaded (Drive ID: `1RgQPa4C6AzANHr26bYF_DjjSBgZW7XFy`) - Octopussy workspace → ✅ uploaded (Drive ID: `1CQm0_i9_CLN3jsnX_8lekJAbFuoSn3",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "cf3cd2e1e340"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "backup",
+        "1cqm0-i9-cln3jsnx-8lekjabfuosn3",
+        "process",
+        "was",
+        "running",
+        "but",
+        "killed",
+        "sigkill"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: Yes.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: Yes.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: Yes — GLM (zai) is the first fallback. Confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: Yes — GLM (zai) is the first fallback. Confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: Yes.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "yes",
+        "glm",
+        "zai",
+        "first",
+        "fallback",
+        "confirmed",
+        "config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "Assistant: Yes.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "User: Yeah, update all the agents appropriately",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "yeah",
+        "update",
+        "all",
+        "agents",
+        "appropriately"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: Got it. Let me write a script to update all the per-agent fallback configs in one shot — replacing `codex/gpt-5.5` with `openai-codex/gpt-5.5` and adding `google/gemini-2.5-pro` after `google/gemini-2.5-flash` for all agents.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "openai",
+        "per-agent",
+        "codex/gpt-5.5",
+        "openai-codex/gpt-5.5",
+        "google/gemini-2.5-pro",
+        "google/gemini-2.5-flash",
+        "got"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: Wait, I see an ordering issue in the output — GPT-5.5 ended up before gemini-flash for some agents. The correct order should be: **GLM-5.1 → gemini-flash → gemini-pro → GPT-5.5** (for M2.7 primary agents), and **M2.7 → gemini-flash → gemini-pro → GPT-5.5** (for GLM pri",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "gpt-5.5",
+        "gemini-flash",
+        "glm-5.1",
+        "gemini-pro",
+        "m2.7",
+        "wait",
+        "see"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "Assistant: Now let me verify the config is valid:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "now",
+        "let",
+        "verify",
+        "config",
+        "valid"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: All 15 agents updated and config is valid JSON. Here's the summary: **Fallback chain (both directions):** 1. `zai/glm-5.1` ↔ `minimax/MiniMax-M2.7-highspeed` (swap pair) 2. `google/gemini-2.5-flash` 3. `google/gemini-2.5-pro` 4. `openai-codex/gpt-5.5` **Agents with M2.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "gpt",
+        "openai",
+        "zai/glm-5.1",
+        "minimax/minimax-m2.7-highspeed",
+        "google/gemini-2.5-flash",
+        "google/gemini-2.5-pro",
+        "openai-codex/gpt-5.5",
+        "all"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: Give towelie and nomi mini Max 2.5 instead of 2.7",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "2.5",
+        "2.7",
+        "give",
+        "towelie",
+        "nomi",
+        "mini",
+        "max",
+        "instead"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: Done. Both updated: - **towelie:** `zai/glm-5-turbo` → `minimax/MiniMax-M2.5-highspeed` - **nomi:** `zai/glm-5-turbo` → `minimax/MiniMax-M2.5-highspeed`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-30T08:03:10.047Z",
+      "lastRecalledAt": "2026-04-30T08:03:10.047Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "zai/glm-5-turbo",
+        "minimax/minimax-m2.5-highspeed",
+        "done",
+        "both",
+        "updated",
+        "towelie",
+        "zai",
+        "glm"
       ]
     }
   }

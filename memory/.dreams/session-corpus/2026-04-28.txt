@@ -23,3 +23,27 @@
 [main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L95] Assistant: Yes. GLM (zai) is the first fallback.
 [main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L97] Assistant: Yes — confirmed. GLM (zai) is first fallback, then Gemini.
 [main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L99] Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **MiniMax → zai/GLM → Gemini**
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L101] Assistant: Yes. GLM (zai) is the first fallback, then Gemini. Confirmed from your config.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L103] Assistant: Yes. GLM (zai) is the first fallback.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L105] Assistant: Yes — GLM (zai) is the first fallback.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L107] Assistant: Yes. First fallback is **zai/GLM**, then **Gemini**. Confirmed from your config.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L109] Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax M2.7-highspeed **Fallback 1:** zai/glm-5.1 ← GLM **Fallback 2:** google/gemini-2.5-flash
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L111] Assistant: Yes. GLM (zai) is the first fallback. Confirmed from your config: - Primary: MiniMax - Fallback 1: **zai/GLM** ← this one - Fallback 2: Gemini
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L113] Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L115] Assistant: Yes. GLM (zai) is the first fallback. Confirmed.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L117] Assistant: Yes. GLM (zai) is the first fallback.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L119] Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L121] Assistant: Yes — GLM (zai) is the first fallback.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L123] Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **MiniMax → zai/GLM → Gemini**
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L125] Assistant: Yes. GLM (zai) is the first fallback.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L127] Assistant: Yes.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L129] Assistant: Yes.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L131] Assistant: Yes — GLM (zai) is the first fallback. Confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L133] Assistant: Yes. GLM (zai) is the first fallback.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L135] Assistant: Yes. GLM (zai) is the first fallback.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L137] Assistant: Yes — GLM (zai) is the first fallback. Confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L139] Assistant: Yes.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L141] Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L143] Assistant: Yes. GLM (zai) is the first fallback.
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L145] Assistant: Yes. GLM (zai) is the first fallback — confirmed from your config: **Primary:** MiniMax → **Fallback 1:** zai/GLM → **Fallback 2:** Gemini
+[main/sessions/1324e68e-bac6-4cd1-983a-8c102c63eb01.jsonl#L147] Assistant: Yes.
