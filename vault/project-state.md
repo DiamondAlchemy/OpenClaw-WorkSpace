@@ -16,7 +16,7 @@
 | Drax CAD System | Drax | Testing | 2026-04-03 | 63K lines, 48/48 tests, Diamond testing via TG |
 | Google Ads / Silva | Silva | Paused | 2026-03-28 | 6 campaigns, 170+ keywords, topsecretworkshops.com |
 | Scaramanga Lead Gen | Scaramanga | New | 2026-04-07 | Cannabis lead gen, SQLite DB, MT focus |
-| Monthly Reports | Octopussy | Ongoing | 2026-04-27 | Updated HRBD March v8 report so COGS by originating entity is split by material type (FF vs Dry Cure), not blended. CO2 must always be included as a major COGS component when usable CO2 data/rate exists. Residual solvent/loss is required because it drives actual butane cost, so residual loss stays in the report. Next report iteration should restore a pie/donut chart and add lab-ops/light-finance charts in the current theme. File: reports/hrbd/monthly/HRBD-March-2026-Operating-Costs-v8.pdf. |
+| Monthly Reports | Octopussy | Ongoing | 2026-04-30 | Audited HRBD March math and regenerated v13. CO2 remains $100/column, visible label remains columns ran, and hardcoded donut-chart CO2 column count was corrected from 23 to actual TOTAL_COLS=24. File: reports/hrbd/monthly/HRBD-March-2026-v13.pdf. |
 | Goldfinger Trading | Cryptobot | Active | — | Perp tracking, shadow monitor, shell monitor |
 
 ---

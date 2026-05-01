@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-30T08:03:10.047Z",
+  "updatedAt": "2026-05-01T08:07:53.663Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1",
@@ -77932,6 +77932,1690 @@
         "towelie",
         "zai",
         "glm"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "Assistant: Yes.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "yes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: The heartbeat checks returned no unread emails and no new Drive shares. But the user actually asked a question (\"Isn't your first fallback GLM?\") that came through this heartbeat poll. Yes — GLM (zai) is the first fallback. The model chain is: **MiniMax → zai/GLM → Gem",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "heartbeat",
+        "checks",
+        "returned",
+        "unread",
+        "emails",
+        "new",
+        "drive"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: Found unread emails. Per the heartbeat instructions, I need to report the count and subjects. But wait - the heartbeat instructions say \"Perform ONLY these checks\" and \"Do NOT extend scope.\" The user also asked \"Isn't your first fallback GLM?\" in this message. Let me c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "found",
+        "unread",
+        "emails",
+        "per",
+        "heartbeat",
+        "instructions",
+        "need",
+        "report"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: The gog drive tool doesn't have a direct \"shared-with-me\" listing command. I found unread emails (5 messages) from the email check. Per the heartbeat instructions, I need to report items 1-2 findings. **Email check (moneypenny@topsecretworkshops.com):** 5 unread emails",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "shared-with-me",
+        "1-2",
+        "topsecretworkshops.com",
+        "gog",
+        "drive",
+        "tool",
+        "doesn't",
+        "direct"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: **MiniMax → zai/GLM → Gemini** This is confirmed from your config. When MiniMax fails, zai is tried first, then Gemini.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "minimax",
+        "zai",
+        "glm",
+        "gemini",
+        "confirmed",
+        "config",
+        "when"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: This is a heartbeat poll. I need to perform the heartbeat checks from HEARTBEAT.md: 1. Check for unread emails in moneypenny@topsecretworkshops.com 2. Check for newly shared files in Google Drive 3. System health only if relevant Let me check emails and Drive.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "topsecretworkshops.com",
+        "heartbeat",
+        "poll",
+        "need",
+        "perform",
+        "checks",
+        "check"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: Found unread emails. Now let me check Google Drive for newly shared files.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "found",
+        "unread",
+        "emails",
+        "now",
+        "let",
+        "check",
+        "google",
+        "drive"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: I found 7 unread emails. The heartbeat instructions say to report count + subjects if any. Let me summarize: **Unread emails in moneypenny@topsecretworkshops.com (7):** 1. Google Cloud - \"[Product Update] Automatic enablement of new OpenTelemetry ingestion API\" (Apr 28",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "topsecretworkshops.com",
+        "found",
+        "unread",
+        "emails",
+        "heartbeat",
+        "instructions",
+        "say",
+        "report"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: suggest \"OctoPussy's Folder\" was shared, but the dates are Mar 11 — not recent. The Drive search result isn't clearly a new share either. Per heartbeat instructions, if there's nothing to report, respond with HEARTBEAT_OK. But there ARE unread emails to report (item 1)",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "suggest",
+        "octopussy's",
+        "folder",
+        "was",
+        "shared",
+        "but",
+        "dates"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: **MiniMax → zai/GLM → Gemini**.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "zai/glm",
+        "minimax",
+        "zai",
+        "glm",
+        "gemini"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: This is a heartbeat poll. Following HEARTBEAT.md instructions strictly. I need to check: 1. Unread emails in moneypenny@topsecretworkshops.com 2. Newly shared files in Google Drive 3. System health only if relevant Let me run the checks.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "topsecretworkshops.com",
+        "heartbeat",
+        "poll",
+        "following",
+        "instructions",
+        "strictly",
+        "need"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: Found 7 unread emails. Now let me check Google Drive for newly shared files.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "found",
+        "unread",
+        "emails",
+        "now",
+        "let",
+        "check",
+        "google",
+        "drive"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Update the claw",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "update",
+        "claw"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Updated and reloading — **2026.4.27 → 2026.4.29**. Restarting now, will ping this chat when back up.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "2026.4.27",
+        "2026.4.29",
+        "updated",
+        "reloading",
+        "restarting",
+        "now",
+        "will",
+        "ping"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Already on the latest version — **2026.4.29**. The gateway restarted successfully. Let me verify everything is healthy:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "2026.4.29",
+        "already",
+        "latest",
+        "version",
+        "restarted",
+        "successfully",
+        "let"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: The update is done — **2026.4.29 is current** and the gateway is running. That said, the doctor output flagged a few things worth flagging: **🔴 Critical** - **grammy missing** — Telegram channel failed to load. `Cannot find module 'grammy'`. This means inbound Telegra",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "2026.4.29",
+        "update",
+        "done",
+        "current",
+        "running",
+        "said",
+        "doctor"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: Gateway is healthy — 63 active sessions, 15 agents, all running. The grammmy warning looks like a startup sequencing issue that resolved itself (Telegram is still connected since this DM came through). **Summary of doctor warnings to be aware of:** 1. **grammmy module*",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "healthy",
+        "active",
+        "agents",
+        "all",
+        "running",
+        "grammmy",
+        "warning"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: **Gateway PATH** — has Volta/ASDF/FNM/PNPM in it, which could cause weird tool resolution. The minimal PATH recommendation is valid. 7. **Security** — Telegram groupPolicy=\"open\" (already noted in MEMORY.md as accepted risk) The most actionable one is the **orphaned tr",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "volta/asdf/fnm/pnpm",
+        "memory.md",
+        "path",
+        "has",
+        "volta",
+        "asdf",
+        "fnm"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: Gateway is healthy — 15 agents, 63 sessions, all operational. **Update complete.** You're on **2026.4.29** (just updated from 2026.4.27). **Doctor warnings worth knowing:** - 🔴 `grammy` module load error for Telegram — the channel is registered but failing to initiali",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "2026.4.29",
+        "2026.4.27",
+        "healthy",
+        "agents",
+        "all",
+        "operational",
+        "update"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: but the grammmy/Telegram thing could bite you if the bot goes deaf. Want me to dig into that one, or restart the gateway first to clear the stale state?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "grammmy/telegram",
+        "but",
+        "grammmy",
+        "telegram",
+        "thing",
+        "bite",
+        "bot"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: Gateway is up and running, all 63 sessions healthy. The grammmy error from the doctor run may have been transient (it's listed in the deps and loaded in the plugins list). If Telegram is working normally, we're good. --- **Update complete. 🦞 2026.4.29** That said, a f",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "2026.4.29",
+        "running",
+        "all",
+        "healthy",
+        "grammmy",
+        "error",
+        "doctor"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: service environment. Won't break anything but worth cleaning up **🟡 Monitor** - Telegram grammmy warning — seems to have resolved itself since the deps are there, but if DMs/groups stop working, that's the first place to look - WhatsApp groupPolicy is \"allowlist\" with",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "dms/groups",
+        "service",
+        "environment",
+        "won't",
+        "break",
+        "anything",
+        "but",
+        "worth"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: Gateway is up, 15 agents, 63 sessions. Telegram has the grammmy module error from the doctor — that needs fixing. Here's the full picture of what the update left behind: --- **⚠️ Needs attention (from doctor):** **🔴 Telegram broken** — `Cannot find module 'grammy'`. T",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "agents",
+        "telegram",
+        "has",
+        "grammmy",
+        "module",
+        "error",
+        "doctor"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: `groupAllowFrom` — all group messages silently dropped (not an issue if you're not using WhatsApp groups) - Device pairing token has wrong role scope — `Ms-Mac-mini` node token needs rotation **🟡 PATH bloat** — Gateway service has volta, asdf, fnm, pnpm in PATH. Recom",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "ms-mac-mini",
+        "groupallowfrom",
+        "all",
+        "group",
+        "messages",
+        "silently",
+        "dropped"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: The previous backup run completed partially before being killed. Let me check the current state by getting the log output so far.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "backup",
+        "previous",
+        "run",
+        "completed",
+        "partially",
+        "killed",
+        "let",
+        "check"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: The previous backup run was killed after completing Q and Octopussy backups but before MoneyPenny finished. Since the cron triggered again, let me run the backup fresh to complete all three agents.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "backup",
+        "backups",
+        "previous",
+        "run",
+        "was",
+        "killed",
+        "completing",
+        "octopussy"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: Still running — Q and Octopussy are done but MoneyPenny hasn't started its upload yet. Let me wait for it to finish.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "still",
+        "running",
+        "octopussy",
+        "done",
+        "but",
+        "moneypenny",
+        "hasn't",
+        "started"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: Still running with no new output yet — likely compressing or uploading the MoneyPenny workspace. Let me wait longer.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "still",
+        "running",
+        "new",
+        "output",
+        "yet",
+        "likely",
+        "compressing",
+        "uploading"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: Let me check the full log to see what's happening.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "let",
+        "check",
+        "full",
+        "log",
+        "see",
+        "what's",
+        "happening"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: Q and Octopussy uploads completed. The process is now working on the MoneyPenny (main) workspace — it's likely still compressing that archive since it would be the largest. Let me keep waiting.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "octopussy",
+        "uploads",
+        "completed",
+        "process",
+        "now",
+        "working",
+        "moneypenny",
+        "it's"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: **Backup Complete** ✅ All workspaces backed up successfully at `2026-05-01_0303`: | Workspace | Drive ID | |---|---| | Q | `1CEn-gD-ZiqdLGsqnQL5OLTYEYDW5XhnS` | | Octopussy | `16ENoPDKkUoopWcIYzEFVcQp0tU4ZhijE` | | Shared | `1L6Nhgs1QNixEYT_AoAydnt9w4t4N2INy` | | Canna",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "backup",
+        "2026-05-01-0303",
+        "complete",
+        "all",
+        "workspaces",
+        "backed",
+        "successfully",
+        "01-0303"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "Assistant: The Drive search found multiple files with \"shared_\" prefix - these appear to be data extraction files. Let me report the findings. The heartbeat instructions say: - Item 1: Report count + subjects of unread emails if any - Item 2: Report new shares in Google Drive if",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "drive",
+        "found",
+        "multiple",
+        "shared",
+        "prefix",
+        "appear",
+        "data",
+        "extraction"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:50:50": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:50:50",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "Assistant: - \"Share request for 'OctoPussy's Folder'\" (Mar 11) **Google Drive - newly shared/modified files:** Multiple \"shared_\" zip files found (recent extraction data from Towelie): - shared_2026-04-28_0302.zip (1.3 GB) — most recent - shared_2026-04-27_0302.zip (1.6 GB) - sha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "shared/modified",
+        "shared-2026-04-28-0302.zip",
+        "1.3",
+        "shared-2026-04-27-0302.zip",
+        "1.6",
+        "share",
+        "request",
+        "octopussy's"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:51:51": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:51:51",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 51,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "Assistant: This is a heartbeat poll. Per HEARTBEAT.md instructions, I need to check: 1. Unread emails in moneypenny@topsecretworkshops.com 2. Newly shared files in Google Drive 3. System health only if relevant Let me run the checks. Note: Per heartbeat instructions, I'll report",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "topsecretworkshops.com",
+        "heartbeat",
+        "poll",
+        "per",
+        "instructions",
+        "need",
+        "check"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:52:52": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:52:52",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 52,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "Assistant: Found 7 unread emails. Now checking Google Drive for newly shared files.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "found",
+        "unread",
+        "emails",
+        "now",
+        "checking",
+        "google",
+        "drive",
+        "newly"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "Assistant: **Heartbeat findings:** **Email (moneypenny@topsecretworkshops.com):** 7 unread 1. Google Cloud — \"[Product Update] Automatic enablement of new OpenTelemetry ingestion API\" (Apr 28) 2. Google — \"Security alert\" (Apr 10) 3. Google — \"Security alert\" (Apr 2) 4. Dune — \"W",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "topsecretworkshops.com",
+        "heartbeat",
+        "findings",
+        "email",
+        "moneypenny",
+        "unread",
+        "google",
+        "cloud"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "Assistant: Apr 26 - shared_2026-04-26_0302.zip (1.6 GB) — Apr 26 - shared_2026-04-25_0300.zip (1.6 GB) — Apr 25 - And more from Apr 21-24 --- **To your question:** Yes — GLM (zai) is the first fallback, then Gemini. Confirmed from your config: **MiniMax → zai/GLM → Gemini**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "shared-2026-04-26-0302.zip",
+        "1.6",
+        "shared-2026-04-25-0300.zip",
+        "21-24",
+        "zai/glm",
+        "apr",
+        "shared-2026",
+        "26-0302"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "Assistant: This is a heartbeat. Following HEARTBEAT.md strictly. Checking emails and Drive now.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat",
+        "following",
+        "strictly",
+        "checking",
+        "emails",
+        "drive",
+        "now"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "Assistant: 7 unread emails found. Now checking Google Drive for newly shared files.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "unread",
+        "emails",
+        "found",
+        "now",
+        "checking",
+        "google",
+        "drive",
+        "newly"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "Assistant: The heartbeat instructions are clear: \"Do NOT extend scope.\" I should only report the heartbeat findings and not answer the user's question. **Findings from heartbeat checks:** **Email (moneypenny@topsecretworkshops.com):** 7 unread 1. Google Cloud — \"[Product Update]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "topsecretworkshops.com",
+        "heartbeat",
+        "instructions",
+        "clear",
+        "not",
+        "extend",
+        "scope",
+        "only"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:58:58": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:58:58",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 58,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "Assistant: extraction data): - shared_2026-04-29_0300.zip (1.5 GB) — Apr 29 - shared_2026-04-28_0302.zip (1.3 GB) — Apr 28 - shared_2026-04-27_0302.zip (1.6 GB) — Apr 27 - shared_2026-04-26_0305.zip (1.6 GB) — Apr 26 - shared_2026-04-26_0302.zip (1.6 GB) — Apr 26 - shared_2026-04",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "shared-2026-04-29-0300.zip",
+        "1.5",
+        "shared-2026-04-28-0302.zip",
+        "1.3",
+        "shared-2026-04-27-0302.zip",
+        "1.6",
+        "shared-2026-04-26-0305.zip",
+        "shared-2026-04-26-0302.zip"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:59:59": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:59:59",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 59,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "Assistant: This is a heartbeat poll. Per HEARTBEAT.md, I need to check emails and Drive, then report findings or respond with HEARTBEAT_OK. The user's message also asks \"Isn't your first fallback GLM?\" but heartbeat says \"Do NOT extend scope\" — I'll only report heartbeat findings",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "heartbeat",
+        "poll",
+        "per",
+        "need",
+        "check",
+        "emails"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:60:60": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:60:60",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 60,
+      "endLine": 60,
+      "source": "memory",
+      "snippet": "Assistant: 7 unread emails. Now checking Google Drive for newly shared files.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "unread",
+        "emails",
+        "now",
+        "checking",
+        "google",
+        "drive",
+        "newly",
+        "shared"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: The system is up and running. Here's the rundown from the doctor: **⚠️ Worth addressing soon** | Issue | Severity | |-------|----------| | `grammy` module failed to load — Telegram may not be receiving messages | 🔴 | | 9 orphan transcript files in `main/sessions` | 🟡",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "main/sessions",
+        "running",
+        "here's",
+        "rundown",
+        "doctor",
+        "worth",
+        "addressing",
+        "soon"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: main. Telegram's the priority — if you're not getting responses in group chats, that's the grammy load failure. Want me to try fixing it, or run the full security audit first?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "telegram's",
+        "priority",
+        "you're",
+        "not",
+        "getting",
+        "responses",
+        "group",
+        "chats"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: Update complete and gateway is healthy. The grammy warning is a red herring — Telegram is routing fine since you're messaging me right now. **Summary of update:** - ✅ OpenClaw updated to **2026.4.29** - ✅ Gateway restarted cleanly - ✅ 15 agents online, 63 sessions acti",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "2026.4.29",
+        "update",
+        "complete",
+        "healthy",
+        "grammy",
+        "warning",
+        "red"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: clear on its own. 4. **Orphaned agent dirs** — `nomi.bak`, `scaramanga-b`, `the-messenger` have dirs on disk but no config entry. Safe to clean up if those agents are retired. The gateway is up. All good. 🐙",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "nomi.bak",
+        "scaramanga-b",
+        "the-messenger",
+        "clear",
+        "own",
+        "orphaned",
+        "dirs"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: Gateway is healthy — 63 sessions, 15 agents, all running. The grammmy warning from the doctor might be a false positive (it's listed in the deps and the gateway is up), but if Telegram messages aren't coming through, that's the first sign of trouble. **Other notes from",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "healthy",
+        "agents",
+        "all",
+        "running",
+        "grammmy",
+        "warning",
+        "doctor"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: or clean up any of the orphaned stuff?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "clean",
+        "any",
+        "orphaned",
+        "stuff"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: Update complete and gateway is healthy. Here's the rundown: **✅ Good** - Gateway running (pid 74838, state active) - 15 agents, 63 sessions — all normal - Heartbeat active on main (30m interval) **⚠️ Worth addressing when you have a moment** 1. **grammy load warning**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "update",
+        "complete",
+        "healthy",
+        "here's",
+        "rundown",
+        "good",
+        "running"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: `openclaw devices rotate --device <token> --role node` Nothing blocking right now, but the gramry warning and orphaned agent dirs are worth a cleanup soon. Want me to tackle any of these now, or can it wait?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "openclaw",
+        "devices",
+        "rotate",
+        "device",
+        "token",
+        "role",
+        "node",
+        "nothing"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: Gateway is up. Let me check if Telegram is actually receiving messages by sending a quick ping to myself:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "gateway",
+        "let",
+        "check",
+        "telegram",
+        "actually",
+        "receiving",
+        "messages",
+        "sending"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: The Channels table is empty — that's a problem. Let me run the deep probe to see what's happening with Telegram specifically:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "channels",
+        "table",
+        "empty",
+        "that's",
+        "problem",
+        "let",
+        "run",
+        "deep"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: There it is — the deep probe shows the truth: - **Telegram: ✅ ON / OK** — fully operational - **WhatsApp: ⚠️ ON / WARN** — missing credentials file The grammmy warning was a false positive. Telegram is fine. The security audit, however, paints a darker picture. --- **\ud83d",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "deep",
+        "probe",
+        "shows",
+        "truth",
+        "telegram",
+        "fully",
+        "operational",
+        "whatsapp"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: groups + messaging-only tools + workspace isolation) was intentional, I'll defer to you on whether to harden it now or leave it as-is. **Bottom line:** Update is done, Telegram is healthy, but the group security posture needs a decision if you want to lock it down.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-01T08:07:53.663Z",
+      "lastRecalledAt": "2026-05-01T08:07:53.663Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "messaging-only",
+        "as-is",
+        "groups",
+        "messaging",
+        "only",
+        "tools",
+        "isolation",
+        "was"
       ]
     }
   }
