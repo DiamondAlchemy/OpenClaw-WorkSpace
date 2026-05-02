@@ -1,7 +1,7 @@
 # Project State — Shared
 
-*Last updated: 2026-04-26*
-*Updated by: Octopussy*
+*Last updated: 2026-05-02*
+*Updated by: Vesper*
 
 ---
 
@@ -12,7 +12,7 @@
 | Facility Agent System | Q / Diamond | Production | 2026-04-06 | Nomi + Towelie running HRBD + Cannascend |
 | cGMP Knowledge Base | Vesper | Ongoing | 2026-04-17 | 79 briefs, regulatory monitoring cron live, first lint pass complete |
 | EU-GMP Knowledge Base | Jaws | Complete | 2026-03-25 | 82 briefs, 38-doc library |
-| TSW GMP Toolkit | Vesper | In Progress | 2026-04-20 | GMP zone layout for HRBD Billings. v10: horizontal layout with zones spread across full 60' width of warehouse. Zones in horizontal rows: Biomass/Sock (bottom), C1D1/Offgassing/C1D2 (middle), QC/Finished Goods/Office (top). Workflow south-to-north. Files: raw/gmp-floor-plan-clean.png, raw/blueprint-gmp-zones-v10.png |
+| TSW GMP Toolkit | Vesper | In Progress | 2026-05-01 | New lab building workflow/layout paused MMR. Christian uploaded blueprint `raw/blueprint-entryway/source.pdf`; converted image at `raw/blueprint-entryway/page-1-small.png`. Constraint: use only warehouse section and leave bay door space open. Initial read: warehouse approx 60' wide; bay/logistics area lower-left should remain open; proposed flow receiving → quarantine → released raw storage → production/post-process → packaging → finished goods → shipping. Created contractor handoff `gmp-epoxy-flooring-contractor-checklist.md` for cGMP-style resinous flooring requirements. Awaiting room list/sizes. Prior HRBD Billings layout files remain: raw/gmp-floor-plan-clean.png, raw/blueprint-gmp-zones-v10.png |
 | Drax CAD System | Drax | Testing | 2026-04-03 | 63K lines, 48/48 tests, Diamond testing via TG |
 | Google Ads / Silva | Silva | Paused | 2026-03-28 | 6 campaigns, 170+ keywords, topsecretworkshops.com |
 | Scaramanga Lead Gen | Scaramanga | New | 2026-04-07 | Cannabis lead gen, SQLite DB, MT focus |
@@ -29,6 +29,7 @@
 | 2026-04-06 | QMD + Dreaming enabled | Memory-core plugin, all agents indexed |
 | 2026-04-06 | 00qm00qm account dead | Disabled by Google, removed from all scripts |
 | 2026-04-06 | Rule 48 added | Read script every message, both Nomi + Towelie |
+| 2026-05-01 | New lab layout constraint | Christian requested cGMP workflow for uploaded blueprint: only use warehouse section and leave bay door space open. |
 
 ---
 

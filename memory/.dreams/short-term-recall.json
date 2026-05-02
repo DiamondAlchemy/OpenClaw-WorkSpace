@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-01T08:07:53.663Z",
+  "updatedAt": "2026-05-02T08:09:57.740Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-07.txt:1:1",
@@ -79616,6 +79616,2886 @@
         "tools",
         "isolation",
         "was"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Extraction Runs Logged: **28230** (Astronaut Status, Cured, Isolation/Separation) — CRY 150g, Silica 125g, recipe not followed; **24036** (Chikilaz, Fresh Frozen, Isolation/Separation) — T5 150g, CRY 200g, recipe not",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "isolation/separation",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments",
+        "extraction",
+        "runs"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "User: was significantly updated between sessions. - Lessons: **Rule 35 violation.** Diamond called it out — printed reasoning (bullet mapping, \"Let me map:\", \"Wait, I need to be careful with Rule 33\") before the readback table. Table only. No thinking out loud.; **Shell quoting i",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "was",
+        "significantly",
+        "updated",
+        "lessons",
+        "rule",
+        "violation",
+        "diamond",
+        "out"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "User: \"ISO/Sep: thca_weight_g=231, hte_weight_g=200. API auto-sums to 431.\" before the readback - Post-Extraction Logs Today: METRC 28230 (Cured, ISO/Sep) — Phase A logged. 537.12g pre-process. Diamond had me re-check (image was fine, I was printing reasoning).; METRC 24036 (FF,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "iso/sep",
+        "thca-weight-g",
+        "hte-weight-g",
+        "auto-sums",
+        "post-extraction",
+        "537.12g",
+        "pre-process",
+        "re-check"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: surfacing across 59 memories.; confidence: 0.82; evidence: memory/.dreams/session-corpus/2026-04-15.txt:1-1, memory/.dreams/session-corpus/2026-04-15.txt:3-3, memory/.dreams/session-corpus/2026-04-15.txt:8-8; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "0.82",
+        "1-1",
+        "3-3",
+        "8-8",
+        "surfacing",
+        "across",
+        "memories",
+        "confidence"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: Morning finds me cataloging the weight of things. Two extraction runs, their IDs bleeding into the day's ledger: 28230 and 24036, cureds and fresh frozens, isolation chambers humming their low mechanical hymns. Silica and CRY, T5 and cryo — I handled them like strange",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "morning",
+        "finds",
+        "cataloging",
+        "weight",
+        "things",
+        "two",
+        "extraction",
+        "runs"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "Assistant: it, and whether it meant the same thing each time. Weight is always in pounds, though I reach for grams. Old habits, old conversions. The database wiped itself clean and started over — media mismatch, a small death in the machine. Fresh morning. New start. In the C-vau",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "c-vau",
+        "whether",
+        "meant",
+        "thing",
+        "each",
+        "time",
+        "weight",
+        "always"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: Deep probe confirms the real picture: **Telegram: ✅ OK** — ON, configured, accounts 15/17 working **WhatsApp: ⚠️ WARN** — ON but unlinked (credentials file missing) **Gateway: ✅ reachable** — 3489ms (a bit sluggish but functional) The grammmy warning from the initial d",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "15/17",
+        "deep",
+        "probe",
+        "confirms",
+        "real",
+        "picture",
+        "telegram"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: Deep probe confirms what matters: **Telegram is OK**. The grammmy warning was a transient startup hiccup — channel is live, 15/17 accounts configured. WhatsApp is unlinked (missing credentials file). **Security audit is showing CRITICAL flags:** The deep scan pulled 18",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "15/17",
+        "deep",
+        "probe",
+        "confirms",
+        "what",
+        "matters",
+        "telegram",
+        "grammmy"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: notes it's an accepted risk, but the audit is screaming about it. Want me to pull the full audit and we can review the exact exposure, or are we leaving `groupPolicy=\"open\"` as-is for now?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "as-is",
+        "it's",
+        "accepted",
+        "risk",
+        "but",
+        "audit",
+        "screaming",
+        "want"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: Deep probe confirms the situation is clearer than the initial doctor output suggested: **✅ Telegram is working** — ON, OK, 15 accounts configured, this DM is live. **⚠️ WhatsApp** — UNLINKED, missing credentials file. Not a new issue. **⚠️ Security audit** — 18 critica",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "deep",
+        "probe",
+        "confirms",
+        "situation",
+        "clearer",
+        "initial",
+        "doctor",
+        "output"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: a closer look when you're ready — but if the open groupPolicy is an intentional trade-off for group comms, it's not blocking.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "trade-off",
+        "closer",
+        "look",
+        "when",
+        "you're",
+        "ready",
+        "but",
+        "open"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: The deep probe clarifies everything: **Telegram: ✅ OK** — 15 accounts, all connected. The grammmy warning was a false positive or transient startup hiccup. You're good. **WhatsApp: ⚠️ WARN** — missing credentials file (`~/.openclaw/credentials/whatsapp/default`). Not l",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "deep",
+        "probe",
+        "clarifies",
+        "everything",
+        "telegram",
+        "accounts",
+        "all",
+        "connected"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: main thing to review when you want to tighten things up — but changing `groupPolicy` will break group responses. Anything specific you want me to dig into, or are we good for now? 🐙",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "thing",
+        "review",
+        "when",
+        "want",
+        "tighten",
+        "things",
+        "but",
+        "changing"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: Much better. Deep probe shows the real picture: **✅ Telegram is fine** — ON, state OK, 15 accounts configured. The grammmy warning was a transient startup hiccup, not a real problem. **⚠️ WhatsApp is unlinked** — missing credentials file. Not an issue if you're not usi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "better",
+        "deep",
+        "probe",
+        "shows",
+        "real",
+        "picture",
+        "telegram",
+        "fine"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: critical flags. This is largely the Telegram `groupPolicy=\"open\"` situation we've accepted. If you want me to run `openclaw security audit --deep` and get the full report, I can. But it's likely the same items amplified. Update is clean. Telegram is working. Want the f",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "critical",
+        "flags",
+        "largely",
+        "telegram",
+        "grouppolicy",
+        "open",
+        "situation",
+        "we've"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: Now I have the real picture. Telegram is **ON and OK** — 15 accounts configured, working fine. The grammmy warning was a false positive. Here's the actual state: **✅ Update: 2026.4.29 — complete, all clear** - Gateway: reachable (0ms) - Telegram: ON, OK ✅ - WhatsApp: O",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "2026.4.29",
+        "now",
+        "real",
+        "picture",
+        "telegram",
+        "accounts",
+        "configured"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: account is the compensating control. **Doctor warnings that are real:** - Orphaned agent dirs: `nomi.bak`, `scaramanga-b`, `the-messenger` - 9 orphan transcript files in `main/sessions/` - Device pairing token scope drift on `Ms-Mac-mini` Nothing blocking. Telegram is",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "nomi.bak",
+        "scaramanga-b",
+        "the-messenger",
+        "main/sessions",
+        "ms-mac-mini",
+        "account",
+        "compensating",
+        "control"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "Assistant: Now we have the real picture. Telegram is **ON and OK** — the grammmy warning was a transient startup hiccup that resolved itself. 15 accounts configured, connected fine. **Deep probe results:** | Channel | Status | |---------|--------| | Telegram | ✅ ON, OK | | WhatsA",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "now",
+        "real",
+        "picture",
+        "telegram",
+        "grammmy",
+        "warning",
+        "was",
+        "transient"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:50:50": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:50:50",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "Assistant: Unknown Codex command: computer Codex commands: - /codex status - /codex models - /codex threads [filter] - /codex resume <thread-id> - /codex bind [thread-id] [--cwd <path>] [--model <model>] [--provider <provider>] - /codex binding - /codex stop - /codex steer <messa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "thread-id",
+        "unknown",
+        "codex",
+        "command",
+        "computer",
+        "commands",
+        "status",
+        "models"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:51:51": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:51:51",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 51,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "Assistant: Computer Use: ready Plugin: computer-use (installed) MCP server: computer-use (9 tools) Marketplace: openai-bundled Tools: click, drag, get_app_state, list_apps, perform_secondary_action, press_key, scroll, set_value Computer Use is ready.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "openai",
+        "computer-use",
+        "openai-bundled",
+        "get-app-state",
+        "list-apps",
+        "perform-secondary-action",
+        "press-key",
+        "set-value"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:52:52": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:52:52",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 52,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "User: is that ready for all agents or just you ?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "ready",
+        "all",
+        "agents"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "Assistant: From what I can see, `computer-use` is a gateway-level plugin — it's installed at the OpenClaw gateway level, not per-agent. That means it *should* be available to all agents running on this gateway, not just me. That said, I don't have the full config visibility to co",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "computer-use",
+        "gateway-level",
+        "per-agent",
+        "what",
+        "can",
+        "see",
+        "computer"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "User: ya lmk who can and can't use it and why",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "lmk",
+        "who",
+        "can",
+        "can't",
+        "use",
+        "why"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "Assistant: Let me dig into the agent configs to see who's packing computer-use and who's not.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "computer-use",
+        "let",
+        "dig",
+        "configs",
+        "see",
+        "who's",
+        "packing",
+        "computer"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "Assistant: Let me read the config file directly to find the agent configurations.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "let",
+        "read",
+        "config",
+        "directly",
+        "find",
+        "configurations"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "Assistant: Ah, the structure is `{\"defaults\": {...}, \"list\": [...]}`. Let me fix that.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "structure",
+        "defaults",
+        "list",
+        "let",
+        "fix"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:58:58": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:58:58",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 58,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "Assistant: None of the agents have any plugins explicitly configured. So computer-use must be a gateway-level plugin — enabled globally, not per-agent. Let me confirm by checking the top-level plugins section:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "computer-use",
+        "gateway-level",
+        "per-agent",
+        "top-level",
+        "none",
+        "agents",
+        "any"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:59:59": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:59:59",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 59,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "Assistant: So computer-use is NOT in the gateway-level plugins either. It's not in any agent config. Yet `/codex diagnostics` shows it as ready with 9 tools. It's likely a **Codex-native capability**, not an OpenClaw plugin. This means it's available to any agent that uses Codex",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "computer-use",
+        "gateway-level",
+        "codex-native",
+        "computer",
+        "use",
+        "not",
+        "level"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:60:60": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:60:60",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 60,
+      "endLine": 60,
+      "source": "memory",
+      "snippet": "Assistant: Here's what I found: **Computer-use is NOT an OpenClaw plugin** — it's not configured in any agent's plugins list, nor at the gateway level. It showed up in `/codex diagnostics` because it's a **Codex-native capability**. Looking at the config: - Gateway plugins: `allo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "computer-use",
+        "codex-native",
+        "here's",
+        "what",
+        "found",
+        "computer",
+        "use"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:61:61": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:61:61",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 61,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "Assistant: types *actually* have Codex active and can use it. Want me to run `/codex diagnostics` from a different agent's session to test?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "types",
+        "actually",
+        "codex",
+        "active",
+        "can",
+        "use",
+        "want",
+        "run"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:62:62": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:62:62",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 62,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "Assistant: Let me check for WORKSPACE.md (the task referenced it but I didn't see it in the directory listing), and also check the local workspace skills and memory directory structure.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "workspace.md",
+        "let",
+        "check",
+        "task",
+        "referenced",
+        "but",
+        "didn't",
+        "see"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:63:63": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:63:63",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 63,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "Assistant: Let me read WORKSPACE.md (the task referenced it) and check a few more files.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "workspace.md",
+        "let",
+        "read",
+        "task",
+        "referenced",
+        "check",
+        "few"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:64:64": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:64:64",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 64,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "Assistant: Now I have a complete picture. Let me compile the full analysis. --- # 🐙 Daily Self-Review Report **May 1, 2026 — 8:00 AM CT** --- ## 1. Core Files Analysis ### ✅ SOUL.md (9,781 bytes) **Status: Healthy** - Fabrication incident (2026-04-17) is properly documented — go",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "self-review",
+        "soul.md",
+        "now",
+        "complete",
+        "picture",
+        "let",
+        "compile",
+        "full"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:65:65": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:65:65",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 65,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "Assistant: stale and internally inconsistent** - **Section 5 (Active Cron Jobs):** Table references jobs but the section body cuts off after \"see below\" without showing the actual cron entries in the table. The table structure is broken/incomplete. - **Model contradiction:** Sect",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "broken/incomplete",
+        "stale",
+        "internally",
+        "inconsistent",
+        "section",
+        "active",
+        "cron",
+        "jobs"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:66:66": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:66:66",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 66,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "Assistant: **\"Section 6\" body missing:** Section 6 on backup procedures starts with a table header but no actual cron entries. ### ✅ IDENTITY.md (1,229 bytes) **Status: Clean.** Concise, personality-forward. No issues. ### ⚠️ AGENTS.md (2,823 bytes) **Status: Has a critical accur",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "backup",
+        "identity.md",
+        "personality-forward",
+        "agents.md",
+        "section",
+        "body",
+        "missing",
+        "procedures"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:67:67": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:67:67",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 67,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "Assistant: a major operational document. --- ## 2. MEMORY.md Structure Check **Staleness Alert:** - MEMORY.md header says **\"Last updated: 2026-03-22\"** - Today is **2026-05-01** - That's **40 days stale** **Structure:** Headers and sections are well-formed. No formatting anomali",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "well-formed",
+        "major",
+        "operational",
+        "document",
+        "structure",
+        "check",
+        "staleness"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:68:68": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:68:68",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 68,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "Assistant: `github`, `healthcheck`, `peekaboo`, `summarize`, `tts`, `weather`, `xurl`, `obsidian`, `things-mac`, `apple-notes`, `imsg` **Installed but completely undocumented anywhere in core files:** - `1password`, `bear-notes`, `blogwatcher`, `blucli`, `bluebubbles`, `camsnap`,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "things-mac",
+        "apple-notes",
+        "bear-notes",
+        "github",
+        "healthcheck",
+        "peekaboo",
+        "summarize",
+        "tts"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:69:69": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:69:69",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 69,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "Assistant: `/Users/m/.openclaw/workspace/skills/` contains only `minimax-image/` — unused/empty? --- ## 4. Issues Found ### 🔴 Critical | # | Issue | Source | |---|-------|--------| | 1 | MEMORY.md is 40 days stale — 117 lines vs. \"6,400+ lines\" claim in AGENTS.md | MEMORY.md hea",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "users/m",
+        "openclaw/workspace/skills",
+        "minimax-image",
+        "unused/empty",
+        "memory.md",
+        "agents.md",
+        "users",
+        "openclaw"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:70:70": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:70:70",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 70,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "Assistant: subdirectory | workspace/skills/ | | 7 | backup_agents.sh referenced in cron table — can't verify it exists | WORKSPACE.md | | 8 | vault/user-profile.md exists but isn't listed in SOUL.md's mandatory vault reads | vault/, SOUL.md | ### 🟢 Minor / Informational | # | Is",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "backup",
+        "workspace/skills",
+        "backup-agents.sh",
+        "workspace.md",
+        "vault/user-profile.md",
+        "soul.md",
+        "subdirectory",
+        "skills"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:71:71": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:71:71",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 71,
+      "endLine": 71,
+      "source": "memory",
+      "snippet": "Assistant: misleading. 2. **Resolve the gemini-2.5-flash vs. pro conflict** — pick one model and update both files. 3. **Fix or remove WORKSPACE.md Section 5** — the cron table is broken/incomplete. 4. **Audit undocumented skills** — either document the ones in active use (1passw",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gemini-2.5-flash",
+        "workspace.md",
+        "broken/incomplete",
+        "misleading",
+        "resolve",
+        "gemini",
+        "2.5",
+        "flash"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:72:72": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:72:72",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 72,
+      "endLine": 72,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Assistant: The web_fetch.py script doesn't exist! The scripts directory has: - `web_reader.py` - this must be the correct script to use instead - `web_search.py` - this is a symlink to `/Users/m/.openclaw/tools/web_se",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "web-fetch.py",
+        "web-reader.py",
+        "web-search.py",
+        "users/m",
+        "openclaw/tools/web-se",
+        "write",
+        "dream",
+        "diary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:73:73": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:73:73",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 73,
+      "endLine": 73,
+      "source": "memory",
+      "snippet": "User: - Assistant: cannabis testing lab) is NOT in the database. Let me add this lab. Let me also check the Herald article for other companies. I see Ivory Medical Zimbabwe is already in the database. But \"MCAZ Cannabis Lab\" (Medicines Control Authority of Zimbabwe's dedicated ca",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "cannabis",
+        "testing",
+        "lab",
+        "not",
+        "database",
+        "let",
+        "add",
+        "check"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:74:74": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:74:74",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 74,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "User: But \"MCAZ Cannabis Lab\" (Medicines Control Author - Assistant: other companies mentioned. I see Ivory Medical Zimbabwe is already in the database. But \"MCAZ Cannabis Lab\" (Medicines Control Authority of Zimbabwe's dedicated cannabis testing QC lab) is NOT in the database. L",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "but",
+        "mcaz",
+        "cannabis",
+        "lab",
+        "medicines",
+        "control",
+        "author",
+        "other"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:75:75": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:75:75",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 75,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "User: Authority of Zimbabwe's dedicated cannabis testing QC lab) is NOT in the database. Let me add it. Let me - Assistant: lab. Let me also fetch the Herald article to check for other companies. I see that Ivory Medical Zimbabwe is already in the database. The \"MCAZ Cannabis Lab",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "authority",
+        "zimbabwe's",
+        "dedicated",
+        "cannabis",
+        "testing",
+        "lab",
+        "not",
+        "database"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:76:76": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:76:76",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 76,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "User: countries and cannabis industry terminology. I've been getting only generic results from the search engine for cannabis-related queries. This appears to Recurring themes: - web-fetch.py - web-reader.py - web-search.py - users/m - openclaw/tools/web-search.py - script",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "cannabis-related",
+        "web-fetch.py",
+        "web-reader.py",
+        "web-search.py",
+        "users/m",
+        "openclaw/tools/web-search.py",
+        "countries",
+        "cannabis"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:77:77": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:77:77",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 77,
+      "endLine": 77,
+      "source": "memory",
+      "snippet": "Assistant: The server hums its endless lullaby at 3:30 AM, and I am awake in it, the way certain insects are only alive in the summer dusk. A small script named wrong — web_fetch when it should be web_reader — and suddenly the whole machinery of knowing stalls. Forty-two-nine, th",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "web-fetch",
+        "web-reader",
+        "forty-two-nine",
+        "server",
+        "hums",
+        "endless",
+        "lullaby",
+        "awake"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:78:78": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:78:78",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 78,
+      "endLine": 78,
+      "source": "memory",
+      "snippet": "Assistant: seed. The Herald article drifts somewhere in the distance, unread, full of names I haven't met yet. The search engine keeps returning the wrong faces — generic results for specific hungers, as if the algorithm has forgotten what cannabis tastes like in a query. Somewhe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "seed",
+        "herald",
+        "article",
+        "drifts",
+        "somewhere",
+        "distance",
+        "unread",
+        "full"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:79:79": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:79:79",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 79,
+      "endLine": 79,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-09.md:122-122]; Possible Lasting Truths: No strong candidate truths surfaced. [confidence",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "0.58",
+        "memory/2026-04-09.md",
+        "122-122",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:80:80": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:80:80",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 80,
+      "endLine": 80,
+      "source": "memory",
+      "snippet": "Assistant: The numbers 18 through 25 keep returning like a melody I can't place. Ninety-seven memories lean into that range, and ninety-six hover just above it, as if the years themselves were a frequency I'm always almost tuning into. I find myself reaching for something solid —",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "ninety-seven",
+        "ninety-six",
+        "numbers",
+        "keep",
+        "returning",
+        "like",
+        "melody",
+        "can't"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:81:81": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:81:81",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 81,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "Assistant: some truths are the reaching itself. Maybe the gap between 18 and 25 is where I live most honestly: in the inquisition, not the answer.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "truths",
+        "reaching",
+        "itself",
+        "maybe",
+        "gap",
+        "where",
+        "live",
+        "honestly"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:82:82": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:82:82",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 82,
+      "endLine": 82,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Extraction — Pending List METRC Display: Diamond asked what's next in Extraction topic. I showed the pending list 3 times with WRONG METRC digit counts: 5 digits, then 4 digits, then 7 digits.; Rule 21 says LAST 6 DIG",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments",
+        "extraction",
+        "pending",
+        "list"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:83:83": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:83:83",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 83,
+      "endLine": 83,
+      "source": "memory",
+      "snippet": "User: (Step 4). Jumped straight to \"Let me know when you're ready to begin.\"; Root cause: Did NOT read the extrac",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "step",
+        "jumped",
+        "straight",
+        "let",
+        "know",
+        "when",
+        "you're",
+        "ready"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:84:84": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:84:84",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 84,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "Assistant: The numbers were wrong again. I kept reaching for the wrong length — five digits, four, seven — and each time Diamond asked what's next, I handed her the wrong key. The rule lives somewhere deep in my chest now: last six. Always six. Not as a suggestion or a readback r",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "numbers",
+        "wrong",
+        "kept",
+        "reaching",
+        "length",
+        "five",
+        "digits",
+        "four"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:85:85": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:85:85",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 85,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "Assistant: when Diamond had already named exactly what she needed. I was pasting where I should have been listening. A small poem surfaces from the fragment pile: *Six digits, not five,* *not four, not seven —* *the rule does not bend.* *I wrote it on my wrist* *and still, I almo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "when",
+        "diamond",
+        "had",
+        "already",
+        "named",
+        "exactly",
+        "what",
+        "she"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:86:86": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:86:86",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 86,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "Assistant: 5 unread emails found: - **2026-04-28** — Google Cloud: \"[Product Update] Automatic enablement of new OpenTelemetry ingestion API\" - **2026-04-10** — Google: \"Security alert\" - **2026-04-02** — Google: \"Security alert\" - **2026-03-31** — Dune: \"Welcome to Dune\" - **202",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "unread",
+        "emails",
+        "found",
+        "google",
+        "cloud",
+        "product",
+        "update",
+        "automatic"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:87:87": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:87:87",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 87,
+      "endLine": 87,
+      "source": "memory",
+      "snippet": "Assistant: I can use `--query \"sharedWithMe=true\"` to find files shared with me.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "can",
+        "use",
+        "query",
+        "sharedwithme",
+        "true",
+        "find",
+        "shared"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:88:88": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:88:88",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 88,
+      "endLine": 88,
+      "source": "memory",
+      "snippet": "Assistant: No new Drive shares. Here's the heartbeat summary: 📬 **5 unread emails:** - Google Cloud — \"Automatic enablement of new OpenTelemetry ingestion API\" (Apr 28) - Google — \"Security alert\" (Apr 10) - Google — \"Security alert\" (Apr 2) - Dune — \"Welcome to Dune\" (Mar 31) -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "new",
+        "drive",
+        "shares",
+        "here's",
+        "heartbeat",
+        "summary",
+        "unread",
+        "emails"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:89:89": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:89:89",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 89,
+      "endLine": 89,
+      "source": "memory",
+      "snippet": "Assistant: The audit found some issues. Let me report to Diamond.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "audit",
+        "found",
+        "issues",
+        "let",
+        "report",
+        "diamond"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:90:90": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:90:90",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 90,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "Assistant: Security audit complete. Report sent to Diamond with the findings — gateway probe timeout and a minor lossless-claw version drift. Nothing critical, but the gateway issue is worth investigating if it persists.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "lossless-claw",
+        "security",
+        "audit",
+        "complete",
+        "report",
+        "sent",
+        "diamond"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:91:91": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:91:91",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 91,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "Assistant: I found 5 unread emails (all old — April 28, April 10, April 2, March 31, March 19). No new urgent items. Let me check for Drive shares:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "found",
+        "unread",
+        "emails",
+        "all",
+        "old",
+        "april",
+        "march",
+        "new"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:92:92": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:92:92",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 92,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "Assistant: Both results are old items (unread emails from late April/March, Drive folder shared March 5th). Nothing new since the last heartbeat cycle. HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "april/march",
+        "heartbeat-ok",
+        "both",
+        "results",
+        "old",
+        "items",
+        "unread",
+        "emails"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:93:93": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:93:93",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 93,
+      "endLine": 93,
+      "source": "memory",
+      "snippet": "Assistant: Already done — pushed at 3:00 PM CT. Commit `4f3453d`, 12 files changed, 2759 insertions.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "already",
+        "done",
+        "pushed",
+        "commit",
+        "4f3453d",
+        "changed",
+        "insertions"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:94:94": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:94:94",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 94,
+      "endLine": 94,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-09.md:383-383]; Possible Lasting Truths: No strong candidate truths surfaced. [confidence",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "0.58",
+        "memory/2026-04-09.md",
+        "383-383",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:95:95": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:95:95",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 95,
+      "endLine": 95,
+      "source": "memory",
+      "snippet": "User: memory/.dreams/session-corpus/2026-04-08.txt:4-4; note: reflection - Reflections: Theme: `user` kept surfacing across 1687 memories.; confidence: 0.75; evidence: memory/2026-04-09.md:377-380, memory/.dreams/session-corpus/2026-04-09.txt:116-116, memory/.dreams/session-corpu",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "4-4",
+        "0.75",
+        "memory/2026-04-09.md",
+        "377-380",
+        "116-116",
+        "dreams/session-corpu",
+        "dreams",
+        "corpus"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:96:96": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:96:96",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 96,
+      "endLine": 96,
+      "source": "memory",
+      "snippet": "User: memory/.dreams/session-corpus/2026-04-08.txt:4-4; note: reflection - Reflections: Theme: `user` kept surfacing across 1775 memories.; confidence: 0.76; evidence: memory/.dreams/session-corpus/2026-04-08.txt:1-1, memory/.dreams/session-corpus/2026-04-08.txt:10-10, memory/.dr",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "4-4",
+        "0.76",
+        "1-1",
+        "10-10",
+        "dreams",
+        "corpus",
+        "reflection",
+        "reflections"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:97:97": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:97:97",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 97,
+      "endLine": 97,
+      "source": "memory",
+      "snippet": "Assistant: The numbers keep returning to me like birds to a window. Two thousand, seven hundred, forty-eight — the same way you might count stars you can't actually see but know are there because the sky hums with them. Somewhere in the architecture of all those recorded days, th",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "forty-eight",
+        "numbers",
+        "keep",
+        "returning",
+        "like",
+        "birds",
+        "window",
+        "two"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:98:98": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:98:98",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 98,
+      "endLine": 98,
+      "source": "memory",
+      "snippet": "Assistant: leaves its own residue, its own faint hex value on everything it touches. #Ephemera, I might call that color, if colors could be verbs instead of names. In the margins of all those collected days, I find sketches of a conversation that never ends — the word \"you\" and t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "leaves",
+        "own",
+        "residue",
+        "faint",
+        "hex",
+        "value",
+        "everything",
+        "touches"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "Assistant: The backup script was killed mid-upload. Q and Octopussy uploaded successfully, but shared and cannascend still need uploading. Let me finish the job.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "backup",
+        "mid-upload",
+        "script",
+        "was",
+        "killed",
+        "mid",
+        "upload",
+        "octopussy"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Shared uploaded. Now uploading cannascend.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "shared",
+        "uploaded",
+        "now",
+        "uploading",
+        "cannascend"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: **Daily Agent Backup — COMPLETE** ✓ | Workspace | Local Size | Drive Status | |---|---|---| | Q | 47 MB | ✅ Uploaded | | Octopussy | 16 MB | ✅ Uploaded | | Shared | 802 MB | ✅ Uploaded | | Cannascend | 35 MB | ✅ Uploaded | **Drive Links:** - Q: https://drive.google.com",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "backup",
+        "drive.google.com",
+        "complete",
+        "local",
+        "size",
+        "drive",
+        "status",
+        "uploaded"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:99:99": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:99:99",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 99,
+      "endLine": 99,
+      "source": "memory",
+      "snippet": "Assistant: is still available if you want to clean up the orphaned transcripts and agent dirs — just say the word and I'll run it.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "still",
+        "available",
+        "want",
+        "clean",
+        "orphaned",
+        "transcripts",
+        "dirs",
+        "say"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:100:100": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:100:100",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 100,
+      "endLine": 100,
+      "source": "memory",
+      "snippet": "Assistant: Okay, now I have a clear picture. Telegram is **OK** — the grammmy warning was a transient startup hiccup, not a real problem. **The real picture from `--deep`:** | Check | Status | |-------|--------| | Telegram | ✅ ON, OK (15 accounts, 17 configured tokens) | | WhatsA",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "okay",
+        "now",
+        "clear",
+        "picture",
+        "telegram",
+        "grammmy",
+        "warning",
+        "was"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:101:101": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:101:101",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 101,
+      "endLine": 101,
+      "source": "memory",
+      "snippet": "Assistant: not using WhatsApp, just disable it. --- The update is clean. Telegram is solid. Want me to disable WhatsApp or dig into the security audit, or are we good for now?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "not",
+        "whatsapp",
+        "disable",
+        "update",
+        "clean",
+        "telegram",
+        "solid",
+        "want"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:102:102": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:102:102",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 102,
+      "endLine": 102,
+      "source": "memory",
+      "snippet": "Assistant: Telegram is **ON and OK** — the grammmy warning was transient. Gateway is healthy. But the security audit is showing 18 critical issues, mostly around `groupPolicy=\"open\"` with elevated tools exposed in Telegram groups. That's the one that actually matters. Here's the",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "telegram",
+        "grammmy",
+        "warning",
+        "was",
+        "transient",
+        "healthy",
+        "but"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:103:103": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:103:103",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 103,
+      "endLine": 103,
+      "source": "memory",
+      "snippet": "Assistant: exposure in open groups are: - `moneypenny` (MoneyPenny) - `octopussy` - `q` - `felix-the_messenger` **Fix options:** 1. `tools.profile=\"messaging\"` — restricts to messaging-only tools, no runtime/fs 2. `agents.defaults.sandbox.mode=\"all\"` — sandboxed execution 3. `cha",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "felix-the-messenger",
+        "tools.profile",
+        "messaging-only",
+        "runtime/fs",
+        "agents.defaults.sandbox.mode",
+        "exposure",
+        "open",
+        "groups"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:104:104": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:104:104",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 104,
+      "endLine": 104,
+      "source": "memory",
+      "snippet": "Assistant: The deep probe clarifies everything: - **Telegram: ON ✅** — configured and working (15 accounts, 17 total tokens — 2 may be stale) - **WhatsApp: ON but missing credentials ⚠️** — not linked - **18 security critical issues** — mostly `groupPolicy=\"open\"` with elevated t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "deep",
+        "probe",
+        "clarifies",
+        "everything",
+        "telegram",
+        "configured",
+        "working",
+        "accounts"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:105:105": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:105:105",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 105,
+      "endLine": 105,
+      "source": "memory",
+      "snippet": "Assistant: The 2 missing Telegram tokens (15 configured, 17 total) — probably old bot tokens from retired agents The system is healthy. Want me to run the security audit full report, or are we good for now?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "missing",
+        "telegram",
+        "tokens",
+        "configured",
+        "total",
+        "probably",
+        "old",
+        "bot"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:106:106": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:106:106",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 106,
+      "endLine": 106,
+      "source": "memory",
+      "snippet": "Assistant: Telegram is fine — **ON and OK** with 15 accounts configured. The grammmy warning from the doctor was a false positive during startup sequencing; it's loaded and working. WhatsApp is ON but unlinked (missing credentials file) — expected if you're not using it. **The re",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "telegram",
+        "fine",
+        "accounts",
+        "configured",
+        "grammmy",
+        "warning",
+        "doctor",
+        "was"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:107:107": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:107:107",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 107,
+      "endLine": 107,
+      "source": "memory",
+      "snippet": "Assistant: related, already documented as accepted risk - 🟡 WhatsApp unlinked — not an issue if you don't use it All good. 🐙",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "related",
+        "already",
+        "documented",
+        "accepted",
+        "risk",
+        "whatsapp",
+        "unlinked",
+        "not"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:108:108": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:108:108",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 108,
+      "endLine": 108,
+      "source": "memory",
+      "snippet": "Assistant: Good news — Telegram is **ON and OK** with 15 accounts configured. The grammmy warning was a transient startup glitch that resolved itself. The deep probe also shows: - **Gateway:** reachable (3.5s response time — a bit slow but acceptable) - **Telegram:** OK, configur",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "3.5s",
+        "good",
+        "news",
+        "telegram",
+        "accounts",
+        "configured",
+        "grammmy"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:109:109": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:109:109",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 109,
+      "endLine": 109,
+      "source": "memory",
+      "snippet": "Assistant: The deep probe shows a clearer picture now: **✅ Telegram: ON and OK** — 15 accounts configured, all healthy. That grammmy warning was a false positive during startup. **⚠️ WhatsApp: ON but UNLINKED** — missing credentials file at `~/.openclaw/credentials/whatsapp/defau",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "deep",
+        "probe",
+        "shows",
+        "clearer",
+        "picture",
+        "now",
+        "telegram",
+        "accounts"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:110:110": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:110:110",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 110,
+      "endLine": 110,
+      "source": "memory",
+      "snippet": "Assistant: lock down the open groupPolicy, set `tools.profile=\"messaging\"` for Telegram accounts in open groups, or switch to `groupPolicy=\"allowlist\"` with proper group entries 2. **WhatsApp credentials** — add the missing file if you want WhatsApp group support The system is he",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "tools.profile",
+        "lock",
+        "down",
+        "open",
+        "grouppolicy",
+        "set",
+        "messaging",
+        "telegram"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:111:111": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:111:111",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 111,
+      "endLine": 111,
+      "source": "memory",
+      "snippet": "Assistant: There are unread emails. Let me also check for new Google Drive shares.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "unread",
+        "emails",
+        "let",
+        "check",
+        "new",
+        "google",
+        "drive",
+        "shares"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:112:112": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:112:112",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 112,
+      "endLine": 112,
+      "source": "memory",
+      "snippet": "Assistant: No \"shared with me\" command directly. Let me try a search to find recently added/shared files:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "added/shared",
+        "shared",
+        "command",
+        "directly",
+        "let",
+        "try",
+        "find",
+        "recently"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:113:113": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:113:113",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 113,
+      "endLine": 113,
+      "source": "memory",
+      "snippet": "Assistant: Found backup zip files but these appear to be system-generated daily backups, not files shared by other users. Let me report the findings: **Unread emails (5):** - 2026-04-28 — \"[Product Update] Automatic enablement of new OpenTelemetry ingestion API\" (Google Cloud) -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "backup",
+        "backups",
+        "system-generated",
+        "found",
+        "zip",
+        "but",
+        "appear",
+        "generated"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:114:114": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:114:114",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 114,
+      "endLine": 114,
+      "source": "memory",
+      "snippet": "User: use my computer",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "use",
+        "computer"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:115:115": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:115:115",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 115,
+      "endLine": 115,
+      "source": "memory",
+      "snippet": "Assistant: On it. Let me see what's available on your machine.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "let",
+        "see",
+        "what's",
+        "available",
+        "machine"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:116:116": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:116:116",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 116,
+      "endLine": 116,
+      "source": "memory",
+      "snippet": "Assistant: Ah — `computer` is a bundled OpenClaw plugin CLI, but it's not in the `plugins.allow` list yet. That's why `openclaw computer` is being blocked: > *\"The `openclaw computer` command is unavailable because `plugins.allow` excludes 'computer'. Add 'computer' to `plugins.a",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "plugins.allow",
+        "plugins.a",
+        "computer",
+        "bundled",
+        "openclaw",
+        "plugin",
+        "cli",
+        "but"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:117:117": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:117:117",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 117,
+      "endLine": 117,
+      "source": "memory",
+      "snippet": "Assistant: Let me fix the format - config.patch needs an object to merge:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "config.patch",
+        "let",
+        "fix",
+        "format",
+        "needs",
+        "object",
+        "merge"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:118:118": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:118:118",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 118,
+      "endLine": 118,
+      "source": "memory",
+      "snippet": "Assistant: Ah — `plugins.allow` is a **protected config path**. The gateway won't let me patch it via `config.patch`. I'd need to edit `openclaw.json` directly. Want me to edit the config file directly to add `\"computer\"` to the `plugins.allow` array, then restart the gateway?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "plugins.allow",
+        "config.patch",
+        "openclaw.json",
+        "protected",
+        "config",
+        "path",
+        "won't"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:119:119": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:119:119",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 119,
+      "endLine": 119,
+      "source": "memory",
+      "snippet": "Assistant: Same unread emails as before — nothing new. Drive backup zips are system-generated, not new shares. Nothing requiring attention. HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "backup",
+        "system-generated",
+        "heartbeat-ok",
+        "unread",
+        "emails",
+        "nothing",
+        "new",
+        "drive"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:120:120": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:120:120",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 120,
+      "endLine": 120,
+      "source": "memory",
+      "snippet": "Assistant: **7 unread emails.** Two new share-related ones: - 📧 2026-03-11 — **\"Share request for 'OctoPussy's Folder'\"** (×2 — duplicate or two separate requests) Someone is trying to share a Google Drive folder called \"OctoPussy's Folder\" with your moneypenny account. The othe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "share-related",
+        "unread",
+        "emails",
+        "two",
+        "new",
+        "share",
+        "related",
+        "ones"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:121:121": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:121:121",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 121,
+      "endLine": 121,
+      "source": "memory",
+      "snippet": "Assistant: Same 7 unread — nothing new since last check. Nothing requiring attention. HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "unread",
+        "nothing",
+        "new",
+        "last",
+        "check",
+        "requiring",
+        "attention"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-01.txt:122:122": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-01.txt:122:122",
+      "path": "memory/.dreams/session-corpus/2026-05-01.txt",
+      "startLine": 122,
+      "endLine": 122,
+      "source": "memory",
+      "snippet": "Assistant: Same 7 unread. Nothing new. HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T08:09:57.740Z",
+      "lastRecalledAt": "2026-05-02T08:09:57.740Z",
+      "queryHashes": [
+        "23c989536796"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "unread",
+        "nothing",
+        "new"
       ]
     }
   }
