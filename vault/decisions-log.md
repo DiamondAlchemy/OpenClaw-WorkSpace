@@ -31,3 +31,7 @@
 - **2026-04-30** — HRBD March v12 generated: visible origin-card label changed to “columns ran”; CO2 remains calculated internally at $100/column.
 
 - **2026-04-30** — HRBD March v13 generated after independent math audit. Cost model already used 24 columns and $100/column CO2; fixed chart donut that was still hardcoded at 23 columns.
+
+- **2026-05-02** — TSW GMP framework document style standardized: use the existing black/white/red branded checklist theme from `gmp-electrical-requirements-checklist-branded.html` for all future GMP framework deliverables, including checklists, SOP templates, BPR templates, and QMS documents.
+
+- **2026-05-02** — Clarification from Christian: the design standard is the overall TSW GMP document family/theme used across deliverables so far, not just the electrical checklist. Future docs should preserve the executive/contractor-facing black-white-red branded style, clean modern headers/covers, practical tables/checklists, metadata/versioning, and implementation-focused tone.
