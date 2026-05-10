@@ -1,6 +1,6 @@
 # Project State — Shared
 
-*Last updated: 2026-05-08*
+*Last updated: 2026-05-10*
 *Updated by: Vesper*
 
 ---
@@ -45,3 +45,43 @@ On 2026-05-08, Vesper split live resin/dry cure resin from the sugar framework b
 
 
 On 2026-05-08, Vesper converted Unicode checkbox glyphs (`☐`) to printable `[ ]` check fields across active hydrocarbon sugar framework Markdown forms/BPR to avoid PDF/font rendering issues.
+
+On 2026-05-10, Diamond asked whether the next framework step is RCA or CAPA. Vesper recommended the next packet be the Deviation Investigation/RCA/CAPA layer: start with a deviation investigation report + RCA worksheet, then CAPA plan/effectiveness check, because FORM-QA-005 deviation trigger intake and FORM-QA-006 QC release checklist already exist and need the formal follow-through records behind them.
+
+On 2026-05-10, Christian clarified TSW’s RCA method: use the 5 Ms — Man, Material, Machine, Measurement, and Maintenance — with Mother Nature as a rare/optional sixth M. Future Deviation Investigation/RCA/CAPA templates should use this taxonomy as the primary RCA structure rather than generic fishbone categories.
+
+On 2026-05-10, Christian pushed back on generic fishbone/boilerplate RCA framing. The TSW 5M method came from a 35-year experienced injectable GMP site lead and should be treated as the preferred practical GMP RCA model in framework documents: Man, Material, Machine, Measurement, Maintenance, with Mother Nature only as a rare optional external/environmental category.
+
+On 2026-05-10, Diamond asked whether the RCA/CAPA work should be a checklist or SOP. Recommended building both as a connected packet: FORM-QA-007 Deviation Investigation & 5M RCA Worksheet first, then SOP-QA-004/005 Deviation Investigation and CAPA Procedure to define triggers, roles, timelines, escalation, and closeout.
+
+On 2026-05-10, Christian asked whether RCA/CAPA are always required. Framework decision: every deviation requires documented triage, classification, impact assessment, disposition, and closure rationale; full RCA is proportional to severity and may be simplified for minor events; formal CAPA is not always required and should be triggered by major/critical events, repeat trends, systemic root causes, product-quality/safety/data-integrity impact, regulatory risk, or release-impacting failures. Minor isolated deviations may close with immediate correction and documented no-CAPA rationale.
+
+On 2026-05-10, Christian asked for examples of major/critical deviations. Vesper clarified that major deviations may affect product quality or GMP control and usually require investigation/RCA, while critical deviations involve confirmed or high-probability safety, regulatory, data-integrity, release, or public-health impact and require immediate hold/escalation plus RCA/CAPA.
+
+On 2026-05-10, Vesper drafted `templates/FORM-QA-007_Deviation_Investigation_5M_RCA_Worksheet.md`. It is the formal follow-up to FORM-QA-005 deviation intake and uses TSW’s 5M RCA model: Man, Material, Machine, Measurement, Maintenance, with optional Mother Nature. It includes investigation-required gates, RCA/CAPA decision gates, evidence review, impact assessment, 5-Why, root cause conclusion, disposition, closure checklist, and examples of major/critical deviations. Verification passed: 5M present, RCA/CAPA gates present, no hard-coded LEL % default.
+
+On 2026-05-10, Christian caught a logic issue in FORM-QA-007: an RCA worksheet should not ask whether RCA is required. Vesper corrected the template so opening FORM-QA-007 means RCA is being performed; Section 2 now documents the RCA opening basis/triggers, while CAPA remains the post-RCA decision gate.
+
+On 2026-05-10, Christian asked for the practical run-level deviation/RCA/CAPA logic. Framework clarification: a normal run is documented in the BPR; any departure from approved parameters or required records opens deviation intake; triage classifies minor/major/critical and documents containment/impact/disposition; RCA is opened for major/critical/repeat/unknown/product/safety/data-integrity/release-impacting events; CAPA is opened only when RCA shows a systemic, repeat, significant, or preventable root cause requiring corrective/preventive action.
+
+On 2026-05-10, Christian asked what temperatures/pressures are based on. Clarified: the sugar framework values (-60°C dry cure, -80°C fresh frozen, -60°C to -80°C approved extraction range, 35–45 PSI solvent vessel N₂, 45–55 PSI column evacuation/sweep, 65–80°F collection, 75–80°F purge at 20 inHg) are TSW process parameters provided by Christian and must be treated as client/facility-specific process setpoints, not universal GMP requirements. GMP requirement is to define approved ranges, justify them by process/equipment/safety/product needs, train operators, record actuals, and investigate excursions.
+
+On 2026-05-10, Christian asked whether raw-material/product specs such as fresh frozen or dry cured should be in the MBR. Framework clarification: yes, the MBR should define approved material types and specs, including dry cure vs fresh frozen branches, accepted material condition, COA/release/status requirements, approximate column load ranges, and process parameter targets by material type. The BPR records the actual lot/strain/type/load and verifies it matched the MBR/spec before use.
+
+On 2026-05-10, Christian asked when deviations require MBR/SOP overhaul. Framework clarification: document overhaul is not required for every deviation. It is required when RCA/CAPA shows the approved process or instruction is wrong, unclear, incomplete, impractical, no longer matches actual operations, or no longer controls product/safety risk. Triggers include repeat deviations, systemic causes, changed process parameters, new equipment/materials, changed critical controls, safety/AHJ/regulatory changes, failed effectiveness checks, and validation/product-quality evidence showing current controls are inadequate.
+
+On 2026-05-10, Christian asked how process parameters are justified. Framework clarification: justify parameters through documented process basis, not opinion — product target/spec, equipment capability and OEM limits, safety/AHJ constraints, engineering or historical runs, final COA/in-process quality evidence, risk assessment, and approved process/change-control documentation. Recommended adding a Process Parameter Justification table to MBRs showing each critical parameter, target/range, basis, evidence, and deviation trigger.
+
+On 2026-05-10, Vesper updated `templates/MBR-SUGAR-DC-001_Master_Batch_Record_Dry_Cure_Sugar.md` with Section 5.1 Process Parameter Justification / Design Basis. It clarifies that the process values are TSW process-control parameters, not universal GMP regulatory limits, and lists current rationale plus evidence to attach/confirm before client-specific issue for biomass loads, solvent ratios, extraction temperatures, N₂ pressures, collection temp, off-gas/LEL, crystallization, purge, residual butane, and yield. Verification passed: design-basis section present, no hard-coded 10% LEL language.
+
+On 2026-05-10, Christian flagged that missing process-parameter justification/design-basis language was a major miss because many framework files had already been saved locally. Vesper acknowledged the issue. Prior saved framework files should be treated as working drafts requiring revision control, not final controlled documents. Required next action: audit all affected MBR/BPR/forms/SOPs for unsupported hard parameters or missing design-basis language, revise them, and package a clean corrected revision set with a superseded-file list.
+
+On 2026-05-10, after Christian flagged the missing process-parameter justification problem, Vesper audited active template Markdown files for hard process parameters and corrected the set. Updated: `templates/MBR-SUGAR-DC-001_Master_Batch_Record_Dry_Cure_Sugar.md` with Section 5.1 design basis; `templates/BPR-SUGAR-DC-001_Batch_Production_Record_Dry_Cure_Sugar.md` with process-parameter control note; `templates/FORM-TEMP-001_Chiller_Freezer_Process_Temperature_Log.md` with temperature-control basis clarification; `templates/FORM-PROC-003_Vacuum_Oven_Crystallization_Purge_Log.md` with crystallization/purge basis language; and `templates/SOP-PROD-002_Solvent_Handling_and_Storage.md` clarifying occupational exposure ppm values are not residual-solvent release specs or LEL transfer thresholds. Verification found no stale 10% LEL/default threshold language in active Markdown templates. Correction note and zip created: `packets/TSW-Hydrocarbon-Framework-Parameter-Basis-Correction-20260510.md` and `.zip`.
+
+On 2026-05-10, Vesper created `packets/TSW-Hydrocarbon-Framework-Current-Files-20260510.zip` containing the current working Markdown source files for the hydrocarbon framework plus the parameter-basis correction note, so Diamond/Christian can save the corrected current set locally.
+
+On 2026-05-10, Christian clarified he was not upset but wants the workflow sharpened: Vesper must not rely on the Mac mini workspace as the only archive. For framework deliverables, corrections, and material updates, Vesper should send the current files/packets directly via Telegram so Christian/Diamond can save hard copies locally. Hard copies/direct delivery are now the preferred robust save path.
+
+On 2026-05-10, Vesper rebuilt `packets/TSW-Hydrocarbon-Framework-Corrected-Current-20260510.zip`, copied it to `/Users/m/.openclaw/media/outbound/`, and sent hard-copy packets via Telegram to Christian (message 1308) and Diamond (message 1309). This packet includes current corrected Markdown source files and a manifest, and supersedes earlier working-draft local copies from before the parameter-basis/design-basis correction.
+
+On 2026-05-10, Christian confirmed the archive workflow: Vesper must keep saving all framework deliverables/corrections in the workspace while also providing hard-copy packets directly to Christian/Diamond for local saving. Both are required. Future framework packets should preserve workspace source files, package current copies, send hard copies, and clearly mark superseded versions.

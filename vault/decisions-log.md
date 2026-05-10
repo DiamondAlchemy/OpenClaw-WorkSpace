@@ -46,3 +46,17 @@
 - **2026-05-06** — Christian clarified the current MMR/MBR/BPR/framework documents are internal TSW framework/build docs, not final client-facing/auditor-facing controlled documents. Keep internal document structure practical and implementation-focused; use controlled-document elements where useful, but avoid over-polishing or treating internal drafts as issued client records until converted for a specific client/facility.
 
 - **2026-05-08** — Supersedes 2026-05-04 LEL default language: do **not** state a recommended default of ≤10% LEL in framework documents. Current hydrocarbon/sugar standard is: n-butane LEL 1.8% v/v may be listed as a reference value only; transfer/release decisions require calibrated detector readings below the site-approved action threshold established by AHJ/fire code, safety SOP, equipment requirements, and facility policy.
+
+- **2026-05-10** — RCA framework will use Christian’s TSW 5M method as the primary root-cause structure: Man, Material, Machine, Measurement, and Maintenance, with Mother Nature as a rare/optional sixth M for environmental/natural external causes.
+
+- **2026-05-10** — Christian clarified the TSW RCA structure should not be treated as boilerplate fishbone. The 5M method came from a 35-year experienced injectable GMP site lead and should be treated as the preferred practical GMP RCA model for TSW framework documents.
+
+- **2026-05-10** — Christian clarified that Vesper should not rely on the Mac mini workspace as the only save location. For framework deliverables/corrections, send hard-copy packets directly to Christian/Diamond via Telegram when created or materially updated, so they can save local copies. Hard copies/direct delivery are the preferred robust archive path.
+
+- **2026-05-10** — Christian clarified that Vesper should not rely on the Mac mini workspace as the only save location. For framework deliverables/corrections, send hard-copy packets directly to Christian/Diamond via Telegram when created or materially updated, so they can save local copies. Hard copies/direct delivery are the preferred robust archive path.
+
+- **2026-05-10** — Framework archive rule confirmed by Christian: always save deliverables/corrections in Vesper workspace **and** provide hard-copy packets directly to Christian/Diamond for local saving. Both are required; neither replaces the other.
+
+- **2026-05-10** — Framework archive rule confirmed by Christian: always save deliverables/corrections in Vesper workspace **and** provide hard-copy packets directly to Christian/Diamond for local saving. Both are required; neither replaces the other.
+
+- **2026-05-10** — Framework archive rule confirmed by Christian: always save deliverables/corrections in Vesper workspace **and** provide hard-copy packets directly to Christian/Diamond for local saving. Both are required; neither replaces the other.
