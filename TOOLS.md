@@ -62,9 +62,49 @@ Things like:
 - **Octopussy:** @Octopussy_reporter_bot
 - **Felix (The Messenger):** @Felix_topsecret_bot
 
-## Why Separate?
+## Installed Skills (ClawHub)
 
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+### chart-image (v2.6.35)
+Publication-quality charts via Vega-Lite + Sharp. 9 types: line, bar, area, pie, heatmap, candlestick, stacked, multi-series, sparkline. ~200ms/chart, pure Node.js.
+- Output: PNG or SVG
+- Install: `openclaw skills install chart-image`
+- Location: `skills/chart-image/`
+
+### report (v1.0.3)
+Recurring scheduled reports with cron + multi-channel delivery (Telegram/email/webhook). User defines data sources and report structure.
+
+### dashboard (v1.0.1)
+Static HTML dashboards from data. Dark/light themes, KPI widgets. Cron-driven pipeline.
+
+### notification-system (v1.0.1)
+Unified outbound notifications across WhatsApp, Telegram, email. Templates, scheduling, delivery tracking.
+
+### heartbeat (v1.0.1)
+Design better HEARTBEAT.md files with adaptive cadence and cron handoffs.
+
+### kpi (v1.0.1)
+Track KPIs with targets and execution tracking. Writes to `memory/kpi.md`.
+
+### spreadsheet (v1.0.0)
+Read/write/analyze tabular data with schema memory and format preservation.
+
+### fill-docx-template (v1.1.2)
+Fill Word `.docx` templates with dynamic data, tables, images. For SOPs, permits, facility docs.
+
+### pdf-form-filler (v0.2.0)
+Fill PDF forms programmatically with text/checkboxes. State cannabis manifests.
+
+### document-pro (v1.0.0)
+Read/parse/extract PDF, DOCX, PPT key information.
+
+### intake (v1.0.0)
+Design intake forms, discovery interviews, onboarding workflows.
+
+### invoice (v1.0.0)
+Create/send invoices with automatic numbering, tax calc, payment tracking.
+
+### weekly-report-generator (v1.0.0)
+Auto-generate weekly business reports with KPIs, accomplishments, blockers.
 
 ---
 

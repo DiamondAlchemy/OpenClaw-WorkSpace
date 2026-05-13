@@ -109,6 +109,16 @@ All agent workspaces audited and cleaned:
 
 ---
 
+## Claude MCP Bridge (2026-05-13)
+
+- **Method:** Claude Desktop → freema/openclaw-mcp (v1.4.1, global npm) → stdio → local Gateway
+- **Config:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Gateway:** `chatCompletions` enabled, `http://127.0.0.1:18789`
+- **Token:** `9030fa143b4493404bee0dce54cf3de5afe818003651db26`
+- **Default route:** Claude → openclaw_chat → Gateway → MoneyPenny
+- **Agent targeting:** Not yet configured (would need `OPENCLAW_INSTANCES` env var for per-agent routing)
+- **Also in Claude:** TradingView, Hyperliquid, Funding Rates MCPs (Goldfinger/crypto, separate from facility)
+
 ## Pending / Open Items
 
 - **gog OAuth re-auth:** Needs `moneypenny@topsecretworkshops.com` added as Test User in GCP OAuth consent screen

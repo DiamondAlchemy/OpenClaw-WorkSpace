@@ -1,7 +1,7 @@
 # Project State — Shared
 
-*Last updated: 2026-05-10*
-*Updated by: Vesper*
+*Last updated: 2026-05-13*
+*Updated by: Octopussy*
 
 ---
 
@@ -16,7 +16,7 @@
 | Drax CAD System | Drax | Testing | 2026-04-03 | 63K lines, 48/48 tests, Diamond testing via TG |
 | Google Ads / Silva | Silva | Paused | 2026-03-28 | 6 campaigns, 170+ keywords, topsecretworkshops.com |
 | Scaramanga Lead Gen | Scaramanga | New | 2026-04-07 | Cannabis lead gen, SQLite DB, MT focus |
-| Monthly Reports | Octopussy | Ongoing | 2026-04-30 | Audited HRBD March math and regenerated v13. CO2 remains $100/column, visible label remains columns ran, and hardcoded donut-chart CO2 column count was corrected from 23 to actual TOTAL_COLS=24. File: reports/hrbd/monthly/HRBD-March-2026-v13.pdf. |
+| Monthly Reports | Octopussy | Upgraded | 2026-05-13 | Diamond installed new Octopussy reporting skills: chart-image, report, dashboard, kpi, weekly-report-generator, and spreadsheet. Christian was notified via Telegram that Octopussy can now generate visual KPI reports with publication-quality PNG charts, HTML dashboards, recurring scheduled reports, spreadsheet/KPI workflows, and send visual monthly reports directly to him via Telegram. Previous audited HRBD March report: reports/hrbd/monthly/HRBD-March-2026-v13.pdf. |
 | Goldfinger Trading | Cryptobot | Active | — | Perp tracking, shadow monitor, shell monitor |
 
 ---
@@ -30,6 +30,7 @@
 | 2026-04-06 | 00qm00qm account dead | Disabled by Google, removed from all scripts |
 | 2026-04-06 | Rule 48 added | Read script every message, both Nomi + Towelie |
 | 2026-05-01 | New lab layout constraint | Christian requested cGMP workflow for uploaded blueprint: only use warehouse section and leave bay door space open. |
+| 2026-05-13 | Octopussy reporting stack upgraded | New skills installed: chart-image, report, dashboard, kpi, weekly-report-generator, spreadsheet. Christian notified that visual KPI reports/charts can now be generated and sent directly through Telegram. |
 
 ---
 
