@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "skills": {
+    "kpi": {
+      "version": "1.0.1",
+      "installedAt": 1778688789636
+    },
+    "weekly-report-generator": {
+      "version": "1.0.0",
+      "installedAt": 1778688789778
+    },
+    "fill-docx-template": {
+      "version": "1.1.2",
+      "installedAt": 1778688789870
+    },
+    "dashboard": {
+      "version": "1.0.1",
+      "installedAt": 1778688789874
+    },
+    "chart-image": {
+      "version": "2.6.35",
+      "installedAt": 1778688789927
+    },
+    "report": {
+      "version": "1.0.3",
+      "installedAt": 1778688789936
+    },
+    "pdf-form-filler": {
+      "version": "0.2.0",
+      "installedAt": 1778688790027
+    },
+    "notification-system": {
+      "version": "1.0.1",
+      "installedAt": 1778688790938
+    },
+    "heartbeat": {
+      "version": "1.0.1",
+      "installedAt": 1778688846503
+    },
+    "document-pro": {
+      "version": "1.0.0",
+      "installedAt": 1778688849305
+    },
+    "spreadsheet": {
+      "version": "1.0.0",
+      "installedAt": 1778688851858
+    },
+    "intake": {
+      "version": "1.0.0",
+      "installedAt": 1778688854252
+    },
+    "invoice": {
+      "version": "1.0.0",
+      "installedAt": 1778688857154
+    }
+  }
+}
