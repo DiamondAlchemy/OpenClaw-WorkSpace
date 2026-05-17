@@ -7,3 +7,4 @@ __pycache__/
 # Ignore temporary/test files
 gog_test.txt
 .credentials/
+moneypenny/
