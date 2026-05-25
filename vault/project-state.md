@@ -1,7 +1,7 @@
 # Project State — Shared
 
-*Last updated: 2026-05-14*
-*Updated by: Vesper*
+*Last updated: 2026-05-25*
+*Updated by: MoneyPenny*
 
 ---
 
@@ -41,6 +41,15 @@
 - **Memory:** QMD indexed, dreaming at 3 AM, recall stores building
 - **gog:** Dead account removed, moneypenny@topsecretworkshops.com is primary
 
+---
+
+## Security Audit Log
+
+| Date | Agent/Area | Finding | Status |
+|------|-----------|---------|--------|
+| 2026-05-25 | Scaramanga / `apify-lead-generation` | `potential-exfiltration` — file read + network send at `reference/scripts/run_actor.js:353`. Alerted Diamond. | Under review |
+
+---
 
 On 2026-05-08, Vesper split live resin/dry cure resin from the sugar framework by creating standalone MBR templates: `templates/MBR-RESIN-DC-001_Master_Batch_Record_Dry_Cure_Hydrocarbon_Resin.md` and `templates/MBR-LIVE-FF-001_Master_Batch_Record_Fresh_Frozen_Live_Resin.md`. Both preserve locked LEL/site-threshold, °C extraction temp, N₂, and residual butane language.
 
