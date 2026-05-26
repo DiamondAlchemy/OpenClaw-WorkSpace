@@ -136,3 +136,8 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should surface alerts, failures, breakage, and important status signals.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
+
+## Promoted From Short-Term Memory (2026-05-26)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-03-15.md:2:5 -->
+- ## Security Audit - Accepted Risks All security audit items below are documented as accepted risks: [score=0.866 recalls=3 avg=0.917 source=memory/2026-03-15.md:2-5]
