@@ -64,3 +64,5 @@
 - **2026-05-10** — Framework archive rule confirmed by Christian: always save deliverables/corrections in Vesper workspace **and** provide hard-copy packets directly to Christian/Diamond for local saving. Both are required; neither replaces the other.
 
 - **2026-05-28** — Diamond approved expanding `DiamondAlchemy/vesper-gmp-library` for Hermes framework work. The approved repo scope now includes controlled PDF/reference folders (`briefs-pdf/`, `regulatory-updates-pdf/`, `framework-pdf/`), editable framework source under `framework-source/`, selected safe source references under `sources-approved/`, and `MANIFEST.md`. The exclusion rule remains: no vault/memory/runtime state, client blueprints/images, private raw workspace material, temp files, ZIP packets, credentials, or local config.
+
+- **2026-05-29** — Diamond switched MoneyPenny back to GPT for default operation after briefly testing Sonnet. Operational preference: stay on GPT normally, with Sonnet available to switch to when needed for a specific task.
