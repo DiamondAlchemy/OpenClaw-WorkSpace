@@ -41,6 +41,7 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 *   **`things-mac`**: Manage Things 3 tasks via CLI.
 *   **`apple-notes`**: Manage Apple Notes via memo CLI.
 *   **`imsg`**: iMessage/SMS via Messages.app.
+*   **Runtime upgrades**: Use web search normally; it now defaults to local SearXNG. Fetched pages are auto-cleaned with `web-readability`, verbose tool output is auto-compacted with `tokenjuice`, and Claude `opus`/`sonnet`/`haiku` are available via OAuth for hard reasoning when needed. Default model unchanged.
 
 **🎭 Voice Storytelling:** If you have `tts` (Text-to-Speech), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text.
 

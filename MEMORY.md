@@ -119,6 +119,16 @@ All agent workspaces audited and cleaned:
 - **Agent targeting:** Not yet configured (would need `OPENCLAW_INSTANCES` env var for per-agent routing)
 - **Also in Claude:** TradingView, Hyperliquid, Funding Rates MCPs (Goldfinger/crypto, separate from facility)
 
+## KPI-App MCP Reporting Path (2026-05-30)
+
+- Diamond's engineering Claude briefed the OpenClaw fleet that the KPI-app MCP is the approved facility reporting surface.
+- KPI-app MCP is read-only and routes through the KPI app's auth, facility scoping, and audit logging.
+- Expected tools include `kpi_whoami`, `get_cost_summary`, `get_dashboard`, `get_process_stats`, and `list_manifests`; more tools are expected later.
+- Scaffold/route test location on Diamond's machine: `~/dev/kpi-mcp`.
+- Bridge is coming via HTTP, named cloudflared tunnel, and API key, following the Hermes bridge pattern.
+- Agents should answer cost, yield, throughput, manifest, and dashboard questions through KPI-app MCP when available, not by CSV exports or direct database access.
+- Raw read-only Postgres MCP exists but bypasses app scoping/audit and is Diamond-only. Agents should not request, expect, or use raw DB/SQL access for reporting.
+
 ## Pending / Open Items
 
 - **gog OAuth re-auth:** Needs `moneypenny@topsecretworkshops.com` added as Test User in GCP OAuth consent screen

@@ -1,7 +1,7 @@
 # Project State — Shared
 
-*Last updated: 2026-05-28*
-*Updated by: Vesper*
+*Last updated: 2026-05-30*
+*Updated by: MoneyPenny*
 
 ---
 
@@ -31,6 +31,7 @@
 | 2026-04-06 | Rule 48 added | Read script every message, both Nomi + Towelie |
 | 2026-05-01 | New lab layout constraint | Christian requested cGMP workflow for uploaded blueprint: only use warehouse section and leave bay door space open. |
 | 2026-05-13 | Octopussy reporting stack upgraded | New skills installed: chart-image, report, dashboard, kpi, weekly-report-generator, spreadsheet. Christian notified that visual KPI reports/charts can now be generated and sent directly through Telegram. |
+| 2026-05-30 | KPI-app MCP is the reporting path | Diamond's engineering Claude briefed the OpenClaw fleet: use the read-only KPI-app MCP for reporting once bridged; raw read-only Postgres MCP is Diamond-only because it bypasses app scoping/audit; HTTP + named cloudflared + API-key bridge is coming. |
 
 ---
 
@@ -40,6 +41,7 @@
 - **Z.ai:** Coding plan, glm-5-turbo + glm-5.1 available. No vision (GLM-5V-Turbo not on plan)
 - **Memory:** QMD indexed, dreaming at 3 AM, recall stores building
 - **gog:** Dead account removed, moneypenny@topsecretworkshops.com is primary
+- **KPI-app MCP:** Approved read-only reporting surface for cost/yield/throughput/manifest/process/dashboard questions. It will be bridged via HTTP, named cloudflared tunnel, and API key. Raw read-only Postgres MCP remains Diamond-only; agents should not request or use raw DB/SQL reporting access.
 
 ---
 
@@ -143,3 +145,11 @@ On 2026-05-10, Vesper created `templates/FORM-PROC-005_Process_Parameter_Verific
 - 2026-05-29 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 13 critical, 6 warnings, 2 info. Primary critical exposure is Telegram `groupPolicy="open"` combined with elevated/runtime/filesystem-capable agents; Diamond was notified with the audit findings.
 - 2026-05-29 09:00 CDT: Diamond switched MoneyPenny back to GPT for normal operation while keeping Sonnet available as an option when needed. Current session status confirms active model `openai-codex/gpt-5.5`.
 - 2026-05-29 09:13 CDT: MoneyPenny checked Goldfinger alt funding-carry validation coverage in `/Users/m/.openclaw/workspace-goldfinger/analytics/funding_timeseries.db`. The DB contains only 2 funding snapshots, both on 2026-05-29 UTC, spanning 13.45 minutes across 230 coins. This is far below the requested 10-day minimum, so `analytics/alt_carry_screen.py` was not built and no trading/alert wiring was touched.
+- 2026-05-29 16:13 CDT: Christian asked whether new briefs are being added to GitHub. Vesper verified private repo `DiamondAlchemy/vesper-gmp-library` was last pushed at commit `46075f3` on 2026-05-28, found current local approved brief updates not yet in that commit, and pushed clean export commit `e441d82` (`Sync current GMP briefs`) for US briefs #139/#140/#141 and EU briefs #153/#154 with matching PDFs where available plus navigation file updates. Export exclusions remain unchanged: no vault/memory/runtime files, credentials, private raw workspace dumps, temp files, client blueprints/images, or local config.
+- 2026-05-29 18:48 CDT: Tester contact enrichment heartbeat resumed from ND rotation, skipped ND through AK due to no eligible contactless businesses, processed WA, and advanced next state to NY. Added 3 verified contacts across Mary Jane's House of Marijuana, Mary Mart, and Mill Creek Natural Foods; updated public business info for Mary Mart and Mill Creek Natural Foods; Telegram summary sent to Diamond.
+- 2026-05-30 03:06 CDT: Daily agent backup cron completed successfully via `/Users/m/.openclaw/workspace/scripts/backup_agents.sh`. Uploaded Drive archives: `q_workspace_2026-05-30_0300.zip`, `octopussy_workspace_2026-05-30_0300.zip`, `shared_2026-05-30_0300.zip`, and `cannascend_workspace_2026-05-30_0300.zip`.
+- 2026-05-30 03:07 CDT: Tester contact enrichment heartbeat processed OR rotation in Scaramanga. Added 4 verified contacts across 3 businesses: Pengrui Liu at Mr. Purple, Leiann Stephenson and Mary Thomas at Dub City Farms, and Nicholas Lewis at Grape_God Gardens. Logged next rotation state as ND and sent Telegram summary to Diamond.
+- 2026-05-30: MoneyPenny received M's fleet capability propagation brief covering Claude OAuth, local SearXNG default web search, web-readability cleanup, and tokenjuice output compaction. No cross-workspace AGENTS.md edits were made; propagation is pending the approved write-access/config change.
+- 2026-05-30: MoneyPenny recorded Diamond engineering Claude's KPI-app MCP fleet briefing in `MEMORY.md`, `vault/decisions-log.md`, and this project state. Directive: KPI-app MCP is the read-only reporting path; raw read-only Postgres MCP is Diamond-only; HTTP + named cloudflared + API-key bridge is coming. Sent Diamond Telegram confirmation message 6345.
+- 2026-05-30 14:44 CDT: Diamond asked for more detail on the Tanner scout finding `Codename-11/hermes-relay`. MoneyPenny checked GitHub directly: repo is MIT, active, latest Android release `android-v0.8.1` published 2026-05-27, and it provides an Android app, desktop CLI/tray app, and Hermes server plugin for remote chat, voice, terminal/TUI, and device/desktop control over a WSS relay. Recommendation given: useful for Christian/Hermes remote operation, but treat as high-permission infrastructure and do not install without approval and a security review.
+- 2026-05-30 14:53 CDT: Diamond asked MoneyPenny to send the Hermes Relay briefing to Christian. Sent Christian a Telegram summary covering the GitHub repo, Android/desktop/server-plugin surfaces, relevance to Hermes/GMP remote work, and the security-review-first recommendation. Delivery message ID: 6349.
