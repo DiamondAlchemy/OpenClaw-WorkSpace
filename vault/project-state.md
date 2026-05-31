@@ -1,6 +1,6 @@
 # Project State — Shared
 
-*Last updated: 2026-05-30*
+*Last updated: 2026-05-31*
 *Updated by: MoneyPenny*
 
 ---
@@ -32,6 +32,7 @@
 | 2026-05-01 | New lab layout constraint | Christian requested cGMP workflow for uploaded blueprint: only use warehouse section and leave bay door space open. |
 | 2026-05-13 | Octopussy reporting stack upgraded | New skills installed: chart-image, report, dashboard, kpi, weekly-report-generator, spreadsheet. Christian notified that visual KPI reports/charts can now be generated and sent directly through Telegram. |
 | 2026-05-30 | KPI-app MCP is the reporting path | Diamond's engineering Claude briefed the OpenClaw fleet: use the read-only KPI-app MCP for reporting once bridged; raw read-only Postgres MCP is Diamond-only because it bypasses app scoping/audit; HTTP + named cloudflared + API-key bridge is coming. |
+| 2026-05-31 | Twitter/X Data API skill installed | Diamond requested Tanner scout item #1. Installed ClawHub skill `twitterwebapi@1.0.0` into MoneyPenny's workspace. Search test against `OpenClaw` succeeded once through the free tier, then the free daily credit was exhausted. `AZT_API_KEY` is not set. Local wrapper patched so search pretty-printing handles returned `timeline` data and `--json` works after subcommands. |
 
 ---
 
@@ -153,3 +154,10 @@ On 2026-05-10, Vesper created `templates/FORM-PROC-005_Process_Parameter_Verific
 - 2026-05-30: MoneyPenny recorded Diamond engineering Claude's KPI-app MCP fleet briefing in `MEMORY.md`, `vault/decisions-log.md`, and this project state. Directive: KPI-app MCP is the read-only reporting path; raw read-only Postgres MCP is Diamond-only; HTTP + named cloudflared + API-key bridge is coming. Sent Diamond Telegram confirmation message 6345.
 - 2026-05-30 14:44 CDT: Diamond asked for more detail on the Tanner scout finding `Codename-11/hermes-relay`. MoneyPenny checked GitHub directly: repo is MIT, active, latest Android release `android-v0.8.1` published 2026-05-27, and it provides an Android app, desktop CLI/tray app, and Hermes server plugin for remote chat, voice, terminal/TUI, and device/desktop control over a WSS relay. Recommendation given: useful for Christian/Hermes remote operation, but treat as high-permission infrastructure and do not install without approval and a security review.
 - 2026-05-30 14:53 CDT: Diamond asked MoneyPenny to send the Hermes Relay briefing to Christian. Sent Christian a Telegram summary covering the GitHub repo, Android/desktop/server-plugin surfaces, relevance to Hermes/GMP remote work, and the security-review-first recommendation. Delivery message ID: 6349.
+- 2026-05-30 17:42 CDT: Tester contact enrichment heartbeat processed OR rotation in Scaramanga. Added 2 verified contacts: Chris Lugo, Company Owner at Sub-Zero NW, and William Simpson, Founder / CEO at Chalice Farms. Logged next rotation state as ND and sent Telegram summary to Diamond.
+- 2026-05-30 19:48 CDT: Tester contact enrichment heartbeat processed NY rotation in Scaramanga. Added 3 verified contacts across 3 businesses: Howard Hoffman at Omnium Health Inc./Omnium Canna, David Falkowski at OMO Labs/Open Minded Organics, and Chris George at Outcast Acres. Logged next rotation state as OR and sent Telegram summary to Diamond.
+- 2026-05-31 03:08 CDT: Daily agent backup cron completed successfully via `/Users/m/.openclaw/workspace/scripts/backup_agents.sh`. Uploaded Drive archives: `q_workspace_2026-05-31_0300.zip`, `octopussy_workspace_2026-05-31_0300.zip`, `shared_2026-05-31_0300.zip`, and `cannascend_workspace_2026-05-31_0300.zip`.
+- 2026-05-31 06:18 CDT: Tester contact enrichment heartbeat resumed from ND rotation, skipped empty eligible states through AK, processed WA, and advanced next state to OR. Added 3 verified owner contacts for Naturally Green Care Center in Winlock: Dennis Turner, Sam Ward, and Rashel Williams. Logged the searched WA batch in Scaramanga and sent Telegram summary to Diamond.
+- 2026-05-31 06:30 CDT: Daily Tanner skills/tools scout ran. The requested workspace-tanner search script path was missing, so the active workspace SearXNG script was used. Scanned ClawHub skills/plugins, OpenClaw docs/core GitHub, openclaw/agent-skills, Hermes Agent GitHub/search results, Reddit, HN, and general web. Found new ClawHub skills/plugins from the last 48 hours including twitterwebapi, ready-tools-on-sciminer, cn-data-scraper, OpenRouter Sonar Pro Search plugin, AgentBrain, and WeCom Agent Ops Center; no installs were performed.
+- 2026-05-31 08:29 CDT: Tester contact enrichment heartbeat resumed from ND rotation, skipped empty eligible states through AK, processed WA, and advanced next state to NY. Added 3 verified contacts across 2 businesses: Annu Sangha and Jasmel Sangha at NIMBIN FARM, and Dianna Kham at NIRVANA CANNABIS COMPANY. Logged the searched WA batch in Scaramanga and sent Telegram summary to Diamond.
+- 2026-05-31 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 13 critical, 6 warnings, 2 info. Primary critical exposure remains Telegram `groupPolicy="open"` combined with elevated/runtime/filesystem-capable agents and no group allowlist; Diamond was notified with the audit findings via Telegram message 6360.
