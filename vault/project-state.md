@@ -1,9 +1,14 @@
 # Project State — Shared
 
 *Last updated: 2026-06-02*
-*Updated by: Vesper*
+*Updated by: Octopussy*
 
 ---
+
+## Current Octopussy State — 2026-06-02
+
+- 2026-06-02 19:20 CDT: Christian requested an HRBD May form via Telegram. Octopussy checked the live HRBD KPI tracker source tabs (Fresh Frozen, Cured, Post Extraction) using the Octopussy Google account, confirmed the May data still shows 2 Cured runs, 88.25 lbs biomass, 8 columns, no May Fresh Frozen rows, and both May post-extraction rows still Pending. Regenerated the May 1-31 draft form files in `reports/hrbd/monthly/` as `HRBD-May-2026-Report-Form.pdf`, `.md`, and `-Data.json`, then sent the PDF to Christian on Telegram message 2329 with the draft pending post-processing caveat.
+- 2026-06-02 19:19 CDT: Christian corrected wording from form to report. Octopussy clarified on Telegram message 2330 that the PDF already sent is the HRBD May report and remains labeled draft because May post-extraction rows are pending.
 
 ## Current Vesper State — 2026-06-02
 
@@ -18,6 +23,7 @@ This supersedes older Vesper/toolkit notes in the Active Projects table below wh
 - QMD was reindexed with archive excluded; search verified clean. Stale hardcoded counts in heartbeat/soul/tools now point to `STATE.md`.
 - EU-GMP library was audited and corrected: 156 briefs reviewed, `EU-VERIFICATION-REPORT.md` saved, 129 briefs fixed, 156 markdown briefs = 156 PDFs. EU producer/firehose are off; EU lint remains on.
 - 2026-06-02 lint cron delivered a report showing 732 total findings, mostly broken post-consolidation references/doc-code placeholders. Next useful maintenance: resolve post-consolidation brief/index references first, then decide which doc-code references are intentional roadmap placeholders versus missing controlled-document files.
+- 2026-06-02 15:13 CDT: Christian asked to make sure all new docs and scrapes are sent to GitHub. Vesper pushed clean export commit `e301e06` (`Sync verified GMP library export`) to private repo `DiamondAlchemy/vesper-gmp-library`. Included current US/EU Markdown libraries, generated PDFs, `STATE.md`, `VERIFICATION-REPORT.md`, `EU-VERIFICATION-REPORT.md`, `CHRISTIAN-FRAMEWORK-AUDIT.md`, `research-backlog.md`, `lint-report-latest.txt`, navigation/glossary/curriculum/log files, current framework PDFs/source, helper scripts, and existing curated `sources-approved/` references. No unverified raw scrape was added; `raw/room-classification-reference.md` remains excluded because it was triaged as uncited/unverified. Exclusions remained in force: vault, memory, runtime state, temp/packets, client files, raw private workspace material, credentials, local config, and root `MEMORY.md` was removed from the export.
 
 ## Active Projects
 
@@ -195,3 +201,8 @@ On 2026-05-10, Vesper created `templates/FORM-PROC-005_Process_Parameter_Verific
 - 2026-06-02 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 13 critical, 6 warnings, 2 info. Primary critical exposure remains Telegram `groupPolicy="open"` combined with elevated/runtime/filesystem-capable agents and no group allowlist; additional warnings include exec `autoAllowSkills`, weak fallback image model tier, permissive plugin tool reachability, unpinned plugin install specs, and a suspicious apify lead-generation skill code pattern. Diamond was notified with the audit findings.
 - 2026-06-02 11:32 CDT: Tester contact enrichment heartbeat processed NY rotation in Scaramanga and advanced next state to OR. Added 4 verified contacts across Pynns Green, Island Grow / NY Canna Farms, Altura 9, and Dragonfly Kitchen IV; updated missing city/address fields where public sources supported them; logged the searched NY batch and sent Telegram summary to Diamond.
 - 2026-06-02 13:36 CDT: Tester contact enrichment heartbeat resumed from ND rotation, skipped empty eligible states through AK, processed WA, and advanced next state to NY. Added 4 verified contacts across Pot Zone Puyallup, Pot Zone Port Orchard, Phat Sacks Corp, and Pot Shop Seattle; logged the searched WA batch and sent Telegram summary to Diamond.
+- 2026-06-03 03:00 CDT: Daily agent backup cron ran `/Users/m/.openclaw/workspace/scripts/backup_agents.sh` successfully. Created and uploaded Q, Octopussy, shared, and Cannascend workspace archives for timestamp `2026-06-03_0300`. Local archive sizes: Q 28K, Octopussy 15M, shared 2.1G, Cannascend 34M.
+- 2026-06-03 05:16 CDT: Tester contact enrichment heartbeat processed NY rotation in Scaramanga and advanced next state to OR. Added 2 verified contacts at ProXtracts Processing Incorporated: Sean Maguire and Ilana Maguire. Logged the searched NY batch and sent Telegram summary to Diamond.
+- 2026-06-03 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 13 critical, 6 warnings, 2 info. Primary critical exposure remains Telegram `groupPolicy="open"` combined with elevated/runtime/filesystem-capable agents and no group allowlist; additional warnings include exec `autoAllowSkills`, weak fallback image model tier, permissive plugin tool reachability, unpinned plugin install specs, and a suspicious apify lead-generation skill code pattern. Diamond was notified with the audit findings.
+- 2026-06-03 11:34 CDT: Tester contact enrichment heartbeat processed NY rotation in Scaramanga and advanced next state to OR. Added 6 verified contacts across Empire Standard LLC, Gotham Manufacturing Corp, and Highland Goat LLC: Kaelan Castetter, Jim Castetter, Christopher Strk, Vinay Mehta, Jaime Gorman, and Laurel Mason. Logged the searched NY batch and sent Telegram summary to Diamond.
+- 2026-06-03 14:45 CDT: Tester contact enrichment heartbeat processed NY rotation in Scaramanga and advanced next state to OR. Added 7 verified contacts across HERbal Woodstock/Woodstock Organic, E29 Labs, McPike Family Farms, and Glorious Cannabis/GCC NY Operations: Melissa Gibson, Courtney Beaupre, Shelley Roberts, Sheldon Roberts, Michael Dundas, Daniel C McPike, and Sam Lteif. Updated supported business details, logged the searched NY batch, and sent Telegram summary to Diamond.
