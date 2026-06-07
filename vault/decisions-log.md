@@ -76,3 +76,5 @@
 - **2026-06-01** — Framework ownership decision: Christian owns the TSW GMP framework build. Vesper does not build SOPs, MBRs, BPRs, forms, or push to Christian's repo unless explicitly delegated. Vesper keeps `christian-framework-clone/` as a read-only backup/audit source and treats `tsw-unified-framework/` as a one-time reference snapshot. Hydrocarbon remains the active framework focus; CO2 and ethanol are back-burner.
 
 - **2026-06-01** — Audit standard confirmed for Christian framework work: Vesper may perform read-only audits against verified briefs and primary sources, producing intel reports such as `CHRISTIAN-FRAMEWORK-AUDIT.md`, but must not modify Christian's repo or turn audit findings into Vesper's own build queue without delegation.
+
+- **2026-06-07** — Diamond approved installing Tanner scout 2026-06-06 items #1-#5. Installed `google-workspace-operator`, `browser-auto-plus`, `brave-browser-agent`, `googlechat`, and `google-meet`. Google Chat and Google Meet require a gateway restart to load. Google Workspace is installed but requires the TangleClaw Google OAuth plugin/config dependency before its tools are usable.

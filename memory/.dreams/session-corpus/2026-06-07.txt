@@ -1,0 +1,2 @@
+[main/sessions/main/5a9f27a9-c371-4413-8838-6460ed751165.jsonl#L49] Assistant: HEARTBEAT_OK NY processed. Added 6 verified contacts across 3 businesses, logged rotation to `OR`, sent Diamond the Telegram summary, and updated `vault/project-state.md`.
+[main/sessions/main/eabee8a6-af73-44d3-a447-10b83bd34dbd.jsonl#L71] Assistant: HEARTBEAT_OK WA processed. Added 4 verified contacts across 2 businesses, logged rotation to `NY`, and sent Diamond the Telegram report.

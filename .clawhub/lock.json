@@ -56,6 +56,21 @@
     "twitterwebapi": {
       "version": "1.0.0",
       "installedAt": 1780228997922
+    },
+    "google-workspace-operator": {
+      "version": "0.1.1",
+      "installedAt": 1780839380791,
+      "registry": "https://clawhub.ai"
+    },
+    "browser-auto-plus": {
+      "version": "2.0.0",
+      "installedAt": 1780839390537,
+      "registry": "https://clawhub.ai"
+    },
+    "brave-browser-agent": {
+      "version": "1.0.0",
+      "installedAt": 1780839400709,
+      "registry": "https://clawhub.ai"
     }
   }
 }
