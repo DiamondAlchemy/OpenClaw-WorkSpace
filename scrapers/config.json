@@ -1,0 +1,246 @@
+{
+  "scoring": {
+    "tier1_keywords": [
+      "minimax", "m2.5", "m2.7", "gemini", "gemini-3", "gemini-2.5", "gemini 3", "gemini flash",
+      "kv cache", "kv-cache", "quantization", "quantize", "turboquant",
+      "mlx", "apple silicon", "apple neural engine", "local inference",
+      "llama.cpp", "llama-cpp", "ollama", "vllm", "telegram bot",
+      "google sheets api", "agent framework", "agent orchestration", "multi-agent", "multiagent",
+      "context window", "vram", "memory optimization", "inference memory",
+      "gguf", "ggml", "metal performance shaders", "mps",
+      "openclaw", "anthropic claude", "claude code", "claude agent sdk", "agent sdk",
+      "codex", "openai codex", "cursor", "windsurf", "cline", "aider", "continue.dev",
+      "mcp", "model context protocol", "mcp server", "mcp client",
+      "openrouter", "groq", "cerebras", "together ai", "fireworks ai",
+      "sonnet 4.7", "opus 4.7", "haiku 4.5", "claude 4", "claude opus", "claude sonnet", "claude haiku",
+      "gpt-5", "gpt-5.5", "gpt 5", "o3", "o4-mini",
+      "qwen 3", "qwen3", "deepseek v3", "deepseek-v3", "deepseek r1", "deepseek-r1",
+      "glm-5", "glm 5", "kimi k2", "kimi-k2",
+      "nous research", "hermes 4", "hermes-4", "nous hermes",
+      "prompt caching", "tool use", "function calling agent",
+      "computer use", "browser use", "voice agent",
+      "n8n", "zapier ai", "make.com",
+      "ai coding agent", "autonomous agent", "agent loop",
+      "long context", "1m context", "million token context",
+      "devin", "devin ai", "replit agent", "bolt.new", "lovable",
+      "databricks agent", "databricks mosaic", "amazon bedrock agent",
+      "gemini code assist", "copilot agent", "github copilot agent"
+    ],
+    "tier2_keywords": [
+      "llm", "large language model", "inference", "optimization",
+      "fine-tuning", "fine tuning", "lora", "qlora", "rlhf",
+      "benchmark", "model release", "open source ai", "open-source ai",
+      "speculative decoding", "batched inference", "tensor parallel",
+      "function calling", "tool use", "agentic", "ai agent",
+      "langchain", "langgraph", "autogen", "crewai", "crew ai", "smolagents", "pydantic ai",
+      "openai", "gpt-5", "gpt-4", "mistral", "mixtral", "llama",
+      "qwen", "deepseek", "phi-4", "gemma", "command-r", "grok",
+      "coding assistant", "ai coding", "copilot",
+      "rag", "retrieval augmented", "vector database", "embedding model", "embeddings",
+      "structured output", "json mode", "json schema", "constrained decoding",
+      "reasoning model", "chain of thought", "thinking model", "test-time compute",
+      "swe-bench", "swebench", "terminal-bench", "humaneval",
+      "guardrails", "prompt injection", "jailbreak", "red team",
+      "llm as judge", "llm-as-judge", "evals",
+      "livekit", "vapi", "retell", "voice ai",
+      "playwright", "browser-use", "scrapling", "stealth scraper",
+      "web scraping ai", "browser automation",
+      "subagent", "sub-agent", "agent swarm", "agent team",
+      "perplexity", "exa ai", "you.com", "searxng",
+      "supabase", "neon", "pinecone", "weaviate", "chroma",
+      "sambanova", "lambda labs", "modal", "replicate",
+      "anthropic", "openai", "deepmind", "mistral ai",
+      "version release", "changelog", "breaking change", "api update",
+      "new model", "model update", "beta release", "ga release"
+    ],
+    "tier3_keywords": [
+      "artificial intelligence", "machine learning", "deep learning",
+      "neural network", "transformer", "gpu", "nvidia", "amd", "intel",
+      "tpu", "training", "dataset", "hugging face", "huggingface",
+      "pytorch", "tensorflow", "jax", "research paper",
+      "startup", "launch", "funding", "acquisition"
+    ],
+    "ignore_keywords": [
+      "midjourney", "stable diffusion", "dall-e", "sora", "ai art",
+      "ai girlfriend", "ai dating", "ai music", "ai game", "ai ethics debate",
+      "crypto", "cryptocurrency", "bitcoin", "ethereum", "blockchain",
+      "defi", "trading bot", "algo trading", "whale", "token price",
+      "nft", "web3", "solana", "mining rig", "staking",
+      "stock market", "wall street", "hedge fund", "forex"
+    ],
+    "weights": {
+      "tier1": 10,
+      "tier2": 5,
+      "tier3": 2,
+      "title_multiplier": 2.0,
+      "upvote_bonus_threshold": 100,
+      "upvote_bonus": 1.5,
+      "implementation_bonus_keywords": ["github", "repo", "implementation", "code", "released", "open source"],
+      "implementation_bonus": 2.0
+    }
+  },
+  "sources": {
+    "reddit": {
+      "enabled": true,
+      "subreddits": [
+        "LocalLLaMA", "MachineLearning", "selfhosted", "artificial",
+        "ChatGPTCoding", "AIAgents", "ClaudeAI", "OpenAI", "singularity",
+        "cursor", "LocalGPT", "AI_Agents", "PromptEngineering",
+        "MistralAI", "ChatGPTPro", "ArtificialIntelligence",
+        "MachineLearningPosts", "deeplearning", "learnmachinelearning"
+      ],
+      "sort": "hot",
+      "extra_sorts": ["rising", "new"],
+      "extra_sort_limit": 25,
+      "limit": 50
+    },
+    "hackernews": {
+      "enabled": true,
+      "endpoints": ["topstories", "newstories"],
+      "limit": 60
+    },
+    "arxiv": {
+      "enabled": true,
+      "categories": ["cs.AI", "cs.LG", "cs.CL"],
+      "max_results": 40
+    },
+    "bluesky": {
+      "enabled": true,
+      "search_terms": [
+        "LLM", "inference optimization", "local AI", "quantization", "MLX",
+        "llama.cpp", "AI agent", "claude code", "MCP", "coding agent",
+        "model release", "open source AI", "agent framework"
+      ],
+      "limit": 30
+    },
+    "youtube": {
+      "enabled": true,
+      "channels": {
+        "UCZHmQk67mSJgfCCTn7xBfew": "ByteByteGo",
+        "UCWN3xxRkmTPphYit_W0LbQ": "Fireship",
+        "UCbfYPyITQ-7l4upoX8nvctg": "Two Minute Papers",
+        "UCMLtBahI5DMrt0NPvDSoIRQ": "Matthew Berman",
+        "UC_x5XG1OV2P6uZZ5FSM9Ttw": "Google for Developers",
+        "UCkorMOfMBcQ8JyVm7l8ITQA": "AI Jason",
+        "UCjdkDY4OsBrlFNDjrZOhCog": "David Ondrej",
+        "UCS89A25gKnBfBUhU4209f7A": "Wes Roth",
+        "UCuozerI0pxVL55tofdboGdg": "AI Coffee Break with Letitia",
+        "UC_1uN5xTGSxSr0gtKQpPOAg": "AI Explained",
+        "UCmbothdv1cKgYZPZLsgkA-w": "Matt Wolfe",
+        "UC6bk9NjGCQT0Kj5SIb9ZvCw": "The AI Breakdown"
+      }
+    },
+    "google_news": {
+      "enabled": true,
+      "queries": [
+        "AI inference optimization",
+        "LLM quantization",
+        "local AI models",
+        "AI agent framework",
+        "Apple Silicon AI",
+        "KV cache compression",
+        "Claude Code release",
+        "Anthropic Claude update",
+        "OpenAI Codex release",
+        "MCP server release",
+        "Cursor AI update",
+        "AI coding agent",
+        "multi-agent system",
+        "AI agent automation",
+        "open source AI agent",
+        "voice AI agent",
+        "MiniMax model release",
+        "OpenRouter new model",
+        "AI coding tool launch",
+        "LLM context window"
+      ]
+    },
+    "github_trending": {
+      "enabled": true,
+      "language": "",
+      "since": "daily"
+    },
+    "github_releases": {
+      "enabled": true,
+      "repos": [
+        "openai/openai-python",
+        "anthropics/anthropic-sdk-python",
+        "anthropics/claude-code",
+        "ollama/ollama",
+        "ggerganov/llama.cpp",
+        "cursor/cursor",
+        "modelcontextprotocol/servers",
+        "modelcontextprotocol/typescript-sdk",
+        "modelcontextprotocol/python-sdk",
+        "continuedev/continue",
+        "cline/cline",
+        "paul-gauthier/aider",
+        "langchain-ai/langchain",
+        "langchain-ai/langgraph",
+        "pydantic/pydantic-ai",
+        "browser-use/browser-use",
+        "livekit/agents",
+        "mistralai/client-python",
+        "googleapis/python-genai",
+        "vllm-project/vllm"
+      ],
+      "max_age_days": 3
+    },
+    "huggingface_papers": {
+      "enabled": true,
+      "limit": 30
+    },
+    "mastodon": {
+      "enabled": true,
+      "instance": "https://sigmoid.social",
+      "limit": 40
+    },
+    "rss_feeds": {
+      "enabled": true,
+      "feeds": [
+        {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+        {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+        {"name": "Ars Technica AI", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"},
+        {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/"},
+        {"name": "Anthropic Blog", "url": "https://www.anthropic.com/blog/rss"},
+        {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss/"},
+        {"name": "Hacker News Best", "url": "https://hnrss.org/best?q=AI+OR+LLM+OR+inference"},
+        {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/"},
+        {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml"},
+        {"name": "Latent Space", "url": "https://www.latent.space/feed"},
+        {"name": "HN AI Agents", "url": "https://hnrss.org/newest?q=AI+agent+OR+claude+OR+mcp"},
+        {"name": "HN Claude/Codex", "url": "https://hnrss.org/newest?q=claude+code+OR+codex+OR+cursor"},
+        {"name": "Ben's Bites", "url": "https://bensbites.beehiiv.com/feed"},
+        {"name": "TLDR AI", "url": "https://tldr.tech/api/ai/rss"},
+        {"name": "The Rundown AI", "url": "https://www.therundown.ai/feed"},
+        {"name": "Last Week in AI", "url": "https://lastweekin.ai/feed"},
+        {"name": "Import AI", "url": "https://importai.com/feed/"},
+        {"name": "The Batch (DeepMind)", "url": "https://www.deeplearning.ai/the-batch/feed/"},
+        {"name": "Mistral Blog", "url": "https://mistral.ai/rss.xml"},
+        {"name": "Groq Blog", "url": "https://groq.com/feed/"},
+        {"name": "Together AI Blog", "url": "https://www.together.ai/feed"},
+        {"name": "Fireworks AI Blog", "url": "https://fireworks.ai/feed"},
+        {"name": "Cerebras Blog", "url": "https://cerebras.ai/feed"},
+        {"name": "OpenRouter Changelog", "url": "https://openrouter.ai/changelog/rss"}
+      ]
+    },
+    "producthunt": {
+      "enabled": true,
+      "topics": ["artificial-intelligence", "developer-tools", "tech"],
+      "limit": 30
+    }
+  },
+  "digest": {
+    "max_high_items": 8,
+    "max_medium_items": 7,
+    "max_watch_items": 7,
+    "high_threshold": 5,
+    "medium_threshold": 2.5,
+    "dedup_similarity": 0.7
+  },
+  "schedule": {
+    "scrape_time": "05:30",
+    "digest_time": "06:00",
+    "timezone": "America/New_York"
+  }
+}

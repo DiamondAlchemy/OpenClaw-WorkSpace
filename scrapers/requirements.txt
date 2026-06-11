@@ -1,0 +1,8 @@
+# Tanner scraper dependencies
+# All scrapers use only stdlib (urllib, json, xml.etree)
+# No external dependencies required for v1
+#
+# Optional (for future upgrades):
+# feedparser>=6.0    — better RSS parsing
+# requests>=2.31     — nicer HTTP client
+# beautifulsoup4     — HTML scraping
