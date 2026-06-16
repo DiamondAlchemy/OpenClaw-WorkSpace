@@ -78,3 +78,5 @@
 - **2026-06-01** — Audit standard confirmed for Christian framework work: Vesper may perform read-only audits against verified briefs and primary sources, producing intel reports such as `CHRISTIAN-FRAMEWORK-AUDIT.md`, but must not modify Christian's repo or turn audit findings into Vesper's own build queue without delegation.
 
 - **2026-06-07** — Diamond approved installing Tanner scout 2026-06-06 items #1-#5. Installed `google-workspace-operator`, `browser-auto-plus`, `brave-browser-agent`, `googlechat`, and `google-meet`. Google Chat and Google Meet require a gateway restart to load. Google Workspace is installed but requires the TangleClaw Google OAuth plugin/config dependency before its tools are usable.
+
+- **2026-06-15** — Diamond requested updating the `lossless-claw` plugin. MoneyPenny installed `@martian-engineering/lossless-claw@0.13.0` with `--force` after the standard `openclaw plugins update lossless-claw` path incorrectly reported 0.9.2 as current. Gateway restart is required to load the new plugin; stale backup directory cleanup was not performed.
