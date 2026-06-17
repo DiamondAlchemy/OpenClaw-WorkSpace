@@ -119,3 +119,9 @@
 [main/sessions/main/79444170-5a68-40d3-9dc1-5c273c49a0ad.jsonl#L93] Assistant: Good — PID 94126 is running detached. Let me wait and check progress.
 [main/sessions/main/79444170-5a68-40d3-9dc1-5c273c49a0ad.jsonl#L99] Assistant: Good — the watcher exited cleanly. Upload PID 94126 is still running, log file is still empty (uploads of 2.2 GB take a while). Let me wait more.
 [main/sessions/main/79444170-5a68-40d3-9dc1-5c273c49a0ad.jsonl#L107] Assistant: Upload PID 94126 still running. Let me wait more.
+[main/sessions/main/099727d4-06a1-420f-bbef-9cff9def0e15.jsonl.deleted.2026-06-16T14-04-48.002Z#L6] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/63ea7418-803d-4a17-894f-b1b080ff8b1b.jsonl.deleted.2026-06-16T20-08-22.403Z#L6] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/63ea7418-803d-4a17-894f-b1b080ff8b1b.jsonl.deleted.2026-06-16T20-08-22.403Z#L9] Assistant: Heartbeat check.
+[main/sessions/main/6996e1e4-b83c-4c6e-a617-db5fdc7f4fbb.jsonl.deleted.2026-06-16T13-09-00.339Z#L6] Assistant: ❤️
+[main/sessions/main/79444170-5a68-40d3-9dc1-5c273c49a0ad.jsonl#L113] Assistant: Upload still running. The 2.2 GB file is taking a long time over the network. Let me yield this turn and let the system wake me when the cron job's next heartbeat fires (or the upload completes).
+[main/sessions/main/d4f7f57f-89c9-46c2-a358-c24cb491a71f.jsonl.deleted.2026-06-16T08-19-58.115Z#L8] Assistant: Shared upload (PID 94126) is still running, log still empty. 2.2 GB takes a while. Letting it finish.
