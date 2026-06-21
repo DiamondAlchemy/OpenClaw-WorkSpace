@@ -147,7 +147,11 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-05-26)
+## Promoted From Short-Term Memory (2026-06-21)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-03-15.md:2:5 -->
-- ## Security Audit - Accepted Risks All security audit items below are documented as accepted risks: [score=0.866 recalls=3 avg=0.917 source=memory/2026-03-15.md:2-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-17-daily-review.md:11:14 -->
+- Daily Self-Review — 2026-06-17: [FACT] Stale MEMORY.md backups in workspace root: `MEMORY.md.backup_20260313*` (3 files) and `MEMORY.md.before-2026-05-07-hermes-role-lane-update`. [FACT] `minimax-image` skill last modified 2026-03-22, no documentation in TOOLS.md or AGENTS.md, likely superseded by runtime `image_generate` tool. [FACT] `twitterwebapi` skill overlaps with runtime-available `xurl` skill. Possible duplication. [FACT] Vault protocol (read `vault/project-state.md` and `decisions-log.md` on session start, update after every task) lives only in SOUL.md "Shared Vault — MANDATORY" section.... [score=0.803 recalls=0 avg=0.620 source=memory/2026-06-17-daily-review.md:11-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-17-daily-review.md:3:6 -->
+- Daily Self-Review — 2026-06-17: [FACT] Self-review cron (71fd569d) ran at 8:00 AM CT. [FACT] MEMORY.md is 153 lines (not 6,400+ as AGENTS.md claims). [FACT] Current runtime model is `minimax/MiniMax-M3` per session status. [FACT] SOUL.md and WORKSPACE.md still document primary as `MiniMax-M2.7-highspeed` — STALE. [score=0.803 recalls=0 avg=0.620 source=memory/2026-06-17-daily-review.md:3-6]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-17-daily-review.md:7:10 -->
+- Daily Self-Review — 2026-06-17: [FACT] AGENTS.md still claims "MEMORY.md consolidation complete (6,400+ lines)" — STALE. [FACT] TOOLS.md documents only 10 of 20 installed skills. [FACT] TOOLS.md says "do NOT use built-in web_search tool" — but web_search is now a working runtime tool. STALE. [FACT] Hermes lane update (2026-05-07) is in MEMORY.md but never propagated to SOUL.md, AGENTS.md, or WORKSPACE.md. MoneyPenny's public role descriptions still call her "orchestrator" / "MI6 digital handler". [score=0.803 recalls=0 avg=0.620 source=memory/2026-06-17-daily-review.md:7-10]
