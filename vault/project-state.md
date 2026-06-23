@@ -1,12 +1,13 @@
 # Project State — Shared
 
-*Last updated: 2026-06-15*
+*Last updated: 2026-06-23*
 *Updated by: MoneyPenny*
 
 ---
 
 ## Current MoneyPenny State — 2026-06-03
 
+- 2026-06-23 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings: exec `autoAllowSkills` is enabled; personal-assistant trust model warning for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents; enabled extension plugin tools may be reachable under permissive tool policies; plugin integrity metadata is missing for `codex`, `tokenjuice`, and `voice-call`; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Diamond was notified with the audit findings.
 - 2026-06-15 16:22 CDT: Diamond requested updating `lossless-claw`. `openclaw plugins update lossless-claw` incorrectly reported 0.9.2 as current, so MoneyPenny verified npm latest as 0.13.0 and forced reinstall with `openclaw plugins install @martian-engineering/lossless-claw@0.13.0 --force`. Verification: on-disk package and `openclaw plugins list` now report Lossless Context Management 0.13.0, and `openclaw plugins doctor` no longer reports the lossless `contracts.tools` errors. Gateway restart is still required to load the new plugin into the running gateway. Remaining warning: `openclaw plugins list` detects duplicate plugin id because stale backup directory `/Users/m/.openclaw/extensions/lossless-claw.bak-pre-61` still exists; no config edits or backup cleanup performed.
 - 2026-06-11 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 14 critical, 5 warnings, 2 info. Primary critical exposure remains Telegram `groupPolicy="open"` combined with elevated/runtime/filesystem-capable agents and no Telegram group allowlist; additional critical finding: `google-meet` plugin has a child_process shell execution pattern in `dist/index.js:49`. Warnings include exec `autoAllowSkills`, multi-user trust-model risk, permissive plugin tool reachability, missing plugin integrity metadata for `codex`/`tokenjuice`/`voice-call`, and suspicious `apify-lead-generation` code pattern. Diamond was notified with the audit findings.
 - 2026-06-08 16:54 CDT: Tester contact enrichment heartbeat processed NY in Scaramanga and advanced next state to OR. Added 5 verified contacts across 3 businesses: Joshua E. Prior and Filip Moskwa at Beforeland Farms, LLC; Jeanette M. Miller at The Eclectic Farmstead; Jake Karker and Jake Davis at Karker Hess and Davis LLC / Mt. Marcy Farms. Research log row `1988` stamped `tester_contact_rotation=OR`; clean corrected Telegram summary sent to Diamond after two typo corrections.
