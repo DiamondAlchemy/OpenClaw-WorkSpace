@@ -98,3 +98,16 @@
 [main/sessions/main/a03cc7bc-7558-4ef6-ae94-98af688fa70b.jsonl#L44] Assistant: Confirmed — Drive folder has backups through 2026-06-24 but **nothing for 2026-06-25, 2026-06-26, or 2026-06-27**. So this isn't a one-off: the keychain has been blocking uploads for at least three days now. The cron has been silently failing. Local zips for today 
 [main/sessions/main/a03cc7bc-7558-4ef6-ae94-98af688fa70b.jsonl#L44] Assistant: `cannascend_workspace_2026-06-27_0302.zip` (34M) **Drive uploads ❌ — 4 failures** All four `gog drive upload` calls hit: ``` keyring connection timed out after 30s while reading keyring item (macOS Keychain may be waiting for a permission prompt) ``` Script exited 
 [main/sessions/main/a03cc7bc-7558-4ef6-ae94-98af688fa70b.jsonl#L44] Assistant: prefer. Worth fixing before the next run.
+[main/sessions/main/00746d9a-c403-43c9-b30e-f185bab7e2df.jsonl.deleted.2026-06-28T13-10-36.033Z#L13] Assistant: 9 unread emails. Let me get the subjects.
+[main/sessions/main/00746d9a-c403-43c9-b30e-f185bab7e2df.jsonl.deleted.2026-06-28T13-10-36.033Z#L15] Assistant: Need to fetch each message for the subject. Let me batch them.
+[main/sessions/main/00746d9a-c403-43c9-b30e-f185bab7e2df.jsonl.deleted.2026-06-28T13-10-36.033Z#L25] Assistant: Heartbeat summary: **📧 Inbox: 9 unread emails** - "Build Android apps in minutes with simple prompts" — Google AI Studio (May 21) - "your first 25 searches are on us" — Tomba (May 14) - "[Product Update] Automatic enablement of new
+[main/sessions/main/00746d9a-c403-43c9-b30e-f185bab7e2df.jsonl.deleted.2026-06-28T13-10-36.033Z#L25] Assistant: should be confirmed. - **2 outstanding Drive share requests from Christian** for "OctoPussy's Folder" sitting in inbox since March 11 — might be stale/ignored. Otherwise, mostly vendor/marketing noise (Tomba, Dune, Google Cloud prod
+[main/sessions/main/461f14a2-7241-4b27-8701-844cdba2eeaf.jsonl.deleted.2026-06-28T20-05-00.344Z#L8] Assistant: All cron jobs are healthy. Last runs all `ok`, no consecutive errors. Nothing due imminently that needs attention. HEARTBEAT_OK
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L90] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L93] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L96] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L99] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L102] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L105] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L108] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L111] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
