@@ -1,0 +1,194 @@
+# Existing scrape job
+0 6,10,14,18,22,2 * * * /Users/m/.openclaw/workspace-shared/scrapes/run_scrapes.sh
+
+# Goldfingers Perp Tracker — Full Cron Jobs with Env Vars
+# Note: Env vars must be exported at start of each job since cron doesn't inherit them
+
+# Every 4 hours: discovery + profile (was 6h)
+0 */4 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 perp_tracker.py discover --config config.json >> logs/cron_discover.log 2>&1
+10 */4 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 perp_tracker.py profile --config config.json >> logs/cron_profile.log 2>&1
+
+# Every morning at 6am: intel report to Telegram
+0 6 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 -c "from perp_tracker import PerpTracker, load_config; import asyncio; config = load_config('config.json'); t = PerpTracker(config); report = t.generate_report(); asyncio.run(t.alerter.send(report)); t.close()" >> logs/cron_morning.log 2>&1
+
+# Every Sunday 10pm: deep scrape + shadow desk hunt
+0 22 * * 0 set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 scrape_leaderboard.py --limit 50 >> logs/cron_scrape.log 2>&1
+30 22 * * 0 set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 perp_tracker.py discover --config config.json >> logs/cron_scrape.log 2>&1
+
+# Every Sunday 11pm: autonomous engine on hunting grounds (doubled budget)
+0 23 * * 0 set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/Hunting\ Grounds && /usr/bin/python3 autonomous_engine.py --budget 500 >> logs/cron_autonomous.log 2>&1
+
+# HL Hunter — Wallet Intelligence Engine
+# Every 6 hours: leaderboard deep mine + shadow children + liq scoring (was 12h)
+30 */6 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 hl_hunter.py leaderboard >> logs/cron_hl_hunter.log 2>&1
+45 */6 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 hl_hunter.py shadow >> logs/cron_hl_hunter.log 2>&1
+50 */6 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 hl_hunter.py liq-score >> logs/cron_hl_hunter.log 2>&1
+
+# Twice daily: full sweep (all 11 hunts + auto-promote) — was daily
+0 9 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 hl_hunter.py all >> logs/cron_hl_hunter_full.log 2>&1
+0 21 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 hl_hunter.py all >> logs/cron_hl_hunter_full.log 2>&1
+
+# Twice daily: auto-promote top performers to copy targets (was daily)
+0 7 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 hl_hunter.py promote >> logs/cron_hl_promote.log 2>&1
+0 19 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 hl_hunter.py promote >> logs/cron_hl_promote.log 2>&1
+
+# Every 6 hours: whale intelligence (was 12h)
+15 */6 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 whale_intel.py update >> logs/cron_whale_intel.log 2>&1
+
+# Every 2 hours: bridge flow momentum (~60 credits/day, was 4h)
+0 */2 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 bridge_flow.py >> logs/cron_bridge_flow.log 2>&1
+
+# Twice daily: counter-party analysis (free, DB only)
+0 8 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 counter_party.py >> logs/cron_counter_party.log 2>&1
+0 20 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 counter_party.py >> logs/cron_counter_party.log 2>&1
+
+# Daily: deep scan for fresh wallets (was every 3 days)
+0 10 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 hl_hunter.py deep-scan >> logs/cron_deep_scan.log 2>&1
+
+# Twice weekly: funder mapping (was weekly Mon only)
+0 6 * * 1,4 set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 funder_mapper.py >> logs/cron_funder_mapper.log 2>&1
+
+# Twice weekly: L1 whale tracker (was weekly Wed only)
+0 6 * * 2,5 set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 whale_l1_tracker.py >> logs/cron_whale_l1.log 2>&1
+
+# Every 3 hours: exchange stablecoin flow (was 6h)
+30 */3 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 exchange_flow.py >> logs/cron_exchange_flow.log 2>&1
+
+# Every 2 hours: DEX volume anomaly scanner (was 4h)
+15 */2 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 dex_anomaly.py >> logs/cron_dex_anomaly.log 2>&1
+
+# Every hour: liquidation cascade monitor (was 2h)
+
+45 * * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 liq_cascade.py >> logs/cron_liq_cascade.log 2>&1
+
+# Every 3 hours: cross-exchange flow pipeline (was 6h)
+45 */3 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 cross_exchange_flow.py >> logs/cron_cross_exchange.log 2>&1
+
+# 4x daily: genetic evolution — breed top strategies on fresh data
+# RETIRED-20260609 0 3 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 genetic_evolve.py --generations 10 >> genetic_evolve.log 2>&1
+# RETIRED-20260609 5 9 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 genetic_evolve.py --generations 10 >> genetic_evolve.log 2>&1
+# RETIRED-20260609 0 15 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 genetic_evolve.py --generations 10 >> genetic_evolve.log 2>&1
+# RETIRED-20260609 5 21 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 genetic_evolve.py --generations 10 >> genetic_evolve.log 2>&1
+
+# 4x daily: auto-lifecycle — kill losers, deploy winners, update feedback
+# RETIRED-20260609 30 4 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 auto_lifecycle.py >> auto_lifecycle.log 2>&1
+# RETIRED-20260609 5 10 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 auto_lifecycle.py >> auto_lifecycle.log 2>&1
+# RETIRED-20260609 0 16 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 auto_lifecycle.py >> auto_lifecycle.log 2>&1
+# RETIRED-20260609 0 22 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 auto_lifecycle.py >> auto_lifecycle.log 2>&1
+
+# Every 2 hours: dumb money detector (F-grade positioning, free)
+30 */2 * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 dumb_money_detector.py >> logs/cron_dumb_money.log 2>&1
+
+# Every 30 minutes: herd detector (free, DB only)
+15,45 * * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 herd_detector.py >> logs/cron_herd_detector.log 2>&1
+
+# Every 6 hours: whale discovery — find new wallets from DB + Dune
+30 */6 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 whale_discovery.py >> logs/cron_whale_discovery.log 2>&1
+
+# Every 6 hours: orca intel — track orca deposits/behavior
+30 */6 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 orca_intel_dune.py >> logs/cron_orca_intel.log 2>&1
+
+# Every 4 hours: capital flow intelligence
+15 */4 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 capital_flow_intel.py >> logs/cron_capital_flow.log 2>&1
+
+# Every 4 hours: cross-venue flow analysis
+45 */4 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 cross_venue_flow.py >> logs/cron_cross_venue.log 2>&1
+
+# Every 4 hours: bridge speed analysis
+0 1,5,9,13,17,21 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 bridge_speed_analysis.py >> logs/cron_bridge_speed.log 2>&1
+
+# Every 12 hours: orca deposit tracking
+0 6,18 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 orca_deposit_tracker.py >> logs/cron_orca_deposits.log 2>&1
+
+# ee7ae Shell Monitor + Fade Detector
+# Every 5 minutes: check dormant shells for activation (lightweight, no Dune)
+*/5 * * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 ee7ae_shell_monitor.py --check >> logs/ee7ae_shell_monitor.log 2>&1
+
+# Every 30 minutes: full fade detector scan (scans 46 children vs 4 mains)
+3,33 * * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 ee7ae_shell_monitor.py --fade >> logs/ee7ae_fade_detector.log 2>&1
+
+# Daily 2am: log rotation — keep 1 day backup + current
+0 2 * * * BASE=/Users/m/.openclaw/workspace-goldfinger && for LOG in "$BASE/perp_tracker/logs/perp_tracker.log" "$BASE/scalper/scalper.log" "$BASE/goldfingers_final 2/PRODUCTION/goldfingers.log" "$BASE/watchdog.log"; do if [ -f "$LOG" ]; then cp "$LOG" "$LOG.1" && : > "$LOG"; fi; done
+
+# Tuesday & Thursday 8:01pm ET (00:01 UTC): ArXiv paper ingestion
+1 0 * * 2,4 cd /Users/m/.openclaw/workspace-goldfinger/research && /usr/bin/python3 paper_scanner.py --ingest --days 3 >> paper_scanner.log 2>&1
+*/5 * * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 shadow_monitor.py >> logs/shadow_monitor.log 2>&1
+0 */6 * * * /bin/bash /Users/m/.openclaw/scripts/gog_token_check.sh >> /Users/m/.openclaw/logs/gog_token_check.log 2>&1
+*/5 * * * * /bin/bash /Users/m/.openclaw/scripts/vault_sync.sh
+
+# IC Analyzer — daily reweight of confluence engine (5 AM CT / 10 UTC)
+15 10 * * * cd /Users/m/.openclaw/workspace-goldfinger/scalper && /usr/bin/python3 signal_ic_analyzer.py --min-trades 15 >> signal_ic_analyzer.log 2>&1
+
+# Monthly memory health check (1st of month, 6 AM CT / 11 UTC)
+0 11 1 * * /bin/bash /Users/m/.openclaw/workspace-goldfinger/memory_health_check.sh
+
+# Hourly log rotation
+0 * * * * /bin/bash /Users/m/.openclaw/workspace-goldfinger/scripts/rotate_logs.sh
+
+# Orca cycle alert — fires Telegram when whales transition from pulling to loading
+*/30 * * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && /usr/bin/python3 orca_cycle_alert.py >> logs/cron_orca_cycle.log 2>&1
+
+# Daily 6:30 AM CT: Tanner AI scraper (scrape_all) + digest at 6:45
+30 6 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/scrapers && /usr/bin/python3 scrape_all.py >> logs/scrape_all_cron.log 2>&1
+45 6 * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && cd /Users/m/.openclaw/workspace-goldfinger/scrapers && /usr/bin/python3 generate_digest.py >> logs/generate_digest_cron.log 2>&1
+
+# Daily 04:00 CT: perp_tracker.db maintenance (WAL checkpoint, prune snapshots, optimize, conditional VACUUM)
+0 4 * * * /Users/m/.openclaw/workspace-goldfinger/perp_tracker/db_maintenance.sh
+*/5 * * * * /usr/bin/python3 /Users/m/.openclaw/tools/session_runaway_watchdog.py >> /Users/m/.openclaw/logs/session_watchdog.cron.log 2>&1
+
+# BTC L1 dormant whale awakening tracker (added 2026-04-29)
+*/30 * * * * cd /Users/m/.openclaw/workspace-goldfinger/perp_tracker && python3 btc_dormant_alert.py >> logs/btc_dormant_alert.cron.log 2>&1
+
+
+
+
+# Goldfinger econ calendar (hourly) - added by claude
+0 * * * * /Users/m/.openclaw/workspace-goldfinger/scripts/econ_cal_cron.sh
+
+# Goldfinger Edge Factory readout - START
+# Hourly: send only new A/A+ edge candidates; quiet if nothing new
+7 * * * * cd /Users/m/.openclaw/workspace-goldfinger && /usr/bin/python3 edge_factory/edge_readout.py --alerts --send --remember --quiet-if-empty >> edge_factory/reports/edge_readout.log 2>&1
+# Twice daily: compact digest to Diamond, local Mac time
+0 8,20 * * * cd /Users/m/.openclaw/workspace-goldfinger && /usr/bin/python3 edge_factory/edge_readout.py --send >> edge_factory/reports/edge_readout.log 2>&1
+# Goldfinger Edge Factory readout - END
+
+# Mo'at — weekly source refresh + Telegram heartbeat to Alvie (Sun 03:00 local)
+0 3 * * 0 /usr/bin/python3 /Users/m/.openclaw/workspace-moat/scripts/refresh.py >> /Users/m/.openclaw/workspace-moat/research-log/cron.log 2>&1
+0 4 * * 0 /usr/bin/python3 /Users/m/.openclaw/workspace-shared/scripts/scrapling_update_check.py >> /Users/m/.openclaw/workspace-shared/logs/scrapling_update.cron.log 2>&1
+30 6 * * 2 env XDG_CONFIG_HOME=/Users/m/.openclaw/agents/vesper/qmd/xdg-config XDG_CACHE_HOME=/Users/m/.openclaw/agents/vesper/qmd/xdg-cache /Users/m/.bun/bin/qmd update >> /Users/m/.openclaw/logs/qmd_update.log 2>&1
+30 6 * * 4 env XDG_CONFIG_HOME=/Users/m/.openclaw/agents/jaws/qmd/xdg-config XDG_CACHE_HOME=/Users/m/.openclaw/agents/jaws/qmd/xdg-cache /Users/m/.bun/bin/qmd update >> /Users/m/.openclaw/logs/qmd_update.log 2>&1
+0 4 * * 0 env XDG_CONFIG_HOME=/Users/m/.openclaw/agents/moat/qmd/xdg-config XDG_CACHE_HOME=/Users/m/.openclaw/agents/moat/qmd/xdg-cache /Users/m/.bun/bin/qmd update >> /Users/m/.openclaw/logs/qmd_update.log 2>&1
+
+# Mo'at — link graph (Sunday 4am CT) — pure-Python deterministic, no LLM
+15 4 * * 0 cd /Users/m/.openclaw/workspace-moat && /usr/bin/python3 scripts/link_graph.py >> logs/link_graph.log 2>&1
+
+
+# Mo'at — short-term memory decay (Sunday 3:30am CT) — archive recall entries >30d unpromoted
+30 3 * * 0 cd /Users/m/.openclaw/workspace-moat && /usr/bin/python3 scripts/decay_short_term.py >> logs/decay.log 2>&1
+
+# Brain Paper Trader — extract from newly-written briefs daily after 6 AM CT brief,
+# grade pending predictions hourly so we don't sit on due ones for 23h.
+# See wiki/components/gate_calibration_20260513.md for why this fires.
+30 11 * * * cd /Users/m/.openclaw/workspace-goldfinger/wiki && /usr/bin/python3 brain_paper_trader.py --extract-recent >> brain_paper_trader.log 2>&1
+15 * * * * cd /Users/m/.openclaw/workspace-goldfinger/wiki && /usr/bin/python3 brain_paper_trader.py --grade >> brain_paper_trader.log 2>&1
+
+# Nightly OpenClaw gateway restart — prevents fetch-transport drift that wedges Telegram polling
+5 4 * * * /Users/m/.openclaw/tools/gateway-nightly-restart.sh
+# alt-carry funding timeseries logger (added 2026-05-29, Opus 4.8)
+0 * * * * /usr/bin/python3 /Users/m/.openclaw/workspace-goldfinger/analytics/funding_logger.py >> /Users/m/.openclaw/workspace-goldfinger/analytics/logs/funding_logger.log 2>&1
+# alt-carry validation milestone reminder (one-shot via self-guard, added 2026-05-29)
+0 14 * * * cd /Users/m/.openclaw/workspace-goldfinger/analytics && set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && /usr/bin/python3 carry_milestone.py >> logs/carry_milestone.log 2>&1
+# OKX cross-venue funding archive (added 2026-05-29)
+5 * * * * /usr/bin/python3 /Users/m/.openclaw/workspace-goldfinger/analytics/okx_funding_logger.py >> /Users/m/.openclaw/workspace-goldfinger/analytics/logs/okx_funding.log 2>&1
+# spot price hedge-leg logger (added 2026-05-29)
+10 * * * * /usr/bin/python3 /Users/m/.openclaw/workspace-goldfinger/analytics/spot_logger.py >> /Users/m/.openclaw/workspace-goldfinger/analytics/logs/spot_logger.log 2>&1
+# V2 carry paper-shadow tracker — forward OOS for the carry CANDIDATE (added 2026-05-30, Opus 4.8)
+# runs at :20 after funding(:00)/okx(:05)/spot(:10) loggers write; opportunistic, idle unless funding blows out
+# DISABLED 2026-06-01 — carry forward-sampling handed off to Codex launchd (local.goldfinger.codex-carry-shadow @ :25). Script kept as frozen reference.
+# 20 * * * * set -a && . /Users/m/.openclaw/workspace-goldfinger/.env && set +a && /usr/bin/python3 /Users/m/.openclaw/workspace-goldfinger-v2/research/carry_paper_shadow.py >> /Users/m/.openclaw/workspace-goldfinger-v2/research/logs/carry_paper_shadow.log 2>&1
+# Le Chiffre — hourly live scans (funding #2/#3, Polymarket negRisk #4, Form-4 E1) — added 2026-05-30, Opus 4.8
+30 * * * * /Users/m/.openclaw/workspace-lechiffre/scripts/run_live_scans.sh
+# Le Chiffre — daily token-unlock calendar refresh (flagship #1)
+45 6 * * * /Users/m/.openclaw/workspace-lechiffre/scripts/run_unlock_refresh.sh
+# Le Chiffre — weekly carry-lane watch (Option 1): flags when a regime-flip re-test is warranted
+0 7 * * 1 /Users/m/.openclaw/workspace-lechiffre/scripts/run_carry_watch.sh
