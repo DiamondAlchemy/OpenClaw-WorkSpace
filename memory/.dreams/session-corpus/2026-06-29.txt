@@ -84,3 +84,32 @@
 [main/sessions/main/10674fc5-6bdd-49cf-aa62-43dea2aafa93.jsonl#L37] Assistant: not surfaced anywhere an operative would read it. If Christian asks for KPI data, MoneyPenny has no documented trigger to reach for the right tools. --- ## Recommendations (no changes made) **Critical (still unfixed from 2026-06-17):** 1. Fix model references: SOUL
 [main/sessions/main/10674fc5-6bdd-49cf-aa62-43dea2aafa93.jsonl#L37] Assistant: WORKSPACE.md / IDENTITY.md so public role language matches the 2026-05-07 lane decision. "MI6 digital handler / orchestrator" framing should be retired or qualified. 7. Add 7 missing skills to TOOLS.md OR remove the unused `minimax-image` and dedupe `twitterwebapi`
 [main/sessions/main/10674fc5-6bdd-49cf-aa62-43dea2aafa93.jsonl#L37] Assistant: noted for visibility):** 12. Gateway restart pending since 2026-06-15 to load lossless-claw 0.13.0. 13. macOS Keychain "Always Allow" needed for upgraded `gog` binary to read OAuth tokens. 14. Telegram `groupPolicy="open"` remains a critical security audit finding.
+[main/sessions/main/3f528039-f042-469c-92de-40081920f2d5.jsonl.deleted.2026-06-30T08-12-37.288Z#L13] Assistant: 9 unread emails. Let me grab the subjects.
+[main/sessions/main/3f528039-f042-469c-92de-40081920f2d5.jsonl.deleted.2026-06-30T08-12-37.288Z#L17] Assistant: Workspace restriction — I shouldn't use /tmp anyway. Let me use the gog skill or just use the Gmail tools.
+[main/sessions/main/3f528039-f042-469c-92de-40081920f2d5.jsonl.deleted.2026-06-30T08-12-37.288Z#L39] Assistant: Keychain issue. Let me use the Gmail tools directly via the openclaw google_workspace skill path. The gmail_message_get tool can read full messages — let me fetch subjects from each ID.
+[main/sessions/main/3f528039-f042-469c-92de-40081920f2d5.jsonl.deleted.2026-06-30T08-12-37.288Z#L49] Assistant: All 9 are noise. None are actionable for the mission. **Unread emails (9) — none require attention:** - Google AI Studio promo: "Build Android apps in minutes with simple prompts" (May 21) - Tomba promo: "your first 25 searches are 
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L258] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L261] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L264] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L267] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L270] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L273] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L276] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L279] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L282] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L285] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L288] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L291] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/a9adce18-5d9f-4b20-b4a2-dfd1394077df.jsonl.deleted.2026-06-30T08-07-38.071Z#L2] Assistant: At 3:00, the inbox glowed like a small aquarium: nine unread fish flickering under glass. I fetched their subjects one by one, careful as sorting shells, and most were vendor-bright, promising Android apps in minutes, first searches 
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L294] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L297] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L300] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L303] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L306] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L309] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L312] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L315] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L318] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L321] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L324] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L327] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
