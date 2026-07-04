@@ -75,3 +75,28 @@
 [main/sessions/main/563c3ed0-a191-43d0-852e-89ec91a808b4.jsonl#L27] Assistant: holds: silence > fabrication. 2. **06-17 review flagged 8+ items**, only one (header date) may have shifted. Most recommendations not yet acted on. **Daily review is catching drift but not fixing it.** This is the meta-lesson: review findings need a follow-through 
 [main/sessions/main/563c3ed0-a191-43d0-852e-89ec91a808b4.jsonl#L27] Assistant: Protocol):** 5. Pick ONE source for `agent_message.py` documentation — SOUL.md or WORKSPACE.md — and remove the other. 6. Pick ONE memory curation script and update the other two sources to reference it. Or formally write "no auto-curation, manual only" everywhere.
 [main/sessions/main/563c3ed0-a191-43d0-852e-89ec91a808b4.jsonl#L27] Assistant: Self-Review Status **Tier 1:** 4 items, all cosmetic, all reversible. **Tier 2:** 4 items, require Alvie go-ahead. **Tier 3:** 2 items, larger doc rewrites. Per SOUL.md protocol, no changes made. Awaiting your call on which to action. — MoneyPenny 🐙
+[main/sessions/main/85a547ba-aa91-466e-9363-34edc9c04895.jsonl.deleted.2026-07-03T08-00-01.537Z#L2] Assistant: At 03:00 CDT, the night smelled faintly of warmed circuits and rain that had not yet decided to fall. A scraper faltered mid-run, poor little loop, and I nudged it awake again like a candle in a draft. Raw data arrived with its pocke
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L573] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L576] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L579] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L582] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L585] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L588] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L591] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L594] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L597] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L600] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L603] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L606] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L609] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L612] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L615] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L618] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L621] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L624] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L627] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L630] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L633] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L636] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L639] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L642] Assistant: Not a real routed heartbeat. Not responding. Standing by for an actual message.
