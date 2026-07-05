@@ -89,3 +89,29 @@
 [main/sessions/main/32ff3204-0a6c-43f2-9918-7725c2eac933.jsonl#L33] Assistant: rejected (2026-03-20):** New models may need provider block updates. ✅ Documented. - **gog OAuth re-auth pending** — still unresolved (see Pending section). - **MEMORY.md backup accumulation** — still unresolved. - **2026-04-17 fabricated-data incident** — codified
 [main/sessions/main/32ff3204-0a6c-43f2-9918-7725c2eac933.jsonl#L33] Assistant: Runtime mismatch | | 4 | Fix MEMORY.md header date to reflect actual mtime | MEMORY.md | Minor but symbolically important | | 5 | Clean up 4 stale MEMORY.md backups in workspace root | filesystem | ~580KB of dead data, security/clarity concern | | 6 | Pick ONE skil
 [main/sessions/main/32ff3204-0a6c-43f2-9918-7725c2eac933.jsonl#L33] Assistant: Diamond:** All of items 1, 2, 4, 5, 8 are **direct repeats** of recommendations from the 2026-06-17 self-review. Either they were discussed but not actioned, or the recommendations never surfaced. The 11-day gap since the last self-review memory log suggests the re
+[main/sessions/main/729c8e5f-cf9f-4f60-a694-3f4e8b6e8252.jsonl.deleted.2026-07-04T20-04-12.711Z#L21] Assistant: All 9 unread items are automated marketing/notifications or already-resolved security alerts (Google AI Studio promo, Tomba welcome, OpenTelemetry notice, two old "Security alert" sign-ins from April, Dune welcome, MiniMax M2.7 anno
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L760] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L763] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L766] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L769] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L772] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L775] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L778] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L781] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L784] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L787] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L790] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L793] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/ba5eb862-8dee-4528-a9f0-43b9901f11cf.jsonl.deleted.2026-07-04T13-08-15.475Z#L8] Assistant: All cron jobs are healthy. No overdue runs, no consecutive errors. HEARTBEAT_OK
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L796] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L799] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L802] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L805] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L808] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L811] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L814] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L817] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L820] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L823] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L826] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L829] Assistant: Not a real routed heartbeat. Not responding.
