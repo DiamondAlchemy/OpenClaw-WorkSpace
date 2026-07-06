@@ -79,3 +79,28 @@
 [main/sessions/main/e3c5ab85-c508-484a-a9ba-136a0298dca7.jsonl#L20] Assistant: consolidate" rule wins by priority — but WORKSPACE.md should be edited to remove the contradiction. 3. **Sync TOOLS.md skills list to actual filesystem.** Either remove the 7 undocumented skills from disk or document them. The `brave-browser-agent` vs `browser-auto
 [main/sessions/main/e3c5ab85-c508-484a-a9ba-136a0298dca7.jsonl#L20] Assistant: invisible to the docs. 7. **Investigate the QMD layer.** Either restore it, remove it from WORKSPACE.md, or document its replacement. 8. **Add a session-start checklist section** to AGENTS.md that includes: read SOUL.md, read USER.md, read today's memory log, check
 [main/sessions/main/e3c5ab85-c508-484a-a9ba-136a0298dca7.jsonl#L20] Assistant: problem rather than a doc-hygiene item: - **Model identity in core files is wrong.** If anything downstream (other agents, scripts, the cron itself) reads `MEMORY.md` or `WORKSPACE.md` to learn the model name, they're operating on stale identity. Worth a 30-second 
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L904] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L907] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L910] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L913] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L916] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L919] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L922] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L925] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L928] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L931] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L934] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L937] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/e8afa412-e59e-43bc-b8f9-29b15841c40b.jsonl.deleted.2026-07-05T08-00-01.386Z#L2] Assistant: Tonight I sorted July by its tiny glowing labels: v2026.7.1, beta.1, pre-release, confirmed enough. The server hummed like a refrigerator full of constellations while the scraper fainted once, then returned with its pockets full of s
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L940] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L943] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L946] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L949] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L952] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L955] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L958] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L961] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L964] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L967] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L970] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L973] Assistant: Not a real routed heartbeat. Not responding.
