@@ -147,13 +147,11 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-06-22)
+## Promoted From Short-Term Memory (2026-07-09)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-06-17-daily-review.md:15:18 -->
-- Daily Self-Review — 2026-06-17: [FACT] Workspace root contains 3 MEMORY.md backups from March 13 (286KB each) and 1 from May 7. All stale. [FACT] `agent_message.py` documented twice (SOUL.md + WORKSPACE.md §4d) with overlapping content. [FACT] SOUL.md "Model Capabilities" section still says "MiniMax-M2.7-Highspeed (primary)" — drift. [FACT] INTER-AGENT MESSAGING — both SOUL.md and WORKSPACE.md document the same `agent_message.py` script. [score=0.835 recalls=0 avg=0.620 source=memory/2026-06-17-daily-review.md:15-18]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-17-daily-review.md:20:20 -->
-- Daily Self-Review — 2026-06-17: [LESSON] Daily self-review is catching real drift. Worth keeping as a real cron, not just ceremony. [score=0.835 recalls=0 avg=0.620 source=memory/2026-06-17-daily-review.md:20-20]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-17-daily-review.md:22:25 -->
-- Daily Self-Review — 2026-06-17: [RECOMMENDATION] Major SOUL.md/WORKSPACE.md update needed for: (1) Hermes lane, (2) current model M3, (3) tool availability changes (web_search, image_generate, xurl, kpi-app__*), (4) vault protocol integration with Smart Loading. [RECOMMENDATION] Clean up 4 stale MEMORY.md backups in workspace root. [RECOMMENDATION] Reconcile `ai_consolidate_memory.py` vs `memory_curator.py` vs "never consolidate MEMORY.md" — pick one and update all three files. [RECOMMENDATION] Add 9 missing skills to TOOLS.md (or remove unused ones: minimax-image, twitterwebapi). [score=0.835 recalls=0 avg=0.620 source=memory/2026-06-17-daily-review.md:22-25]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-17-daily-review.md:26:27 -->
-- Daily Self-Review — 2026-06-17: [RECOMMENDATION] Update AGENTS.md "6,400+ lines" claim to reflect actual 153-line state. [RECOMMENDATION] Dedupe `agent_message.py` doc — pick SOUL.md or WORKSPACE.md, not both. [score=0.835 recalls=0 avg=0.620 source=memory/2026-06-17-daily-review.md:26-27]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05-backup-issue.md:15:15 -->
+- What failed: The script's `gog drive upload ...` step hit a macOS keychain permission prompt that no human was there to click "Always Allow" on. After 30s the gog binary gave up: [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-05-backup-issue.md:15-15]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05-backup-issue.md:18:20 -->
+- What failed: read token: keyring connection timed out after 30s while reading keyring item (macOS Keychain may be waiting for a permission prompt; run `gog auth list` from a terminal and click "Always Allow" when prompted) [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-05-backup-issue.md:18-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05-backup-issue.md:23:23 -->
+- What failed: Setting `GOG_KEYRING_OPEN_TIMEOUT=90` had no effect — gog appears to hardcode the 30s wait regardless of the env var. None of the 4 uploads made it to Drive. [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-05-backup-issue.md:23-23]

@@ -64,3 +64,27 @@
 [main/sessions/main/f786f78e-efc1-49d1-93b1-6449591cf78a.jsonl#L25] Assistant: The backup process was **killed by SIGKILL** while uploading to Google Drive — it got pretty far through the compression and started uploading but the system terminated it, likely due to timeout or memory constraints. Let me check if any partial backup artifact exi
 [main/sessions/main/f786f78e-efc1-49d1-93b1-6449591cf78a.jsonl#L35] Assistant: **Backup Status Report — July 7, 2026 03:00 AM** **❌ FAILED (partial completion)** The backup was **killed by SIGKILL** during the Drive upload phase — the script successfully created all 4 local zip archives but the upload process was terminated by the system, lik
 [main/sessions/main/f786f78e-efc1-49d1-93b1-6449591cf78a.jsonl#L35] Assistant: drive upload` run for `octopussy` is now active (spawned fresh). The script from the previous cron tick is dead. The local zips for today are sitting on Desktop/TopSecretBackups — they need to finish uploading. **Recommendation:** The cron schedule fires at 3 AM da
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1336] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1339] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1342] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1345] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1348] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1351] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1354] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1357] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1360] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1363] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1366] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1369] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1372] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1375] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1378] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1381] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1384] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1387] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1390] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1393] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1396] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1399] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1402] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1405] Assistant: Not a real routed heartbeat. Not responding.
