@@ -1,0 +1,1 @@
+[main/sessions/main/afe21d51-d03c-4f8a-b6f3-39bd333ca597.jsonl#L15] Assistant: Backup completed successfully. Run finished with exit code `0`. The script reported Drive upload keychain timeout warnings, but still ended with: `Backup complete: 2026-07-11_0302`
