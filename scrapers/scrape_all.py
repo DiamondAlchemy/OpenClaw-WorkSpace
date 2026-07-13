@@ -20,6 +20,7 @@ from urllib.parse import quote, urlencode
 from urllib.error import URLError, HTTPError
 from xml.etree import ElementTree
 from html import unescape
+from email.utils import parsedate_to_datetime
 
 WORKSPACE = Path(__file__).parent.parent
 CONFIG_PATH = Path(__file__).parent / "config.json"
@@ -77,15 +78,28 @@ def dedup_key(title, url):
 
 
 def is_recent(date_str, hours=24):
-    """Check if a date string is within the last N hours."""
+    """Check if a date string is within the last N hours.
+
+    Handles ISO-8601 (arXiv/HuggingFace) and RFC-822 (RSS/Google News) dates.
+    Returns True for empty or unparseable dates (lenient — sources without a
+    usable timestamp are kept and gated per-source elsewhere).
+    """
     if not date_str:
         return True
+    dt = None
     try:
         dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
-        cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
-        return dt > cutoff
     except (ValueError, TypeError):
+        try:
+            dt = parsedate_to_datetime(date_str)
+        except (ValueError, TypeError, IndexError):
+            return True
+    if dt is None:
         return True
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    return dt > cutoff
 
 
 # ============================================================
@@ -772,6 +786,18 @@ def score_article(article, config):
         if kw.lower() in text:
             total -= 2.0
 
+    # De-spam: keyword-stuffed SEO/scam repos that game the keyword scorer
+    spam_patterns = [
+        "free-desktop-app", "free desktop app", "free-download", "free download",
+        "cracked", "nulled", "activation key", "license key free", "mod apk",
+        "full version free", "premium free",
+    ]
+    if any(p in text for p in spam_patterns):
+        total -= 5.0
+
+    # Cap on the intended ~0-10 scale (title/impl bonuses could push past 10)
+    total = min(total, 10.0)
+
     return max(0, round(total, 1))
 
 
@@ -790,6 +816,36 @@ def deduplicate(articles):
             seen[key] = a
             unique.append(a)
     return unique
+
+
+SEEN_PATH = WORKSPACE / "data" / "seen_keys.json"
+
+
+def filter_already_seen(articles, days=14):
+    """Drop articles already briefed within the last N days so each brief is
+    'new since last time'. Persists a rolling {dedup_key: YYYY-MM-DD} map at
+    data/seen_keys.json. Fails open (keeps everything) on any I/O error."""
+    today = datetime.now().strftime("%Y-%m-%d")
+    cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+    try:
+        seen = json.loads(SEEN_PATH.read_text()) if SEEN_PATH.exists() else {}
+    except (ValueError, OSError):
+        seen = {}
+    seen = {k: v for k, v in seen.items() if v >= cutoff}  # prune old
+    fresh = []
+    for a in articles:
+        key = a.get("dedup", "")
+        if key and key in seen:
+            continue
+        fresh.append(a)
+        if key:
+            seen[key] = today
+    try:
+        SEEN_PATH.parent.mkdir(parents=True, exist_ok=True)
+        SEEN_PATH.write_text(json.dumps(seen))
+    except OSError:
+        pass
+    return fresh
 
 
 # ============================================================
@@ -834,8 +890,22 @@ def main():
     for article in all_articles:
         article["relevance_score"] = score_article(article, config)
 
-    # Deduplicate
+    # Deduplicate (within this run)
     all_articles = deduplicate(all_articles)
+
+    # Recency filter: drop items whose parseable date is older than the window.
+    # Dateless/unparseable items are kept (is_recent is lenient) since several
+    # sources are already time-bounded by their API.
+    recency_hours = config.get("digest", {}).get("recency_hours", 48)
+    before_recency = len(all_articles)
+    all_articles = [a for a in all_articles if is_recent(a.get("date"), hours=recency_hours)]
+    print(f"[filter] recency<={recency_hours}h dropped {before_recency - len(all_articles)} stale items", file=sys.stderr)
+
+    # Cross-day dedup: drop items already briefed in the last N days so the
+    # brief is 'new since last time' (kills day-to-day repetition).
+    before_seen = len(all_articles)
+    all_articles = filter_already_seen(all_articles, days=config.get("digest", {}).get("seen_window_days", 14))
+    print(f"[filter] cross-day dedup dropped {before_seen - len(all_articles)} already-seen items", file=sys.stderr)
 
     # Sort by relevance score (descending)
     all_articles.sort(key=lambda x: x.get("relevance_score", 0), reverse=True)

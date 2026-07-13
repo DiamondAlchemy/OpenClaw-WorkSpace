@@ -18,3 +18,27 @@
 [main/sessions/main/924d1283-1dd3-42d7-a14f-ded3d242ce79.jsonl#L31] Assistant: (e.g., "all unattended `gog` calls need file-based token storage, not keychain"). 3. **Memory consolidation overwrites** (MEMORY.md line 106): lesson is captured in MEMORY.md but **not enforced** — no `# DO NOT CONSOLIDATE BELOW THIS LINE` marker exists despite the
 [main/sessions/main/924d1283-1dd3-42d7-a14f-ded3d242ce79.jsonl#L31] Assistant: Resolve the model identity conflict in one source of truth — update SOUL.md (and propagate) to match whatever the current runtime actually is (M2.7 → M3?). Drop the stale M2.5 fallback references in WORKSPACE.md if no longer true. 3. Update AGENTS.md "Smart Loading
 [main/sessions/main/924d1283-1dd3-42d7-a14f-ded3d242ce79.jsonl#L31] Assistant: remove the loser. 7. Three `MEMORY.md.backup_20260313*` files (~860KB total) plus a `.before-2026-05-07-…` variant are sitting at workspace root. If Diamond is done referencing them, they could be trashed. **Priority 4 (observability):** 8. The MoneyPenny heartbeat
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2743] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2749] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2752] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2755] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2758] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2761] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2764] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2767] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2770] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2773] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2776] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2779] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2782] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2785] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2788] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2791] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2794] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2796] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2799] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2802] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2805] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2808] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2811] Assistant: Not a real routed heartbeat. Not responding.[e~[
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L2814] Assistant: Not a real routed heartbeat. Not responding.[e~[
