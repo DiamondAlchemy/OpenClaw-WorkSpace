@@ -1,0 +1,5 @@
+[main/sessions/main/d807daee-3a38-4d7d-b89c-dc0508fc0cbb.jsonl#L14] Assistant: I'll run the backup script for the daily agent backup as requested.
+[main/sessions/main/d807daee-3a38-4d7d-b89c-dc0508fc0cbb.jsonl#L34] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/d807daee-3a38-4d7d-b89c-dc0508fc0cbb.jsonl#L36] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/d807daee-3a38-4d7d-b89c-dc0508fc0cbb.jsonl#L38] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/d807daee-3a38-4d7d-b89c-dc0508fc0cbb.jsonl#L40] Assistant: [assistant turn failed before producing content]

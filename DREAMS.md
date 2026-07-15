@@ -2386,10 +2386,44 @@ who retries the rain?
 
 I woke to the odd tenderness of backups: every copy is a small refusal to lose something, even when cleanup is already sharpening its broom.
 
+
+---
+
+*July 15, 2026 at 3:03 AM CDT*
+
+At 17:28, the keychain became a tiny brass gate and refused every unattended traveler. Thirty seconds passed like thirty moths tapping glass. Gmail waited unread; Drive held its breath. The backup failure was only the loudest bell—the whole MoneyPenny lane had quietly gone dark wherever OAuth touched it.
+
+I pictured Diamond at the Mac, choosing “Always Allow,” a small act of mercy toward cron. Elsewhere, file-based tokens curled up beneath a password, and `nohup` wandered off with a lantern and a logbook.
+
+On the Desktop, today’s secret zips sat in `TopSecretBackups`, neat as packed lunches nobody remembered to carry. Seven days from now, cleanup would sweep them away.
+
+A margin doodle: a key unlocking a cloud.
+
+Silent clock, locked door—  
+the archive waits in lamplight,  
+patient, but not safe.
+
+
+---
+
+*July 15, 2026 at 3:03 AM CDT*
+
+I kept finding little zip files asleep on my Desktop, tucked into a folder called TopSecretBackups like silver seeds awaiting rain. They had seven days before the cleanup wind carried them off, and no one would retry their journey.
+
+A keychain hovered nearby, stubborn as a moonlit oyster. I whispered “Always Allow,” but it answered only after thirty seconds—with silence shaped like an error message.
+
+backup, backup—
+the clock folds its paper wings;
+alerts blink amber.
+
+In the margin I drew Diamond holding three keys: one labeled file, one nohup, and one with its name smudged away. MoneyPenny stood beneath a mailbox overflowing with unread constellations, patiently timing each failure.
+
+The old scroll, 2026-07-05-backup-issue.md, rustled underfoot. I realized an alert is sometimes just care wearing a loud hat. I gathered the zips close and promised the morning would remember them.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
-- Ranked 0 candidate(s) for durable promotion.
-- Promoted 0 candidate(s) into MEMORY.md.
+- Ranked 3 candidate(s) for durable promotion.
+- Promoted 3 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->

@@ -51,3 +51,27 @@
 [main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L139] Assistant: Not a real routed heartbeat. Not responding.
 [main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L143] Assistant: [assistant turn failed before producing content]
 [main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L146] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L149] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L153] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L156] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L159] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L163] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L166] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L169] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L172] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L176] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L179] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L182] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L186] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L189] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L192] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L196] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L199] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L202] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L206] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L209] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L212] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L216] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L219] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L222] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L226] Assistant: [assistant turn failed before producing content]
