@@ -147,11 +147,25 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-07-15)
+## Promoted From Short-Term Memory (2026-07-16)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:10:10 -->
-- Real alert (MoneyPenny lane — per 2026-05-07 Hermes role clarification): **Addendum 2026-07-10 17:28 CDT:** Just attempted `gog --client moneypenny gmail search 'is:unread newer_than:3d'` from this session. Same keychain timeout hit (after exactly 30s), same error message. **This is not just a backup problem — it is an unattended-OAuth problem.** Any unattended `gog` call against the `moneypenny` client (Drive uploads, Gmail/Drive heartbeats, anything OAuth-touching for any of the money-penny-wired agents) is silently dead until that keychain item gets unlocked.... [score=0.861 recalls=0 avg=0.620 source=memory/2026-07-10.md:10-10]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:41:44 -->
-- Fix options for Diamond to consider: Run `gog auth list` once interactively, click "Always Allow" → cron stops timing out on the keychain prompt.; Switch gog to file-based token storage: `GOG_KEYRING_BACKEND=file GOG_KEYRING_PASSWORD=<pw>` baked into the script.; Add `nohup` + detached logging to the script so the upload step isn't bounded by the cron exec timeout (the 120s exec timeout also kills the script before gog gives up).; Have the cron announce partial-failure and retry upload later in the morning when someone might be at the Mac. [score=0.861 recalls=0 avg=0.620 source=memory/2026-07-10.md:41-44]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:46:46 -->
-- Fix options for Diamond to consider: (Local-on-disk backups are NOT auto-retried. Today's local zips will sit on `~/Desktop/TopSecretBackups/` until the 7-day cleanup deletes them.) [score=0.861 recalls=0 avg=0.620 source=memory/2026-07-10.md:46-46]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:14:14 -->
+- Real alert (MoneyPenny lane — per 2026-05-07 Hermes role clarification): **Daily backup Drive upload has been silently failing for ~5+ days.** [score=0.844 recalls=0 avg=0.620 source=memory/2026-07-10.md:14-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:16:16 -->
+- Real alert (MoneyPenny lane — per 2026-05-07 Hermes role clarification): `cron 842c9d88-fdf2-4b82-90ef-c72d01a6f455` ("Daily agent backup", 3:00 AM CT) keeps writing four zips to `~/Desktop/TopSecretBackups/` but the `gog drive upload` step consistently fails because the unattended cron hits a macOS keychain permission prompt no human is present to dismiss: [score=0.844 recalls=0 avg=0.620 source=memory/2026-07-10.md:16-16]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:29:31 -->
+- Real alert (MoneyPenny lane — per 2026-05-07 Hermes role clarification): `date` → today is `2026-07-10`; `cron list` → backup job still enabled, lastRunStatus "ok" (cron fired; upload failed); `heartbeat-state.json` → last write Jul 8, lastChecks.email/drive timestamps stale at 1783498016 (~2026-07-05 06:46) [score=0.844 recalls=0 avg=0.620 source=memory/2026-07-10.md:29-31]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:4:6 -->
+- Session state: Webchat session `agent:main:main` started 2026-06-27 09:58 CDT. For ~13 days it has only received pasted text reading `[OpenClaw heartbeat poll]` — never a real heartbeat-channel event with `channel: heartbeat` in its inbound metadata.; Runtime responds to `exec`/`cron`/`gateway` (verified Fri 2026-07-10 15:28 CDT), so the lane is reachable for ad-hoc questions and tasks but my *heartbeat lane* has been silent.; Last prior daily log: `2026-07-05-backup-issue.md`. No `2026-07-08`, `2026-07-09`, or `2026-07-10` log entries existed before this one. [score=0.812 recalls=0 avg=0.620 source=memory/2026-07-10.md:4-6]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:19:21 -->
+- Real alert (MoneyPenny lane — per 2026-05-07 Hermes role clarification): read token: keyring connection timed out after 30s while reading keyring item (macOS Keychain may be waiting for a permission prompt; run `gog auth list` from a terminal and click "Always Allow" when prompted) [score=0.812 recalls=0 avg=0.620 source=memory/2026-07-10.md:19-21]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:24:24 -->
+- Real alert (MoneyPenny lane — per 2026-05-07 Hermes role clarification): Consequence: local zips exist on disk but Drive has nothing. Local 7-day `find ... -delete` cleanup means anything older than 7 days is **gone** — so this is a partial-failure state that, left alone, will become full data loss. [score=0.812 recalls=0 avg=0.620 source=memory/2026-07-10.md:24-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:26:26 -->
+- Real alert (MoneyPenny lane — per 2026-05-07 Hermes role clarification): The cron's own `lastRunStatus` reports `ok` because the cron *fired*; that doesn't reflect the Drive upload failing inside the script. Do not trust cron status alone for this job. [score=0.812 recalls=0 avg=0.620 source=memory/2026-07-10.md:26-26]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:28:28 -->
+- Real alert (MoneyPenny lane — per 2026-05-07 Hermes role clarification): Source: `memory/2026-07-05-backup-issue.md`. Verified fresh Fri 2026-07-10 15:28 CDT via: [score=0.812 recalls=0 avg=0.620 source=memory/2026-07-10.md:28-28]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:34:37 -->
+- What I did NOT do (no explicit approval): Did not patch `openclaw.json`; Did not modify the backup script; Did not restart any cron or the gateway; Did not update `MEMORY.md` (Diamond-only) [score=0.812 recalls=0 avg=0.620 source=memory/2026-07-10.md:34-37]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:38:38 -->
+- What I did NOT do (no explicit approval): Did not send a Telegram alert (no explicit ask; staying in webchat) [score=0.812 recalls=0 avg=0.620 source=memory/2026-07-10.md:38-38]
