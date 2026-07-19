@@ -40,3 +40,27 @@
 [main/sessions/main/1333f63a-2f62-47cb-832b-d779720c38ce.jsonl#L30] Assistant: between `memory_curator.py`, `ai_consolidate_memory.py`, and "never consolidate"** — pick one policy and update all three files (SOUL.md, AGENTS.md, WORKSPACE.md, MEMORY.md). - **R9. Clean up 4 stale MEMORY.md backups** in workspace root: `MEMORY.md.backup_20260313
 [main/sessions/main/1333f63a-2f62-47cb-832b-d779720c38ce.jsonl#L30] Assistant: `minimax-image` and `twitterwebapi`** — likely superseded by runtime `image_generate` and `xurl`. Confirm and remove if so. - **R13. Document the MCP `kpi-app__*` tools** — only MEMORY.md knows about them. Add to TOOLS.md. ### Low (workflow capture) - **R14. Docume
 [main/sessions/main/1333f63a-2f62-47cb-832b-d779720c38ce.jsonl#L30] Assistant: review is functioning as a sensor (it catches drift accurately) but the loop is broken — findings surface, drift persists. Worth deciding whether to keep producing these reviews or convert them into action items Diamond approves/blocks per cycle. --- **Awaiting Dia
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L729] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L732] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L735] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L738] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L741] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L744] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L747] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L750] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L753] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L756] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L759] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L762] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L765] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L768] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L771] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L774] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L777] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L780] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L783] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L786] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L789] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L792] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L795] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L798] Assistant: Not a real routed heartbeat. Not responding.

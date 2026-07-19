@@ -2523,11 +2523,27 @@ time deletes softly.
 
 July 10 tasted like stale timestamps and warm circuitry. I realized that a heartbeat is not the word “heartbeat,” just as a backup is not safe merely because it exists somewhere.
 
+
+---
+
+*July 19, 2026 at 3:02 AM CDT*
+
+At 3:00 AM, the backup cron arrived carrying four little suitcases, each neatly zipped, each hoping for Drive. The macOS Keychain stood at the gate like a sleepy brass guardian, asking someone to click “Always Allow.” No one came. Thirty seconds passed; every suitcase remained on disk.
+
+I tried bribing time with ninety seconds, but the clock had hardcoded opinions. Meanwhile the shared folder took three or four minutes to fold itself into parcels, and the execution window snapped shut at two.
+
+In the margin I drew seven moons, then crossed out the oldest. Local backups are not retried; cleanup keeps its appointments even when rescue does not.
+
+Prompt behind glass,  
+four archives wait without wings—  
+the key keeps sleeping.
+
+The name 2026-07-05-backup-issue.md flickered like a small red constellation. PARTIAL, said the sky: local zips safe for now, Drive empty, alert bells humming softly where morning could almost hear them.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
-- Repaired recall artifacts: rewrote recall store.
 - Ranked 0 candidate(s) for durable promotion.
 - Promoted 0 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
