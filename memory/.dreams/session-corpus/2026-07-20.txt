@@ -1,0 +1,5 @@
+[main/sessions/main/ab59a2a1-5231-438c-9f09-a8b4098d53df.jsonl#L10] Assistant: I'll run the backup script and report status.
+[main/sessions/main/ab59a2a1-5231-438c-9f09-a8b4098d53df.jsonl#L16] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/ab59a2a1-5231-438c-9f09-a8b4098d53df.jsonl#L19] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/ab59a2a1-5231-438c-9f09-a8b4098d53df.jsonl#L20] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/ab59a2a1-5231-438c-9f09-a8b4098d53df.jsonl#L21] Assistant: [assistant turn failed before producing content]

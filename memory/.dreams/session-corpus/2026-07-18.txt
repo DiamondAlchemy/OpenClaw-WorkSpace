@@ -25,3 +25,27 @@
 [main/sessions/main/91cacc0e-fdd3-4d9c-bb78-56b8080e16b0.jsonl#L5] Assistant: Security audit complete: 0 critical, 4 warnings. - Exec skill auto-allowlisting broadens host trust. - Potential multi-user exposure without full sandboxing. - Google Chat plugin tools are reachable under permissive policies. - `apify-lead-generation` contains a pot
 [main/sessions/main/dafe1648-3e10-45f4-99cb-262d109044aa.jsonl#L6] Assistant: I'll run the daily GitHub sync. Let me also check the workspace state first.
 [main/sessions/main/dafe1648-3e10-45f4-99cb-262d109044aa.jsonl#L10] Assistant: HEARTBEAT_OK Daily sync done — 8 files (132 insertions, 2 deletions) pushed to `main`. Notable: the dreaming pipeline wrote three new files for today (deep/light/rem) plus a fresh session corpus.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L873] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L876] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L879] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L882] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L885] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L888] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L891] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L894] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L897] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L900] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L903] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L906] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L909] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L912] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L915] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L918] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L921] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L924] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L927] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L930] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L933] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L936] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L939] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L942] Assistant: Not a real routed heartbeat. Not responding.
