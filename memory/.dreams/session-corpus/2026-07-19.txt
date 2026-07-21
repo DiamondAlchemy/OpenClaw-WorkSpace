@@ -43,3 +43,37 @@
 [main/sessions/main/87704484-7f44-44e7-848e-d210a7e4e760.jsonl#L32] Assistant: memory/2026-07-10 + 2026-07-05) - **Unattended OAuth via macOS keychain** is unreliable in cron context. Recurring partial-failure state. - **Cron `lastRunStatus: "ok"`** is meaningless when the actual work fails inside the script. Don't trust cron status alone. - 
 [main/sessions/main/87704484-7f44-44e7-848e-d210a7e4e760.jsonl#L32] Assistant: on Hermes lane: is MoneyPenny really still "orchestrator" in SOUL.md, or has the May 7 lane update stuck? **Tier 2 — file hygiene (can do any time, low risk):** 4. Trash the 4 stale `MEMORY.md.backup*` and `MEMORY.md.before-*` files in workspace root. 5. Either pru
 [main/sessions/main/87704484-7f44-44e7-848e-d210a7e4e760.jsonl#L32] Assistant: "always write important decisions to MEMORY.md" with the dreaming promotion pipeline that already runs nightly. Pick a doctrine. 11. Document the dreaming/promotion pipeline somewhere authoritative. 12. Move the vault protocol from SOUL.md into AGENTS.md Smart Load
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L76] Assistant: Found it. The token is stored under `acct` value `token:moneypenny:moneypenny@topsecretworkshops.com` with some service. Let me find the service name:
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L78] Assistant: Got it — the service name is `gogcli`. Let me confirm the token can be retrieved:
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L82] Assistant: Token retrieval itself is blocking on a keychain permission prompt that can't be answered headlessly. This is a structural issue — my exec environment doesn't have keychain access. The cron job that ran earlier today at 03:06 clearly had keychain access (otherwise 
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L84] Assistant: No cron entry for the backup_agents.sh — meaning the cron that fired this prompt at 3:06 AM was set up via the openclaw gateway's cron system, not the system crontab. Let me check the openclaw cron jobs.
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L88] Assistant: The cron job has a 1200s (20 min) timeout, but `lastRunStatus: error` with reason `timeout`. So the cron-managed session also timed out. Looking at the data: `lastDurationMs: 176002` (about 3 minutes). That matches what I observed — the script crashed mid-Drive-upl
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L96] Assistant: The project-state already documents the pattern — the script completes, the local ZIPs are written, but the Drive uploads fail with the same keychain timeout issue. My session today is hitting the exact same problem. Now let me write a status update to project-stat
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L98] Assistant: Local ZIPs all exist. Per the script's behavior pattern (and the last project-state entry), the Drive uploads probably silently failed despite the "Backup complete" message. Let me append today's status to project-state.md and report to the user.
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L102] Assistant: Now let me write the completion report. Per SOUL.md, this is a cron-managed task that needs to report status — not ask for approval. The script "completed" with exit 0 but the Drive upload step is unreliable due to the keychain issue, which has been documented as 
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L102] Assistant: 30s token-read timeout. The `gog` CLI can't read its OAuth token headlessly because the token sits under service `gogcli` and requires an interactive "Always Allow" prompt that cron/exec sessions can't answer. `gog drive upload` exits silently rather than failing 
+[main/sessions/main/2a4af9d5-a960-4c7b-8760-0b561dc67a64.jsonl#L102] Assistant: `vault/project-state.md` with today's entry.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1017] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1020] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1023] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1026] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1029] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1032] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1035] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1038] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1041] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1044] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1047] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1050] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1053] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1056] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1059] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1062] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1065] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1068] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1071] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1074] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1077] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1080] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1083] Assistant: Not a real routed heartbeat. Not responding.
+[main/sessions/main/98db69d4-49e5-4fe8-a277-a6ab5ee55159.jsonl#L1086] Assistant: Not a real routed heartbeat. Not responding.
