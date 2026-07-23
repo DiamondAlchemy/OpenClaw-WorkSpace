@@ -1,0 +1,1 @@
+[main/sessions/main/bac78520-116e-4fef-b8a5-0232044f67d8.jsonl#L22] Assistant: Daily backup completed at 3:00 AM CDT. **Status: ✅ SUCCESS (partial)** - **Archive created:** `2026-07-23_0300` (local tarball) - **Drive upload:** ❌ FAILED — macOS Keychain timeout. The `gog` token for `moneypenny@topsecretworkshops.com` can't be read because Keyc
