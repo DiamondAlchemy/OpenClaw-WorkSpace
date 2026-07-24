@@ -21,3 +21,27 @@
 [main/sessions/main/871cb80d-5262-4071-ab8b-8a576fa1dca5.jsonl#L25] Assistant: `before-2026-05-07` snapshot. Over 300KB of backup files. 10. **Orphan scripts in root:** `r12_audit.py`, `r12_audit2.py` (May 24), `claude-acp-proxy.js` (Mar 6), `daily_self_review.py` (Mar 18 — this cron runs natively now, the script may be dead), `memory_curator
 [main/sessions/main/871cb80d-5262-4071-ab8b-8a576fa1dca5.jsonl#L25] Assistant: changes made) | # | Recommendation | Priority | Effort | |---|---------------|----------|--------| | 1 | Update model references in MEMORY.md, WORKSPACE.md, and SOUL.md to reflect current `zai/glm-5-turbo` / `openai/gpt-5.6-sol` | High | Low | | 2 | Clean up `money
 [main/sessions/main/871cb80d-5262-4071-ab8b-8a576fa1dca5.jsonl#L25] Assistant: `claude-acp-proxy.js`, and the old `daily_self_review.py` script | Low | Trivial | **Summary:** The workspace is structurally sound. The main issue is **model info drift** — three core files reference MiniMax models that are no longer primary. Secondary issue is wo
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L382] Assistant: No change. Standing by.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L385] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L388] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L391] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L394] Assistant: No change. Standing by.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L397] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L400] Assistant: The 03:00 backup cron should have fired ~28 min ago. Let me verify it succeeded.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L403] Assistant: ✅ Backup ran at 03:00 today, status: ok, 414s duration. Local zips present in `~/Desktop/TopSecretBackups/`. Cron healthy. The previous "salty-shell" failures appear to have been transient. Pattern: occasional single-day failure followed by auto-recovery next day.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L408] Assistant: No change since last backup success (Wed 03:00, status ok). Nothing new.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L411] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L414] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L417] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L420] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L423] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L426] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L429] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L432] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L435] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L438] Assistant: This is now from Alvie (Telegram 8217045820). He might be checking in. The `[OpenClaw heartbeat poll]` is the cron wake text. Nothing new in my state worth raising. The backup is healthy. Actually, given Diamond routed this through his Telegram, let me at least do
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L440] Assistant: All 6 crons healthy, last status ok across the board. No new alerts.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L443] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L446] Assistant: Standing by.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L449] Assistant: This is from Alvie via Telegram directly now. He hasn't responded to my alerts for 36+ hours. The tokenjuice alerts are coming in but nothing's actionable. Let me check the current state once more and stay silent unless something demands attention. Actually, I not
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L452] Assistant: No change.
