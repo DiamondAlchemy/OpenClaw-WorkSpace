@@ -1,11 +1,13 @@
 # Project State — Shared
 
-*Last updated: 2026-06-25*
+*Last updated: 2026-07-27*
 *Updated by: MoneyPenny*
 
 ---
 
-## Current MoneyPenny State — 2026-06-03
+## Current MoneyPenny State — 2026-07-27
+
+- 2026-07-27 09:07 CDT: lossless-claw updated from 0.9.2 → 0.15.0. The gateway had been running 0.9.2 since the June 15 update never got a gateway restart. Updated to 0.15.0 with --force, gateway soft-restarted (SIGUSR1), verified 0.15.0 loaded and running. Key fixes: /new reset no longer strands summaries, session-rotation wedge fixed, lcm_describe accepts copy-paste reference strings, /lossless doctor apply gains confirm-offline targeting, version mismatch now surfaces in doctor output.
 
 - 2026-07-12 21:24 CDT: Completed a 3-second text-to-video request showing a bright red lobster slowly waving one claw on a plain white background. Verified the generated MP4 at `/Users/m/.openclaw/media/tool-video-generation/lobster-wave---636eae5f-1ef8-4194-b69d-a2e52b159bbb.mp4` and returned it to the requesting chat.
 - 2026-06-30 02:50 CDT: Session context loaded for MoneyPenny in the shared workspace. Diamond greeted via Telegram; no operational task requested yet. Daily memory files `memory/2026-06-30.md` and `memory/2026-06-29.md` were not present when checked.

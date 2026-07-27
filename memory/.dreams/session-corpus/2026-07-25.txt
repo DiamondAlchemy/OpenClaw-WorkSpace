@@ -35,3 +35,27 @@
 [main/sessions/main/e9329e00-f40c-4e38-b601-47cb4db0f432.jsonl#L62] Assistant: SOUL.md would close this gap. ### 5.2 Undocumented workflows discovered - The "every completed task → update `vault/project-state.md`" rule (SOUL.md L88–91) is a hard mandate. Not duplicated in AGENTS.md. Worth echoing there or in TOOLS.md. - The "send Telegram via
 [main/sessions/main/e9329e00-f40c-4e38-b601-47cb4db0f432.jsonl#L62] Assistant: **2026-07-05 / 2026-07-10 unattended-OAuth / silent backup failure** (memory/2026-07-10.md): The *lesson* is documented in that daily log but is NOT in MEMORY.md or SOUL.md. If MEMORY.md gets consolidated next, the "cron status 'ok' is not delivery confirmation" ru
 [main/sessions/main/e9329e00-f40c-4e38-b601-47cb4db0f432.jsonl#L62] Assistant: SOUL.md model reference**: `MiniMax-M2.7-Highspeed` → `MiniMax-M3`, and document `gpt-5.6-sol` as the default model for cross-session continuity. 5. **Optionally**: add a one-line "Other configured agents (not in this lane)" footer to SOUL.md to avoid confusion whe
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L872] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L877] Assistant: No change. Backup cron last ok Fri 03:00, next at Sat 03:00 (~2h from now). Standing by.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L880] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L883] Assistant: Backup cron should fire in ~1h. No new state.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L885] Assistant: Same status. Backup next at 03:00 Sat (~62 min). No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L888] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L891] Assistant: Backup cron in ~2 min. Standing by. No change since last check.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L894] Assistant: The 03:00 backup should have run ~28 min ago. Let me verify.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L897] Assistant: Hmm, interesting. I see TWO sets of timestamped files at 03:02 and 03:09 — that's TWO runs of the backup in quick succession on Jul 25. Let me check what happened.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L899] Assistant: Hmm, cron runs has some issue. But the key fact: lastRunStatus is ok, consecutiveErrors 0, files are present. Cron reports healthy. The duplicate files (0302 and 0309) suggest either two runs fired or the script ran twice somehow. But cron state shows one successf
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L901] Assistant: Confirmed: backup ok. No alerts needed.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L904] Assistant: Backup fired at 03:00. Let me verify.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L907] Assistant: Hmm — I see two sets of zips per workspace for Jul 25: 0302 and 0309. The cron started at 03:00 (1784966964906 = ~Sat 03:00 CDT) and ran for 284s, ending around 03:04. But there's a second batch at 03:09 too. That's odd — there should only be one run per day. Wait
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L909] Assistant: ✅ Backup ran Sat 03:00 ok, 285s duration. Zips present in `~/Desktop/TopSecretBackups/`. Note: there appear to be duplicate zips (0302 and 0309 timestamps) — likely the script ran twice. Not a problem, just cosmetic. Worth flagging but no action. The "salty-shell"
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L911] Assistant: All 6 crons healthy. No new alerts. Standing by.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L914] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L917] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L920] Assistant: No change. Standing by.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L923] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L926] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L929] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L932] Assistant: No change.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L935] Assistant: No change. Standing by.
+[main/sessions/main/ebbea3e8-c413-4ec1-a570-7d3e5567863c.jsonl#L938] Assistant: No change.
