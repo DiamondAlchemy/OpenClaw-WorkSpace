@@ -1,9 +1,13 @@
 # Project State — Shared
 
-*Last updated: 2026-07-27*
+*Last updated: 2026-07-28*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-07-28
+
+- 2026-07-28 08:00 CDT: Daily self-review cron fired. Wrote `memory/2026-07-28-daily-review.md` covering SOUL/AGENTS/IDENTITY/USER/WORKSPACE/MEMORY structure, skills/ inventory (18 skills all healthy), conflicts and outdated-info audit. Key findings reported for Diamond decision: TOOLS.md says `nano-banana-pro` is active image-gen but `skills/minimax-image/` is on disk and there is no `nano-banana-pro/` directory; AGENTS.md "6,400+ lines" line is factually wrong (MEMORY.md is 153 lines); TOOLS.md skills list missing 5 installed skills; HRBD Telegram group has no vault context; MEMORY.md "Agent Ecosystem LIVE 2026-03-22" framing contradicted by 2026-07-10 promotion noting 6 inactive agents. No files modified other than this review and project-state entry. Daily-log gap (2026-07-11 → 2026-07-27) persists at 18 days.
 
 ## Current MoneyPenny State — 2026-07-27
 
