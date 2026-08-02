@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-02",
+  "scraped_at": "2026-08-02T12:04:00.876925+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 103,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 3,
+    "GoogleNews": 1921,
+    "GitHub": 25,
+    "GitHubReleases": 13,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 5,
+    "RSS": 130
+  },
+  "total_articles": 2,
+  "articles": [
+    {
+      "title": "Show HN: Google Play scraper for Node.js with typed results and daily live tests",
+      "url": "https://github.com/MrAdex77/google-play-scraper",
+      "external_url": "https://github.com/MrAdex77/google-play-scraper",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-02T12:01:31+00:00",
+      "dedup": "3cf2c20e91c883523e3686b02113e477",
+      "relevance_score": 0
+    },
+    {
+      "title": "L&#39;INDIA INTENDE RITENERE RESPONSABILE LA SOCIET\u00c0 META PER LA DIFFUSIONE DI #FAKE NEWS SUL PRIMO MINISTRO DURANTE LA ",
+      "url": "https://sigmoid.social/@edgarpezzatiniyol/117025813438197104",
+      "external_url": "https://sigmoid.social/@edgarpezzatiniyol/117025813438197104",
+      "source": "Mastodon @edgarpezzatiniyol",
+      "snippet": "L&#39;INDIA INTENDE RITENERE RESPONSABILE LA SOCIET\u00c0 META PER LA DIFFUSIONE DI #FAKE NEWS SUL PRIMO MINISTRO DURANTE LA RECENTE ONDATA DI PROTESTE GIOVANILI La polizia indiana ha avviato un procedimento penale ufficiale contro il responsabile di Meta India, Arun Srinivas, e gli autori di diversi gra",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-08-02T12:03:22.124Z",
+      "dedup": "f7c2246a7bfea4516c3a478e1223e76f",
+      "relevance_score": 0
+    }
+  ]
+}
