@@ -1,0 +1,2 @@
+[main/sessions/main/9cdc56cf-80fb-4ffd-8518-a0235438ec8d.jsonl#L14] Assistant: Running the backup script now.
+[main/sessions/main/9cdc56cf-80fb-4ffd-8518-a0235438ec8d.jsonl#L20] Assistant: Backup archiving completed successfully but the Google Drive upload failed due to a macOS Keychain timeout — the Mac mini's keychain couldn't grant access in time (likely because no interactive session is active at 3 AM to click "Always Allow"). **Summary:** - ✅ **

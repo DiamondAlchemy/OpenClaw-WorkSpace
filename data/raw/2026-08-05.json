@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-05",
+  "scraped_at": "2026-08-05T12:04:08.618118+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 103,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 1,
+    "GoogleNews": 1928,
+    "GitHub": 25,
+    "GitHubReleases": 16,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 8,
+    "RSS": 145
+  },
+  "total_articles": 1,
+  "articles": [
+    {
+      "title": "The Fish Who Could Not Imagine Air",
+      "url": "https://www.novaspivack.com/essays/the-fish-who-could-not-imagine-air",
+      "external_url": "https://www.novaspivack.com/essays/the-fish-who-could-not-imagine-air",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-05T12:00:41+00:00",
+      "dedup": "53e96cd93f32ab9b3a991df1342fbe51",
+      "relevance_score": 0
+    }
+  ]
+}
