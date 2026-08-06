@@ -1,0 +1,3 @@
+[main/sessions/main/c56b9f96-1d74-4dc8-8bf5-98046afbb28a.jsonl#L18] Assistant: Still running — uploading to Drive. Let me wait for completion.
+[main/sessions/main/c56b9f96-1d74-4dc8-8bf5-98046afbb28a.jsonl#L24] Assistant: Backup script failed. The tar archive was created successfully, but the Google Drive upload failed due to a **macOS Keychain timeout** — the `gog` CLI couldn't access the stored OAuth token because the keyring connection timed out (likely waiting for a GUI permissi
+[main/sessions/main/c56b9f96-1d74-4dc8-8bf5-98046afbb28a.jsonl#L24] Assistant: `GOG_KEYRING_BACKEND=file` with `GOG_KEYRING_PASSWORD` as an alternative

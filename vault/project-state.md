@@ -1,9 +1,13 @@
 # Project State — Shared
 
-*Last updated: 2026-07-28*
+*Last updated: 2026-08-06*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-08-06
+
+- 2026-08-06 08:00 CDT: Daily self-review cron fired (9-day gap since 2026-07-28). Wrote `memory/2026-08-06-daily-review.md` covering SOUL/AGENTS/IDENTITY/USER/WORKSPACE/MEMORY structure, skills/ inventory (18 skills), conflicts and outdated-info audit. Key findings reported for Diamond decision: runtime is `MiniMax-M3` per session_status but MEMORY.md and WORKSPACE.md still say M2.7-highspeed (model identity drift); TOOLS.md still references non-existent `nano-banana-pro` skill while `skills/minimax-image/` is on disk; AGENTS.md "6,400+ lines" line factually wrong (MEMORY.md is 153 lines); TOOLS.md skills list missing 5 installed skills (brave-browser-agent, browser-auto-plus, google-workspace-operator, kpi, spreadsheet, twitterwebapi); 3 competing skills-list sources (AGENTS.md vs TOOLS.md vs WORKSPACE.md); 6 inactive agents (Drax, Vesper, Nomí, Scaramanga, Zorin, Moat) still configured from 2026-07-10 promotion with no triage decision; 4 stale MEMORY.md backup files at workspace root. No file edits made beyond this review entry and the daily log. Daily-log gap persists (2026-07-29 → 2026-08-05 = 8 days).
 
 ## Current MoneyPenny State — 2026-07-28
 
