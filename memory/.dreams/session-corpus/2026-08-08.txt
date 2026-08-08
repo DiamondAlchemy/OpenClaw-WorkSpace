@@ -1,0 +1,3 @@
+[main/sessions/main/506ba512-d0fb-46b5-ac90-364063fdaf9d.jsonl#L14] Assistant: Running the backup script now.
+[main/sessions/main/506ba512-d0fb-46b5-ac90-364063fdaf9d.jsonl#L24] Assistant: Backup **failed**. The archive was created successfully but the Google Drive upload couldn't authenticate — the macOS Keychain access timed out (likely waiting for an interactive "Always Allow" prompt that can't be clicked at 3 AM in a cron session). **What happene
+[main/sessions/main/506ba512-d0fb-46b5-ac90-364063fdaf9d.jsonl#L24] Assistant: from a terminal session and click "Always Allow" so future reads don't prompt - Or replace the Drive upload step with a local backup destination (e.g., another volume or S3) HEARTBEAT_OK
