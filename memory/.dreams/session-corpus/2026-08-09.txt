@@ -1,0 +1,2 @@
+[main/sessions/main/4d6f7540-f62e-49a9-8dfa-d0662ec0cb9d.jsonl#L16] Assistant: Script launched — let me check on it.
+[main/sessions/main/4d6f7540-f62e-49a9-8dfa-d0662ec0cb9d.jsonl#L18] Assistant: HEARTBEAT_OK — Daily agent backup completed. Archive `2026-08-09_0300` created and uploaded to Google Drive successfully. **⚠️ Flag:** The `gog` Drive token (macOS Keychain) timed out during upload — it retried 4 times before succeeding. The Keychain is hitting a 3

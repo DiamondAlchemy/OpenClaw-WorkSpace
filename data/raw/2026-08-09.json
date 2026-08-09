@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-09",
+  "scraped_at": "2026-08-09T12:03:59.698762+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 96,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 0,
+    "GoogleNews": 1922,
+    "GitHub": 25,
+    "GitHubReleases": 17,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 7,
+    "RSS": 145
+  },
+  "total_articles": 1,
+  "articles": [
+    {
+      "title": "Why Wall Street Is Ignoring Big Tech's Debt",
+      "url": "https://www.youtube.com/watch?v=NufJ7g63KSY",
+      "external_url": "https://www.youtube.com/watch?v=NufJ7g63KSY",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-09T12:01:39+00:00",
+      "dedup": "41d1ee6c05d5e56a5eb587ed48d16c03",
+      "relevance_score": 0
+    }
+  ]
+}
