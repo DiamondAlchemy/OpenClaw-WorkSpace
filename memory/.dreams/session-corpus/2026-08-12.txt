@@ -1,0 +1,2 @@
+[main/sessions/main/64ce243f-7655-49f6-b688-6c7ae5ccc6dd.jsonl#L14] Assistant: Running the daily backup script now.
+[main/sessions/main/64ce243f-7655-49f6-b688-6c7ae5ccc6dd.jsonl#L24] Assistant: Backup failed. The tar archive was created successfully, but the Drive upload step failed due to a macOS Keychain timeout — the `gog` CLI couldn't read the OAuth token because Keychain access timed out (likely needs an interactive "Always Allow" click that isn't av
