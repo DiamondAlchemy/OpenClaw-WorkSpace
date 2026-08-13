@@ -147,7 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-07-17)
+## Promoted From Short-Term Memory (2026-08-13)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-10.md:49:50 -->
-- Secondary observations (FYI, not actionable on their own): No real heartbeat channel traffic has reached me since 2026-06-27. If anyone (Alvie, Hermes, an automated harness) thinks MoneyPenny is actively heartbeating, that's not happening. Cron-driven dreaming/promotion is still firing (last run 2026-07-10 03:07 CDT, promoted 7 candidates into MEMORY.md).; Several agents (Drax, Vesper, Nomí, Scaramanga, Zorin, Moat) are configured but I haven't gotten any signal they're active or being used. Worth a separate triage if Diamond wants to know. [score=0.825 recalls=0 avg=0.620 source=memory/2026-07-10.md:49-50]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-06-daily-review.md:42:45 -->
+- AGENTS.md (modified May 30, 2026): **Issue:** States `MEMORY.md` is "consolidated (6,400+ lines)" — factually wrong, MEMORY.md is 153 lines; Smart Loading Protocol still valid; Skills listed match what's actually installed (18 skills); Runtime upgrades section is current (SearXNG, tokenjuice, OAuth models) [score=0.908 recalls=0 avg=0.620 source=memory/2026-08-06-daily-review.md:42-45]
