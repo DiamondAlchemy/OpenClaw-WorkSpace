@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-14",
+  "scraped_at": "2026-08-14T12:03:44.128343+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 99,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 3,
+    "GoogleNews": 1938,
+    "GitHub": 24,
+    "GitHubReleases": 25,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 11,
+    "RSS": 132
+  },
+  "total_articles": 7,
+  "articles": [
+    {
+      "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices - venturebeat.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeVA0OGxrdGxzcGV1VUtwei1fLVFhNUE4M3BNd0lLb1hpS2xoNXlWUzJzWU1YUDM4dElQVjIwcm1qQWsxeUdoOEF6ZGEta1lEaEJLd3g4bE5ITUtqLVpZSlp3X21LZDd5T3lPelI0cHhBaEdiOTBrYkdRbV9td1c4bWVCdUlUNGNjTmx1RTI2T19QMEtyTGZPWW42Z1BQVzRPdjZ6UkNyd3hfWFdQWVU1LTMtdEtpeE84S1FzbmdOLVZmWFRrVk5aLVJsbW5nSzdrU0RIRUNR?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeVA0OGxrdGxzcGV1VUtwei1fLVFhNUE4M3BNd0lLb1hpS2xoNXlWUzJzWU1YUDM4dElQVjIwcm1qQWsxeUdoOEF6ZGEta1lEaEJLd3g4bE5ITUtqLVpZSlp3X21LZDd5T3lPelI0cHhBaEdiOTBrYkdRbV9td1c4bWVCdUlUNGNjTmx1RTI2T19QMEtyTGZPWW42Z1BQVzRPdjZ6UkNyd3hfWFdQWVU1LTMtdEtpeE84S1FzbmdOLVZmWFRrVk5aLVJsbW5nSzdrU0RIRUNR?oc=5",
+      "source": "Google News (venturebeat.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 13 Aug 2026 16:47:55 GMT",
+      "dedup": "2f44bf41230f9cb59ad87ce8d0d7714f",
+      "relevance_score": 6.8
+    },
+    {
+      "title": "Google\u2019s Gemini 3.7 Flash targets coding and agents with a 50% introductory price cut - venturebeat.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORDZKOWNWb2dCLU56bV9KVVpnNzQyUFJDU0YtckhpSkt0MkdWNzVzR3poRnZwTlFZaS1RRU02UDV1QVlSMzZpTUtJbDg3OHhrUGF4dzdHYVNXQ1Z6N05tUXltU2Q0UWZpS1VDeVFsc2ZXSWlYSEpTV2Rydm1CTWNVLWRsOXVjb3BjWHhKZUpjX21RS3djNlBVOW5JT056Qy1vMlMxZk9ES3FmaDU1SzhqS0RuZ25NYi1NeXc?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORDZKOWNWb2dCLU56bV9KVVpnNzQyUFJDU0YtckhpSkt0MkdWNzVzR3poRnZwTlFZaS1RRU02UDV1QVlSMzZpTUtJbDg3OHhrUGF4dzdHYVNXQ1Z6N05tUXltU2Q0UWZpS1VDeVFsc2ZXSWlYSEpTV2Rydm1CTWNVLWRsOXVjb3BjWHhKZUpjX21RS3djNlBVOW5JT056Qy1vMlMxZk9ES3FmaDU1SzhqS0RuZ25NYi1NeXc?oc=5",
+      "source": "Google News (venturebeat.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 13 Aug 2026 18:02:54 GMT",
+      "dedup": "3d953e2afed395b50c4bb58faf38be5f",
+      "relevance_score": 6.0
+    },
+    {
+      "title": "Why Capital One built its multi-agent AI platform around open-weight models - venturebeat.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2ZHcDBVQWo4eU41T0lHN3pScW5oR0dqNWhxVTlRR1IzdklEdXg5TmhJbU02TVZ2Z1B6VFlNcFpGRUR2MlB2dmxHNzBicXhkYWR3NGh6eHluTnZXcDhmVVRzUThKbTh1Nk1jWUx2N3ZNUFlIbHNJMDhoR2pfQ2lqbWh0ZGtNdE9sR0NQcXZ0SXg1WHc4OC14TER3ZHRfODhLXzdWZVhLamg4OFhUUzhFZk5QMA?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2ZHcDBVQWo4eU41T0lHN3pScW5oR0dqNWhxVTlRR1IzdklEdXg5TmhJbU02TVZ2Z1B6VFlNcFpGRUR2MlB2dmxHNzBicXhkYWR3NGh6eHluTnZXcDhmVVRzUThKbTh1Nk1jWUx2N3ZNUFlIbHNJMDhoR2pfQ2lqbWh0ZGtNdE9sR0NQcXZ0SXg1WHc4OC14TER3ZHRfODhLXzdWZVhLamg4OFhUUzhFZk5QMA?oc=5",
+      "source": "Google News (venturebeat.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 13 Aug 2026 14:00:00 GMT",
+      "dedup": "e9ebf75daba97f9ed44f6f7678c7e54d",
+      "relevance_score": 4.5
+    },
+    {
+      "title": "Writer says its new Palmyra X6 model cuts AI agent costs by 52% as token spending surges - venturebeat.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRElFLUt3VmJXdGdobzIwZng1bHExX19LNWJORkxqQkpJang3djlOYUJXQjRiejBFdldGUjVNOUk0V3BMRkdsRVdtYkZEMnJ5YTI1SXA5VTZ3R1JfQnVrNy1SUjVhNGJpME9vNmFOMXduZEI3bWh3cEJybG1hd1VEa2R4M3ZGRGtSeVdfa3VERGxzNjZ2VTEwZUljZDN1VUJ0ZUJneUExUHRtUk50QmhfOXk1Sm5saUZ6VUwzMFoxMHE4NlU?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRElFLUt3VmJXdGdobzIwZng1bHExX19LNWJORkxqQkpJang3djlOYUJXQjRiejBFdldGUjVNOUk0V3BMRkdsRVdtYkZEMnJ5YTI1SXA5VTZ3R1JfQnVrNy1SUjVhNGJpME9vNmFOMXduZEI3bWh3cEJybG1hd1VEa2R4M3ZGRGtSeVdfa3VERGxzNjZ2VTEwZUljZDN1VUJ0ZUJneUExUHRtUk50QmhfOXk1Sm5saUZ6VUwzMFoxMHE4NlU?oc=5",
+      "source": "Google News (venturebeat.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 13 Aug 2026 13:00:00 GMT",
+      "dedup": "6d279486e4ab75c476aa8dc0cd2312a0",
+      "relevance_score": 1.5
+    },
+    {
+      "title": "Places/ ways to make money, today",
+      "url": "https://www.howtomakemoney.today/",
+      "external_url": "https://www.howtomakemoney.today/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-14T12:01:00+00:00",
+      "dedup": "c55876b579ee426cf16abe1dbdd50595",
+      "relevance_score": 0
+    },
+    {
+      "title": "The TEMU-Fication of Software, Digital Goods and Services",
+      "url": "https://xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services/",
+      "external_url": "https://xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-14T12:00:51+00:00",
+      "dedup": "d700da483612db36bf3ce94208dbde8f",
+      "relevance_score": 0
+    },
+    {
+      "title": "Taiwan says it was hit by \u2018abnormal\u2019 AI-assisted cyber-attack - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdGdaWVdEcnBWc0ltUkxlOE41UWxkY1RkckllR2ZxTDZEekUxTFZxakpiZW5YVFVRTDlOdWZ2T2NfS05VMVQ5ZWlPS2g1UDBEZTNnYk44ODFZLUtSaEl0SEc1bjFfaUpJcDE3MDl4anNDY09WMXNKbDRCSXoyd3JCYkphRmJlYnNjMDVZaExuWmdsSFZzZWxj?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdGdaWVdEcnBWc0ltUkxlOE41UWxkY1RkckllR2ZxTDZEekUxTFZxakpiZW5YVFVRTDlOdWZ2T2NfS05VMVQ5ZWlPS2g1UDBEZTNnYk44ODFZLUtSaEl0SEc1bjFfaUpJcDE3MDl4anNDY09WMXNKbDRCSXoyd3JCYkphRmJlYnNjMDVZaExuWmdsSFZzZWxj?oc=5",
+      "source": "Google News (The Guardian)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 13 Aug 2026 19:40:00 GMT",
+      "dedup": "681758c881af4835e01e1239e9657c5c",
+      "relevance_score": 0
+    }
+  ]
+}
