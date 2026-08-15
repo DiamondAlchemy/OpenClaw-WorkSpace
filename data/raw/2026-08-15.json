@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-15",
+  "scraped_at": "2026-08-15T14:18:00.966954+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 98,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 3,
+    "GoogleNews": 1938,
+    "GitHub": 25,
+    "GitHubReleases": 23,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 4,
+    "RSS": 162
+  },
+  "total_articles": 0,
+  "articles": []
+}
