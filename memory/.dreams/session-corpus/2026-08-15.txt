@@ -14,3 +14,8 @@
 [main/sessions/main/c65aa0b2-1a47-45c0-be9b-bd38d37c13b3.jsonl#L16] Assistant: Still uploading to Drive — giving it more time.
 [main/sessions/main/c65aa0b2-1a47-45c0-be9b-bd38d37c13b3.jsonl#L18] Assistant: Hmm — Keychain timeout. Let me wait a bit more for the script to handle this or finish.
 [main/sessions/main/c65aa0b2-1a47-45c0-be9b-bd38d37c13b3.jsonl#L20] Assistant: Backup ran but hit a **Google Drive auth failure** — the tar archive was created locally, but the upload to Drive failed because the macOS Keychain timed out on `moneypenny@topsecretworkshops.com` credentials. **Status:** - ✅ Local tar archive created successfully 
+[main/sessions/main/8e92eb83-a4fd-412f-8c29-ee780a891b00.jsonl#L6] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/8e92eb83-a4fd-412f-8c29-ee780a891b00.jsonl#L9] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/8e92eb83-a4fd-412f-8c29-ee780a891b00.jsonl#L12] Assistant: Running the daily GitHub sync.
+[main/sessions/main/8e92eb83-a4fd-412f-8c29-ee780a891b00.jsonl#L14] Assistant: Daily sync complete. 10 files pushed to main (`8f9837a`).
+[main/sessions/main/9ff87f54-32e0-4004-be7d-62864d08a697.jsonl#L5] Assistant: Security audit: 0 critical, 4 warnings. - Exec skill auto-allowlisting widens host trust. - Potential multi-user exposure with sandboxing disabled. - Google Chat plugin tools reachable under permissive policies. - `apify-lead-generation` flagged for possible file-re
