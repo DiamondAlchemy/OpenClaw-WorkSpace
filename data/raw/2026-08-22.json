@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-22",
+  "scraped_at": "2026-08-22T12:31:39.072931+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 99,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 1,
+    "GoogleNews": 1941,
+    "GitHub": 26,
+    "GitHubReleases": 26,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 10,
+    "RSS": 149
+  },
+  "total_articles": 1,
+  "articles": [
+    {
+      "title": "Mark Zuckerberg Buys an Irish Castle",
+      "url": "https://www.nytimes.com/2026/08/21/world/europe/zuckerberg-castle-ireland.html",
+      "external_url": "https://www.nytimes.com/2026/08/21/world/europe/zuckerberg-castle-ireland.html",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 1,
+      "date": "2026-08-22T12:28:51+00:00",
+      "dedup": "d11ef5f636f47cd9434b58bcc7b7fbfd",
+      "relevance_score": 0
+    }
+  ]
+}
