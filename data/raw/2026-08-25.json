@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-25",
+  "scraped_at": "2026-08-25T12:03:54.925908+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 109,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 1,
+    "GoogleNews": 1940,
+    "GitHub": 22,
+    "GitHubReleases": 13,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 4,
+    "RSS": 180
+  },
+  "total_articles": 5,
+  "articles": [
+    {
+      "title": "Pi vs. the official DeepSeek Harness on the same local model (Qwen3.8-27B)",
+      "url": "https://github.com/promptdriven/pdd/blob/main/research/omlx-qwen38-pi-deepseek-harness-2026-08-23/README.md",
+      "external_url": "https://github.com/promptdriven/pdd/blob/main/research/omlx-qwen38-pi-deepseek-harness-2026-08-23/README.md",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-25T12:00:50+00:00",
+      "dedup": "d9c216be03fac3ed8611951fba26ff5a",
+      "relevance_score": 6.0
+    },
+    {
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "external_url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "source": "The Verge AI",
+      "snippet": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violat",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-08-25T05:15:03-04:00",
+      "dedup": "23e19496a2999e26c349ef83806326e5",
+      "relevance_score": 2.5
+    },
+    {
+      "title": "Show HN: Unlose \u2013 Windows VSS snapshots before your AI agent deletes your files",
+      "url": "https://github.com/unlose-app/unlose",
+      "external_url": "https://github.com/unlose-app/unlose",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-25T12:01:04+00:00",
+      "dedup": "3a184673f520576e2cb2e447b74ee4c9",
+      "relevance_score": 1.5
+    },
+    {
+      "title": "The Monopoly of Hate",
+      "url": "https://riccardogenco.github.io/The-Monopoly-of-Hate/",
+      "external_url": "https://riccardogenco.github.io/The-Monopoly-of-Hate/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-25T12:00:49+00:00",
+      "dedup": "31f67203ddc2cafc3963d8c3689785d0",
+      "relevance_score": 0
+    },
+    {
+      "title": "\u0412 \u043a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0441\u043a\u0438\u044f \u0433\u0440\u0430\u0434 \u0410\u0442\u0438\u0440\u0430\u0443 \u0435 \u0438\u0437\u0431\u0443\u0445\u043d\u0430\u043b \u043f\u043e\u0436\u0430\u0440 \u0432 \u043d\u0435\u0444\u0442\u043e\u043f\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u0432\u0430\u0442\u0435\u043b\u0435\u043d \u0437\u0430\u0432\u043e\u0434 \u041d\u044f\u043c\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u0437\u0430 \u043f\u0440\u0438\u0447\u0438\u043d\u0438\u0442\u0435 \u0437\u0430 \u043f\u043e\u0436\u0430\u0440\u0430. \u0422\u043e\u0432\u0430 \u0435",
+      "url": "https://sigmoid.social/@Idahy_Udyma/117156045487497499",
+      "external_url": "https://sigmoid.social/@Idahy_Udyma/117156045487497499",
+      "source": "Mastodon @Idahy_Udyma",
+      "snippet": "\u0412 \u043a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0441\u043a\u0438\u044f \u0433\u0440\u0430\u0434 \u0410\u0442\u0438\u0440\u0430\u0443 \u0435 \u0438\u0437\u0431\u0443\u0445\u043d\u0430\u043b \u043f\u043e\u0436\u0430\u0440 \u0432 \u043d\u0435\u0444\u0442\u043e\u043f\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u0432\u0430\u0442\u0435\u043b\u0435\u043d \u0437\u0430\u0432\u043e\u0434 \u041d\u044f\u043c\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u0437\u0430 \u043f\u0440\u0438\u0447\u0438\u043d\u0438\u0442\u0435 \u0437\u0430 \u043f\u043e\u0436\u0430\u0440\u0430. \u0422\u043e\u0432\u0430 \u0435 \u0435\u0434\u0438\u043d \u043e\u0442 \u0442\u0440\u0438\u0442\u0435 \u043d\u0430\u0439-\u0433\u043e\u043b\u0435\u043c\u0438 \u043d\u0435\u0444\u0442\u043e\u043f\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u0432\u0430\u0442\u0435\u043b\u043d\u0438 \u0437\u0430\u0432\u043e\u0434\u0430 \u0432 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d. \u041a\u0430\u043a\u0432\u043e \u0441\u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u043d\u0430 \u043e\u0431\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u0441\u0442\u0432\u0430\u0442\u0430... https://t.me/bye_biden/45767 A\u0431\u043e\u043d\u0438\u0440\u0430\u0439\u0442\u0435 \u0441\u0435 \u0437\u0430: \ud83d\udcf1 InfoDefenseBULGARIA \ud83d\udcf1 InfoD",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-08-25T12:03:05.491Z",
+      "dedup": "debcd59a0e78e662c3b265022d8a578b",
+      "relevance_score": 0
+    }
+  ]
+}

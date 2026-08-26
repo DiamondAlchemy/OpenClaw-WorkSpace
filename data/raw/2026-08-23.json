@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-23",
+  "scraped_at": "2026-08-23T12:03:48.839202+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 96,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 1,
+    "GoogleNews": 1937,
+    "GitHub": 24,
+    "GitHubReleases": 19,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 3,
+    "RSS": 148
+  },
+  "total_articles": 2,
+  "articles": [
+    {
+      "title": "Why aren't my two Cortex-A9 cores cache coherent?",
+      "url": "https://thejpster.org.uk/blog/blog-2026-08-22/",
+      "external_url": "https://thejpster.org.uk/blog/blog-2026-08-22/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 4,
+      "comments": 0,
+      "date": "2026-08-23T07:29:33+00:00",
+      "dedup": "79f96f43da20577c882128c38c6c8334",
+      "relevance_score": 0
+    },
+    {
+      "title": "Walking the Length of Manhattan",
+      "url": "https://craigmod.com/ridgeline/232/",
+      "external_url": "https://craigmod.com/ridgeline/232/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-23T12:01:00+00:00",
+      "dedup": "00f1a4f45a9f21632d581a05cb5f672d",
+      "relevance_score": 0
+    }
+  ]
+}
