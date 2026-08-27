@@ -1,0 +1,69 @@
+{
+  "date": "2026-08-27",
+  "scraped_at": "2026-08-27T12:04:13.624016+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 117,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 3,
+    "GoogleNews": 1826,
+    "GitHub": 22,
+    "GitHubReleases": 23,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 10,
+    "RSS": 147
+  },
+  "total_articles": 4,
+  "articles": [
+    {
+      "title": "Google\u2019s new AI transcription edits out your \u2018ums\u2019 and \u2018ahs\u2019",
+      "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "external_url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "source": "The Verge AI",
+      "snippet": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate, and comes as we're still waiting for Google to rele",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-08-26T13:00:00-04:00",
+      "dedup": "862791640998f5fbc93ff2c2824b4049",
+      "relevance_score": 4.8
+    },
+    {
+      "title": "OpenAI\u2019s rogue AI model incident was worse than we thought",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "external_url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "source": "The Verge AI",
+      "snippet": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for Ope",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-08-26T17:36:06-04:00",
+      "dedup": "5ac94ec86871b8af89a6bb5931b3dfe7",
+      "relevance_score": 2.5
+    },
+    {
+      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
+      "url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "external_url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "source": "The Verge AI",
+      "snippet": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-08-26T17:40:53-04:00",
+      "dedup": "797159e9c57806964c002ff4f5a763f5",
+      "relevance_score": 1.3
+    },
+    {
+      "title": "Air Conditioning Is Not a Luxury, It Is a Necessity",
+      "url": "https://humanprogress.org/ac-is-not-a-luxury-it-is-a-necessity/",
+      "external_url": "https://humanprogress.org/ac-is-not-a-luxury-it-is-a-necessity/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-27T12:01:03+00:00",
+      "dedup": "4d628516d5cc26f205d7b4274dcf7b65",
+      "relevance_score": 0
+    }
+  ]
+}
