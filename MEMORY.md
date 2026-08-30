@@ -147,7 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-08-13)
+## Promoted From Short-Term Memory (2026-08-30)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-08-06-daily-review.md:42:45 -->
-- AGENTS.md (modified May 30, 2026): **Issue:** States `MEMORY.md` is "consolidated (6,400+ lines)" — factually wrong, MEMORY.md is 153 lines; Smart Loading Protocol still valid; Skills listed match what's actually installed (18 skills); Runtime upgrades section is current (SearXNG, tokenjuice, OAuth models) [score=0.908 recalls=0 avg=0.620 source=memory/2026-08-06-daily-review.md:42-45]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-06-daily-review.md:5:8 -->
+- **Trigger:** Daily Self-Review cron, 08:00 America/Chicago - **Files audited:** SOUL.md, WORKSPACE.md, IDENTITY.md, AGENTS.md, MEMORY.md (structure only) - **Skills inventory:** `skills/` directory — 18 entries - **Previous review:** 2026-07-28 (9-day gap) [score=0.937 recalls=1 avg=0.656 source=memory/2026-08-06-daily-review.md:5-8]

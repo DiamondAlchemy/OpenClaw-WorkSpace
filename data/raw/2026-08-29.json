@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-29",
+  "scraped_at": "2026-08-29T12:04:14.504315+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 99,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 1,
+    "GoogleNews": 1932,
+    "GitHub": 25,
+    "GitHubReleases": 22,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 7,
+    "RSS": 177
+  },
+  "total_articles": 1,
+  "articles": [
+    {
+      "title": "How Hackathons Taught Me Not to Vibe Code (and What to Do Instead)",
+      "url": "https://builder.aws.com",
+      "external_url": "https://builder.aws.com",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-08-29T12:00:34+00:00",
+      "dedup": "9db0455f0dcc09e150f22fd437c5cbfc",
+      "relevance_score": 0
+    }
+  ]
+}
