@@ -31,3 +31,27 @@
 [main/sessions/main/ecd757f9-ab25-4284-bf67-636ae22c7a36.jsonl#L39] Assistant: design - invoice (v1.0.0) - Invoice creation - weekly-report-generator (v1.0.0) - Weekly report automation ### Additional skills - brave-browser-agent - browser-auto-plus - twitterwebapi - google-workspace (in workspace/skills/) - obsidian (in /opt/homebrew/lib/nod
 [main/sessions/main/ecd757f9-ab25-4284-bf67-636ae22c7a36.jsonl#L39] Assistant: **pdf-form-filler** have overlapping functionality 2. **fill-docx-template** may be redundant with other document skills ### Recent Failure Lessons 1. **From last review (2026-08-06):** Consistent pattern of stale information in documentation 2. **Memory management
 [main/sessions/main/ecd757f9-ab25-4284-bf67-636ae22c7a36.jsonl#L39] Assistant: (Installed Skills) with AGENTS.md or TOOLS.md 3. **Archive MEMORY.md backups** - Move older backups to archive directory for root cleanliness ### Low Priority 1. **Skill redundancy audit** - Evaluate if document-pro and pdf-form-filler can be consolidated 2. **WORK
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L594] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L597] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L612] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L615] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L622] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L625] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L636] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L639] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L650] Assistant: All 5 unread emails are old marketing/automated noise (May–July 2026) — Google Cloud 2SV notice, Google AI Studio promo, Tomba.io onboarding spam. Nothing actionable. HEARTBEAT_OK
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L654] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L657] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L662] Assistant: 5 unread emails — checking subjects.
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L668] Assistant: All 5 unread are old marketing/notifications (Jul 22, May 21, May 14, etc.) — no new shares or actionable items.
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L674] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L677] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L692] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L695] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L704] Assistant: All 5 unread emails are old marketing/notif emails (Google Cloud 2SV notice from Jul 22, Google AI Studio promo from May 21, etc.) — nothing actionable or new.
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L710] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L713] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L720] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L723] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L734] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/e4b3aaa3-578b-4ae9-8f55-64736bd6364e.jsonl#L737] Assistant: [assistant turn failed before producing content]
