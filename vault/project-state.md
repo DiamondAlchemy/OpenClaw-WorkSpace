@@ -1,9 +1,13 @@
 # Project State — Shared
 
-*Last updated: 2026-09-01*
+*Last updated: 2026-09-02*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-09-02
+
+- 2026-09-02 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 4 warnings, 2 info. Deep gateway check OK (`ws://127.0.0.1:18789`). Warnings unchanged from 2026-09-01: exec `autoAllowSkills` enabled; personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. No secrets flagged. Diamond notified via Telegram message 6880. No config changes made.
 
 ## Current MoneyPenny State — 2026-09-01
 

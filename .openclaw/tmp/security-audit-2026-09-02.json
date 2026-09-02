@@ -1,0 +1,60 @@
+{
+  "ts": 1788357747581,
+  "summary": {
+    "critical": 0,
+    "warn": 4,
+    "info": 2
+  },
+  "findings": [
+    {
+      "checkId": "summary.attack_surface",
+      "severity": "info",
+      "title": "Attack surface summary",
+      "detail": "groups: open=0, allowlist=1\ntools.elevated: enabled\nhooks.webhooks: disabled\nhooks.internal: enabled\nbrowser control: enabled\ntrust model: personal assistant (one trusted operator boundary), not hostile multi-tenant on one shared gateway"
+    },
+    {
+      "checkId": "tools.exec.auto_allow_skills_enabled",
+      "severity": "warn",
+      "title": "autoAllowSkills is enabled for exec approvals",
+      "detail": "Implicit skill-bin allowlisting is enabled at:\n- defaults.autoAllowSkills\nThis widens host exec trust beyond explicit manual allowlist entries.",
+      "remediation": "Disable autoAllowSkills in exec approvals and keep manual allowlists tight when you need explicit host-exec trust."
+    },
+    {
+      "checkId": "gateway.http.session_key_override_enabled",
+      "severity": "info",
+      "title": "HTTP API session-key override is enabled",
+      "detail": "/v1/chat/completions accept x-openclaw-session-key for per-request session routing. Treat API credential holders as trusted principals."
+    },
+    {
+      "checkId": "security.trust_model.multi_user_heuristic",
+      "severity": "warn",
+      "title": "Potential multi-user setup detected (personal-assistant model warning)",
+      "detail": "Heuristic signals indicate this gateway may be reachable by multiple users:\n- channels.telegram.groupPolicy=\"allowlist\" with configured group targets\nRuntime/process tools are exposed without full sandboxing in at least one context.\nPotential high-impact tool exposure contexts:\n- agents.defaults (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=false)\n- agents.list.main (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.moneypenny (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.octopussy (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.towelie (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.Felix-The_Messenger (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.cryptobot (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.vesper (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.drax (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.nomi (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.scaramanga (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.zorin (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\n- agents.list.moat (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)\nOpenClaw's default security model is personal-assistant (one trusted operator boundary), not hostile multi-tenant isolation on one shared gateway.",
+      "remediation": "If users may be mutually untrusted, split trust boundaries (separate gateways + credentials, ideally separate OS users/hosts). If you intentionally run shared-user access, set agents.defaults.sandbox.mode=\"all\", keep tools.fs.workspaceOnly=true, deny runtime/fs/web tools unless required, and keep personal/private identities + credentials off that runtime."
+    },
+    {
+      "checkId": "plugins.tools_reachable_permissive_policy",
+      "severity": "warn",
+      "title": "Extension plugin tools may be reachable under permissive tool policy",
+      "detail": "Enabled extension plugins: googlechat.\nPermissive tool policy contexts:\n- default\n- agents.list.main\n- agents.list.moneypenny\n- agents.list.octopussy\n- agents.list.towelie\n- agents.list.Felix-The_Messenger\n- agents.list.cryptobot\n- agents.list.vesper\n- agents.list.drax\n- agents.list.nomi\n- agents.list.scaramanga\n- agents.list.zorin\n- agents.list.moat",
+      "remediation": "Use restrictive profiles (`minimal`/`coding`) or explicit tool allowlists that exclude plugin tools for agents handling untrusted input."
+    },
+    {
+      "checkId": "skills.code_safety",
+      "severity": "warn",
+      "title": "Skill \"apify-lead-generation\" contains suspicious code patterns",
+      "detail": "Found 1 warning(s) in 1 scanned file(s) under /Users/m/.openclaw/workspace-scaramanga/skills/apify-lead-generation:\n  - [potential-exfiltration] File read combined with network send — possible data exfiltration (reference/scripts/run_actor.js:353)",
+      "remediation": "Review flagged lines to ensure the behavior is intentional and safe."
+    }
+  ],
+  "deep": {
+    "gateway": {
+      "attempted": true,
+      "url": "ws://127.0.0.1:18789",
+      "ok": true,
+      "error": null,
+      "close": null
+    }
+  },
+  "secretDiagnostics": []
+}
