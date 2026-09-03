@@ -1,0 +1,62 @@
+OpenClaw security audit
+Summary: 0 critical · 4 warn · 2 info
+Run deeper: openclaw security audit --deep
+
+WARN
+tools.exec.auto_allow_skills_enabled autoAllowSkills is enabled for exec approvals
+  Implicit skill-bin allowlisting is enabled at:
+- defaults.autoAllowSkills
+This widens host exec trust beyond explicit manual allowlist entries.
+  Fix: Disable autoAllowSkills in exec approvals and keep manual allowlists tight when you need explicit host-exec trust.
+security.trust_model.multi_user_heuristic Potential multi-user setup detected (personal-assistant model warning)
+  Heuristic signals indicate this gateway may be reachable by multiple users:
+- channels.telegram.groupPolicy="allowlist" with configured group targets
+Runtime/process tools are exposed without full sandboxing in at least one context.
+Potential high-impact tool exposure contexts:
+- agents.defaults (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=false)
+- agents.list.main (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.moneypenny (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.octopussy (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.towelie (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.Felix-The_Messenger (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.cryptobot (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.vesper (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.drax (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.nomi (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.scaramanga (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.zorin (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+- agents.list.moat (sandbox=off; runtime=[exec, process]; fs=[read, write, edit, apply_patch]; fs.workspaceOnly=true)
+OpenClaw's default security model is personal-assistant (one trusted operator boundary), not hostile multi-tenant isolation on one shared gateway.
+  Fix: If users may be mutually untrusted, split trust boundaries (separate gateways + credentials, ideally separate OS users/hosts). If you intentionally run shared-user access, set agents.defaults.sandbox.mode="all", keep tools.fs.workspaceOnly=true, deny runtime/fs/web tools unless required, and keep personal/private identities + credentials off that runtime.
+plugins.tools_reachable_permissive_policy Extension plugin tools may be reachable under permissive tool policy
+  Enabled extension plugins: googlechat.
+Permissive tool policy contexts:
+- default
+- agents.list.main
+- agents.list.moneypenny
+- agents.list.octopussy
+- agents.list.towelie
+- agents.list.Felix-The_Messenger
+- agents.list.cryptobot
+- agents.list.vesper
+- agents.list.drax
+- agents.list.nomi
+- agents.list.scaramanga
+- agents.list.zorin
+- agents.list.moat
+  Fix: Use restrictive profiles (`minimal`/`coding`) or explicit tool allowlists that exclude plugin tools for agents handling untrusted input.
+skills.code_safety Skill "apify-lead-generation" contains suspicious code patterns
+  Found 1 warning(s) in 1 scanned file(s) under /Users/m/.openclaw/workspace-scaramanga/skills/apify-lead-generation:
+  - [potential-exfiltration] File read combined with network send — possible data exfiltration (reference/scripts/run_actor.js:353)
+  Fix: Review flagged lines to ensure the behavior is intentional and safe.
+
+INFO
+summary.attack_surface Attack surface summary
+  groups: open=0, allowlist=1
+tools.elevated: enabled
+hooks.webhooks: disabled
+hooks.internal: enabled
+browser control: enabled
+trust model: personal assistant (one trusted operator boundary), not hostile multi-tenant on one shared gateway
+gateway.http.session_key_override_enabled HTTP API session-key override is enabled
+  /v1/chat/completions accept x-openclaw-session-key for per-request session routing. Treat API credential holders as trusted principals.
