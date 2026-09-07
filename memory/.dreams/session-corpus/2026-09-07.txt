@@ -1,0 +1,7 @@
+[main/sessions/main/47fb9212-c859-4621-a61e-909d4e580131.jsonl#L6] Assistant: Running the daily agent backup and loading the required session context.
+[main/sessions/main/47fb9212-c859-4621-a61e-909d4e580131.jsonl#L12] Assistant: Backup is still running. I'll poll it and locate the decisions log.
+[main/sessions/main/47fb9212-c859-4621-a61e-909d4e580131.jsonl#L15] Assistant: Backup is zipping Cannascend and starting Drive upload. Waiting for it to finish.
+[main/sessions/main/47fb9212-c859-4621-a61e-909d4e580131.jsonl#L23] Assistant: Drive uploads are hitting the same keyring timeout. Waiting for the script to finish all four attempts.
+[main/sessions/main/47fb9212-c859-4621-a61e-909d4e580131.jsonl#L25] Assistant: Script finished with exit 0. Verifying local archives, then updating project state.
+[main/sessions/main/47fb9212-c859-4621-a61e-909d4e580131.jsonl#L28] Assistant: Updating project state and today's memory log with the backup result.
+[main/sessions/main/47fb9212-c859-4621-a61e-909d4e580131.jsonl#L31] Assistant: Daily agent backup finished. **Local archives** (`2026-09-07_0300` on Desktop/TopSecretBackups): - Q — 38K - Octopussy — 15M - shared — 478M - Cannascend — 34M Script exited 0. **Drive upload failed** for all four zips. `gog` keyring timeout for `moneypenny@topsecr
