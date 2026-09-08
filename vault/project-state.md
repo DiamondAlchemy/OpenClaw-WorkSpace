@@ -1,9 +1,14 @@
 # Project State — Shared
 
-*Last updated: 2026-09-07*
+*Last updated: 2026-09-08*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-09-08
+
+- 2026-09-08 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 4 warnings, 2 info. Warnings unchanged from 2026-09-01 / 2026-09-02 / 2026-09-04 / 2026-09-06 / 2026-09-07: exec `autoAllowSkills` enabled; personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. No secrets flagged. Diamond notified via Telegram message 6906. No config changes made.
+- 2026-09-08 03:00 CDT: Daily agent backup cron ran `/Users/m/.openclaw/workspace/scripts/backup_agents.sh`. Local archives created for stamp `2026-09-08_0300` on Desktop/TopSecretBackups: Q 38K, Octopussy 15M, shared 478M, Cannascend 34M. Script exited 0, but Drive upload failed for all four zips — `gog` keyring timeout for `moneypenny@topsecretworkshops.com` (macOS Keychain permission prompt). Same failure pattern as 2026-09-07, 2026-09-03, 2026-09-01, and 2026-07-12.
 
 ## Current MoneyPenny State — 2026-09-07
 
