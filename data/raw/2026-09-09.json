@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-09",
+  "scraped_at": "2026-09-09T12:10:03.855598+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 101,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 2,
+    "GoogleNews": 1932,
+    "GitHub": 24,
+    "GitHubReleases": 14,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 12,
+    "RSS": 179
+  },
+  "total_articles": 11,
+  "articles": [
+    {
+      "title": "Meta launches AI agent that can access other apps to send emails, make payments - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS195TVZPeEJJbzNYTEZ0dnI4WGxOWXF2ZlRmbDEyU1VtWnFsd012VXVDd01mRHY3Y3lDOW9pRXRYSXR6R2NqYVM3R0xwMURjZElSZHVkckZidjNoWTh5OWlNWkZGUGJpWnpDSUhUOUxBUEZDTVpwZjFXemxIdTlvanpSMXF2MXo1UkNtN2UtZVdfX3J2ZTdCekREbUxkaFo1MVpLakxOT0ZaeUVoMlhlb2E0Y0dfV2g0bXRNbw?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS195TVZPeEJJbzNYTEZ0dnI4WGxOWXF2ZlRmbDEyU1VtWnFsd012VXVDd01mRHY3Y3lDOW9pRXRYSXR6R2NqYVM3R0xwMURjZElSZHVkckZidjNoWTh5OWlNWkZGUGJpWnpDSUhUOUxBUEZDTVpwZjFXemxIdTlvanpSMXF2MXo1UkNtN2UtZVdfX3J2ZTdCekREbUxkaFo1MVpLakxOT0ZaeUVoMlhlb2E0Y0dfV2g0bXRNbw?oc=5",
+      "source": "Google News (reuters.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Tue, 08 Sep 2026 21:29:41 GMT",
+      "dedup": "848064e7c3a905b7fc14a74b38d07c01",
+      "relevance_score": 1.8
+    },
+    {
+      "title": "Meta launches Muse, AI agent that can access other apps to send emails, make payments - thehindu.com",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdFNmazNnSlc1dTdCcUg0RVBpbGtTa3VwSXBiNnRNRC1KdE5fRkk2ZDh4OUFYdUdrM19BdWN2Zl9oOG4wRS1HTjJ4UldFTkI2WXlMLTNZNHRrU3NGYk90VmJQcndSVkRxQjZxV2RQckNhNzRzXzAwNnkyaWJiUmFIWF9KM1ZxNi04R045YmZnT3RJaWs4ZnRReksyZmRYdXozcnJmLWU3c3VpLXJuOU9OZlk4Q3R1NFAwd2tCd3BIUjQ5SWV1aUpUNm14RnR4RldlMV9SYmY4LWRGcmw1dGtuSGVn0gHoAUFVX3lxTE03QUF0c0lQNmI4WG96anZOS0R4MFIxOEhIQ2ZXanJwZzdSYkxoRjcyeFIweWxKWVJzUEJoUXNEcTlaWEh4RTdGblU5ck14aGNxMk9TR3ZfUjVuQUhTS0dCN0hTWEdoUG10ZWtQSGlORkl2NE1ncTNOWDI5dWJDX2tRLUdZTUt6OHJEbFVsTW5aeTlUN2JSdlNMR2VlaXRrbmt3LVh4SHlmcXoyWDBfVE0tRy1ibk9heks3S2VEUDJESlJzWlNHRTJ0RTQ5SG1DWG1jR1NTbHBWZVRoY2Q5Wlc2QkxYbGxoWXE?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdFNmazNnSlc1dTdCcUg0RVBpbGtTa3VwSXBiNnRNRC1KdE5fRkk2ZDh4OUFYdUdrM19BdWN2Zl9oOG4wRS1HTjJ4UldFTkI2WXlMLTNZNHRrU3NGYk90VmJQcndSVkRxQjZxV2RQckNhNzRzXzAwNnkyaWJiUmFIWF9KM1ZxNi04R045YmZnT3RJaWs4ZnRReksyZmRYdXozcnJmLWU3c3VpLXJuOU9OZlk4Q3R1NFAwd2tCd3BIUjQ5SWV1aUpUNm14RnR4RldlMV9SYmY4LWRGcmw1dGtuSGVn0gHoAUFVX3lxTE03QUF0c0lQNmI4WG96anZOS0R4MFIxOEhIQ2ZXanJwZzdSYkxoRjcyeFIweWxKWVJzUEJoUXNEcTlaWEh4RTdGblU5ck14aGNxMk9TR3ZfUjVuQUhTS0dCN0hTWEdoUG10ZWtQSGlORkl2NE1ncTNOWDI5dWJDX2tRLUdZTUt6OHJEbFVsTW5aeTlUN2JSdlNMR2VlaXRrbmt3LVh4SHlmcXoyWDBfVE0tRy1ibk9heks3S2VEUDJESlJzWlNHRTJ0RTQ5SG1DWG1jR1NTbHBWZVRoY2Q5Wlc2QkxYbGxoWXE?oc=5",
+      "source": "Google News (thehindu.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Tue, 08 Sep 2026 20:14:48 GMT",
+      "dedup": "caa19d6932758e69e6c653d0c9ec8d27",
+      "relevance_score": 1.8
+    },
+    {
+      "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+      "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+      "external_url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+      "source": "TechCrunch AI",
+      "snippet": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
+      "score": 0,
+      "comments": 0,
+      "date": "Wed, 09 Sep 2026 12:05:34 +0000",
+      "dedup": "a7185244bb6a9d89b5a66be6a8cada73",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Students who use AI generally score worse at school",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
+      "external_url": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
+      "source": "The Verge AI",
+      "snippet": "Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report. The situation is more complex than it sounds though, with certain types of AI use giving learners a slight boost, especially among students taught to ",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-09-09T08:05:01-04:00",
+      "dedup": "109140a78a458b683a470db356580af6",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "AGI companies every 6 months",
+      "url": "https://www.youtube.com/watch?v=akNcZOoLKVk",
+      "external_url": "https://www.youtube.com/watch?v=akNcZOoLKVk",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-09-09T12:04:07+00:00",
+      "dedup": "92bcdcd023d8ba9c83e9dcda6e2b7f11",
+      "relevance_score": 0
+    },
+    {
+      "title": "Show HN: K7 \u2013 self-hosted media server I built after years on Plex/Jellyfin",
+      "url": "https://github.com/kaybi-gh/K7",
+      "external_url": "https://github.com/kaybi-gh/K7",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-09-09T12:02:50+00:00",
+      "dedup": "79306576e219460418daef8f5b2f4923",
+      "relevance_score": 0
+    },
+    {
+      "title": "AI cloud migration: Key steps to success - TechTarget",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zcHVzaGl1MnJyVDQzOFVPMDZ1aUhMVFJHdFZmU05tOXFLdDRxdERLNXZ0TVVVTm42U2ZIV1VOSm1SY19RS3dKY2FaRkNheGV0aDE1OHRYbEEwUnhiRGlqTHBYYTJsTjdYcXI2dDB2MXQxNkQ2SU84TzZyeDY5dw?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zcHVzaGl1MnJyVDQzOFVPMDZ1aUhMVFJHdFZmU05tOXFLdDRxdERLNXZ0TVVVTm42U2ZIV1VOSm1SY19RS3dKY2FaRkNheGV0aDE1OHRYbEEwUnhiRGlqTHBYYTJsTjdYcXI2dDB2MXQxNkQ2SU84TzZyeDY5dw?oc=5",
+      "source": "Google News (TechTarget)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Tue, 08 Sep 2026 19:22:36 GMT",
+      "dedup": "ccfeb4cd044fb1c9f8a48245e28771dd",
+      "relevance_score": 0
+    },
+    {
+      "title": "Why AI traffic is disrupting retargeting - ContentGrip",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LSEJ2ak5ySWJCTUtxTGNtbXNxdDE4cUh3VlZHTkQ0dFRZUlhuc3ZieFl3TklKLXNMbWZ0Zm5zNDRQTnpUV3MyWnNrQVcySEh5ZUo4MnlURWs0SElka1JpZUdPZk5fQQ?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LSEJ2ak5ySWJCTUtxTGNtbXNxdDE4cUh3VlZHTkQ0dFRZUlhuc3ZieFl3TklKLXNMbWZ0Zm5zNDRQTnpUV3MyWnNrQVcySEh5ZUo4MnlURWs0SElka1JpZUdPZk5fQQ?oc=5",
+      "source": "Google News (ContentGrip)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Wed, 09 Sep 2026 04:18:40 GMT",
+      "dedup": "fac793caa2a5514c7fa5eeac17f5479f",
+      "relevance_score": 0
+    },
+    {
+      "title": "Principali dichiarazioni di Dmitry Peskov:  Non si parla assolutamente di aumenti delle tasse a causa del deficit di bil",
+      "url": "https://sigmoid.social/@clarenceferrarizta/117241004179383106",
+      "external_url": "https://sigmoid.social/@clarenceferrarizta/117241004179383106",
+      "source": "Mastodon @clarenceferrarizta",
+      "snippet": "Principali dichiarazioni di Dmitry Peskov:  Non si parla assolutamente di aumenti delle tasse a causa del deficit di bilancio; gli indicatori di spesa possono variare.  Il deficit di bilancio della Federazione Russa non dovrebbe destare preoccupazione, poich\u00e9 la stabilit\u00e0 dell&#39;economia \u00e8 garanti",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-09-09T12:09:12.248Z",
+      "dedup": "20cb45de83d463c0a50eaa5b8e7c6ee0",
+      "relevance_score": 0
+    },
+    {
+      "title": "\ud83d\udcac Prim\u0103ria Chi\u0219in\u0103u modernizeaz\u0103 ascensoarele din sectorul Ciocana \ud83d\udc49 Cite\u0219te \u0219tirea aici --&gt; https://telegraph.md/?p=",
+      "url": "https://sigmoid.social/@shanmugam/117240997888245918",
+      "external_url": "https://sigmoid.social/@shanmugam/117240997888245918",
+      "source": "Mastodon @shanmugam",
+      "snippet": "\ud83d\udcac Prim\u0103ria Chi\u0219in\u0103u modernizeaz\u0103 ascensoarele din sectorul Ciocana \ud83d\udc49 Cite\u0219te \u0219tirea aici --&gt; https://telegraph.md/?p=421587https://telegraph.md/?p=421587",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-09-09T12:07:36.254Z",
+      "dedup": "0ae4662f14376855e502be90eddbcf17",
+      "relevance_score": 0
+    },
+    {
+      "title": "Americk\u00e1 tajn\u00e1 slu\u017eba nepova\u017eovala drony za hrozbu a\u017e do pokusu o atent\u00e1t na Trumpa v roce 2024, a\u010dkoli k incident\u016fm s n",
+      "url": "https://sigmoid.social/@kitty_vincent/117240990791697948",
+      "external_url": "https://sigmoid.social/@kitty_vincent/117240990791697948",
+      "source": "Mastodon @kitty_vincent",
+      "snippet": "Americk\u00e1 tajn\u00e1 slu\u017eba nepova\u017eovala drony za hrozbu a\u017e do pokusu o atent\u00e1t na Trumpa v roce 2024, a\u010dkoli k incident\u016fm s nimi doch\u00e1zelo ji\u017e od roku 2015, jak vypl\u00fdv\u00e1 z dokumentace, kterou prostudovala agentura RIA Novosti. Je zn\u00e1mo, \u017ee se dron p\u0159ibl\u00ed\u017eil ke kol\u00f3n\u011b Baracka Obamy na Havaji. Jindy dron p\u0159",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-09-09T12:05:47.970Z",
+      "dedup": "ac20b347327c043c980e2a699a3a6db2",
+      "relevance_score": 0
+    }
+  ]
+}
