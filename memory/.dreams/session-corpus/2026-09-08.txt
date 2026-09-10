@@ -40,3 +40,27 @@
 [main/sessions/main/c378e1b2-18e2-496b-9a5f-8c3a4160283f.jsonl#L34] Assistant: no runbook - What to do when this self-review fires after a multi-week gap --- ## 7. Recommendations (no edits made) | Pri | Item | |-----|------| | **HIGH** | Reconcile model identity in SOUL / WORKSPACE / MEMORY, or stop claiming MiniMax is primary. | | **HIGH** 
 [main/sessions/main/c378e1b2-18e2-496b-9a5f-8c3a4160283f.jsonl#L34] Assistant: cron table to the 10 live jobs. | | **MED** | Decide Hermes-lane vs SOUL orchestrator. One file should win. | | **MED** | Triage inactive/extra agents still on the scheduler (Zorin, Mo'at) vs MEMORY’s 5-agent table. | | **LOW** | Rename `skills/intake/skill.md` → `
 [main/sessions/main/c378e1b2-18e2-496b-9a5f-8c3a4160283f.jsonl#L34] Assistant: triage.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2140] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2146] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2152] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2158] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2164] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2170] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2176] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2182] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2188] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2194] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2200] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2206] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2212] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2218] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2224] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2230] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2236] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2242] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2248] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2254] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2260] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2266] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2272] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2278] Assistant: No change — same 5 unread, no new shares.

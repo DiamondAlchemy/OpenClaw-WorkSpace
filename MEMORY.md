@@ -147,7 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-09-04)
+## Promoted From Short-Term Memory (2026-09-10)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-08-06-daily-review.md:79:82 -->
-- **2026-07-27:** Lossless-claw was running 0.9.2 since June 15 — gateway restart was never done. Cron missed restart. **Watch for:** any plugin update that requires a gateway restart. [score=0.939 recalls=1 avg=0.664 source=memory/2026-08-06-daily-review.md:79-79]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-26-daily-review.md:38:41 -->
+- **Anomalies / observations:** [score=0.907 recalls=3 avg=0.970 source=memory/2026-07-26-daily-review.md:38-38]
