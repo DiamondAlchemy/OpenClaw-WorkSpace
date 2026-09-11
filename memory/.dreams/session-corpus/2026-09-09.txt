@@ -36,3 +36,27 @@
 [main/sessions/main/f7d4c97c-0eb2-4a1a-b48b-9a91213e005c.jsonl#L32] Assistant: completed 2026-08-06. 34 silent days. - **decisions-log.md:** last entry 2026-06-24. Vault path vs SOUL path mismatch. - **2026-07-27 lesson still valid:** plugin updates that need a gateway restart get missed. --- **Conflicts / undocumented** 1. Model identity: SO
 [main/sessions/main/f7d4c97c-0eb2-4a1a-b48b-9a91213e005c.jsonl#L32] Assistant: “coming.” --- **Recommendations (Diamond decision — no edits made)** | Pri | Item | |-----|------| | HIGH | Reconcile model identity in SOUL / WORKSPACE / MEMORY to `xai/grok-4.6` (or confirm MiniMax is still intended) | | HIGH | Fix gog Keychain so 03:00 backups a
 [main/sessions/main/f7d4c97c-0eb2-4a1a-b48b-9a91213e005c.jsonl#L32] Assistant: MEMORY.md backups out of workspace root | | LOW | Point SOUL at `vault/decisions-log.md` | | LOW | Resume daily logs or document that security/backup crons are the only writers | Unchanged from 2026-08-06 and still not acted on: model-doc drift, nano-banana, 6,400-
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2428] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2434] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2440] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2446] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2452] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2458] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2464] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2470] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2476] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2482] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2488] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2494] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2500] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2506] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2512] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2518] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2524] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2530] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2536] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2542] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2548] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2554] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2560] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2566] Assistant: No change — same 5 unread, no new shares.

@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-11",
+  "scraped_at": "2026-09-11T12:10:00.759232+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 102,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 2,
+    "GoogleNews": 1927,
+    "GitHub": 26,
+    "GitHubReleases": 21,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 8,
+    "RSS": 175
+  },
+  "total_articles": 11,
+  "articles": [
+    {
+      "title": "OpenAI faces Senate probe over Hugging Face hack by swarm of rogue agents - nypost.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTm8ycDV0eHFLVmpVM01mVW9za19uN1ZSTEVHd0Q0bHBZSGdDUmMxUmJaZlJnZUFwWm10S3dTaUx2SDlzSk1RX2dSVHR3bUhYaVlOZmJWQ3dmcEVrX1J5bUhUbVY1RzgtTDRaSDVOTl9xVFR1UnhOcjZoTkstd0tKRV83cHRGanQ4VlhWSWVrWUZxZw?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTm8ycDV0eHFLVmpVM01mVW9za19uN1ZSTEVHd0Q0bHBZSGdDUmMxUmJaZlJnZUFwWm10S3dTaUx2SDlzSk1RX2dSVHR3bUhYaVlOZmJWQ3dmcEVrX1J5bUhUbVY1RzgtTDRaSDVOTl9xVFR1UnhOcjZoTkstd0tKRV83cHRGanQ4VlhWSWVrWUZxZw?oc=5",
+      "source": "Google News (nypost.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 10 Sep 2026 19:10:00 GMT",
+      "dedup": "731771bdacf3ee45714248222b1f1032",
+      "relevance_score": 2.3
+    },
+    {
+      "title": "Yelp and Hatch Advance Voice AI for Restaurants and Service Pros with OpenAI's GPT-Live-1 - 01net.it",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRU04OGxraW9pWERqUEpIRFNrLUN0RUs1dkl4dWo3b1ZjOVYzN184bjBMS2pfYkdQOHVQdE1VNHhQOWUwWkZZSzRfNkYybVVwd1NpSm9yRlgzaVhSTUlEQlZBaW1keWduMURtMVFkR2JYMEotSkxHRHRLY2FPQVdoeUs0dXp4ckpTQlo1a0NlWGRCZ1c4ZzZRaGNQUE5aNlpxc2JTM1V3dVpUYVBNdTNF?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRU04OGxraW9pWERqUEpIRFNrLUN0RUs1dkl4dWo3b1ZjOVYzN184bjBMS2pfYkdQOHVQdE1VNHhQOWUwWkZZSzRfNkYybVVwd1NpSm9yRlgzaVhSTUlEQlZBaW1keWduMURtMVFkR2JYMEotSkxHRHRLY2FPQVdoeUs0dXp4ckpTQlo1a0NlWGRCZ1c4ZzZRaGNQUE5aNlpxc2JTM1V3dVpUYVBNdTNF?oc=5",
+      "source": "Google News (01net.it)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 10 Sep 2026 20:29:00 GMT",
+      "dedup": "11b38e433a223ddf76a4201076b3ae7e",
+      "relevance_score": 2.2
+    },
+    {
+      "title": "Meta launches Muse AI agent to make users\u2019 lives easier - qazinform.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRFVWbGs4NGE5Y0kzQVZkMXd2Q1lDVFN0SHhmVWRUelgxUDhGekpnWWtSSWl4alFvc25EdFFmREtEV01jWTAzU1dxaFJqSmYzRTNDQ1RRdWJrekpNN2p6QVE5bk41MFJrSW85aDlOTEdmNWFfSEVoeGFWcldzZ2kxdDFUU3cwUjZfanNJUWVjVXlBQdIBkgFBVV95cUxPQ0F3M2IwRXZWSkRYaEdyQmhwTzV1Y0x5enoyNWpxQ3NOWGtXVWdHc3VWYU5BM0ZaN1N4WkxyM19pdnpHM1JReTZKbkduYlROMmxwRDduYV9XcWhZSjd2Q09ienBfdjZ6MDVDRGo1MU1vZE1VbGJQTFJHeWRXdnh0N21sSUZGcmpKeVlrbkpleGNHZw?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRFVWbGs4NGE5Y0kzQVZkMXd2Q1lDVFN0SHhmVWRUelgxUDhGekpnWWtSSWl4alFvc25EdFFmREtEV01jWTAzU1dxaFJqSmYzRTNDQ1RRdWJrekpNN2p6QVE5bk41MFJrSW85aDlOTEdmNWFfSEVoeGFWcldzZ2kxdDFUU3cwUjZfanNJUWVjVXlBQdIBkgFBVV95cUxPQ0F3M2IwRXZWSkRYaEdyQmhwTzV1Y0x5enoyNWpxQ3NOWGtXVWdHc3VWYU5BM0ZaN1N4WkxyM19pdnpHM1JReTZKbkduYlROMmxwRDduYV9XcWhZSjd2Q09ienBfdjZ6MDVDRGo1MU1vZE1VbGJQTFJHeWRXdnh0N21sSUZGcmpKeVlrbkpleGNHZw?oc=5",
+      "source": "Google News (qazinform.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Wed, 09 Sep 2026 20:52:20 GMT",
+      "dedup": "fe652dd8356e040c207ab79a451bf789",
+      "relevance_score": 1.8
+    },
+    {
+      "title": "AI agents move closer to UPI payments as India builds authorisation framework - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS0dPc044Q1FwbDJWNjRMbEJWS0pscjNrbndTbWEtMU8xSmZQbmkwYlIwRFJaaTg1VDBmcnpPWHhpQzNzVThBNEpWajl6ZVZzVTdCYUYxSEhCUS1lcHFlOFhhQjBLLVdqcGlkeTZlUDFCMTVleElITzgwTVRncTg0WEhpd3dHYWl1c0VBME5GSVZXcnlIZ0JORjZfRl9XWmhaSnR6ZUc5b2Fka19QdGVzd012ZHlubUtUbXAxLU9xTks5TTE0OWRJc2FoaDdzYVZmcktj0gHgAUFVX3lxTE9FSDU4U3I0Z2MzQ05OOFRRZng4S0NmRWZGdGpwQ1h3b2V6dU9YLVcwdk5OZjhJSnZEMnNQNnZRa1F6T0RySTYyaUZOUzVtWXI3TXJDR0lRS1JfRV9sc2h1ZkpvT2NxcWhoU0d4TG9JWW9LSHNrbHEyMmdMMlBvb1ZBOHRZY2hmbm1mVnZnaVFoZlhmS3VNSk9LR05pZHRjWkJOcFVLaDVUbmZ3UlhvZktUZ2ZNYVhHRjFZZlU2UjhJVkhjd3h0MThMWWZxd3BOdUlVODM5bFZXOXN2RjV5eG1L?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS0dPc044Q1FwbDJWNjRMbEJWS0pscjNrbndTbWEtMU8xSmZQbmkwYlIwRFJaaTg1VDBmcnpPWHhpQzNzVThBNEpWajl6ZVZzVTdCYUYxSEhCUS1lcHFlOFhhQjBLLVdqcGlkeTZlUDFCMTVleElITzgwTVRncTg0WEhpd3dHYWl1c0VBME5GSVZXcnlIZ0JORjZfRl9XWmhaSnR6ZUc5b2Fka19QdGVzd012ZHlubUtUbXAxLU9xTks5TTE0OWRJc2FoaDdzYVZmcktj0gHgAUFVX3lxTE9FSDU4U3I0Z2MzQ05OOFRRZng4S0NmRWZGdGpwQ1h3b2V6dU9YLVcwdk5OZjhJSnZEMnNQNnZRa1F6T0RySTYyaUZOUzVtWXI3TXJDR0lRS1JfRV9sc2h1ZkpvT2NxcWhoU0d4TG9JWW9LSHNrbHEyMmdMMlBvb1ZBOHRZY2hmbm1mVnZnaVFoZlhmS3VNSk9LR05pZHRjWkJOcFVLaDVUbmZ3UlhvZktUZ2ZNYVhHRjFZZlU2UjhJVkhjd3h0MThMWWZxd3BOdUlVODM5bFZXOXN2RjV5eG1L?oc=5",
+      "source": "Google News (The New Indian Express)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 10 Sep 2026 18:40:53 GMT",
+      "dedup": "752267f8e91e9d21e0fb39efb311c968",
+      "relevance_score": 1.5
+    },
+    {
+      "title": "Anthropic blocks possible attempt to use AI to make biological weapons - bbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrcXFPTUpsT2dQTWp5eWtOTE9ZQ3BycXlHc0V6cDZoelBXRUhCTmZwM0U4dGV2SGtNUFZFeDhuTTRMR0p5NG91bUdUS0t2M1E3Tzk2OTBER3A3Zw?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrcXFPTUpsT2dQTWp5eWtOTE9ZQ3BycXlHc0V6cDZoelBXRUhCTmZwM0U4dGV2SGtNUFZFeDhuTTRMR0p5NG91bUdUS0t2M1E3Tzk2OTBER3A3Zw?oc=5",
+      "source": "Google News (bbc.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Fri, 11 Sep 2026 08:15:25 GMT",
+      "dedup": "92e77324b7122ca2ca15a89a4f2bbe4f",
+      "relevance_score": 1.5
+    },
+    {
+      "title": "I Let an AI Agent Hack All My Gadgets\u2014and I\u2019d Do It Again - wired.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wUC1kZ0t2dlFlVm53TEJxWk8ySF9MRTNiTDc3MXVIOTh3aFlTQ0RfanBPc2VibkdZRURMMmNBMk1qeFY3WkptQU5NUjM0OFU3QmZfYWtKbXUyd2VJTk1Vby1qcXZ0V3pBS09FXzdZUQ?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wUC1kZ0t2dlFlVm53TEJxWk8ySF9MRTNiTDc3MXVIOTh3aFlTQ0RfanBPc2VibkdZRURMMmNBMk1qeFY3WkptQU5NUjM0OFU3QmZfYWtKbXUyd2VJTk1Vby1qcXZ0V3pBS09FXzdZUQ?oc=5",
+      "source": "Google News (wired.com)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Wed, 09 Sep 2026 18:30:00 GMT",
+      "dedup": "fb9c543c99a275e16ba4c285f260e6ba",
+      "relevance_score": 1.5
+    },
+    {
+      "title": "Show HN: NanoVector \u2013 A 120KB zero-dependency vector search engine in C and SIMD",
+      "url": "https://github.com/eminsk/nanovector",
+      "external_url": "https://github.com/eminsk/nanovector",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-09-11T12:04:00+00:00",
+      "dedup": "f598450118104e25354580cd97024042",
+      "relevance_score": 0
+    },
+    {
+      "title": "Hanoi Hannah",
+      "url": "https://en.wikipedia.org/wiki/Hanoi_Hannah",
+      "external_url": "https://en.wikipedia.org/wiki/Hanoi_Hannah",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-09-11T12:03:45+00:00",
+      "dedup": "4d05ac4e94e47f4ada6da4c20271c276",
+      "relevance_score": 0
+    },
+    {
+      "title": "We're temporarily pausing new sign-ups and upgrades to the ChatGPT Pro $200 plan",
+      "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "external_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-09-11T12:02:57+00:00",
+      "dedup": "af0f4d92cf002c7c0a51a8c27fc4434c",
+      "relevance_score": 0
+    },
+    {
+      "title": "Orvera AI Named \"Best AI CX Platform for Enterprise Contact Centers\" by UBS Forums at the 18th Edition BPO Innovation Summit & Awards 2026 - 01net.it",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQ1FRR0JWZlIxX1YwQWhLYTNlU1JacXFzZE1EbFZoV2xJTnNKRW9GUGxpRUdNWmV2cHhrNUtqejV5OHJCT3FLMmZELU5ublI1dUxDSTZsN0ZmRGJWdlpDN2xOdmRFUjIyUHRvbWlLblJZdmJ1MkRqSTRfYkU3TFk4RGNTTXExekdZMWU2X2dlenhYV3QzNzU4Ql9LMHg3R2hWeHREMG9vb01SdFJrcUE3c181bnMxd2p6R09McEZPb19oUTFqRzI1SFhJRFZNaVlfSnN0MUlBeGdOeU41ZmFQTVdId0h5TE1pbG8wRQ?oc=5",
+      "external_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQ1FRR0JWZlIxX1YwQWhLYTNlU1JacXFzZE1EbFZoV2xJTnNKRW9GUGxpRUdNWmV2cHhrNUtqejV5OHJCT3FLMmZELU5ublI1dUxDSTZsN0ZmRGJWdlpDN2xOdmRFUjIyUHRvbWlLblJZdmJ1MkRqSTRfYkU3TFk4RGNTTXExekdZMWU2X2dlenhYV3QzNzU4Ql9LMHg3R2hWeHREMG9vb01SdFJrcUE3c181bnMxd2p6R09McEZPb19oUTFqRzI1SFhJRFZNaVlfSnN0MUlBeGdOeU41ZmFQTVdId0h5TE1pbG8wRQ?oc=5",
+      "source": "Google News (01net.it)",
+      "snippet": "",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 10 Sep 2026 15:47:00 GMT",
+      "dedup": "f14b52543d363ea74fb3d33c79fc475c",
+      "relevance_score": 0
+    },
+    {
+      "title": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;amp;bank=100000000008&amp;amp;crc=36CBInolt. da @  Riuni",
+      "url": "https://sigmoid.social/@clarenceferrarizta/117252326934833686",
+      "external_url": "https://sigmoid.social/@clarenceferrarizta/117252326934833686",
+      "source": "Mastodon @clarenceferrarizta",
+      "snippet": "https://qr.nspk.ru/BS1A0068ID10D33B9IBAQRQ4M9T0NIFN?type=01&amp;amp;bank=100000000008&amp;amp;crc=36CBInolt. da @  Riunione di Alto Livello  Sui colloqui indo-russi I prossimi tre giorni nella capitale indiana vedranno un&#39;intensa attivit\u00e0 diplomatica e commerciale. A Nuova Delhi, il giorno zero ",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-09-11T12:08:43.786Z",
+      "dedup": "8e8f6536d6efaded3cb7a30b67b08d43",
+      "relevance_score": 0
+    }
+  ]
+}
