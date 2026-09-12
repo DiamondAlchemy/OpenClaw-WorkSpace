@@ -43,3 +43,8 @@
 [main/sessions/main/8d0f390f-89f1-45e2-98c1-32eb59c0d103.jsonl#L36] Assistant: Jun gogcli upgrade). - **Plugin updates without gateway restart** leave the fleet on old code (lossless-claw sat on 0.9.2 after the 15 Jun install until 27 Jul). - **Fabrication rule in SOUL is load-bearing.** Keep it. Heartbeats must stay `HEARTBEAT_OK` or tool-ba
 [main/sessions/main/8d0f390f-89f1-45e2-98c1-32eb59c0d103.jsonl#L36] Assistant: it.** Config is grok-4.6. SOUL / WORKSPACE / MEMORY / IDENTITY vision notes should match config, not MiniMax folklore. 2. **Fix MEMORY.md hygiene:** last-updated date, agent table, groupPolicy lesson, strip the Control UI token, kill or archive the four root backup
 [main/sessions/main/8d0f390f-89f1-45e2-98c1-32eb59c0d103.jsonl#L36] Assistant: Drax/Vesper/Nomi/Scaramanga/Zorin/Moat/cryptobot are live, parked, or delete-pending. 6. **Accept or kill the four standing security warnings.** Nine days of identical audits is not an audit; it’s a loop. 7. **Canonical Google path:** native tools vs `gog` vs `goog
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L7] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L12] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L17] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L22] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L27] Assistant: No change — same 5 unread, no new shares.
