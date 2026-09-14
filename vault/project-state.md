@@ -1,9 +1,14 @@
 # Project State — Shared
 
-*Last updated: 2026-09-13*
+*Last updated: 2026-09-14*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-09-14
+
+- 2026-09-14 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 4 warnings, 2 info. Warnings unchanged from 2026-09-01 through 2026-09-13: exec `autoAllowSkills` enabled; personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. Deep gateway check OK (`ws://127.0.0.1:18789`). No secrets flagged. Diamond notified via Telegram. No config changes made.
+- 2026-09-14 03:00 CDT: Daily agent backup cron ran `/Users/m/.openclaw/workspace/scripts/backup_agents.sh`. Local archives created for stamp `2026-09-14_0300` on Desktop/TopSecretBackups: Q 38K, Octopussy 15M, shared 478M, Cannascend 34M. Script exited 0, but Drive upload failed for all four zips — `gog` keyring timeout for `moneypenny@topsecretworkshops.com` (macOS Keychain permission prompt). Same failure pattern as 2026-09-13, 2026-09-12, 2026-09-10, 2026-09-08, 2026-09-07, 2026-09-03, 2026-09-01, and 2026-07-12.
 
 ## Current MoneyPenny State — 2026-09-13
 
@@ -382,3 +387,7 @@ On 2026-05-10, Vesper created `templates/FORM-PROC-005_Process_Parameter_Verific
 - 2026-08-13 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 4 warnings, 2 info. Warnings: exec `autoAllowSkills` enabled; personal-assistant trust model warning for allowlisted Telegram group access with runtime/process-capable unsandboxed agents; `googlechat` plugin tools reachable under permissive policy; suspicious file-read plus network-send pattern in Scaramanga's `apify-lead-generation` skill. Diamond was notified; no config changes performed.
 - 2026-08-25 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 4 warnings, 2 info. Warnings: exec `autoAllowSkills` enabled; personal-assistant trust model warning for allowlisted Telegram group access with runtime/process-capable unsandboxed agents; `googlechat` plugin tools reachable under permissive policy; suspicious file-read plus network-send pattern in Scaramanga's `apify-lead-generation` skill. Diamond was notified; no config changes performed.
 - 2026-08-30 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 4 warnings, 2 info. Warnings: exec `autoAllowSkills` enabled; personal-assistant trust model warning for allowlisted Telegram group access with runtime/process-capable unsandboxed agents; `googlechat` plugin tools reachable under permissive policy; suspicious file-read plus network-send pattern in Scaramanga's `apify-lead-generation` skill. Diamond was notified; no config changes performed.
+
+## Current MoneyPenny State — 2026-09-14 (Daily Self-Review)
+
+- 2026-09-14 08:00 CDT: Daily self-review cron fired (39-day gap since 2026-08-06). Wrote `memory/2026-09-14-daily-review.md`. No core files modified. Top findings for Diamond: (1) backup Drive uploads still failing (gog keyring timeout, ~2 months local-only), (2) Moneypenny skills/tools scout cron errored this morning, (3) model identity drift persists in SOUL/WORKSPACE/MEMORY (docs say MiniMax-M2.7; live is gemini-flash-latest / grok-4.6 default), (4) TOOLS.md still references non-existent nano-banana-pro and omits 5 skills, (5) AGENTS.md 6,400-line claim still false (153 lines), (6) 2 plaintext tokens in MEMORY.md, (7) 4 stale MEMORY.md backups at workspace root, (8) WORKSPACE cron table documents 4 of 10 live jobs, (9) unused skills: minimax-image, intake, twitterwebapi. Same open findings carried from 2026-07-28 and 2026-08-06 reviews — still unactioned.
