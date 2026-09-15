@@ -33,3 +33,27 @@
 [main/sessions/main/f6e5c796-3a1a-477f-aa48-e0f15fbd00e1.jsonl#L30] Assistant: Project-state shows Security Audit (09:00, last 11 Sep) and Agent Backup (03:00, Drive upload failing). GitHub Sync at 15:00 has no recent evidence. Bidaily `backup_to_drive.sh` is undocumented-as-live. 6. **Backup is locally succeeding, remotely dead.** Same `gog`
 [main/sessions/main/f6e5c796-3a1a-477f-aa48-e0f15fbd00e1.jsonl#L30] Assistant: not to write). ## Lessons from recent failures - Plugin updates without gateway restart still bite (lossless-claw sat on 0.9.2 for weeks). - Heartbeat fabrication rule is holding in SOUL; keep it. - Disk-full (Goldfinger WAL) and Keychain prompts are the two silent
 [main/sessions/main/f6e5c796-3a1a-477f-aa48-e0f15fbd00e1.jsonl#L30] Assistant: pretending offsite backup exists | | MED | TOOLS.md: kill `nano-banana-pro`, add the five missing skills, point image-gen at whatever is actually used | | MED | AGENTS.md: delete the 6,400-line claim | | MED | Triage the six extra agents in config | | MED | One can
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L606] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L612] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L618] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L624] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L630] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L636] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L642] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L648] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L654] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L660] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L666] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L672] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L678] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L684] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L690] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L696] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L702] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L708] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L714] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L720] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L726] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L732] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L738] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L744] Assistant: No change — same 5 unread, no new shares.

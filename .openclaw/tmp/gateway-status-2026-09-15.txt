@@ -1,0 +1,44 @@
+Service: LaunchAgent (loaded)
+File logs: /tmp/openclaw/openclaw-2026-09-15.log
+Command: /opt/homebrew/opt/node/bin/node /opt/homebrew/lib/node_modules/openclaw/dist/index.js gateway --port 18789
+Service file: ~/Library/LaunchAgents/ai.openclaw.gateway.plist
+Working dir: ~/.openclaw
+Service env: OPENCLAW_GATEWAY_PORT=18789
+
+Config (cli): ~/.openclaw/openclaw.json
+Config (service): ~/.openclaw/openclaw.json
+
+Gateway: bind=auto (127.0.0.1), port=18789 (service args)
+Probe target: ws://127.0.0.1:18789
+Dashboard: http://127.0.0.1:18789/
+
+CLI version: 2026.7.1-beta.2 (/opt/homebrew/bin/openclaw)
+Gateway version: 2026.7.1-beta.2
+
+Runtime: running (pid 54305, state active)
+Connectivity probe: ok
+Capability: admin-capable
+
+Established clients: 3
+  pid=69153 ppid=1 client OpenClaw 127.0.0.1:60300->127.0.0.1:18789 cmd=/Applications/OpenClaw.app/Contents/MacOS/OpenClaw
+  pid=69153 ppid=1 client OpenClaw 127.0.0.1:60299->127.0.0.1:18789 cmd=/Applications/OpenClaw.app/Contents/MacOS/OpenClaw
+  pid=69327 ppid=1 client com.apple.WebKit.Networking 127.0.0.1:60468->127.0.0.1:18789 cmd=/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+If logs show protocol mismatch after rollback, stop stale OpenClaw client processes listed here and re-run gateway status.
+
+Listening: 127.0.0.1:18789, [::1]:18789
+Plugin version drift: 5 active official plugins not on gateway 2026.7.1-beta.2
+- googlechat: 2026.6.11 (clawhub) → expected 2026.7.1-beta.2
+- groq: 2026.6.11 (npm) → expected 2026.7.1-beta.2
+- searxng: 2026.6.11 (npm) → expected 2026.7.1-beta.2
+- tokenjuice: 2026.6.11 (npm) → expected 2026.7.1-beta.2
+- zai: 2026.6.11 (npm) → expected 2026.7.1-beta.2
+Fix: update each drifted plugin:
+- openclaw plugins update googlechat
+- openclaw plugins update @openclaw/groq-provider@2026.7.1-beta.2
+- openclaw plugins update @openclaw/searxng-plugin@2026.7.1-beta.2
+- openclaw plugins update @openclaw/tokenjuice@2026.7.1-beta.2
+- openclaw plugins update @openclaw/zai-provider@2026.7.1-beta.2
+Then run openclaw gateway restart.
+
+Troubles: run openclaw status
+Troubleshooting: https://docs.openclaw.ai/troubleshooting
