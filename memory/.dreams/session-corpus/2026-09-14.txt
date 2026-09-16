@@ -29,3 +29,27 @@
 [main/sessions/main/dc6768ea-398f-4319-825d-d227dffd2e96.jsonl#L36] Assistant: secrets/config. | ## 🟡 Recurring findings — flagged 3 reviews running, still unactioned - **Model identity drift:** SOUL/WORKSPACE/MEMORY all say MiniMax-M2.7 primary. Live: `google/gemini-flash-latest`, runtime default `xai/grok-4.6`, and your 2026-05-29 decision
 [main/sessions/main/dc6768ea-398f-4319-825d-d227dffd2e96.jsonl#L36] Assistant: stale:** says groupPolicy="open" + groupAllowFrom workaround; audits since 09-01 report `allowlist`. Config moved, doc didn't. - **MEMORY.md hygiene:** header "Last updated 2026-03-22" (~6 mo stale); one 577-char line (L108); otherwise structurally clean — no dupes
 [main/sessions/main/dc6768ea-398f-4319-825d-d227dffd2e96.jsonl#L36] Assistant: — right now your disaster-recovery copy doesn't exist off this machine. Say the word and I'll prep the exact diffs for approval.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L894] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L900] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L906] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L912] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L918] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L924] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L930] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L936] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L942] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L948] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L954] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L960] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L966] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L972] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L978] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L984] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L990] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L996] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L1002] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L1008] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L1014] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L1020] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L1026] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L1032] Assistant: No change — same 5 unread, no new shares.
