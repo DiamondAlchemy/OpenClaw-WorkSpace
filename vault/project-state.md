@@ -1,9 +1,15 @@
 # Project State — Shared
 
-*Last updated: 2026-09-16*
+*Last updated: 2026-09-17*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-09-17
+
+- 2026-09-17 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 4 warnings, 2 info. Warnings unchanged from 2026-09-01 through 2026-09-16: exec `autoAllowSkills` enabled; personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. Deep gateway check OK (`ws://127.0.0.1:18789`, pid 38374). Gateway extra (not an audit finding): 5 official plugins drifted at 2026.6.11 vs gateway 2026.7.1-beta.2 (googlechat, groq, searxng, tokenjuice, zai). No secrets flagged. Diamond notified via Telegram. No config changes made.
+- 2026-09-17 08:00 CDT: Daily self-review cron ran. Wrote `memory/2026-09-17-daily-review.md`. No core files changed. Repeat findings: model-identity drift (docs MiniMax-M2.7 vs live grok-4.6 / gemini-flash-latest); AGENTS.md still claims MEMORY.md is 6,400+ lines (actual 155); TOOLS.md still points at non-existent nano-banana-pro; two plaintext tokens remain in MEMORY.md; Drive backup upload still failing on gog keyring timeout. Highest recommendation remains fixing offsite backup auth.
+- 2026-09-17 03:00 CDT: Daily agent backup cron ran `/Users/m/.openclaw/workspace/scripts/backup_agents.sh`. Local archives created for stamp `2026-09-17_0300` on Desktop/TopSecretBackups: Q 38K, Octopussy 15M, shared 478M, Cannascend 34M. Script exited 0, but Drive upload failed for all four zips — `gog` keyring timeout for `moneypenny@topsecretworkshops.com` (macOS Keychain permission prompt). Same failure pattern as 2026-09-16, 2026-09-15, 2026-09-14, 2026-09-13, 2026-09-12, 2026-09-10, 2026-09-08, 2026-09-07, 2026-09-03, 2026-09-01, and 2026-07-12.
 
 ## Current MoneyPenny State — 2026-09-16
 
