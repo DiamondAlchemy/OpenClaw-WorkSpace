@@ -147,9 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-09-17)
+## Promoted From Short-Term Memory (2026-09-18)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-26-daily-review.md:93:96 -->
-- **Recent failure lessons already captured well:** - 2026-04-17 fabrication incident (heartbeat enrichment inventing phone numbers) — SOUL.md documents this explicitly with the "NEVER Fabricate Data" rule. Good. - MEMORY.md "Bugs & Fixes (with lessons)" section exists for this purpose. [score=0.986 recalls=4 avg=0.947 source=memory/2026-07-26-daily-review.md:93-96]
-<!-- openclaw-memory-promotion:memory:memory/2026-08-06-daily-review.md:75:78 -->
-- ## 4. Recent Failures & Lessons From `vault/project-state.md`: [score=0.986 recalls=4 avg=0.947 source=memory/2026-08-06-daily-review.md:75-78]
+<!-- openclaw-memory-promotion:memory:memory/2026-03-05-request-timed-out-before-a-res.md:29:32 -->
+- 1. **Add necessary imports:** `datetime` and `timedelta` for date calculations. 2. **Define a new function `analyze_recent_lessons()`:** This function will scan the last seven daily memory logs (`memory/YYYY-MM-DD.md`) for keywords like `mistake`, `error`, and `lesson learned`. [score=0.901 recalls=3 avg=0.930 source=memory/2026-03-05-request-timed-out-before-a-res.md:29-30]

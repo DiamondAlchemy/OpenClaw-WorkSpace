@@ -1,9 +1,13 @@
 # Project State — Shared
 
-*Last updated: 2026-09-17*
+*Last updated: 2026-09-18*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-09-18
+
+- 2026-09-18 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings count increased 4→5 vs 2026-09-01 through 2026-09-17. NEW: `models.weak_tier` — `openai/gpt-6-astra` at `agents.list.moat.model.primary` (below recommended GPT-5 family). Unchanged: exec `autoAllowSkills` enabled; personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. No secrets flagged. Diamond notified via Telegram message 6953. No config changes made.
 
 ## Current MoneyPenny State — 2026-09-17
 
