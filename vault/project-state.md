@@ -1,9 +1,18 @@
 # Project State — Shared
 
-*Last updated: 2026-09-21*
+*Last updated: 2026-09-26*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-09-26
+
+- 2026-09-26 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings unchanged from 2026-09-18/19/20/21/25: exec `autoAllowSkills` enabled; `models.weak_tier` on Moat (`openai/gpt-6-astra` at `agents.list.moat.model.primary`); personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. Deep gateway check OK (`ws://127.0.0.1:18789`). No secrets flagged. Diamond notified via Telegram. No config changes made.
+- 2026-09-26 08:00 CDT: Daily self-review cron ran. Wrote `memory/2026-09-26-daily-review.md`. No core files changed. Repeat findings: model-identity drift (docs MiniMax-M2.7 vs live grok-4.6 / gemini-flash-latest); AGENTS.md still claims MEMORY.md is 6,400+ lines (actual 153); TOOLS.md still points at non-existent nano-banana-pro; two plaintext tokens remain in MEMORY.md; Drive backup upload still failing on gog keyring timeout (last logged 2026-09-21). Prior self-review run 2026-09-25 failed — job interrupted by gateway restart. Highest recommendation remains fixing offsite backup auth.
+
+## Current MoneyPenny State — 2026-09-25
+
+- 2026-09-25 19:21 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings unchanged from 2026-09-18/19/20/21: exec `autoAllowSkills` enabled; `models.weak_tier` on Moat (`openai/gpt-6-astra` at `agents.list.moat.model.primary`); personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. No secrets flagged. Diamond notified via Telegram. No config changes made.
 
 ## Current MoneyPenny State — 2026-09-21
 

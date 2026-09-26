@@ -147,7 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-09-18)
+## Promoted From Short-Term Memory (2026-09-22)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-03-05-request-timed-out-before-a-res.md:29:32 -->
-- 1. **Add necessary imports:** `datetime` and `timedelta` for date calculations. 2. **Define a new function `analyze_recent_lessons()`:** This function will scan the last seven daily memory logs (`memory/YYYY-MM-DD.md`) for keywords like `mistake`, `error`, and `lesson learned`. [score=0.901 recalls=3 avg=0.930 source=memory/2026-03-05-request-timed-out-before-a-res.md:29-30]
+<!-- openclaw-memory-promotion:memory:memory/2026-03-16-security-audit-accepted-risks.md:1:3 -->
+- # Security Audit - Accepted Risks All security audit items below are documented as accepted risks: [score=0.946 recalls=4 avg=0.855 source=memory/2026-03-16-security-audit-accepted-risks.md:1-3]
