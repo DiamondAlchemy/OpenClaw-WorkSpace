@@ -147,7 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-09-22)
+## Promoted From Short-Term Memory (2026-09-28)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-03-16-security-audit-accepted-risks.md:1:3 -->
-- # Security Audit - Accepted Risks All security audit items below are documented as accepted risks: [score=0.946 recalls=4 avg=0.855 source=memory/2026-03-16-security-audit-accepted-risks.md:1-3]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-28-daily-review.md:102:105 -->
+- **Recent failure lessons:** - 2026-04-17 fabrication incident (heartbeat enrichment inventing cannabis business contacts) — captured in SOUL.md "NEVER Fabricate Data" rule and reinforced in HEARTBEAT.md. Strong rule. [score=0.974 recalls=4 avg=0.943 source=memory/2026-07-28-daily-review.md:102-105]

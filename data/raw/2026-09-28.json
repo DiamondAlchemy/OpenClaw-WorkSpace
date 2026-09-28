@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-28",
+  "scraped_at": "2026-09-28T12:05:01.048602+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 100,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 2,
+    "GoogleNews": 1944,
+    "GitHub": 24,
+    "GitHubReleases": 8,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 4,
+    "RSS": 176
+  },
+  "total_articles": 5,
+  "articles": [
+    {
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "external_url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "Hacker News Best",
+      "snippet": "\nArticle URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents\nComments URL: https://news.ycombinator.com/item?id=49868083\nPoints: 370\n# Comments: 252\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Sun, 27 Sep 2026 16:19:46 +0000",
+      "dedup": "9aa0582ca6b2da4fb9d92da1ea482b9f",
+      "relevance_score": 1.5
+    },
+    {
+      "title": "Nvidia Launches Open Agent Safety Platform",
+      "url": "https://mrkt30.com/nvidia-open-agent-safety-platform-openshell-sentry/",
+      "external_url": "https://mrkt30.com/nvidia-open-agent-safety-platform-openshell-sentry/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-09-28T12:01:53+00:00",
+      "dedup": "c6ae2e1c9246bd4f9a975fa9384beb6b",
+      "relevance_score": 0.4
+    },
+    {
+      "title": "Richardson Maturity Model, Steps Toward the Glory of REST",
+      "url": "https://martinfowler.com/articles/richardsonMaturityModel.html",
+      "external_url": "https://martinfowler.com/articles/richardsonMaturityModel.html",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 1,
+      "date": "2026-09-28T12:02:01+00:00",
+      "dedup": "6a4388d234a09ae006efb03e2d9e09e5",
+      "relevance_score": 0
+    },
+    {
+      "title": "Vite+ 1.0 Is Out",
+      "url": "https://voidzero.dev/posts/announcing-vite-plus-1-0",
+      "external_url": "https://voidzero.dev/posts/announcing-vite-plus-1-0",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-09-28T12:01:48+00:00",
+      "dedup": "e52d20ee61e648db01f3b899118e6468",
+      "relevance_score": 0
+    },
+    {
+      "title": "The Largest Roman Mosaic Ever Excavated Opens to the Public",
+      "url": "https://www.thisiscolossal.com/2026/09/largest-roman-mosaic-museum-rome/",
+      "external_url": "https://www.thisiscolossal.com/2026/09/largest-roman-mosaic-museum-rome/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-09-28T12:00:15+00:00",
+      "dedup": "0c74f07265f15246ec58e3b27c249f7e",
+      "relevance_score": 0
+    }
+  ]
+}
