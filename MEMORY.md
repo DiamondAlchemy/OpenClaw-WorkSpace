@@ -147,7 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-09-28)
+## Promoted From Short-Term Memory (2026-09-29)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-28-daily-review.md:102:105 -->
-- **Recent failure lessons:** - 2026-04-17 fabrication incident (heartbeat enrichment inventing cannabis business contacts) — captured in SOUL.md "NEVER Fabricate Data" rule and reinforced in HEARTBEAT.md. Strong rule. [score=0.974 recalls=4 avg=0.943 source=memory/2026-07-28-daily-review.md:102-105]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-28-daily-review.md:1:3 -->
+- # Daily Self-Review — 2026-07-28 (Tuesday) **Reviewer:** MoneyPenny (cron-triggered, agent:main) [score=0.913 recalls=3 avg=0.933 source=memory/2026-07-28-daily-review.md:1-3]

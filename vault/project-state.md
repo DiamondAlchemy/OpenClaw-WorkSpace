@@ -1,9 +1,14 @@
 # Project State — Shared
 
-*Last updated: 2026-09-28*
+*Last updated: 2026-09-29*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-09-29
+
+- 2026-09-29 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings unchanged from 2026-09-18/19/20/21/25/26/28: exec `autoAllowSkills` enabled; `models.weak_tier` on Moat (`openai/gpt-6-astra` at `agents.list.moat.model.primary`); personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. No secrets flagged. Diamond notified via Telegram message 6990. No config changes made.
+- 2026-09-29 08:00 CDT: Daily self-review cron ran. Wrote `memory/2026-09-29-daily-review.md`. No core files changed. Repeat findings: model-identity drift (docs MiniMax-M2.7 vs live grok-4.6 / gemini-flash-latest); AGENTS.md still claims MEMORY.md is 6,400+ lines (actual 153); TOOLS.md still points at non-existent nano-banana-pro; two plaintext tokens remain in MEMORY.md; MEMORY promotion footer rewrote itself today (2026-09-29) with recycled 2026-07-28 review metadata. Local 03:00 archives exist for stamp `2026-09-29_0300` (Q 38K, Octopussy 16M, shared 478M, Cannascend 34M); Drive upload for today not independently verified this run. Highest recommendation remains fixing offsite backup auth.
 
 ## Current MoneyPenny State — 2026-09-28
 
