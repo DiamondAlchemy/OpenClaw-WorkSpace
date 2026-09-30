@@ -147,7 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-09-29)
+## Promoted From Short-Term Memory (2026-09-30)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-28-daily-review.md:1:3 -->
-- # Daily Self-Review — 2026-07-28 (Tuesday) **Reviewer:** MoneyPenny (cron-triggered, agent:main) [score=0.913 recalls=3 avg=0.933 source=memory/2026-07-28-daily-review.md:1-3]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-14.md:2:5 -->
+- ## Daily security audit (09:00 CDT) Ran `openclaw security audit --deep`. [score=0.974 recalls=4 avg=0.907 source=memory/2026-09-14.md:2-5]
