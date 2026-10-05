@@ -32,3 +32,27 @@
 [main/sessions/main/edac7298-d3cc-4865-aab7-c06199467772.jsonl#L40] Assistant: Daily self-review complete. No core files changed. Full write-up: `memory/2026-10-03-daily-review.md`. **Live vs docs** - Runtime / `agents.defaults.model.primary`: `xai/grok-4.6` (fallbacks `zai/glm-5.3-flash`, `google/gemini-flash-latest`) - SOUL / WORKSPACE / ME
 [main/sessions/main/edac7298-d3cc-4865-aab7-c06199467772.jsonl#L40] Assistant: Footer still 2026-10-02 promotion blob recycling 2026-07-26 review metadata — **did not rewrite overnight** - Two plaintext tokens still on L19 and L117 (flag only) - Stale `groupPolicy="open"` lesson on L108; live audits report allowlist **Skills (18 workspace)** 
 [main/sessions/main/edac7298-d3cc-4865-aab7-c06199467772.jsonl#L40] Assistant: Octopussy 15M, shared 478M, Cannascend 34M). Drive upload failed again on gog keyring timeout. Same pattern since 2026-07-12. **Recommendations (need Diamond approval)** 1. Fix gog Keychain / offsite backup auth 2. One doc-sync pass for model identity, AGENTS 6,400
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2137] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2143] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2149] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2155] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2161] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2167] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2173] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2179] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2185] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2191] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2197] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2203] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2209] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2215] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2221] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2227] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2233] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2239] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2245] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2251] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2257] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2263] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2269] Assistant: No change — same 5 unread, no new shares.
+[main/sessions/main/beaeac63-f622-4f88-91c9-34a8a2901100.jsonl#L2275] Assistant: No change — same 5 unread, no new shares.
