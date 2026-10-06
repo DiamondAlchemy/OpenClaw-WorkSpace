@@ -147,7 +147,7 @@ Alvie clarified MoneyPenny's current lane.
 - MoneyPenny should not act as the primary orchestrator over all agents unless Alvie explicitly reassigns that role.
 - Any alert or claim should be backed by live files, logs, sessions, or command output so Hermes can verify before reporting to Alvie.
 
-## Promoted From Short-Term Memory (2026-10-02)
+## Promoted From Short-Term Memory (2026-10-06)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-26-daily-review.md:1:3 -->
-- # Daily Self-Review — 2026-07-26 (Sunday) **Reviewer:** MoneyPenny (cron-triggered, agent:main) [score=0.900 recalls=3 avg=0.927 source=memory/2026-07-26-daily-review.md:1-3]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-14-daily-review.md:30:33 -->
+- ## Recent failures / lessons - TOP: Daily agent backup Drive upload failing repeatedly — gog keyring timeout for moneypenny@topsecretworkshops.com on 09-14, 09-13, 09-12, 09-10, 09-08, 09-07, 09-03, 09-01, 07-12. Local-only backups for ~2 months. Unresolved. [score=0.900 recalls=3 avg=0.927 source=memory/2026-09-14-daily-review.md:30-32]
