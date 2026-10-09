@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "query": "openclaw hacker news",
+  "count": 8,
+  "total_estimate": 86000,
+  "results": [
+    {
+      "title": "Hacker News - AI Skill for OpenClaw | clawbot",
+      "url": "https://clawbot.ai/skills/hackernews.html",
+      "snippet": "Hacker News is an OpenClaw skill. Browse and search Hacker News. Fetch top, new, best, Ask HN, Show HN stories and job postings. View item details, comments, and user profiles.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=46852898",
+      "snippet": "OpenClaw (github.com/openclaw). 1 point by simonebrunozzi 1 hour ago | hide | past | favorite | 1 comment. ChrisArchitect 9 minutes ago [–].",
+      "engine": "yandex"
+    },
+    {
+      "title": "Google News - OpenClaw AI agent vulnerability - Overview",
+      "url": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kteGVuQ0VCR2M2eV9jWFhQSS15Z0FQAQ?hl=en-IN&gl=IN&ceid=IN%3Aen",
+      "snippet": "OpenClaw AI agent vulnerability. Top News. BleepingComputer.Hackers Target OpenClaw Configurations To Steal Login Credentials.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw rolled out a reporting system after malicious ClawHub skills...",
+      "url": "https://www.linkedin.com/posts/thehackernews_openclaw-rolled-out-a-reporting-system-activity-7425433101776084992-Xrm4",
+      "snippet": "The Hacker News’ Post.One of OpenClaw's own maintainers posted this — not in the docs, on Discord: \"If you can't run a command line, this is far too dangerous for you.\"",
+      "engine": "yandex"
+    },
+    {
+      "title": "How to Monitor Hacker News with OpenClaw and agent-data...",
+      "url": "https://agent-data.dev/blog/openclaw-hacker-news-monitoring/",
+      "snippet": "agent-data exposes Hacker News as a structured monitoring API. When connected to OpenClaw, you get something that behaves like a real monitor: it carries state between runs, screens...",
+      "engine": "yandex"
+    },
+    {
+      "title": "hackernews — openclaw/skills",
+      "url": "https://www.skills.sh/openclaw/skills/hackernews",
+      "snippet": "Browse and search Hacker News. Fetch top, new, best, Ask HN, Show HN stories and job postings. View item details, comments, and user profiles.",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - kevinw-openai/hackernews-openclaw-analysis · GitHub",
+      "url": "https://github.com/kevinw-openai/hackernews-openclaw-analysis",
+      "snippet": "feat: add OpenClaw Hacker News analysis explorer. Open commit details. Apr 4, 2026.Current defaults: Setting. Value. Hugging Face dataset. open-index/hacker-news. Pinned revision.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw | Ry Walker Research | Ry Walker",
+      "url": "https://rywalker.com/research/openclaw",
+      "snippet": "— Hacker News commenter, on agent-first computing hype[18]. Competitive Landscape. OpenClaw occupies a unique position — self-hosted personal AI assistant with multi-channel support.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 7,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

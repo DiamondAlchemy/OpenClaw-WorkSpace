@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "query": "openclaw reddit LocalLLaMA",
+  "count": 8,
+  "total_estimate": 86000,
+  "results": [
+    {
+      "title": "Link to reddit.com",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r5v1jb/anyone_actually_using_openclaw/",
+      "snippet": "The site owner hides the web page description.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Link to reddit.com",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rbjxpv/i_think_openclaw_is_overhyped_just_use_skills/",
+      "snippet": "The site owner hides the web page description.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw on Reddit — Community Threads... | OpenClaw Launch",
+      "url": "https://openclawlaunch.com/guides/openclaw-reddit",
+      "snippet": "Yes — the OpenClaw framework itself is open source and free to self-host. OpenClaw Launch is the managed hosting service ($3 first month, $6/mo Lite, $20/mo Pro).",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Reddit: What Actual Users Say in 2026 — ClawMage",
+      "url": "https://clawmage.ai/blog/openclaw-reddit/",
+      "snippet": "OpenClaw Reddit threads, summarized honestly — what r/openclaw, r/ClaudeAI, r/selfhosted, r/LocalLLaMA, and r/aiagents are really saying about running it in 2026.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Configuration Guide — Complete Settings Reference",
+      "url": "https://www.getopenclaw.ai/docs/configuration",
+      "snippet": "Complete OpenClaw config.yaml reference. All settings explained: AI models, channels, multi-agent setup, plugins, secrets management, environment variables, and more.",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - nayslayer143/openclaw-reddit-crawler: Reddit trading signal...",
+      "url": "https://github.com/nayslayer143/openclaw-reddit-crawler",
+      "snippet": "OpenClaw Reddit Crawler. Subreddit monitoring for trading signals, sentiment, and emerging narratives. Part of the OpenClaw autoresearch pipeline.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Reddit Digest: Subreddit Monitoring and Insights",
+      "url": "https://www.clawrapid.com/en/blog/openclaw-reddit-digest",
+      "snippet": "Use OpenClaw to monitor Reddit for practical discussions, sentiment shifts, user pain points, and idea discovery across selected subreddits.",
+      "engine": "yandex"
+    },
+    {
+      "title": "reddit — openclaw/skills",
+      "url": "https://www.skills.sh/openclaw/skills/reddit",
+      "snippet": "No API key required. Quick Start. # Read top posts from a subreddit python3 /root/clawd/skills/reddit/scripts/reddit_scraper.py --subreddit LocalLLaMA --limit 5 #.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 7,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

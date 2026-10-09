@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "query": "clawhub",
+  "count": 6,
+  "total_estimate": 154000,
+  "results": [
+    {
+      "title": "ClawHub: Fast AI Agent Skill Registry with... | SeekTool.ai Directory",
+      "url": "https://seektool.ai/ai/clawhub-ai",
+      "snippet": "ClawHub is a fast, community-powered skill registry built specifically for AI agents.Sign in to ClawHub using your GitHub account to access the full skill library.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw ClawHub Setup Guide: Install, Search, and Manage... | Fastio",
+      "url": "https://fast.io/resources/openclaw-clawhub-setup/",
+      "snippet": "How to Set Up ClawHub for OpenClaw. ClawHub is the public skill registry for OpenClaw, with over 13,000 community skills available.",
+      "engine": "yandex"
+    },
+    {
+      "title": "ClawHub Skills, Plugins & Hosted Use | Zentor",
+      "url": "https://zentor.ai/alternatives/claw/clawhub",
+      "snippet": "ClawHub is the public registry where OpenClaw users can discover and publish skills and plugins. It gives self-hosting operators a catalog, version history, package files, source information...",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw — Open-Source AI Assistant",
+      "url": "https://openclaw.ai/",
+      "snippet": "Tencent’s AIG joins ClawScan to strengthen security review for every skill and plugin uploaded to ClawHub, backed by benchmark testing and an ongoing feedback loop.",
+      "engine": "yandex"
+    },
+    {
+      "title": "ClawHub Guide: 13,729 Skills, How to Find the Good... | OpenClaw DC",
+      "url": "https://openclawdc.com/blog/openclaw-clawhub-guide/",
+      "snippet": "ClawHub is OpenClaw's skill marketplace with 13,729 community-built skills across 11 categories. Most are free. The best ones solve specific professional pain points and earn their...",
+      "engine": "yandex"
+    },
+    {
+      "title": "ClawHub: What It Is & Why It Matters | EarlyTerms",
+      "url": "https://earlyterms.com/term/clawhub",
+      "snippet": "ClawHub crossed 52k skills and 180k users in under 16 weeks while surviving a February supply-chain attack that infected 341 skills (Koi Security / 1Password disclosure).",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 10,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

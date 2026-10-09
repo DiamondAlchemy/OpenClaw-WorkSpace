@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "query": "openclaw",
+  "count": 6,
+  "total_estimate": 86000,
+  "results": [
+    {
+      "title": "OpenClaw — Skip Setup, Hosting Free with API Credits",
+      "url": "https://open-claw.org/",
+      "snippet": "Dedicated Cloud Sandbox: Skip Setup, Keep Control. Your OpenClaw runs in a private, isolated cloud sandbox — no install, no DevOps, no shared tenants.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Foundation | Bringing people closer to AI.",
+      "url": "https://www.openclaw.org/",
+      "snippet": "The closer you are to it, the less scary it feels. The OpenClaw Foundation exists to close that distance and make AI personal, fun, and empowering for everyone.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw - Open-source assistant that gets real work done",
+      "url": "https://openclawlab.com/",
+      "snippet": "OpenClaw is a local-first, open-source personal AI assistant: channel ingress + tool execution + automation, with a clear Gateway security boundary.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw - Open Source Personal AI Assistant for WhatsApp...",
+      "url": "https://openclaw-ai.com/",
+      "snippet": "OpenClaw is a free, open-source personal AI assistant connecting WhatsApp, Telegram, Discord, Slack & 22+ channels. Self-hosted for complete privacy. Supports Claude, GPT, Gemini...",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Community - Put OpenClaw to Work",
+      "url": "https://openclaw.cc/",
+      "snippet": "OpenClaw CommunityPut OpenClaw to work. If you have already tried plenty of AI tools, the next step is not another installation. Start with one useful workflow, make it work, then decide how...",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Personal AI Assistant| AI Agent for all your tasks",
+      "url": "https://openclawai.chat/",
+      "snippet": "Your AI assistant for real work — OpenClaw AI organizes, automates, and executes tasks across apps like WhatsApp, Telegram, Discord, Imessage, signal and more.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 7,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

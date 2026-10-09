@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "hermes agent nous research",
+  "count": 10,
+  "total_estimate": 53,
+  "results": [
+    {
+      "title": "Hermes Agent — Open-Source AI Agent That... | Nous Research",
+      "url": "https://hermes-agent.nousresearch.com/",
+      "snippet": "Hermes Agent is the open-source, self-hosted AI agent by Nous Research. Persistent memory, self-created skills, and a messaging gateway for Telegram, Discord, Slack, and more. Download Hermes Desktop for macOS and Windows, or install via terminal on Linux...",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - NousResearch/hermes-agent: The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "snippet": "Hermes Agent | Hermes Desktop. Documentation Discord License: MIT Built by Nous Research 中文 اردو Español. The self-improving AI agent built by Nous Research. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Agent — Open-Source AI Agent with Memory, Skills, and Cron",
+      "url": "https://hermes-agent.ai/",
+      "snippet": "Hermes Agent is an open-source AI agent from Nous Research that can remember context, use tools, learn reusable skills, run scheduled jobs, and operate from the terminal, dashboard, GitHub workflows, and messaging channels.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes — Community Web UI",
+      "url": "https://get-hermes.ai/",
+      "snippet": "Persistent memory, autonomous scheduling, and multi-surface access — all on hardware you control. Open source, self-hosted AI agent.Community Web UI — not affiliated with or endorsed by Nous Research. Official site: hermes-agent.nousresearch.com. The core idea.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Nous Research Launches Hermes Agent - An... | Awesome Agents",
+      "url": "https://awesomeagents.ai/news/nous-research-hermes-agent-open-source-memory/",
+      "snippet": "Nous Research's Hermes Agent is an open-source CLI agent with persistent multi-level memory, cross-platform messaging support, subagent delegation, and a growing skills ecosystem.",
+      "engine": "yandex"
+    },
+    {
+      "title": "nousresearch/hermes-agent - Docker Image",
+      "url": "https://hub.docker.com/r/nousresearch/hermes-agent",
+      "snippet": "The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions. ⁠ What is Hermes Agent?",
+      "engine": "yandex"
+    },
+    {
+      "title": "Nous Research pitches Hermes Agent as the control plane users...",
+      "url": "https://runtimewire.com/article/nous-research-hermes-agent-open-harness-sovereignty",
+      "snippet": "Nous Research released Hermes Agent in February 2026. The project is roughly six months old as of August 24th. The timing matters because Nous Research is trying to turn a popular repository into the user-facing layer of an open AI stack.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Agent Documentation | Hermes Agent CN",
+      "url": "https://hermesagent.org.cn/en/docs",
+      "snippet": "The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Agent (Nous Research) with Docker Compose · deployable.sh",
+      "url": "https://deployable.sh/apps/hermes/",
+      "snippet": "Hermes Agent is Nous Research’s take on agents that get better at your tasks: a learning loop distills successful sessions into reusable skills, so the agent you run in month two is measurably more capable at your workflows than the one you deployed.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Is Incredible… But I Still Don't Use It - YouTube",
+      "url": "https://www.youtube.com/watch?v=Vu6Hufg512E",
+      "snippet": "• Hermes AI Overview (Nous Research's Always-On Agent). • 59:21. Hermes Agent - Full Course & Setup Guide - For COMPLETE BeginnersTech With Tim78K views • 1 month agoLivePlaylist ()Mix (50+).",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 10,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

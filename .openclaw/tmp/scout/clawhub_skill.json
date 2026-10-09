@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "clawhub skill",
+  "count": 10,
+  "total_estimate": 154000,
+  "results": [
+    {
+      "title": "OpenClaw Hub: Discover 3,286+ ClawHub Skills for AI Agents",
+      "url": "https://openclaw-hub.org/index.html",
+      "snippet": "What is OpenClaw Hub? Your trusted ClawHub skills information portal.OpenClaw Hub features only the best ClawHub skills, hand-picked from the 3,286+ available options.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw ClawHub Setup Guide: Install, Search, and Manage Skills",
+      "url": "https://fast.io/resources/openclaw-clawhub-setup/",
+      "snippet": "How to Set Up ClawHub for OpenClaw. ClawHub is the public skill registry for OpenClaw, with over 13,000 community skills available.",
+      "engine": "yandex"
+    },
+    {
+      "title": "ClawHub Guide: 13,729 Skills, How to Find the Good... | OpenClaw DC",
+      "url": "https://openclawdc.com/blog/openclaw-clawhub-guide/",
+      "snippet": "ClawHub is OpenClaw's skill marketplace with 13,729 community-built skills across 11 categories. Most are free.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw ClawHub Guide — Browse & Install Skills",
+      "url": "https://openclawlaunch.com/guides/openclaw-clawhub",
+      "snippet": "ClawHub (also called the OpenClaw skill hub or OpenClaw hub) is a marketplace where developers publish skills that extend what your OpenClaw AI agent can do.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Clawhub Skill - Skywork Skill Hub",
+      "url": "https://skywork.ai/skillhub/clawhub-skill/",
+      "snippet": "The skill includes tools for enhancing your content’s searchability and targeting it geographically, expanding your reach and impact. About the Clawhub Skill Skill.",
+      "engine": "yandex"
+    },
+    {
+      "title": "clawhub Skill by openclaw | Claude Skills Hub",
+      "url": "https://claudeskills.info/skills/openclaw/openclaw/clawhub/",
+      "snippet": "Use the standalone clawhub CLI only for publishing, syncing, and publisher account workflows. Discover skills. Search before claiming that a requested capability is unavailable",
+      "engine": "yandex"
+    },
+    {
+      "title": "clawhub — openclaw/openclaw",
+      "url": "https://www.skills.sh/openclaw/openclaw/clawhub",
+      "snippet": "Use the standalone clawhub CLI to uninstall installed ClawHub skills and for publishing, syncing, and publisher account workflows.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Top ClawHub Skills | Claude Skill for Discover the most popular",
+      "url": "https://discoveraiskills.com/skills/topclawhubskills",
+      "snippet": "Top ClawHub Skills works across Claude, Cursor, OpenClaw through the Model Context Protocol (MCP) — an open standard that lets AI clients share tools and skills without lock-in.",
+      "engine": "yandex"
+    },
+    {
+      "title": "601. ClawHub Skill Market In-Depth Analysis - Wiki | clawbot",
+      "url": "https://clawbot.ai/wiki/skills/clawhub-skill-market-in-depth-analysis.html",
+      "snippet": "ClawHub is the official skill marketplace and public registry for OpenClaw, essentially serving as \"npm for AI agents.\" It allows developers to publish, version, search, and install reusable skill...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Overview - ClawHub New Skills 2026 | ClawOneClick",
+      "url": "https://clawoneclick.com/blog/clawhub-top-skills-2026",
+      "snippet": "In 2026, the ClawHub most popular skills aren't just popular -- they're essential. They power AI self-evolution, handle GitHub workflows, automate web browsing, summarize content...",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 10,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

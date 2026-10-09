@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "topic:openclaw",
+  "count": 10,
+  "total_estimate": 300000,
+  "results": [
+    {
+      "title": "OpenClaw - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenClaw",
+      "snippet": "OpenClaw is a free and open-source autonomous artificial intelligence agent that can execute tasks via large language models (LLMs), using messaging platforms as its main user interface.",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - openclaw/openclaw: The AI that really does things.",
+      "url": "https://github.com/openclaw/openclaw",
+      "snippet": "Explore by topic.Complete the wizard they open. If you installed the package directly with npm, pnpm, or Bun, run: openclaw onboard --install-daemon. After onboarding",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Docs",
+      "url": "https://docs.openclaw.ai/",
+      "snippet": "FAQ topics. What is OpenClaw?Install OpenClaw and bring up the Gateway in minutes. Run Onboarding. Guided setup with openclaw onboard and pairing flows. Connect a Channel.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Open Claw — Topics | Snack Prompt | Snack Prompt",
+      "url": "https://snackprompt.com/topic/openclaw",
+      "snippet": "Open Claw. OpenClaw is a high-performance, autonomous AI agent designed to execute complex technical workflows with precision and speed.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw vs Cursor: Local AI Agent or Cloud IDE? | InsiderLLM",
+      "url": "https://insiderllm.com/guides/openclaw-vs-cursor/",
+      "snippet": "OpenClaw is free, private, and runs your own models. Cursor is polished, fast, and cloud-powered. A developer's comparison: cost, privacy, model flexibility, offline use...",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw: What It Is, Why Anthropic Ended Claude-Sub Coverage...",
+      "url": "https://www.rulesell.com/topic/openclaw-explained",
+      "snippet": "OpenClaw is the 369k-star always-on AI agent runtime Peter Steinberger launched in late 2025. Here's what it actually does, why Anthropic ended Claude Pro/Max subscription coverage for it in...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Openclaw projects on GitHub · GitHub.Locker",
+      "url": "https://github.locker/topics/openclaw",
+      "snippet": "Openclaw projects on GitHub. Emerging open-source AI assistant tooling; exact scope inferred from usage.Browse in the catalog → github.com/topics/openclaw ↗. Hot right now.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Topics · OpenClaw Enterprise",
+      "url": "https://docs-enterprise.openclaw.org/guides/topics/",
+      "snippet": "Harness: how OpenClaw or Codex runs the model and authenticates to it. Workspace files: edit an active Agent's instruction and identity files.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw AI Free | Open Claw Bot Setup Guide",
+      "url": "https://open-claw.bot/",
+      "snippet": "OpenClaw AI Free: Set Up Your Claw Bot. OpenClaw AI is a free, open-source claw bot that actually does things. Control your PC via WhatsApp, Telegram, or Discord.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Introductory guides, skills, and practical notes around OpenClaw.",
+      "url": "https://silenceper.github.io/en/topics/openclaw/",
+      "snippet": "#OpenClaw #Claw #AI Agent #Skills.从 OpenClaw 到 Hermes Agent：为什么我觉得它更懂你.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 10,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

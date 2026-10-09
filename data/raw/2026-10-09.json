@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-09",
+  "scraped_at": "2026-10-09T12:23:21.726630+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 81,
+    "ArXiv": 0,
+    "Bluesky": 0,
+    "YouTube": 0,
+    "GoogleNews": 0,
+    "GitHub": 0,
+    "GitHubReleases": 0,
+    "HuggingFace": 0,
+    "Mastodon": 0,
+    "ProductHunt": 0,
+    "RSS": 0
+  },
+  "total_articles": 7,
+  "articles": [
+    {
+      "title": "Show HN: Agentswap \u2013 Account Switcher for Claude Code, Codex and Antigravity CLI",
+      "url": "https://github.com/WellWells/agentswap",
+      "external_url": "https://github.com/WellWells/agentswap",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-09T12:19:16+00:00",
+      "dedup": "8e1bffd6edfe3787ece3224ab4dda741",
+      "relevance_score": 6.0
+    },
+    {
+      "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+      "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+      "external_url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-09T12:21:24+00:00",
+      "dedup": "c5b305c0a9c8e14c327bf6c63cdca08e",
+      "relevance_score": 0
+    },
+    {
+      "title": "The Hetzner Cloud network stack \u2013 history and technical overview",
+      "url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+      "external_url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-09T12:20:55+00:00",
+      "dedup": "d777a904b5cf82d8ab05ebb63b7c6543",
+      "relevance_score": 0
+    },
+    {
+      "title": "The Trump administration Is Suspending Microsoft from a Green Card Program",
+      "url": "https://www.nbcnews.com/politics/trump-administration/microsoft-suspended-green-cards-h-1b-visa-j-1-visa-vance-rcna602314",
+      "external_url": "https://www.nbcnews.com/politics/trump-administration/microsoft-suspended-green-cards-h-1b-visa-j-1-visa-vance-rcna602314",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-09T12:18:58+00:00",
+      "dedup": "b53f05f64446681288fc876597e7926b",
+      "relevance_score": 0
+    },
+    {
+      "title": "The Strange Power of Coincidence",
+      "url": "https://www.theatlantic.com/newsletters/2026/10/strange-power-of-coincidence/688880/",
+      "external_url": "https://www.theatlantic.com/newsletters/2026/10/strange-power-of-coincidence/688880/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 1,
+      "date": "2026-10-09T12:18:04+00:00",
+      "dedup": "0dc4496f66cf906be5ab991df2598a5c",
+      "relevance_score": 0
+    },
+    {
+      "title": "How to Live on Earth by Benedict Cumberbatch [video]",
+      "url": "https://www.youtube.com/watch?v=h3mRsvFmWi0",
+      "external_url": "https://www.youtube.com/watch?v=h3mRsvFmWi0",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-09T12:15:27+00:00",
+      "dedup": "dbac2f4bffabe6b2c0b44c9192f993d6",
+      "relevance_score": 0
+    },
+    {
+      "title": "We Put Rollback Netcode in StarCraft: Brood War [video]",
+      "url": "https://www.youtube.com/watch?v=vIt9xua9bLc",
+      "external_url": "https://www.youtube.com/watch?v=vIt9xua9bLc",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-09T12:15:07+00:00",
+      "dedup": "b226b7ded46ec26e30622960c5068b99",
+      "relevance_score": 0
+    }
+  ]
+}

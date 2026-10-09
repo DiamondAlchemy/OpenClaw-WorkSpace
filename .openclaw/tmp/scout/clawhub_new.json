@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "clawhub new",
+  "count": 10,
+  "total_estimate": 154000,
+  "results": [
+    {
+      "title": "OpenClaw Hub: Discover 3,286+ ClawHub Skills for AI Agents",
+      "url": "https://openclaw-hub.org/",
+      "snippet": "Our data comes from the clawhub.ai API and reflects the latest ClawHub skills information. Check back regularly for new skill recommendations and updates.",
+      "engine": "yandex"
+    },
+    {
+      "title": "The Biggest OpenClaw Update Just Dropped. - Kumar Gauraw",
+      "url": "https://www.gauraw.com/openclaw-update-march-2026-clawhub-subagents-session-management/",
+      "snippet": "ClawHub is now the default plugin and skills marketplace for OpenClaw. Before this update, installing skills was a bit scattered. You’d find them on GitHub, npm, random repos...",
+      "engine": "yandex"
+    },
+    {
+      "title": "I Found ClawHub (New): Official Way to Find (& Publish)... | Medium",
+      "url": "https://medium.com/ai-software-engineer/i-found-clawhub-new-official-way-to-find-publish-verified-openclaw-skills-f6c3e9cdc889",
+      "snippet": "ClawHub is the official public skill registry for OpenClaw; it's like npm, but for Claude agent skills. It is open source, lives on GitHub, and is built on a modern stack...",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw AgentSkills Explained (2026) – ClawHub New Features",
+      "url": "https://openclaw101.vip/blog/openclaw-agentskills-clawhub",
+      "snippet": "What's New in ClawHub (2026). ClawHub 2026 brings several meaningful upgrades: One-line install: openclaw skill install pulls the Skill and verifies its signature.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Overview - ClawHub New Skills 2026 | ClawOneClick",
+      "url": "https://clawoneclick.com/blog/clawhub-top-skills-2026",
+      "snippet": "This guide explains the topic ClawHub new skills 2026 with practical context.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Context Hub vs ClawHub: Andrew Ng's Documentation... | MyClaw.ai",
+      "url": "https://myclaw.ai/blog/context-hub-vs-clawhub",
+      "snippet": "Andrew Ng's Context Hub gives agents curated API docs. ClawHub gives them executable skills. Here's why OpenClaw users need both — and how they stack together.",
+      "engine": "yandex"
+    },
+    {
+      "title": "[260528] x-cmd v0.9.6: New slash Module — Run Agent Commands...",
+      "url": "https://www.x-cmd.com/blog/260528",
+      "snippet": "New x clawhub explore command — browse the latest skills on clawhub right from the terminal.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Partners with VirusTotal for Enhanced Security... | LinkedIn",
+      "url": "https://www.linkedin.com/posts/gadievron_introducing-clawhub-openclaw-partners-with-activity-7425870752719171584-2Utj",
+      "snippet": "And, will bring true value fast. “TL;DR: All skills published to ClawHub are now scanned using VirusTotal’s threat intelligence, including their new Code Insight capability.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw ClawHub Alert: 1,103 Malicious Skills Found | InsiderLLM",
+      "url": "https://insiderllm.com/guides/openclaw-clawhub-security-alert/",
+      "snippet": "OpenClaw ClawHub security alert: 1,103 malicious skills found across 14,706 audited. CVE-2026-28458 Browser Relay auth bypass. How to protect yourself now.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw and ClawHub: The Definitive 2026 Guide to Autonomous AI...",
+      "url": "https://skywork.ai/skypage/en/openclaw-clawhub-autonomous-ai-agents/2038538431466573824",
+      "snippet": "OpenClaw & ClawHub: 2026’s open‑source autonomous AI agent framework—local, secure, multi‑channel, skill‑marketplace for 24/7 digital workforce.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 10,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

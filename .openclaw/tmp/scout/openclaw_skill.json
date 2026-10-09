@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "openclaw skill",
+  "count": 10,
+  "total_estimate": 86000,
+  "results": [
+    {
+      "title": "Skills - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/skills",
+      "snippet": "Precedence is unchanged. Skill roots support grouped layouts. OpenClaw discovers a skill whenever SKILL.md appears anywhere under a configured root (up to 6 levels deep)",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - VoltAgent/awesome-openclaw-skills: The awesome...",
+      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "snippet": "Awesome OpenClaw Skills. OpenClaw is a locally-running AI assistant that operates directly on your machine. Skills extend its capabilities, allowing it to interact with external services...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Extend OpenClaw: Build and Manage Custom Agent Skills | OpenClaw",
+      "url": "https://open-claw.bot/docs/tools/skills/",
+      "snippet": "They do this by defining skills directories inside the openclaw.plugin.json file, using paths relative to the plugin root. These skills become available as soon as you enable the plugin.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Agent - Awesome List & Navigation",
+      "url": "https://openclawagent.net/",
+      "snippet": "OpenClaw Agent hub: curated Awesome OpenClaw resources, official docs, skills, dashboards, deployment, and security—everything for the OpenClaw Agent ecosystem in one place.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Skills Directory | OpenClaw Scripts & Plugins Library",
+      "url": "https://openclawskills.io/",
+      "snippet": "Top Recommended Skills. See the OpenClaw Skills that are truly worth knowing first. We prioritize high-demand, easy-to-understand skills suited for real workflows — not just quantity.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Skills: What They Are and How to Vet Them | BestLLMfor",
+      "url": "https://bestllmfor.com/guides/openclaw-skills-guide/",
+      "snippet": "OpenClaw Skills: How to Vet Them. TL;DR: An OpenClaw skill is a folder built around a SKILL.md file whose instructions are loaded into your agent's context, so treat every third-party skill...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Top 10 OpenClaw Skills to Take Your Productivity... - DEV Community",
+      "url": "https://dev.to/composiodev/top-10-openclaw-skills-to-take-your-productivity-up-a-notch-kg",
+      "snippet": "OpenClaw skils are single-file plugins that give OpenClaw deep, domain-specific context to go from generic output to expert-level results. 80% of ClawHub skills are garbage or malicious...",
+      "engine": "yandex"
+    },
+    {
+      "title": "7 Best OpenClaw Skil | openclaw tools shopping assistant... | Fastio",
+      "url": "https://fast.io/resources/best-openclaw-tools-ai-shopping-assistant-product-recommendation/",
+      "snippet": "OpenClaw is an open-source AI agent that runs locally and connects to external services through \"skills,\" modular instruction sets hosted on ClawHub.",
+      "engine": "yandex"
+    },
+    {
+      "title": "ClawHub — a fast skill registry for agents, with vector search.",
+      "url": "https://clawhub.ai/",
+      "snippet": "Skills for the apps you already use. Ready-made skills and gateway plugins that plug OpenClaw straight into your everyday tools.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Best OpenClaw Skills in 2026 — Ranked by Reddit Users",
+      "url": "https://imastudio.com/blog/best-openclaw-skills",
+      "snippet": "“I recently set up OpenClaw, and I feel that having good skills is absolutely crucial.” They’re right. And Reddit’s OpenClaw community has spent months...",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 7,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

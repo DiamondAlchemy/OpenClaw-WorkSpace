@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "clawhub publish",
+  "count": 10,
+  "total_estimate": 154000,
+  "results": [
+    {
+      "title": "ClawHub — a fast skill registry for agents, with vector search.",
+      "url": "https://clawhub.ai/",
+      "snippet": "...package integrity ....:: clawhub/openclaw ::.... skills plugins publishers trust signals hooks runners slash-commands skill.md templates scanners review-bots >>> install scan publish verify...",
+      "engine": "yandex"
+    },
+    {
+      "title": "How ClawHub publishing works for skills, plugins, owners, scopes...",
+      "url": "https://docs.openclaw.ai/clawhub/publishing",
+      "snippet": "ClawHub checks that your token can publish for that owner, validates the metadata, name, version, files, and source information, then stores the release and starts automated security checks.",
+      "engine": "yandex"
+    },
+    {
+      "title": "ClawHub Publishing Workflow - OpenClaw Guide | Claw Crew",
+      "url": "https://claw-crew.com/learn/clawhub-publishing-workflow/",
+      "snippet": "Publishing to ClawHub is closer to sending a package through customs than tossing a folder onto the internet. Here is how the flow really works, what metadata matters...",
+      "engine": "yandex"
+    },
+    {
+      "title": "how to publish a skill on clawhub — LobsterMail",
+      "url": "https://lobstermail.ai/blog/how-to-publish-a-skill-on-clawhub",
+      "snippet": "A step-by-step guide to publishing your first OpenClaw skill on ClawHub, from account setup to CLI commands to post-launch maintenance.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Skill Audit & Publish — Agent Skill | ottermind",
+      "url": "https://ottermind.ai/skills/skill-audit-publish",
+      "snippet": "Audit-first pipeline to publish an OpenClaw skill to ClawHub without leaking personal data, credentials, or model-specific references.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Docs — Community Documentation for the Open-Source AI...",
+      "url": "https://clawdocs.org/guides/clawhub",
+      "snippet": "ClawHub is OpenClaw's community skill marketplace — an open-source registry (8.9k GitHub stars) where developers publish, version, and share agent skills. With over 10,700 skills as of...",
+      "engine": "yandex"
+    },
+    {
+      "title": "clawhub | Skills Marketplace · LobeHub",
+      "url": "https://lobehub.com/skills/openclaw-skills-clawhud",
+      "snippet": "ClawHub CLI is a developer-focused command-line tool for searching, installing, updating, and publishing agent skills from clawhub.ai.",
+      "engine": "yandex"
+    },
+    {
+      "title": "ClawHub Public Skill Registry for OpenClaw AI Agents | OpenClaw...",
+      "url": "https://openclawx.cloud/en/tools/clawhub",
+      "snippet": "A skill is just a folder with a SKILL.md file (plus supporting text files). You can browse skills in the web app or use the CLI to search, install, update, and publish skills. Site: clawhub.ai.",
+      "engine": "yandex"
+    },
+    {
+      "title": "The Operator Vault — OpenClaw Automation Hub",
+      "url": "https://theoperatorvault.io/clawhub-guide",
+      "snippet": "ClawHub (clawhub.ai) is the community-driven marketplace for OpenClaw skills. Think of it as npm for AI automation. Developers publish skills. Users browse, install, and run them.",
+      "engine": "yandex"
+    },
+    {
+      "title": "I Found ClawHub (New): Official Way to Find (& Publish)... | Medium",
+      "url": "https://medium.com/ai-software-engineer/i-found-clawhub-new-official-way-to-find-publish-verified-openclaw-skills-f6c3e9cdc889",
+      "snippet": "In this post, I will take you through how ClawHub works, how to find and evaluate skills safely, and how I published my own skill on it — an mcp-scaffolder But first, let me share the basics.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 9,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

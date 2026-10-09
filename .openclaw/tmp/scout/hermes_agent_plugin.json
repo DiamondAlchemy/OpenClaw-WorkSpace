@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "query": "hermes agent plugin",
+  "count": 9,
+  "total_estimate": 74200,
+  "results": [
+    {
+      "title": "hermes-agent-plugin · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/hermes-agent-plugin",
+      "snippet": "Hermes Agent plugin for cron analytics and observability. The dashboard for agentic automations in Hermes.obsidian-vault chromadb hermes-agent hermes-agent-plugin.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes — Community Web UI",
+      "url": "https://get-hermes.ai/",
+      "snippet": "Persistent memory, autonomous scheduling, and multi-surface access — all on hardware you control. Open source, self-hosted AI agent.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes One - Your AI Agent, Always Improving",
+      "url": "https://hermesone.org/",
+      "snippet": "Hermes One is a self-improving AI assistant with tool use, multi-platform messaging, and a closed learning loop. Free, open source, and available for macOS, Windows, and Linux.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Senpi-ai/senpi-plugin — Hermes Agent Domain... | Hermes Atlas",
+      "url": "https://hermesatlas.com/projects/Senpi-ai/senpi-plugin",
+      "snippet": "This plugin connects your AI assistant — Claude, ChatGPT, Codex, Cursor, Grok Bot, Grok Build or Hermes Agent — to your own Senpi agent, so you can ask it what's moving...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Quickstart | hermes-otel",
+      "url": "https://briancaffey.github.io/hermes-otel/getting-started/quickstart",
+      "snippet": "hermes-otel is a Hermes Agent plugin.export OTEL_PROJECT_NAME=\"hermes-agent\". That's the entire configuration. No YAML needed for the single-backend case.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Agent With Codex Turns Prompts Into Systems – Goldie...",
+      "url": "https://goldie.agency/hermes-agent-with-codex/",
+      "snippet": "Hermes keeps the agent structure and workflow control. Codex handles the file work, command execution, patches, plugin calls, and sandboxed project actions.",
+      "engine": "yandex"
+    },
+    {
+      "title": "The Hermes Workshop · a showcase of hardware for an agent with...",
+      "url": "https://teknium.io/hermes-devices/",
+      "snippet": "From a Hermes terminal step it can scaffold a plugin with Elgato's @elgato/cli, so keys become live agent buttons and status tiles. There's also a lower-level HID API for direct control.",
+      "engine": "yandex"
+    },
+    {
+      "title": "8 best OpenClaw alternatives for personal AI agents",
+      "url": "https://www.hostinger.com/ca/tutorials/openclaw-alternatives",
+      "snippet": "A small TypeScript core that runs each agent in its own microVM sandbox, isolated down to the kernel. Hermes Agent – best for developer-controlled self-hosting.",
+      "engine": "yandex"
+    },
+    {
+      "title": "yantrikos/yantrikdb-hermes-plugin | GitHub | Ecosyste.ms: Repos",
+      "url": "https://repos.ecosyste.ms/hosts/GitHub/repositories/yantrikos/yantrikdb-hermes-plugin",
+      "snippet": "YantrikDB memory provider for NousResearch/hermes-agent — self-maintaining memory with benchmarked recall, self-tuning ranking, contradiction tracking, proactive hygiene, and...",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 7,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

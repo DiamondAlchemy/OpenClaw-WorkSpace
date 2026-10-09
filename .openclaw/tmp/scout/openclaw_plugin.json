@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "query": "openclaw plugin",
+  "count": 9,
+  "total_estimate": 86000,
+  "results": [
+    {
+      "title": "openclaw-plugin · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/openclaw-plugin",
+      "snippet": "Dingtalk channel plugin for OpenClaw.OpenClaw plugin implementing the A2A (Agent-to-Agent) protocol v0.3.0 — bidirectional agent communication gateway.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Top 10 OpenClaw Plugins to Give Your Workflow... | Composio",
+      "url": "https://composio.dev/content/top-openclaw-plugins",
+      "snippet": "Top OpenClaw Plugins1. Composio - Connect OpenClaw with 850+ on-demand SaaS Apps",
+      "engine": "yandex"
+    },
+    {
+      "title": "edenai/openclaw-plugin — ClawHub Plugins",
+      "url": "https://clawhub.ai/plugins/@edenai/openclaw-plugin",
+      "snippet": "Eden AI provider plugin for OpenClaw. Route to many model vendors (OpenAI, Anthropic, Google, Mistral, Cohere, and more) through one OpenAI-compatible API with a single key.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Introducing SerpApi’s OpenClaw Agent Plugin",
+      "url": "https://serpapi.com/blog/introducing-serpapis-openclaw-agent-plugin/",
+      "snippet": "The SerpApi plugin for OpenClaw is here. It connects web search to SerpApi and gives you dedicated tools for news, maps, shopping, flights, and more.",
+      "engine": "yandex"
+    },
+    {
+      "title": "keywords:openclaw-plugin - npm search",
+      "url": "https://www.npmjs.com/search?q=keywords:openclaw-plugin",
+      "snippet": "OpenClaw memory plugin for Flair — agent identity and semantic memory.OpenClaw plugin for ByteDance Volcengine Ark: web search and image understanding (doubao-seed-2.0-pro).",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw - Obsidian Plugin",
+      "url": "https://community.obsidian.md/plugins/openclaw",
+      "snippet": "Per the URL spec, custom schemes have a \"null\" origin, so vanilla OpenClaw rejects the websocket handshake from Obsidian. This plugin needs a one-line fallback added to OpenClaw's...",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Skills Plugins Guide Installation Configuration and SDK",
+      "url": "https://openclawx.cloud/en/tools/plugin",
+      "snippet": "Quick start (new to plugins?) A plugin is just a small code module that extends OpenClaw with extra features (commands, tools, and Gateway RPC).",
+      "engine": "yandex"
+    },
+    {
+      "title": "1claw OpenClaw Plugin | 1claw Docs",
+      "url": "https://docs.1claw.co/docs/integrations/openclaw-plugin",
+      "snippet": "OpenClaw Plugins — Plugin system reference. MCP Server — 1claw MCP tools and when to use them alongside or instead of the plugin.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Plugin: How It Works | Obsigna",
+      "url": "https://obsigna.dev/blog/openclaw-plugin-deep-dive/",
+      "snippet": "The OpenClaw plugin is the second way to generate Agent Receipts — the first being the MCP Proxy. Both produce the same W3C Verifiable Credentials with Ed25519 signatures and...",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 7,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

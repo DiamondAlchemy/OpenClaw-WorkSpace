@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "openclaw SKILL.md",
+  "count": 10,
+  "total_estimate": 86000,
+  "results": [
+    {
+      "title": "OpenClaw — Open-Source AI Assistant",
+      "url": "https://openclaw.ai/",
+      "snippet": "OpenClaw is the open-source AI assistant that runs on your machine and works from WhatsApp, Telegram, or any chat app: inbox, email, calendar, flights.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw/SKILL.md at main · CAPTCHASCO/OpenClaw · GitHub",
+      "url": "https://github.com/CAPTCHASCO/OpenClaw/blob/main/SKILL.md",
+      "snippet": "OpenClaw. / SKILL.md. Copy path.Use this skill when integrating CAPTCHAS with OpenClaw via OpenResponses tools or OpenClaw plugin tools. Configuration. Set environment variables",
+      "engine": "yandex"
+    },
+    {
+      "title": "openclaw Skill by daymade | Claude Skills Hub",
+      "url": "https://claudeskills.info/skills/daymade/claude-code-skills/openclaw/",
+      "snippet": "daymade/claude-code-skills · openclaw/SKILL.md. Manage OpenClaw (龙虾) instance configurations.A unified skill for managing OpenClaw (龙虾) instance configs.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Create an OpenClaw Skill: SKILL.md Setup and Gating... | Markaicode",
+      "url": "https://markaicode.com/howto/openclaw-skills-yaml-workspace-configuration/",
+      "snippet": "A developer's guide to authoring, gating, and verifying a custom OpenClaw SKILL.md skill in your workspace, based on OpenClaw's current skills documentation.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Skills: What They Are and How to Vet Them | BestLLMfor",
+      "url": "https://bestllmfor.com/guides/openclaw-skills-guide/",
+      "snippet": "OpenClaw Skills: How to Vet Them. TL;DR: An OpenClaw skill is a folder built around a SKILL.md file whose instructions are loaded into your agent's context, so treat every third-party skill...",
+      "engine": "yandex"
+    },
+    {
+      "title": "moltland — openclaw/skills",
+      "url": "https://www.skills.sh/openclaw/skills/moltland",
+      "snippet": "openclaw/skills. GitHub Stars. 4.5K.Made with care by Vercel.Skills are open source on GitHub.",
+      "engine": "yandex"
+    },
+    {
+      "title": "AMOS turns AI agents into a delivery vehicle via malicious OpenClaw...",
+      "url": "https://lilting.ch/en/articles/openclaw-skill-amos-macos-stealer-ai-agent-supply-chain",
+      "snippet": "Attackers upload skills containing malicious SKILL.md files to ClawHub, the OpenClaw skill repository, as well as to SkillsMP.com and skills.sh. In its own investigation...",
+      "engine": "yandex"
+    },
+    {
+      "title": "On-Demand Skill Loading — OpenClaw... — OpenClaw Cheatsheet",
+      "url": "https://openclawcheatsheet.com/skills/on-demand-loading",
+      "snippet": "Two approaches — Skill-Router and IDENTITY.md Relay — to cut skill token costs by up to 89%.OpenClaw loads all enabled skills into the system prompt so the model \"knows\" they exist.",
+      "engine": "yandex"
+    },
+    {
+      "title": "tg-canvas | Skills Marketplace · LobeHub",
+      "url": "https://lobehub.com/skills/openclaw-skills-openclaw-tg-canvas",
+      "snippet": "SKILL.md. Resources11. Related Skills.Security FAQ (answers for skill reviewers). Q: Does the server auto-load ~/.openclaw/openclaw.json or any local credential file? No.",
+      "engine": "yandex"
+    },
+    {
+      "title": "How to Connect Monday CRM to OpenClaw: Workflow... | SFAI Labs",
+      "url": "https://www.sfailabs.com/guides/connect-monday-crm-to-openclaw",
+      "snippet": "Write the SKILL.md File. Create ~/.openclaw/workspace/skills/monday/SKILL.md with this content: --- name: monday description: Read and write Monday.com CRM data.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 6,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

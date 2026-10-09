@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "query": "nous-research hermes tool",
+  "count": 9,
+  "total_estimate": 200000,
+  "results": [
+    {
+      "title": "GitHub - NousResearch/hermes-agent: The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "snippet": "Hermes Agent | Hermes Desktop. Documentation Discord License: MIT Built by Nous Research 中文 اردو Español. The self-improving AI agent built by Nous Research.Research-ready. Batch trajectory generation, trajectory compression for training the next generation of tool-calling models.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Agent — Open-Source AI Agent with Memory, Skills, and Cron",
+      "url": "https://hermes-agent.ai/",
+      "snippet": "Hermes Agent is an open-source AI agent from Nous Research that can remember context, use tools, learn reusable skills, run scheduled jobs, and operate from the terminal, dashboard, GitHub workflows, and messaging channels.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes One - Your AI Agent, Always Improving",
+      "url": "https://hermesone.org/",
+      "snippet": "Hermes One is a self-improving AI assistant with tool use, multi-platform messaging, and a closed learning loop. Free, open source, and available for macOS, Windows, and Linux.",
+      "engine": "yandex"
+    },
+    {
+      "title": "AI Tool: Hermes 3 - NOUS RESEARCH for Simplified Processes",
+      "url": "https://www.comparebiztech.com/ai-tools/hermes-3-nous-research/",
+      "snippet": "Hermes 3, developed by Nous Research, is an open-source AI model built on Llama 3.1, designed for advanced reasoning, creative problem-solving, and interactive dialogue. It excels in long-term memory retention, multi-turn conversations, roleplaying, and agentic function-calling.",
+      "engine": "yandex"
+    },
+    {
+      "title": "What is Hermes Agent? Understand this self-evolving... - Apiyi.com Blog",
+      "url": "https://help.apiyi.com/en/hermes-agent-introduction-beginner-guide-en.html",
+      "snippet": "Hermes Agent is an open-source, \"self-evolving\" AI agent framework released by Nous Research in 2026. Its core superpower? It learns from every conversation you have, summarizing new skills, improving its own performance, and building long-term memory as it goes.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Nous Hermes 3: an open-weight agentic model – Jacar",
+      "url": "https://jacar.es/en/nous-hermes-3-open-weight-agentic-model/",
+      "snippet": "Hermes 3 is Nous Research's family of open-weight models, fine-tuned on Llama 3.1 in 8B, 70B and 405B sizes. Its strength is tool use through JSON-formatted function calls.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Agent Desktop - Download for Mac, Windows & Linux",
+      "url": "https://hermes-ai.net/desktop/",
+      "snippet": "Hermes Agent is an MIT-licensed open-source project by Nous Research; names, logos, and code belong to their respective owners. Hermes Agent resources and docs · Nous Research. hermes-ai.net ·Read docs. MIT License · 2026.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Nous Hermes 4: Latest Nous Research Model, Ollama... | Vantaige",
+      "url": "https://vantaige.io/blog/nous-hermes-4-self-hosted-setup-vs-closed-agents-2026",
+      "snippet": "Nous Hermes 4 is Nous Research's latest open-weight model (Apache 2.0, 14B and 36B).Nous Hermes 4 is a family of open-weight large language models from Nous Research, post-trained for reasoning, function calling, structured output, and reduced refusal rates.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes — Community Web UI",
+      "url": "https://get-hermes.ai/",
+      "snippet": "Built by Nous Research. Community Web UI — not affiliated with or endorsed by Nous Research. Official site: hermes-agent.nousresearch.com. The core idea.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 10,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

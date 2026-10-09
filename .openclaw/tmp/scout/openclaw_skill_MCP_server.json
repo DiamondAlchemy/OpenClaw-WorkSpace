@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "openclaw skill MCP server",
+  "count": 10,
+  "total_estimate": 86000,
+  "results": [
+    {
+      "title": "Expose OpenClaw channel conversations over MCP and manage...",
+      "url": "https://docs.openclaw.ai/cli/mcp",
+      "snippet": "Expose OpenClaw channel conversations over MCP and manage saved MCP server definitions.",
+      "engine": "yandex"
+    },
+    {
+      "title": "openclaw-cli - MCP Server",
+      "url": "https://mcprepository.com/TimoBechtel/openclaw-cli",
+      "snippet": "openclaw-cli MCP Server: let other agents talk to openclaw via terminal or mcp. Sitewalk: Technical SEO Site Audit. Open-source technical SEO crawler and MCP server for Claude, Cursor and Codex. 50+ checks, PDF and CSV reports, self-hosted. Built on ...",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw MCP Server for Cloud Storage | Fastio",
+      "url": "https://fast.io/storage-for-openclaw/",
+      "snippet": "Install the skill. Run clawhub install dbalve/fast-io in your terminal. That registers a consolidated set of MCP tools with your OpenClaw instance.The CLI also includes a built-in MCP server if you want both options.",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - VishnuSuresh2000/stealth-browser-mcp: Stealth web...",
+      "url": "https://github.com/VishnuSuresh2000/stealth-browser-mcp",
+      "snippet": "openclaw skills list --eligible openclaw skills info stealth-browser-mcp.Via MCP Client (Agent Integration). The server exposes tools via the MCP protocol at /mcp endpoint. Connect your MCP client to",
+      "engine": "yandex"
+    },
+    {
+      "title": "npm",
+      "url": "https://lobehub.com/mcp/jtgweeks-ai-parallax",
+      "snippet": "MCP Server — for Claude Code, Cursor, OpenClaw mcporter.Claude + OpenClaw skill file. PACKAGING.md. Full developer setup guide for all install methods. mcp/index.js. MCP server source. mcp/package.json.",
+      "engine": "yandex"
+    },
+    {
+      "title": "SentryDock MCP Server | Awesome MCP Servers",
+      "url": "https://mcpservers.org/servers/www-sentrydock-com-agents",
+      "snippet": "OpenClaw: Remote MCP + skill; complete authentication and check your account.SentryDock MCP server: connect any compatible agent. By Blake Folgado. Updated 2026-10-03. Model Context Protocol lets an assistant discover tools and call them through a remote server.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw MCP Servers Guide: Model Context Protocol... | ClawBotAI",
+      "url": "https://www.clawbotai.online/blog/openclaw-mcp-servers-guide/",
+      "snippet": "While skills extend OpenClaw’s capabilities, MCP (Model Context Protocol) servers provide a standardized way to connect to external APIs, databases, and services. This guide covers everything about MCP servers in OpenClaw. What Is MCP?",
+      "engine": "yandex"
+    },
+    {
+      "title": "Emotion Engine MCP server — install in Claude & Cursor — Unyly",
+      "url": "https://unyly.org/mcp/emotion-engine",
+      "snippet": "Local stdio MCP server for runtime/protocol tools. docs/MCP.md. Core state engine checks and local tooling. scripts. OpenClaw skill.Installing Emotion Engine. This server has no published package — it is built from source. Open the repository and follow its README.",
+      "engine": "yandex"
+    },
+    {
+      "title": "LemGen AI Design — ClawHub",
+      "url": "https://clawhub.ai/aithink001/skills/lemgen-ai-design",
+      "snippet": "It connects OpenClaw to the LemGen MCP server so agents can search a curated prompt gallery, inspect real image/video examples, improve prompts, and optionally generate images or videos with LemGen. Use this skill when the user asks for",
+      "engine": "yandex"
+    },
+    {
+      "title": "ai-adapter · PyPI",
+      "url": "https://pypi.org/project/ai-adapter/0.25.0/",
+      "snippet": "OpenClaw Integration: Export MCP servers and skills to OpenClaw format (--format openclaw).Server-name-based merge — existing non-ai-adapter MCP servers in openclaw.json are preserved.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 7,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}
