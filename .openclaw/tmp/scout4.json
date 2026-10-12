@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "query": "nous research hermes agent tool plugin 2026",
+  "count": 8,
+  "total_estimate": 199000,
+  "results": [
+    {
+      "title": "GitHub - NousResearch/hermes-agent: The agent that grows with you",
+      "url": "https://github.com/nousresearch/hermes-agent",
+      "snippet": "Hermes Agent | Hermes Desktop. Documentation Discord License: MIT Built by Nous Research 中文 اردو Español. The self-improving AI agent built by Nous Research. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Nous Research Review 2026: Hermes Agent, Nous Portal & Open AI...",
+      "url": "https://aiidelist.com/ide/nous-research",
+      "snippet": "StrengthsHermes Agent is MIT-licensed and can be self-hosted.Nous Portal consolidates models and agent tools behind one account and credit balance.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes One - Your AI Agent, Always Improving",
+      "url": "https://hermesone.org/",
+      "snippet": "Hermes Agent learns, delegates, schedules, and runs anywhere. Hermes Desktop puts the full power in a native app, no CLI required. Closed Learning Loop.Research-Ready. Batch trajectory generation and compression for training the next generation of tool-calling models.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Nous Research Tests Bot Mode for Hermes Agent · Digg",
+      "url": "https://digg.com/tech/jxesssj4",
+      "snippet": "The official Nous Research account shared an image of the interface. A linked GitHub repository describes a roster of named agents with chats, avatars, routines, and bot-to-bot messaging as a desktop plugin.",
+      "engine": "yandex"
+    },
+    {
+      "title": "ReadyHermes Review (2026): Pricing & Alternatives | Stork.AI",
+      "url": "https://www.stork.ai/en/readyhermes",
+      "snippet": "ReadyHermes is a hosted personal AI assistant built on the open-source Hermes Agent from Nous Research, accessible through supported chat applications. shipped Oct 2, 2026·agents·freemium. agentsopen-sourcechatbot. ReadyHermes — product screenshot.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Agent — Open-Source AI Agent with Memory, Skills, and Cron",
+      "url": "https://hermes-agent.ai/",
+      "snippet": "Hermes Agent is an open-source AI agent from Nous Research that can remember context, use tools, learn reusable skills, run scheduled jobs, and operate from the terminal, dashboard, GitHub workflows, and messaging channels.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes — Community Web UI",
+      "url": "https://get-hermes.ai/",
+      "snippet": "Spawn Claude Code or Codex as sub-agents for heavy coding tasks. Results fold back into Hermes memory. Hermes also runs as an MCP server for other tools.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Hermes Agent Desktop - Download for Mac, Windows & Linux",
+      "url": "https://hermes-ai.net/desktop/",
+      "snippet": "Nous Research. MIT License · 2026.Hermes Agent is an MIT-licensed open-source project by Nous Research; names, logos, and code belong to their respective owners.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 10,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

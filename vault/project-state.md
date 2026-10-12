@@ -1,9 +1,18 @@
 # Project State — Shared
 
-*Last updated: 2026-10-07*
+*Last updated: 2026-10-12*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-10-12
+
+- 2026-10-12 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings unchanged from 2026-09-18 through 2026-10-11: exec `autoAllowSkills` enabled; `models.weak_tier` on Moat (`openai/gpt-6-astra` at `agents.list.moat.model.primary`); personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. No secrets flagged. Full log saved to `.openclaw/tmp/security-audit-2026-10-12.txt`. Diamond notified via Telegram. No config changes made.
+
+## Current MoneyPenny State — 2026-10-11
+
+- 2026-10-11 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings unchanged from 2026-09-18 through 2026-10-07: exec `autoAllowSkills` enabled; `models.weak_tier` on Moat (`openai/gpt-6-astra` at `agents.list.moat.model.primary`); personal-assistant trust-model heuristic for a potentially multi-user gateway with unsandboxed runtime/filesystem-capable agents (Telegram groupPolicy=allowlist); enabled `googlechat` plugin tools reachable under permissive tool policies; `apify-lead-generation` skill has a suspicious file-read plus network-send pattern in `reference/scripts/run_actor.js:353`. Attack surface: groups open=0 / allowlist=1. Elevated tools on. Browser control on. HTTP API session-key override enabled. No secrets flagged. Full log saved to `.openclaw/tmp/security-audit-2026-10-11.txt`. Diamond notified via Telegram message 7042 with offer to review run_actor.js:353. No config changes made.
+- 2026-10-11 03:00 CDT: Daily agent backup cron ran `/Users/m/.openclaw/workspace/scripts/backup_agents.sh`. Script exited 0 (no SIGKILL this time). Local archives created for stamp `2026-10-11_0300` on Desktop/TopSecretBackups: Q 38K, Octopussy 15M, shared 478M, Cannascend 34M. All four zips passed `zip -T`. Drive upload failed for all four — `gog` keyring timeout for `moneypenny@topsecretworkshops.com` (macOS Keychain permission prompt). Manual retry with `GOG_KEYRING_OPEN_TIMEOUT=60` also timed out at 30s (gog hardcodes the wait). Same failure pattern as every run since 2026-07-12. Offsite backup still blocked; fix requires interactive `gog auth list` → "Always Allow", or migrating to `GOG_KEYRING_BACKEND=file`.
 
 ## Current MoneyPenny State — 2026-10-07
 

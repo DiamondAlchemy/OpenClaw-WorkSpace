@@ -1,0 +1,5 @@
+[main/sessions/main/ff243876-d6b1-4aca-8b9c-d9e89a6e0e4b.jsonl#L6] Assistant: Running the daily agent backup now.
+[main/sessions/main/ff243876-d6b1-4aca-8b9c-d9e89a6e0e4b.jsonl#L17] Assistant: Local zips likely finished; Drive upload failed on Keychain. Checking backup artifacts.
+[main/sessions/main/ff243876-d6b1-4aca-8b9c-d9e89a6e0e4b.jsonl#L19] Assistant: Local zips are in. Retrying Drive upload with a longer keyring timeout.
+[main/sessions/main/ff243876-d6b1-4aca-8b9c-d9e89a6e0e4b.jsonl#L25] Assistant: Keyring timeout is still 30s. Waiting for the remaining uploads to finish.
+[main/sessions/main/ff243876-d6b1-4aca-8b9c-d9e89a6e0e4b.jsonl#L29] Assistant: Daily agent backup **2026-10-12_0300** — **partial** **Local zips: success** (`~/Desktop/TopSecretBackups/`) - `q_workspace_2026-10-12_0300.zip` — 38K - `octopussy_workspace_2026-10-12_0300.zip` — 15M - `shared_2026-10-12_0300.zip` — 478M - `cannascend_workspace_20

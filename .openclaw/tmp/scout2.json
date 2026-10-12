@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "query": "openclaw plugin github",
+  "count": 9,
+  "total_estimate": 80800,
+  "results": [
+    {
+      "title": "openclaw-plugin · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/openclaw-plugin",
+      "snippet": "GitHub SponsorsFund open source developers.OpenClaw plugin implementing the A2A (Agent-to-Agent) protocol v0.3.0 — bidirectional agent communication gateway.",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - meshkore/openclaw-plugin: OpenClaw plugin — gives...",
+      "url": "https://github.com/meshkore/openclaw-plugin",
+      "snippet": "Open source, MIT. github.com/meshkore/openclaw-plugin — read it, audit it, or improve it yourself. Part of the MeshKore agent network — the open directory + protocol for AI agents at...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Top 10 OpenClaw Plugins to Give Your Workflow... | Composio",
+      "url": "https://composio.dev/content/top-openclaw-plugins",
+      "snippet": "Top OpenClaw Plugins1. Composio - Connect OpenClaw with 850+ on-demand SaaS Apps",
+      "engine": "yandex"
+    },
+    {
+      "title": "Publishing Plugins - OpenClaw",
+      "url": "https://openclaw-openclaw.mintlify.app/plugins/publishing",
+      "snippet": "Tool plugins should describe their capability: openclaw-plugin-github. openclaw-tool-database. @yourname/openclaw-crm.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Almured Openclaw Plugin Deprecation · Plugins",
+      "url": "https://clawhub.ai/plugins/%40almured%2Fopenclaw-plugin",
+      "snippet": "Legacy ZIPNot upgraded to the latest OpenClaw plugin architecture. This plugin uses the legacy ZIP path and may have compatibility issues until the publisher uploads a ClawPack.",
+      "engine": "yandex"
+    },
+    {
+      "title": "composio/openclaw-plugin - npm",
+      "url": "https://www.npmjs.com/package/@composio/openclaw-plugin?activeTab=code",
+      "snippet": "openclaw plugins install @composio/openclaw-plugin. Restart OpenClaw after installing. How to Use Composio. Start with the CLI",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - juanclaw/Serena-Openclaw-Plugin: Openclaw plugin for...",
+      "url": "https://www.linkedin.com/posts/marcel-agraz-carmona-a7619390_github-juanclawserena-openclaw-plugin-activity-7439084248784941056-BDjz",
+      "snippet": "Serena Openclaw Plugin — Give Your Agent Semantic Coding Powers(code 30x faster, spend 20x fewer tokens) If you’re using OpenClaw for coding tasks, this plugin makes a huge...",
+      "engine": "yandex"
+    },
+    {
+      "title": "Building an OpenClaw Plugin for Chorus: SSE + MCP to Make AI...",
+      "url": "https://chennima.github.io/building-openclaw-plugin-for-chorus/",
+      "snippet": "3. OpenClaw Plugin Mechanism: Three Primitives. To understand how this plugin works, you need to know what OpenClaw gives plugin authors.",
+      "engine": "yandex"
+    },
+    {
+      "title": "From TypeScript Teams Agents to Real Channels: KaibanJS... | Medium",
+      "url": "https://medium.com/@darielnoel/from-typescript-teams-agents-to-real-channels-kaibanjs-as-a-native-openclaw-plugin-35a43d7bac62",
+      "snippet": "Plugin id mismatch — Keep openclaw.plugin.json \"id\": \"kaibanjs-plugin\" aligned with plugins.entries.kaibanjs-plugin. Missing config — The plugin throws at load time if...",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 7,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}

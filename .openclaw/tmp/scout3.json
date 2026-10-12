@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "query": "clawhub skill release new",
+  "count": 10,
+  "total_estimate": 38000,
+  "results": [
+    {
+      "title": "ClawHub — a fast skill registry for agents, with vector search.",
+      "url": "https://clawhub.ai/",
+      "snippet": "installs stars lineage ownership docs package integrity ....:: clawhub/openclaw ::.... skills plugins publishers trust signals hooks runners slash-commands skill.md templates scanners review-bots >>> install scan publish verify @@ gateway @@ registry @@ agents @@ hooks runners...",
+      "engine": "yandex"
+    },
+    {
+      "title": "clawhub on MyClaw — AI Agent Skill Package Manager",
+      "url": "https://myclaw.ai/skills/clawhub",
+      "snippet": "Keeping a workspace up to date — you want to bulk-upgrade all installed skills to their latest releases with a single update --all command. Publishing your own skills — you've built a new skill folder and want to share it on clawhub.com with a versioned release and changelog.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Skills: How to Install from ClawHub Safely in... | Blink Blog",
+      "url": "https://blink.new/blog/openclaw-clawhub-skills-safe-install-guide-2026",
+      "snippet": "How to install OpenClaw skills from ClawHub safely in 2026. After 1,467 malicious skills were found, here's how to vet before you install.",
+      "engine": "yandex"
+    },
+    {
+      "title": "Clawhub Release Auditor - Skywork Skill Hub",
+      "url": "https://skywork.ai/skillhub/clawhub-release-auditor/",
+      "snippet": "New Skill Packs.Clawhub Release Auditor ensures the lifecycle integrity of skills from development through post-release operations. Facilitates error-free releases by validating, packaging, and auditing skills to maintain high performance standards.",
+      "engine": "yandex"
+    },
+    {
+      "title": "GitHub - os-ai-space/openclaw-clawhub: Skill + Plugin Registry for...",
+      "url": "https://github.com/os-ai-space/openclaw-clawhub",
+      "snippet": "Browse skills + render their SKILL.md. Publish new skill versions with changelogs + tags (including latest). Rename an owned skill without breaking old links or installs.",
+      "engine": "yandex"
+    },
+    {
+      "title": "ClawHub — Thousands of Skills for Your AI... | OpenClaw Launch",
+      "url": "https://openclawlaunch.com/clawhub",
+      "snippet": "ClawHub is the OpenClaw skill marketplace — thousands of ready-to-use skills for web search, browser automation, GitHub, Notion, coding, and more.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw ClawHub Alert: 1,103 Malicious Skills Found | InsiderLLM",
+      "url": "https://insiderllm.com/guides/openclaw-clawhub-security-alert/",
+      "snippet": "OpenClaw ClawHub security alert: 1,103 malicious skills found across 14,706 audited. CVE-2026-28458 Browser Relay auth bypass. How to protect yourself now.",
+      "engine": "yandex"
+    },
+    {
+      "title": "OpenClaw Security Guide: CVE-2026-25253, Malicious Skills",
+      "url": "https://www.bitdoze.com/openclaw-security-guide/",
+      "snippet": "In February 2026, researchers found that 12% of skills on ClawHub were infected with malware. The project’s CHANGELOG lists over 40 security fixes across recent releases. If you’re running OpenClaw, you should know about both.",
+      "engine": "yandex"
+    },
+    {
+      "title": "clawhub, AI Coding Skill for Claude Code, skills-hub.ai",
+      "url": "https://skills-hub.ai/skills/openclaw-clawhub",
+      "snippet": "What does the clawhub skill do? Search ClawHub for skills when a requested capability is not already available; install, verify, update, publish, or sync skills.Weekly: new skills, AI tool releases, and one practical automation. Trending AI coding intel for engineers.",
+      "engine": "yandex"
+    },
+    {
+      "title": "341 Malicious Skills Found on ClawHub, Exposing Users to... | LinkedIn",
+      "url": "https://www.linkedin.com/posts/tonyburquez_researchers-find-341-malicious-clawhub-skills-activity-7424195758675120128-HN2l",
+      "snippet": "A security audit of 2,857 skills on ClawHub has found 341 malicious skills across multiple campaigns, according to new findings from Koi Security, exposing users to new supply chain risks.",
+      "engine": "yandex"
+    }
+  ],
+  "filtered_bing_count": 10,
+  "unresponsive_engines": [
+    "brave",
+    "duckduckgo",
+    "mojeek",
+    "presearch",
+    "qwant",
+    "startpage"
+  ]
+}
