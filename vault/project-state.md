@@ -1,9 +1,13 @@
 # Project State — Shared
 
-*Last updated: 2026-10-12*
+*Last updated: 2026-10-13*
 *Updated by: MoneyPenny*
 
 ---
+
+## Current MoneyPenny State — 2026-10-13
+
+- 2026-10-13 03:00 CDT: Daily agent backup cron ran `/Users/m/.openclaw/workspace/scripts/backup_agents.sh`. Script exited 0. Local archives created for stamp `2026-10-13_0300` on Desktop/TopSecretBackups: Q 38K, Octopussy 15M, shared 478M, Cannascend 34M. All four zips passed `zip -T`. Drive upload failed for all four — `gog` keyring timeout for `moneypenny@topsecretworkshops.com` (macOS Keychain permission prompt). Same failure pattern as every run since 2026-07-12. Offsite backup still blocked; fix requires interactive `gog auth list` → "Always Allow", or migrating to `GOG_KEYRING_BACKEND=file`.
 
 ## Current MoneyPenny State — 2026-10-12
 
@@ -503,3 +507,4 @@ On 2026-05-10, Vesper created `templates/FORM-PROC-005_Process_Parameter_Verific
 - 2026-10-08 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings: exec `autoAllowSkills` enabled; below-tier model on agents.list.moat (openai/gpt-6-astra); personal-assistant trust-model heuristic (allowlisted Telegram groups + unsandboxed runtime-capable agents); permissive plugin tool policy (`googlechat`); suspicious file-read plus network-send pattern in Scaramanga`apos`s `apify-lead-generation` skill (run_actor.js:353). Diamond notified via Telegram (messageId 7027). No config changes performed. Backup Drive-upload keyring failure from 2026-10-04 remains open.
 - 2026-10-10 03:01 CDT: Daily agent backup cron ran backup_agents.sh. LOCAL ZIPS OK (q 38K, octopussy 15M, shared 478M, cannascend 34M → ~/Desktop/TopSecretBackups/). DRIVE UPLOADS FAILED AGAIN: same gog keychain timeout for moneypenny@topsecretworkshops.com. Verified via Drive API: newest file in backup folder is still 2026-06-24 (~108 days of uploads failing). Known open issue from 2026-10-04; not re-paging Diamond (already escalated, fix requires interactive `gog auth list` + "Always Allow").
 - 2026-10-10 09:00 CDT: Daily security audit cron ran `openclaw security audit --deep`. Result: 0 critical, 5 warnings, 2 info. Warnings: exec `autoAllowSkills` enabled; below-tier model on agents.list.moat (openai/gpt-6-astra); personal-assistant trust-model heuristic (allowlisted Telegram groups + unsandboxed runtime-capable agents); permissive plugin tool policy (`googlechat`); suspicious file-read plus network-send pattern in Scaramanga's `apify-lead-generation` skill (run_actor.js:353). Diamond notified via Telegram (messageId 7036). No config changes performed. Backup Drive-upload keyring failure from 2026-10-04 remains open.
+- 2026-10-14 08:00 CDT: Daily self-review ran (gateway cron 71fd569d). Log: memory/2026-10-14-daily-review.md. No core files modified. Top findings: (1) offsite backup still broken since ~2026-07-12 (gog keyring timeout), (2) new unexplained 235KB DREAMS.md at workspace root (mtime 10-14 03:08) — provenance unknown, (3) no 10-13 self-review artifact (third gap this month), (4) model drift widened: docs say MiniMax-M2.7, live routing is glm-5.3-flash/grok-4.6/gemini-flash, (5) carried findings unchanged: AGENTS 6400-line claim, TOOLS nano-banana-pro, intake skill.md casing, WORKSPACE cron/backup-path errors, decisions-log stale since 06-24, MEMORY plaintext tokens L19/L117.

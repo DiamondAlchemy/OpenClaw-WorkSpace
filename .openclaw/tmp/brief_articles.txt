@@ -1,0 +1,85 @@
+================================================================================
+SCORE: 6.5 | SOURCE: HN Claude/Codex
+TITLE: Show HN: Panelize – Ask ChatGPT, Claude, Gemini and DeepSeek Side by Side
+URL: https://github.com/Manho/Panelize
+SNIPPET:  | Article URL: https://github.com/Manho/Panelize | Comments URL: https://news.ycombinator.com/item?id=50084490 | Points: 1 | # Comments: 1 | 
+================================================================================
+SCORE: 5.5 | SOURCE: HN Claude/Codex
+TITLE: Show HN: Omnis Watchtower – a supply-chain tripwire for Claude Code agents
+URL: https://github.com/Fortitude-Group/omnis-watchtower
+SNIPPET:  | Article URL: https://github.com/Fortitude-Group/omnis-watchtower | Comments URL: https://news.ycombinator.com/item?id=50084271 | Points: 1 | # Comments: 0 | 
+================================================================================
+SCORE: 5.5 | SOURCE: HN Claude/Codex
+TITLE: TypeScript compiler ported to C# via Codex (as proof of concept)
+URL: https://github.com/stepwisehq/typescript-dotnet
+SNIPPET:  | Article URL: https://github.com/stepwisehq/typescript-dotnet | Comments URL: https://news.ycombinator.com/item?id=50083976 | Points: 1 | # Comments: 1 | 
+================================================================================
+SCORE: 1.5 | SOURCE: HN Claude/Codex
+TITLE: Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)
+URL: https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/
+SNIPPET:  | Article URL: https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/ | Comments URL: https://news.ycombinator.com/item?id=50082735 | Points: 3 | # Comments: 0 | 
+================================================================================
+SCORE: 1.5 | SOURCE: HN Claude/Codex
+TITLE: Apples to Apples: Getting Type Mappings Right in LLM-Based Code Translation
+URL: https://www.codemetal.ai/research/apples-to-apples-getting-type-mappings-right-in-llm-based-code-translation
+SNIPPET:  | Article URL: https://www.codemetal.ai/research/apples-to-apples-getting-type-mappings-right-in-llm-based-code-translation | Comments URL: https://news.ycombinator.com/item?id=50081221 | Points: 8 | # Comments: 0 | 
+================================================================================
+SCORE: 1.0 | SOURCE: HN Claude/Codex
+TITLE: Show HN: Route Claude Desktop to several accounts
+URL: https://github.com/jaynlabs/jaynshare
+SNIPPET:  | Article URL: https://github.com/jaynlabs/jaynshare | Comments URL: https://news.ycombinator.com/item?id=50083983 | Points: 1 | # Comments: 0 | 
+================================================================================
+SCORE: 1.0 | SOURCE: HN Claude/Codex
+TITLE: Show HN: Sgrep; fast, accurate code search for agents
+URL: https://github.com/context-dot-dev/sgrep
+SNIPPET:  | Article URL: https://github.com/context-dot-dev/sgrep | Comments URL: https://news.ycombinator.com/item?id=50083619 | Points: 1 | # Comments: 0 | 
+================================================================================
+SCORE: 0 | SOURCE: Hacker News
+TITLE: 3D Holographic Fish Tank (DIY Project)
+URL: https://holographic-fish-tank.vercel.app/
+SNIPPET: 
+================================================================================
+SCORE: 0 | SOURCE: Hacker News
+TITLE: Smart people don't think others are stupid
+URL: https://sive.rs/ss
+SNIPPET: 
+================================================================================
+SCORE: 0 | SOURCE: Mastodon @igeny_sade
+TITLE: LA #RUSSIA È NOSTRA AMICA! SI AL GAS RUSSO! SI AL COMMERCIO CON MOSCA! SI AL RIPRISTINO DEI VOLI DIRETTI ITALIA - RUSSIA
+URL: https://sigmoid.social/@igeny_sade/117439172081579240
+SNIPPET: LA #RUSSIA È NOSTRA AMICA! SI AL GAS RUSSO! SI AL COMMERCIO CON MOSCA! SI AL RIPRISTINO DEI VOLI DIRETTI ITALIA - RUSSIA! SI AGLI SCAMBI CULTURALI E SPORTIVI! SI A TOGLIERE TUTTE LE SANZIONI A MOSCA!
+================================================================================
+SCORE: 0 | SOURCE: Mastodon @dawson_barnett
+TITLE: Setkání Putina a Trumpa zatím nebylo dohodnuto, ale pokud se oba lídři ocitnou na stejném místě v Číně, bude se o jeho u
+URL: https://sigmoid.social/@dawson_barnett/117439167702094415
+SNIPPET: Setkání Putina a Trumpa zatím nebylo dohodnuto, ale pokud se oba lídři ocitnou na stejném místě v Číně, bude se o jeho uspořádání jednat, uvedl Peskov. Přístup k diskusi Přihlásit se k odběru kanálu
+================================================================================
+SCORE: 0 | SOURCE: HN Claude/Codex
+TITLE: I changed my view on traditional code review
+URL: https://www.minid.net/2026/9/18/three-plus-ones-and-a-prayer
+SNIPPET:  | Article URL: https://www.minid.net/2026/9/18/three-plus-ones-and-a-prayer | Comments URL: https://news.ycombinator.com/item?id=50085565 | Points: 3 | # Comments: 0 | 
+================================================================================
+SCORE: 0 | SOURCE: HN Claude/Codex
+TITLE: Show HN: A guided 3D Leonardo da Vinci museum, built in code
+URL: https://museumofages.org/w/vinci
+SNIPPET:  | Hello HN,I am the founder of a small nonprofit which built Museum of Ages. We opened its first wing last week, a digital Leonardo da Vinci museum. It is a virtual tour with 17 stops, his works and then his last house in Amboise. The entrance is free.At the different stops you can see for example hi
+================================================================================
+SCORE: 0 | SOURCE: HN Claude/Codex
+TITLE: Demonstrating Deterministic Trust and Formal Proof for AI-Generated Code
+URL: https://www.adacore.com/blog/gnat-foundry-intersection-demonstrating-trustworthy-ai-development
+SNIPPET:  | Article URL: https://www.adacore.com/blog/gnat-foundry-intersection-demonstrating-trustworthy-ai-development | Comments URL: https://news.ycombinator.com/item?id=50084212 | Points: 2 | # Comments: 0 | 
+================================================================================
+SCORE: 0 | SOURCE: HN Claude/Codex
+TITLE: AI writes most of the code now. Where does that leave software engineers?
+URL: https://blog.msar.me/ai-writes-most-of-the-code-now-where-does-that-leave-us
+SNIPPET:  | Article URL: https://blog.msar.me/ai-writes-most-of-the-code-now-where-does-that-leave-us | Comments URL: https://news.ycombinator.com/item?id=50082414 | Points: 3 | # Comments: 0 | 
+================================================================================
+SCORE: 0 | SOURCE: HN Claude/Codex
+TITLE: Muse Wonder(Non-Full) Max Is Below Muse Spark 1.3 Max on Code Arena: WebDev
+URL: https://twitter.com/arena/status/2110120205464846828
+SNIPPET:  | Article URL: https://twitter.com/arena/status/2110120205464846828 | Comments URL: https://news.ycombinator.com/item?id=50079730 | Points: 1 | # Comments: 1 | 
+================================================================================
+SCORE: 0 | SOURCE: HN Claude/Codex
+TITLE: The lowest level of programming isn't assembly or machine code, it's microcode
+URL: https://www.reddit.com/user/SufianDira/comments/1wujz80/the_lowest_level_of_programming_isnt_assembly_or/
+SNIPPET:  | Article URL: https://www.reddit.com/user/SufianDira/comments/1wujz80/the_lowest_level_of_programming_isnt_assembly_or/ | Comments URL: https://news.ycombinator.com/item?id=50079580 | Points: 2 | # Comments: 0 | 
