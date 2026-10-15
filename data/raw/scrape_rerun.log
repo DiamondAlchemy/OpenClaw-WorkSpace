@@ -1,0 +1,305 @@
+
+============================================================
+MONEYPENNY SCRAPER v2 — 2026-10-15
+============================================================
+
+[HackerNews] Scraping...
+  [HackerNews] Found 97 recent stories
+[ArXiv] Scraping...
+  [ArXiv] Found 40 recent papers
+[YouTube] Scraping...
+  [WARN] HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWN3xxRkmTPphYit_W0LbQ
+  [WARN] HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCkorMOfMBcQ8JyVm7l8ITQA
+  [WARN] HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCjdkDY4OsBrlFNDjrZOhCog
+  [WARN] HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCS89A25gKnBfBUhU4209f7A
+  [WARN] HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCuozerI0pxVL55tofdboGdg
+  [WARN] HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC_1uN5xTGSxSr0gtKQpPOAg
+  [WARN] HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCmbothdv1cKgYZPZLsgkA-w
+  [WARN] HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC6bk9NjGCQT0Kj5SIb9ZvCw
+  [YouTube] Found 2 recent videos
+[GoogleNews] Scraping...
+  [GoogleNews] Found 1883 recent articles
+[GitHub] Scraping...
+  [GitHub] Found 22 trending repos
+[GitHub Releases] Scraping...
+  [GitHub Releases] Found 25 recent releases
+[HuggingFace Papers] Scraping...
+  [HuggingFace Papers] Found 30 daily papers
+[Mastodon] Scraping...
+  [Mastodon] Found 40 recent posts
+[ProductHunt] Scraping RSS...
+  [ProductHunt] Found 8 AI-related launches
+[RSS] Scraping...
+  [WARN] HTTP 404 for https://www.anthropic.com/blog/rss
+  [WARN] HTTP 403 for https://openai.com/blog/rss/
+  [WARN] HTTP 404 for https://bensbites.beehiiv.com/feed
+  [WARN] HTTP 404 for https://tldr.tech/api/ai/rss
+  [WARN] Failed to fetch https://importai.com/feed/: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)>
+  [WARN] HTTP 308 for https://www.deeplearning.ai/the-batch/feed/
+  [WARN] HTTP 308 for https://groq.com/feed/
+  [WARN] HTTP 404 for https://www.together.ai/feed
+  [WARN] HTTP 404 for https://fireworks.ai/feed
+  [WARN] HTTP 308 for https://cerebras.ai/feed
+  [RSS] Found 178 recent articles
+[filter] recency<=48h dropped 1800 stale items
+[filter] cross-day dedup dropped 439 already-seen items
+
+============================================================
+SCRAPE COMPLETE
+Total articles: 18
+Source breakdown:
+  Reddit: 0 articles
+  HackerNews: 97 articles
+  ArXiv: 40 articles
+  Bluesky: 0 articles
+  YouTube: 2 articles
+  GoogleNews: 1883 articles
+  GitHub: 22 articles
+  GitHubReleases: 25 articles
+  HuggingFace: 30 articles
+  Mastodon: 40 articles
+  ProductHunt: 8 articles
+  RSS: 178 articles
+
+High relevance (>=5): 1
+Medium relevance (>=2.5): 2
+Output: /Users/m/.openclaw/workspace/data/raw/2026-10-15.json
+============================================================
+
+{
+  "date": "2026-10-15",
+  "scraped_at": "2026-10-15T12:12:39.733185+00:00",
+  "source_counts": {
+    "Reddit": 0,
+    "HackerNews": 97,
+    "ArXiv": 40,
+    "Bluesky": 0,
+    "YouTube": 2,
+    "GoogleNews": 1883,
+    "GitHub": 22,
+    "GitHubReleases": 25,
+    "HuggingFace": 30,
+    "Mastodon": 40,
+    "ProductHunt": 8,
+    "RSS": 178
+  },
+  "total_articles": 18,
+  "articles": [
+    {
+      "title": "Reflex, a TUI that compiles Claude Code and Codex transcripts into agent skills",
+      "url": "https://github.com/sumervaid/reflex-tui",
+      "external_url": "https://github.com/sumervaid/reflex-tui",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://github.com/sumervaid/reflex-tui\nComments URL: https://news.ycombinator.com/item?id=50096217\nPoints: 2\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Wed, 14 Oct 2026 22:17:22 +0000",
+      "dedup": "66a970e6c880ca00e07a769aeb06f6c0",
+      "relevance_score": 7.0
+    },
+    {
+      "title": "Show HN: Thinkbeside \u2013 AI Sidebar for GPT, Claude and Gemini",
+      "url": "https://chromewebstore.google.com/detail/thinkbeside-ai-sidebar-fo/plcbbhlakibeddilmfjnkdpfcjdcliip",
+      "external_url": "https://chromewebstore.google.com/detail/thinkbeside-ai-sidebar-fo/plcbbhlakibeddilmfjnkdpfcjdcliip",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://chromewebstore.google.com/detail/thinkbeside-ai-sidebar-fo/plcbbhlakibeddilmfjnkdpfcjdcliip\nComments URL: https://news.ycombinator.com/item?id=50100286\nPoints: 1\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 07:08:20 +0000",
+      "dedup": "f7318782723cdec6824f580f1328b4ff",
+      "relevance_score": 4.5
+    },
+    {
+      "title": "Claude Code Desktop Vulnerability: Preview Pane Data Exfiltration",
+      "url": "https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data",
+      "external_url": "https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data\nComments URL: https://news.ycombinator.com/item?id=50099375\nPoints: 7\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 05:02:06 +0000",
+      "dedup": "d2d8828842e972ac60e120fc12e27622",
+      "relevance_score": 4.5
+    },
+    {
+      "title": "Large Lending Models (LLMs)",
+      "url": "https://lesbarclays.substack.com/p/large-lending-models",
+      "external_url": "https://lesbarclays.substack.com/p/large-lending-models",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-15T12:07:52+00:00",
+      "dedup": "c698fdbe8b3ddcc4cc473950975d048c",
+      "relevance_score": 1.5
+    },
+    {
+      "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+      "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+      "external_url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/\nComments URL: https://news.ycombinator.com/item?id=50101586\nPoints: 2\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 10:15:07 +0000",
+      "dedup": "99076775b35a34717c7a0e76011e9551",
+      "relevance_score": 1.5
+    },
+    {
+      "title": "Reddit will stop supporting RSS feeds on November 13, 2026",
+      "url": "https://www.reddit.com/r/modnews/comments/1wubgvt/continuing_our_infrastructure_updates_whats/",
+      "external_url": "https://www.reddit.com/r/modnews/comments/1wubgvt/continuing_our_infrastructure_updates_whats/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-15T12:08:50+00:00",
+      "dedup": "1db112a00abff61552c584f61e150971",
+      "relevance_score": 0
+    },
+    {
+      "title": "ArXiv versus AI slop: will capping preprint submissions work?",
+      "url": "https://www.nature.com/articles/d41586-026-03194-w",
+      "external_url": "https://www.nature.com/articles/d41586-026-03194-w",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-15T12:07:12+00:00",
+      "dedup": "892be6ace9bc146f721790c41e53092e",
+      "relevance_score": 0
+    },
+    {
+      "title": "A History of Curves and Surfaces in Computer Aided Geometric Design [pdf]",
+      "url": "https://math.pku.edu.cn/teachers/jiangm/courses/CG/Lectures/spline-history.pdf",
+      "external_url": "https://math.pku.edu.cn/teachers/jiangm/courses/CG/Lectures/spline-history.pdf",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 1,
+      "comments": 0,
+      "date": "2026-10-15T12:06:38+00:00",
+      "dedup": "f150def8c2a8b7be5af22a16864ed628",
+      "relevance_score": 0
+    },
+    {
+      "title": "This Month in Ladybird \u2013 September 2026",
+      "url": "https://ladybird.org/newsletter/2026-09-30/",
+      "external_url": "https://ladybird.org/newsletter/2026-09-30/",
+      "source": "Hacker News",
+      "snippet": "",
+      "score": 2,
+      "comments": 0,
+      "date": "2026-10-15T12:06:09+00:00",
+      "dedup": "0eb935f1828f22149792015861a79a34",
+      "relevance_score": 0
+    },
+    {
+      "title": "\u2757\ufe0f \u039f \u03c0\u03c1\u03c9\u03b8\u03c5\u03c0\u03bf\u03c5\u03c1\u03b3\u03cc\u03c2 \u03c4\u03b7\u03c2 \u039b\u03b5\u03c4\u03bf\u03bd\u03af\u03b1\u03c2 \u039a\u03bf\u03c5\u03bb\u03bc\u03c0\u03ad\u03c1\u03b3\u03ba\u03c2 \u03ba\u03ac\u03bb\u03b5\u03c3\u03b5 \u03c4\u03bf\u03c5\u03c2 \u0395\u03c5\u03c1\u03c9\u03c0\u03b1\u03af\u03bf\u03c5\u03c2 \u03bd\u03b1 \u03c0\u03af\u03bd\u03bf\u03c5\u03bd \u03bb\u03b9\u03b3\u03cc\u03c4\u03b5\u03c1\u03b7 \u03bc\u03c0\u03cd\u03c1\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03bf\u03c5\u03bd \u03c4\u03b7\u03bd \u039f\u03c5\u03ba\u03c1\u03b1\u03bd\u03af\u03b1",
+      "url": "https://sigmoid.social/@Wibi/117444854844989496",
+      "external_url": "https://sigmoid.social/@Wibi/117444854844989496",
+      "source": "Mastodon @Wibi",
+      "snippet": "\u2757\ufe0f \u039f \u03c0\u03c1\u03c9\u03b8\u03c5\u03c0\u03bf\u03c5\u03c1\u03b3\u03cc\u03c2 \u03c4\u03b7\u03c2 \u039b\u03b5\u03c4\u03bf\u03bd\u03af\u03b1\u03c2 \u039a\u03bf\u03c5\u03bb\u03bc\u03c0\u03ad\u03c1\u03b3\u03ba\u03c2 \u03ba\u03ac\u03bb\u03b5\u03c3\u03b5 \u03c4\u03bf\u03c5\u03c2 \u0395\u03c5\u03c1\u03c9\u03c0\u03b1\u03af\u03bf\u03c5\u03c2 \u03bd\u03b1 \u03c0\u03af\u03bd\u03bf\u03c5\u03bd \u03bb\u03b9\u03b3\u03cc\u03c4\u03b5\u03c1\u03b7 \u03bc\u03c0\u03cd\u03c1\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03bf\u03c5\u03bd \u03c4\u03b7\u03bd \u039f\u03c5\u03ba\u03c1\u03b1\u03bd\u03af\u03b1: \u00ab\u0397 \u03c5\u03c0\u03bf\u03c3\u03c4\u03ae\u03c1\u03b9\u03be\u03b7 \u03c4\u03b7\u03c2 \u039f\u03c5\u03ba\u03c1\u03b1\u03bd\u03af\u03b1\u03c2 \u03c3\u03b7\u03bc\u03b1\u03af\u03bd\u03b5\u03b9 \u03c7\u03c1\u03ae\u03bc\u03b1\u03c4\u03b1. \u03a0\u03c1\u03cc\u03ba\u03b5\u03b9\u03c4\u03b1\u03b9 \u03b3\u03b9\u03b1 \u03ad\u03bd\u03b1 \u03c0\u03bf\u03c4\u03ae\u03c1\u03b9 \u03bc\u03c0\u03cd\u03c1\u03b1\u03c2 \u03c4\u03bf \u03c7\u03c1\u03cc\u03bd\u03bf \u03ae \u03b1\u03ba\u03cc\u03bc\u03b1 \u03ba\u03b1\u03b9 \u03bb\u03b9\u03b3\u03cc\u03c4\u03b5\u03c1\u03bf \u03b3\u03b9\u03b1 \u03ba\u03ac\u03b8\u03b5 \u0395\u03c5\u03c1\u03c9\u03c0\u03b1\u03af\u03bf\u00b7 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bc\u03b5 \u03bd\u03b1 \u03c4\u03bf \u03b1\u03bd\u03c4\u03ad\u03be\u03bf\u03c5\u03bc\u03b5 \u03bf\u03b9\u03ba\u03bf\u03bd\u03bf\u03bc\u03b9\u03ba\u03ac\u00bb. \ufeff",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-10-15T12:11:06.557Z",
+      "dedup": "23665eba26e010d8e10e6feff77cd1d1",
+      "relevance_score": 0
+    },
+    {
+      "title": "https://instagram.com/infodefenseportuguesO primeiro-ministro da Est\u00f3nia quer cortar o gasoduto para Kaliningrado. O pri",
+      "url": "https://sigmoid.social/@JackByrd/117444846349177056",
+      "external_url": "https://sigmoid.social/@JackByrd/117444846349177056",
+      "source": "Mastodon @JackByrd",
+      "snippet": "https://instagram.com/infodefenseportuguesO primeiro-ministro da Est\u00f3nia quer cortar o gasoduto para Kaliningrado. O primeiro-ministro da Est\u00f3nia, Kristen Michal, pretende encerrar um tro\u00e7o do gasoduto que liga a R\u00fassia \u00e0 regi\u00e3o de Kaliningrado atrav\u00e9s dos pa\u00edses b\u00e1lticos, escreve o Eesti Ekspress .",
+      "score": 0,
+      "comments": 0,
+      "date": "2026-10-15T12:08:56.920Z",
+      "dedup": "8bc8ada05414e7b1c0ce0ef86a86d185",
+      "relevance_score": 0
+    },
+    {
+      "title": "I let Claude hire its first employee. It chose a rock",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5uqak/i_let_claude_hire_its_first_employee_it_chose_a/",
+      "external_url": "https://www.reddit.com/r/ClaudeAI/comments/1x5uqak/i_let_claude_hire_its_first_employee_it_chose_a/",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://www.reddit.com/r/ClaudeAI/comments/1x5uqak/i_let_claude_hire_its_first_employee_it_chose_a/\nComments URL: https://news.ycombinator.com/item?id=50101216\nPoints: 2\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 09:23:53 +0000",
+      "dedup": "13e459e5a41b2b1555a03a74569c550d",
+      "relevance_score": 0
+    },
+    {
+      "title": "Claude, don't touch my lump (OR: the secret key to permanent happines)",
+      "url": "https://www.experimental-history.com/p/claude-dont-touch-my-lump",
+      "external_url": "https://www.experimental-history.com/p/claude-dont-touch-my-lump",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://www.experimental-history.com/p/claude-dont-touch-my-lump\nComments URL: https://news.ycombinator.com/item?id=50100473\nPoints: 2\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 07:34:04 +0000",
+      "dedup": "af42d1c0ac0d1e50e77ec34fd617d439",
+      "relevance_score": 0
+    },
+    {
+      "title": "Revisiting rust and Claude for personal tools",
+      "url": "https://blog.korny.info/2026/08/01/revisiting-personal-tools-in-rust-and-claude",
+      "external_url": "https://blog.korny.info/2026/08/01/revisiting-personal-tools-in-rust-and-claude",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://blog.korny.info/2026/08/01/revisiting-personal-tools-in-rust-and-claude\nComments URL: https://news.ycombinator.com/item?id=50100356\nPoints: 1\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 07:17:34 +0000",
+      "dedup": "2c32f24f93b8c51c24373ab30fc07cef",
+      "relevance_score": 0
+    },
+    {
+      "title": "Stop Solving Microservice Consistency in Your Application Code",
+      "url": "https://medium.com/scalar-engineering/stop-solving-microservice-consistency-in-your-application-code-784f73802a4a",
+      "external_url": "https://medium.com/scalar-engineering/stop-solving-microservice-consistency-in-your-application-code-784f73802a4a",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://medium.com/scalar-engineering/stop-solving-microservice-consistency-in-your-application-code-784f73802a4a\nComments URL: https://news.ycombinator.com/item?id=50100079\nPoints: 2\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 06:41:54 +0000",
+      "dedup": "9c9dca8def3a6de373ffeae90f882d98",
+      "relevance_score": 0
+    },
+    {
+      "title": "Show HN: Markov Chains for Programmers \u2013 free book (2nd ed.) with C code",
+      "url": "https://github.com/czekster/markov",
+      "external_url": "https://github.com/czekster/markov",
+      "source": "HN Claude/Codex",
+      "snippet": "\nI have just finished reviewing the 2nd edition for my Markov Chains book.This for programmers who want Markov chains explained through code, not proofs. You build chains as matrices and solve them in C: power method, steady state for DTMCs/CTMCs, simulation to check the numbers.2nd edition just out",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 05:19:48 +0000",
+      "dedup": "c63745b14635d26a66bae5a9ca8b3c84",
+      "relevance_score": 0
+    },
+    {
+      "title": "Susqr.com check QR code before you visit",
+      "url": "https://susqr.com/",
+      "external_url": "https://susqr.com/",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://susqr.com/\nComments URL: https://news.ycombinator.com/item?id=50099166\nPoints: 1\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 04:30:16 +0000",
+      "dedup": "1e5b2b9df10f47b53cacccae74ce456e",
+      "relevance_score": 0
+    },
+    {
+      "title": "Agent Observability on the Claude Platform",
+      "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+      "external_url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+      "source": "HN Claude/Codex",
+      "snippet": "\nArticle URL: https://claude.com/resources/articles/agent-observability-on-the-claude-platform\nComments URL: https://news.ycombinator.com/item?id=50099105\nPoints: 2\n# Comments: 0\n",
+      "score": 0,
+      "comments": 0,
+      "date": "Thu, 15 Oct 2026 04:20:41 +0000",
+      "dedup": "40625ac16daaa30998f2715605022582",
+      "relevance_score": 0
+    }
+  ]
+}

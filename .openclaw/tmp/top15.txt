@@ -1,0 +1,46 @@
+8.8 | GitHub Releases | ollama/ollama v0.40.5 (v0.40.5-rc0)
+  https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0
+8.8 | GitHub Releases | ggerganov/llama.cpp b11645
+  https://github.com/ggml-org/llama.cpp/releases/tag/b11645
+8.5 | GitHub Releases | ggerganov/llama.cpp b11643
+  https://github.com/ggml-org/llama.cpp/releases/tag/b11643
+7.0 | Google News (Quiver Quantitative | Radware Introduces MCP Server Protection to Secure AI Agent Access to Enterprise Systems - Quiver Quantitative
+  https://news.google.com/rss/articles/CBMivgFBVV95cUxPZXZudlNESURqOEpaZnIxSFU0bWVEdE5XV0x2NDQ5R1NoX0VxUlRzNzliN09heUpKYmh6WXJXZmIydGxyaExTX2ZhR1FhNERSNDRUV08xTlVVVUpMdUdtT
+7.0 | HN AI Agents | Show HN: Official MCP Servers
+  https://github.com/VoltAgent/official-mcp-servers
+6.0 | Hacker News | Show HN: Official MCP Servers
+  https://github.com/VoltAgent/official-mcp-servers
+6.0 | Google News (Nature) | A RAG-enhanced multi-agent LLM/VLM framework for auditable and region-aware structural health monitoring of a historic masonry str
+  https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KMkdGdzdwbGNyTldmd3JEajY5TUdyU2hWUk5Ec3BEWGJ5ZnIwOTNVX2NMMUt1OElWRl9ZRC11ckVKVlR3X0NnaTctYWo3R2dORzU2ZEZkY3VkeG1oanJ3?
+6.0 | Google News (HackerNoon) | AI Agents Are Killing the Git Client, Not Git: What Anthropic's Scion and Cursor's Origin Show - HackerNoon
+  https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3J4NUZVc2VCenN1aFN6NFFwRFhnS3RCT3pWbHRaWnQ2NFRwS3NiaF9vLXZpYWhDTkpCNmVOdm1FejJnQkVKRFdZcjF1UlhnQ1FxRDY3bHh3ODBZQTZ6T
+6.0 | HN AI Agents | Show HN: Pelago – your Claude Code and Codex history as a pixel-art world
+  https://news.ycombinator.com/item?id=50101963
+5.8 | YouTube (Google for Developers) | Gemini 4 Argon: What’s new and what’s next
+  https://www.youtube.com/watch?v=Jh6mgf9M06M
+5.5 | Hacker News | Aidlc: Adaptive workflow steering rules for AI coding agents
+  https://github.com/awslabs/aidlc-workflows
+5.5 | Hacker News | Show HN: RepoGuards – Claude Code hooks that refuse pushes into the wrong repo
+  https://github.com/yybd/repo-guards
+5.5 | Google News (OrcaRouter) | Liquid AI d1-3B on Ollama: a decision model you can pull - OrcaRouter
+  https://news.google.com/rss/articles/CBMic0FVX3lxTE8xNUtiYlhUNEpBMjFGMnk5WVEwdVNBSEYyNTV3aGlZcEM2R1E0bEN0NDVGQzJDbjJiY0dwVV84TEpNaVh2eXRUbndFSUhrek96ejdPZXQ3SExiZ1FpZVpOR
+5.5 | Google News (Quasa.io) | Mirascope – Open-Source Python LLM Anti-Framework, Type-Safe Tools & Agent Loops - Quasa.io
+  https://news.google.com/rss/articles/CBMinwFBVV95cUxPLVBrbkp4UG93ZjhfQ3FzZkxCZE5RNGRHdXkydnlDV0c5RW9OTGM3TU13c24xblRyTE80SnloZkhSY0RGNW1yQk9zR1RwejgwSFJLM2dtTFlBRjNIdnpnZ
+5.5 | Google News (Pasquale Pillitteri | Which desktop app runs multiple AI coding agents in parallel? Compared - Pasquale Pillitteri
+  https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR2F0Q0xUWU5aeWtNVmlDc2Y3WGtwN2ItazBtX09yVmcyeWlPMkh3eUVDN2FCVy1YaHRhbS1rclMydDFrbzNXNXI1RzhiSWt2TU1IQ3NURWNON3paQkJfZ
+5.5 | Google News (BigGo Finance) | Uday Medisetty: Uber's AI coding agents now file 15% of production pull requests — and the secret is a decade of pre-AI plumbing -
+  https://news.google.com/rss/articles/CBMiW0FVX3lxTE16TC1Bak9sUkRESHNmaFJSM001UkM3SFFncEpvdVZvdUdTQWQ3bVRGbk8zaGNZLW53aTBIRDJ6Tm5lVk1uZGhiTE1DWnJ4cGl4bkNjOHl4cGVxNE0?oc=5
+5.5 | Google News (MarkTechPost) | Meet Grok Voice 3.0: SpaceXAI Voice Agent Model Ranks #1 on Artificial Analysis - MarkTechPost
+  https://news.google.com/rss/articles/CBMiugFBVV95cUxPTEdFQ0QxRzBoUm01V1MxZ1NnM3ppbU83cE01cHhNaE9BSkx3a3VGc2tTOXVEaG8yNEE2STlhR2RieEZoallCRWZOZ3UtUmhZYzZPRnNIY0I3ck43c2pyT
+5.5 | Google News (Unite.AI) | xAI Introduces Grok Voice 3.0 Speech-to-Speech Model for Voice Agents - Unite.AI
+  https://news.google.com/rss/articles/CBMilgFBVV95cUxOazhwSkdNV1pCQldaTVFQdnVEWGlvYmpZTjYzTFJneHdUZHF1TERkQzlsdG0xeUdpaEpNZzBLZmt2TC1jYm13MkZlNEw5ZTZWdDFudnNMZXFkbGZ4aXJ5T
+5.5 | GitHub Releases | ggerganov/llama.cpp b11642
+  https://github.com/ggml-org/llama.cpp/releases/tag/b11642
+5.5 | HN AI Agents | Show HN: RepoGuards – Claude Code hooks that refuse pushes into the wrong repo
+  https://github.com/yybd/repo-guards
+5.4 | Hacker News | LFM2.5-24B-A2B: Built for fast on-device agents
+  https://www.liquid.ai/blog/lfm2-5-24b-a2b
+5.4 | Hacker News | Americans' social activity has steeply declined in the past 30 years
+  https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years
+5.3 | ArXiv | PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios
+  https://arxiv.org/abs/2610.20548v1
